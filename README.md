@@ -25,7 +25,7 @@ static string[] Integrantes() {
     return new string[] {
         "🧑‍💻  - ",
         "👩‍💻 Tasayco Osorio, Raul Hiroshi - U202319415",
-        "👩‍💻  - ",
+        "👩‍💻 Ruiz Huisa, Daniel Elias - U202210764",
         "👩‍💻  - ",       
         "👩‍💻  - ", 
     };
