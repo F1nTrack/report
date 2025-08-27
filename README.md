@@ -23,11 +23,11 @@
 ~~~C#
 static string[] Integrantes() {
     return new string[] {
-        "🧑‍💻  - ",
+        "🧑‍💻 Taquiri Calderon, Jhunior Giussepe - u20221C576",
         "👩‍💻 Tasayco Osorio, Raul Hiroshi - U202319415",
         "👩‍💻 Ruiz Huisa, Daniel Elias - U202210764",
         "👩‍💻 Salcedo Champi, Matias Rodolfo - u202319698 ",
-        "👩‍💻  - ", 
+        "👩‍💻 Quiroz Zambrano, Fabrizio Javier - u202213406", 
     };
 }
 ~~~
@@ -36,7 +36,7 @@ static string[] Integrantes() {
 
 Agosto del 2025 🗓️
 _____
-asjdka
+
 
 </div>
 
