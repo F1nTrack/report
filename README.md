@@ -26,7 +26,7 @@ static string[] Integrantes() {
         "🧑‍💻  - ",
         "👩‍💻 Tasayco Osorio, Raul Hiroshi - U202319415",
         "👩‍💻 Ruiz Huisa, Daniel Elias - U202210764",
-        "👩‍💻  - ",       
+        "👩‍💻  Salcedo Champi, Matias Rodolfo - u202319698 ",       
         "👩‍💻  - ", 
     };
 }
