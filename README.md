@@ -33,7 +33,7 @@ static string[] Integrantes() {
 ~~~
 <!-- ========== 1. Startup Profile ========== -->
 <section id="startup-profile">
-  <h2>1. Startup Profile</h2>
+  <h2>1.1 Startup Profile</h2>
 
   <!-- 1.1.1 Descripción de la Startup -->
   <article id="descripcion-startup">
