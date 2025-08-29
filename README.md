@@ -39,7 +39,7 @@ static string[] Integrantes() {
   <article id="descripcion-startup">
     <h3>1.1.1. Descripción de la Startup</h3>
     <p>
-      <strong>F1nTrack</strong> es una startup universitaria enfocada en desarrollar soluciones
+      <strong>F1nTrack</strong> es una startup enfocada en desarrollar soluciones
       tecnológicas para la <strong>gestión personal y empresarial de finanzas</strong>. Nuestro objetivo
       es ayudar a los usuarios a controlar ingresos, egresos, presupuestos y metas financieras mediante
       una aplicación web intuitiva y escalable.
