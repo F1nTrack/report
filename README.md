@@ -251,10 +251,19 @@ static string[] Integrantes() {
 **> 🧑‍💻 Nombre del alumno 5**
    <div align='center'>
 
-   <img src="" alt="" width="100" align='right'>
+   <img src="resources/Fabrizio1.jpg" alt="imagen Raul" width="100" align='right'>
 
    ~~~txt
-   
+    Actualmente curso el sexto ciclo de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC), donde he venido desarrollando una sólida base técnica y una visión crítica
+    sobre el desarrollo de soluciones digitales. Mi formación me ha permitido explorar distintos lenguajes y herramientas, desde la lógica estructurada de C++ hasta el dinamismo de frameworks
+    modernos como Angular, con los que he trabajado principalmente en el frontend. También tengo experiencia en Python y SQL, lo que me ha ayudado a comprender mejor la gestión de datos y la
+    construcción de aplicaciones más completas.
+
+    Más allá de lo técnico, me considero una persona comprometida con el aprendizaje constante, con facilidad para adaptarme a nuevos entornos y colaborar en equipo. Me gusta enfrentar desafíos
+    que me obliguen a pensar fuera de lo convencional y a buscar soluciones eficientes y sostenibles.
+
+    Tengo grandes expectativas para el curso de Aplicaciones Web, ya que representa una oportunidad para fortalecer mis habilidades en el desarrollo fullstack y familiarizarme con nuevas tecnologías
+    como Vue. Estoy convencido de que este tipo de experiencias me acercan cada vez más al perfil profesional que quiero construir: uno capaz de crear software útil, escalable y centrado en las personas.
    ~~~
 
    </div>
