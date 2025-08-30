@@ -168,7 +168,7 @@ static string[] Integrantes() {
 
    <!--TODO: integrante 1 -->
 **> 🧑‍💻 Matias Rodolfo Salcedo Champi**
-   <div align='center'>
+   <div align='left'>
 
    <img src="resources/matias.png" alt="imagen Matias" width="100" align='right'>
 
