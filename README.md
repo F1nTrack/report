@@ -260,9 +260,12 @@ static string[] Integrantes() {
    </div>
    
 <!-- 1.2.1 Antecedentes y problemática -->
-<article id="antecedentes-problematica">
 <div align='left'>
-  <h2>1.2.1 Antecedentes y problemática</h2>
+<article id="solution-profile">
+
+<h2>1.2. Solution profile</h2>
+<article id="antecedentes-problematica">
+  <h3>1.2.1 Antecedentes y problemática</h3>
   <p>
     En la actualidad, muchas personas y pequeñas empresas enfrentan dificultades al momento de 
     <strong>gestionar adecuadamente sus finanzas</strong>. La falta de educación financiera, el desorden en 
