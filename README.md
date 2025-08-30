@@ -259,7 +259,41 @@ static string[] Integrantes() {
 
    </div>
    
+<!-- 1.2.1 Antecedentes y problemática -->
+<article id="antecedentes-problematica">
+  <h3>1.2.1 Antecedentes y problemática</h3>
+  <p>
+    En la actualidad, muchas personas y pequeñas empresas enfrentan dificultades al momento de 
+    <strong>gestionar adecuadamente sus finanzas</strong>. La falta de conocimiento en educación financiera, 
+    el desorden en el registro de ingresos y egresos, así como la ausencia de herramientas tecnológicas 
+    accesibles, generan problemas de liquidez, endeudamiento innecesario y poca claridad en la toma de 
+    decisiones económicas.
+  </p>
+  <p>
+    Frente a esta problemática surge la necesidad de contar con soluciones digitales prácticas que ayuden 
+    a los usuarios a tener una visión más clara y organizada de su situación financiera.
+  </p>
 
+  <h4>5“W”s + 2"H"</h4>
+  <ul>
+    <li>🟢 <strong>WHAT (QUÉ):</strong> La dificultad de las personas y pequeñas empresas para 
+        <em>controlar sus ingresos, egresos y metas financieras</em> de manera ordenada.</li>
+    <li>🟢 <strong>WHEN (CUÁNDO):</strong> El problema se presenta <em>de forma continua</em>, 
+        especialmente en etapas de crecimiento empresarial o en momentos de descontrol personal de gastos.</li>
+    <li>🟢 <strong>WHERE (DÓNDE):</strong> En el ámbito <em>personal, académico y empresarial</em>, 
+        con mayor impacto en estudiantes, emprendedores y PYMEs en Latinoamérica.</li>
+    <li>🟢 <strong>WHO (QUIÉN):</strong> Los principales afectados son <em>usuarios sin conocimientos 
+        financieros especializados</em> y pequeñas empresas que no cuentan con un área contable dedicada.</li>
+    <li>🟢 <strong>WHY (POR QUÉ):</strong> Porque no existen <strong>herramientas accesibles, simples y 
+        educativas</strong> que les permitan gestionar sus finanzas de manera eficaz.</li>
+    <li>🟢 <strong>HOW (CÓMO):</strong> Mediante el desarrollo de una <strong>aplicación web</strong> 
+        que facilite el registro de ingresos y egresos, visualice presupuestos y brinde reportes financieros 
+        claros y fáciles de interpretar.</li>
+    <li>🟢 <strong>HOW MUCH (CUÁNTO):</strong> La inversión en soluciones tradicionales (contadores, 
+        softwares empresariales complejos) es <strong>elevada</strong> y poco accesible para estudiantes 
+        y pequeñas empresas. Con F1nTrack se busca una <em>alternativa económica y escalable</em>.</li>
+  </ul>
+</article>
 ___
 ### 1.2.2 Lean Ux Process
 #### 1.2.2.1. Lean UX Problem Statements
