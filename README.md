@@ -165,11 +165,11 @@ static string[] Integrantes() {
 
 </div>
 ### 1.1.2 Perfiles de integrantes del equipo
-
+<div align='left'>
    <!--TODO: integrante 1 -->
 **> 🧑‍💻 Matias Rodolfo Salcedo Champi**
-   <div align='left'>
-
+   <div align='center'>
+     
    <img src="resources/matias.png" alt="imagen Matias" width="100" align='right'>
 
    ~~~txt
@@ -188,7 +188,7 @@ static string[] Integrantes() {
   
    <!--TODO: integrante 2 -->
 **> 🧑‍💻 Raul Hiroshi Tasayco Osorio**
-   <div align='left'>
+   <div align='center'>
 
    <img src="resources/Image_raul_tasayco.png" alt="imagen Raul" width="100" align='right'>
 
