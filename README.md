@@ -161,6 +161,17 @@ static string[] Integrantes() {
       Con F1nTrack buscamos fomentar la <strong>educación financiera</strong> y apoyar a estudiantes,
       profesionales y emprendedores en decisiones responsables sobre su economía.
     </p>
+    <p>
+      Como misión nos proponemos a brindar soluciones tecnológicas accesibles e innovadoras que permitan a personas, estudiantes,
+      profesionales y pequeñas empresas <strong>gestionar de manera eficiente sus finanzas</strong>,
+      facilitando el control de ingresos, egresos, presupuestos y metas económicas a través de una
+      plataforma web intuitiva, confiable y educativa.
+    </p>
+    <p>
+      Nuestra visión es convertirnos en la <strong>plataforma líder en educación y gestión financiera digital en Latinoamérica</strong>,
+      reconocida por ayudar a nuestros usuarios a <em>tomar decisiones financieras inteligentes y responsables</em>,
+      contribuyendo a su bienestar económico y al crecimiento sostenible de sus proyectos y negocios.
+    </p>
   </article>
 
 </div>
