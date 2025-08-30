@@ -31,41 +31,9 @@ static string[] Integrantes() {
     };
 }
 ~~~
-<!-- ========== 1. Startup Profile ========== -->
-<section id="startup-profile">
-  <h2>1.1 Startup Profile</h2>
-
-  <!-- 1.1.1 Descripción de la Startup -->
-  <article id="descripcion-startup">
-    <h3>1.1.1. Descripción de la Startup</h3>
-    <p>
-      <strong>F1nTrack</strong> es una startup enfocada en desarrollar soluciones
-      tecnológicas para la <strong>gestión personal y empresarial de finanzas</strong>. Nuestro objetivo
-      es ayudar a los usuarios a controlar ingresos, egresos, presupuestos y metas financieras mediante
-      una aplicación web intuitiva y escalable.
-    </p>
-    <p>Propuesta de valor:</p>
-    <ul>
-      <li>Visualizaciones claras y amigables del estado financiero.</li>
-      <li>Registro ágil de ingresos y gastos (manual y con importación de datos).</li>
-      <li>Seguimiento de <em>metas financieras</em> personalizadas.</li>
-      <li>Reportes y alertas para una toma de decisiones informada.</li>
-    </ul>
-    <p>
-      Con F1nTrack buscamos fomentar la <strong>educación financiera</strong> y apoyar a estudiantes,
-      profesionales y emprendedores en decisiones responsables sobre su economía.
-    </p>
-  </article>
-
-</div>
-
-Agosto del 2025 🗓️
-_____
 
 
-</div>
 
-<div>
 
 ## Contenido del Informe
 
