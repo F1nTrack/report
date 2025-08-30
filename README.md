@@ -188,7 +188,7 @@ static string[] Integrantes() {
   
    <!--TODO: integrante 2 -->
 **> 🧑‍💻 Raul Hiroshi Tasayco Osorio**
-   <div align='center'>
+   <div align='left'>
 
    <img src="resources/Image_raul_tasayco.png" alt="imagen Raul" width="100" align='right'>
 
