@@ -166,7 +166,7 @@ static string[] Integrantes() {
 ### 1.1.2 Perfiles de integrantes del equipo
 
    <!--TODO: integrante 1 -->
-**> 🧑‍💻 Nombre del alumno1**
+**> 🧑‍💻 Matias Rodolfo Salcedo Champi**
    <div align='center'>
 
    <img src="resources/matias.png" alt="imagen Matias" width="100" align='right'>
