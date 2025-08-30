@@ -261,37 +261,81 @@ static string[] Integrantes() {
    
 <!-- 1.2.1 Antecedentes y problemática -->
 <article id="antecedentes-problematica">
-  <h3>1.2.1 Antecedentes y problemática</h3>
+<div align='center'>
+  <h2>1.2.1 Antecedentes y problemática</h2>
   <p>
     En la actualidad, muchas personas y pequeñas empresas enfrentan dificultades al momento de 
-    <strong>gestionar adecuadamente sus finanzas</strong>. La falta de conocimiento en educación financiera, 
-    el desorden en el registro de ingresos y egresos, así como la ausencia de herramientas tecnológicas 
-    accesibles, generan problemas de liquidez, endeudamiento innecesario y poca claridad en la toma de 
-    decisiones económicas.
+    <strong>gestionar adecuadamente sus finanzas</strong>. La falta de educación financiera, el desorden en 
+    el registro de ingresos y egresos, así como la ausencia de herramientas tecnológicas accesibles y fáciles 
+    de usar, generan problemas de liquidez, endeudamiento innecesario y poca claridad en la toma de decisiones 
+    económicas. 
   </p>
   <p>
-    Frente a esta problemática surge la necesidad de contar con soluciones digitales prácticas que ayuden 
-    a los usuarios a tener una visión más clara y organizada de su situación financiera.
+    Frente a esta problemática surge la necesidad de contar con soluciones digitales prácticas que ayuden a 
+    los usuarios a tener una visión clara, organizada y en tiempo real de su situación financiera.
   </p>
 
   <h4>5“W”s + 2"H"</h4>
   <ul>
-    <li>🟢 <strong>WHAT (QUÉ):</strong> La dificultad de las personas y pequeñas empresas para 
-        <em>controlar sus ingresos, egresos y metas financieras</em> de manera ordenada.</li>
-    <li>🟢 <strong>WHEN (CUÁNDO):</strong> El problema se presenta <em>de forma continua</em>, 
-        especialmente en etapas de crecimiento empresarial o en momentos de descontrol personal de gastos.</li>
-    <li>🟢 <strong>WHERE (DÓNDE):</strong> En el ámbito <em>personal, académico y empresarial</em>, 
-        con mayor impacto en estudiantes, emprendedores y PYMEs en Latinoamérica.</li>
-    <li>🟢 <strong>WHO (QUIÉN):</strong> Los principales afectados son <em>usuarios sin conocimientos 
-        financieros especializados</em> y pequeñas empresas que no cuentan con un área contable dedicada.</li>
-    <li>🟢 <strong>WHY (POR QUÉ):</strong> Porque no existen <strong>herramientas accesibles, simples y 
-        educativas</strong> que les permitan gestionar sus finanzas de manera eficaz.</li>
-    <li>🟢 <strong>HOW (CÓMO):</strong> Mediante el desarrollo de una <strong>aplicación web</strong> 
-        que facilite el registro de ingresos y egresos, visualice presupuestos y brinde reportes financieros 
-        claros y fáciles de interpretar.</li>
-    <li>🟢 <strong>HOW MUCH (CUÁNTO):</strong> La inversión en soluciones tradicionales (contadores, 
-        softwares empresariales complejos) es <strong>elevada</strong> y poco accesible para estudiantes 
-        y pequeñas empresas. Con F1nTrack se busca una <em>alternativa económica y escalable</em>.</li>
+    <li>
+       <strong>WHAT (QUÉ):</strong>  
+      El problema principal es la <strong>dificultad de gestionar finanzas personales y empresariales</strong>.  
+      Muchos usuarios no llevan un control adecuado de sus ingresos, egresos ni presupuestos, lo que genera desorden, 
+      desconocimiento de su estado financiero real y problemas para alcanzar metas económicas.
+    </li>
+    <br>
+    <li>
+       <strong>WHEN (CUÁNDO):</strong>  
+      Este problema ocurre <strong>de manera constante y cotidiana</strong>.  
+      Se hace más notorio en etapas de crecimiento (por ejemplo, cuando una persona comienza a generar más ingresos o 
+      cuando un negocio aumenta sus operaciones), así como en momentos de desorganización financiera que pueden 
+      derivar en deudas y falta de liquidez.
+    </li>
+    <br>
+    <li>
+       <strong>WHERE (DÓNDE):</strong>  
+      El problema se da en distintos <strong>contextos</strong>:  
+      - En el ámbito <em>personal</em>, al no saber administrar gastos diarios o planificar metas de ahorro.  
+      - En el ámbito <em>académico</em>, entre estudiantes que manejan becas, préstamos o presupuestos limitados.  
+      - En el ámbito <em>empresarial</em>, especialmente en micro y pequeñas empresas que carecen de un área contable formal.
+    </li>
+    <br>
+    <li>
+       <strong>WHO (QUIÉN):</strong>  
+      Los principales afectados son:  
+      - <strong>Personas naturales</strong> que carecen de educación financiera básica.  
+      - <strong>Estudiantes y profesionales</strong> que quieren administrar mejor sus recursos.  
+      - <strong>Emprendedores y pequeñas empresas</strong> que no cuentan con presupuesto para contratar un contador o comprar 
+      software financiero costoso.
+    </li>
+    <br>
+    <li>
+       <strong>WHY (POR QUÉ):</strong>  
+      Porque actualmente <strong>no existen herramientas accesibles, educativas y fáciles de usar</strong> que integren de manera 
+      eficiente el control de ingresos, egresos, presupuestos y metas financieras.  
+      Las soluciones existentes suelen ser:  
+      - Demasiado técnicas y complejas para usuarios no especializados.  
+      - Costosas para estudiantes y pequeñas empresas.  
+      - Poco personalizables a las necesidades reales de cada usuario.
+    </li>
+    <br>
+    <li>
+       <strong>HOW (CÓMO):</strong>  
+      La solución se plantea mediante el desarrollo de una <strong>aplicación web</strong> que:  
+      - Permita registrar ingresos y egresos de forma ágil (manual o automática).  
+      - Genere visualizaciones gráficas que faciliten la comprensión de la situación financiera.  
+      - Ofrezca seguimiento de presupuestos y metas financieras personalizadas.  
+      - Envíe reportes y alertas para apoyar la toma de decisiones responsables.
+    </li>
+    <br>
+    <li>
+       <strong>HOW MUCH (CUÁNTO):</strong>  
+      Actualmente, contratar un contador o adquirir software especializado supone un <strong>costo elevado</strong>, inaccesible 
+      para estudiantes y pequeñas empresas.  
+      F1nTrack busca ofrecer una solución <strong>económica y escalable</strong>, con un modelo de bajo costo o incluso 
+      gratuito en sus funciones básicas, para que más usuarios puedan acceder a herramientas de gestión financiera 
+      sin una gran inversión inicial.
+    </li>
   </ul>
 </article>
 ___
