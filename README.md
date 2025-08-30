@@ -170,3 +170,91 @@ _____
 
 
 </div>
+<!-- student outcome -->
+
+# Capítulo I: Introducción
+
+## 1.1. Startup Profile
+
+### 1.1.1. Descripción de la Startup
+<!-- Acá colocan la descripción de la startup -->
+
+### 1.1.2 Perfiles de integrantes del equipo
+
+   <!--TODO: integrante 1 -->
+**> 🧑‍💻 Nombre del alumno1**
+   <div align='center'>
+
+   <img src="" alt="" width="100" align='right'>
+
+   ~~~txt
+   
+   ~~~
+
+   </div>
+  
+   <!--TODO: integrante 2 -->
+**> 🧑‍💻 Raul Hiroshi Tasayco Osorio**
+   <div align='center'>
+
+   <img src="resources/Image_raul_tasayco.png" alt="imagen Raul" width="100" align='right'>
+
+   ~~~txt
+   Soy un estudiante de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas (UPC),
+   actualmente me encuentro cursando el 6to ciclo de la carrera.
+    
+    A lo largo del tiempo que me encuentro en la carrera pude aprender diferentes tecnologías, tanto lenguajes de programación, buenas prácticas de desarrollo, estructuras de datos, normalización de base de datos, así como su uso, finalmente Frameworks como mi Angular en el cual me desempeño en el Frontend:
+      1️⃣ C++     
+      2️⃣ Python  
+      3️⃣ SQL     
+      4️⃣ Angular    
+      5️⃣ HTML,CSS & TS     
+    Me considero una persona responsable, listo para trabajar en equipo y con un fuerte compromiso con todos mis deberes. 
+    
+    Mis expectativas para el curso de Aplicaciones Web son muy altas, puesto que es un curso en el cual aprenderé diferentes habilidades tanto frontend como backend, con un nuevo Framework el cual es Vue. 💻
+   ~~~
+
+   </div>
+
+   <!--TODO: integrante 3 -->
+**> 🧑‍💻 Nombre del alumno3**
+   <div align='center'>
+
+   <img src="" alt="" width="100" align='right'>
+
+   ~~~txt
+   
+   ~~~
+
+   </div>
+
+   <!--TODO: integrante 4 -->
+**> 🧑‍💻 Nombre del alumno 4**
+   <div align='center'>
+
+   <img src="" alt="" width="100" align='right'>
+
+   ~~~txt
+   
+   ~~~
+
+   </div>
+   <!--TODO: integrante 5 -->
+
+**> 🧑‍💻 Nombre del alumno 5**
+   <div align='center'>
+
+   <img src="" alt="" width="100" align='right'>
+
+   ~~~txt
+   
+   ~~~
+
+   </div>
+   
+
+___
+### 1.2.2 Lean Ux Process
+#### 1.2.2.1. Lean UX Problem Statements
+
+Actualmente tenemos diferentes problemas en cuanto a las finanzas, puesto que las personas no tienen los conocimientos necesarios para poder manejar y administrar sus finanzas por su propia cuenta o a lo mejor una empresa que recién está empezando necesita verificar el estado de sus ingresos o egresos, pero no tienen el capital suficiente para contratar a una persona que se dedique especificamente a eso, por ello FinTrack llega para brindar una solución a todo ello mediante la implementación de una pagina web... 
