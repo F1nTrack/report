@@ -165,10 +165,10 @@ static string[] Integrantes() {
 
 </div>
 <div align='left'>
-<h3>1.1.3. Perfiles de los integrantes del grupo</h3>
+<h3>1.1.2. Perfiles de los integrantes del grupo</h3>
 <div align='center'>
    <!--TODO: integrante 1 -->
-  > 🧑‍💻 Matias Rodolfo Salcedo Champi 
+  > 🧑‍💻 <strong>Matias Rodolfo Salcedo Champi</strong> 
    
 
    <div align='center'>
