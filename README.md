@@ -261,7 +261,7 @@ static string[] Integrantes() {
    
 <!-- 1.2.1 Antecedentes y problemática -->
 <article id="antecedentes-problematica">
-<div align='center'>
+<div align='left'>
   <h2>1.2.1 Antecedentes y problemática</h2>
   <p>
     En la actualidad, muchas personas y pequeñas empresas enfrentan dificultades al momento de 
