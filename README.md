@@ -136,6 +136,7 @@ static string[] Integrantes() {
 
 
 </div>
+<div align='left'>
 <!-- student outcome -->
 <section id="startup-profile">
   <h2>1.1 Startup Profile</h2>
