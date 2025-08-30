@@ -33,8 +33,6 @@ static string[] Integrantes() {
 ~~~
 
 
-
-
 ## Contenido del Informe
 
 - [Informe Trabajo Final](#-informe-trabajo-final-)
@@ -171,10 +169,18 @@ static string[] Integrantes() {
 **> 🧑‍💻 Nombre del alumno1**
    <div align='center'>
 
-   <img src="" alt="" width="100" align='right'>
+   <img src="resources/matias.png" alt="imagen Matias" width="100" align='right'>
 
    ~~~txt
+   Soy estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC), actualmente cursando el 5to ciclo de la carrera.
    
+   Durante mi formación he adquirido conocimientos en diversas tecnologías y buenas prácticas de desarrollo. Mis principales fortalezas se encuentran en C++, HTML y Java, lenguajes en los que me desenvuelvo con mayor seguridad, aplicando conceptos de programación estructurada y orientada a objetos, así como el diseño de interfaces y el desarrollo de aplicaciones.
+
+   Adicionalmente, he trabajado con SQL para la gestión de bases de datos, y con tecnologías web que me permiten tener una visión integral del desarrollo de software.
+
+   Me considero una persona responsable, comprometida y con facilidad para el trabajo en equipo, cualidades que me impulsan a mejorar constantemente.
+
+   Mis expectativas para el curso de Aplicaciones Web son muy altas, ya que representa una gran oportunidad para ampliar mis conocimientos tanto en frontend como en backend, explorando nuevos frameworks como Vue, que complementarán mi formación y me permitirán crecer profesionalmente en el campo del desarrollo web. 💻
    ~~~
 
    </div>
