@@ -356,43 +356,137 @@ static string[] Integrantes() {
   </ul>
 </article>
 ___
+
 ### 1.2.2 Lean Ux Process
 #### 1.2.2.1. Lean UX Problem Statements
+ 
+Actualmente, personas particulares, emprendedores y pequeñas empresas enfrentan grandes problemas para gestionar sus finanzas de manera efectiva, ya que no cuentan con los conocimientos, recursos o herramientas necesarias para administrar lo que vienen a ser sus ingresos, gastos, proyecciones y metas financieras. Esto se debe a varios factores, entre ellos tenemos: la falta de educación financiera, el alto costo de contratar expertos en el área y la complejidad de soluciones existentes no adaptadas a sus necesidades, lo que resulta en desequilibrios presupuestarios, decisiones inciertas y dificultades para alcanzar objetivos financieros. <br>
 
-Actualmente tenemos diferentes problemas en cuanto a las finanzas, puesto que las personas no tienen los conocimientos necesarios para poder manejar y administrar sus finanzas por su propia cuenta o a lo mejor una empresa que recién está empezando necesita verificar el estado de sus ingresos o egresos, pero no tienen el capital suficiente para contratar a una persona que se dedique especificamente a eso, por ello FinTrack llega para brindar una solución a todo ello mediante la implementación de una pagina web... 
+Nosotros consideramos que estos segmentos objetivo necesitan una solución integral y eficiente que les permita tomar el control de sus finanzas sin tener la necesidad de depender de recursos externos que sean demasiado costosos. Por ello, FinTrack resuelve este problema mediante una aplicación web intuitiva, para que cualquier persona pueda usar de esta, que ofrece gestión automatizada de ingresos y gastos, proyecciones financieras basadas en datos históricos que se recopiló, establecimiento de metas y objetivos personalizados, como ahorros, rentabilidad o reducción de deudas, herramientas para simular y gestionar préstamos, y un dashboard home que destaca datos clave como saldos, flujo de dinero, alertas de gastos inusuales y progreso hacia metas. Sabremos que hemos tenido éxito cuando los usuarios reporten una reducción considerable en gastos innecesarios, un aumento significativo en la adherencia a metas financieras y una mejora en la satisfacción con la gestión financiera dentro de los primeros tres meses de uso.
 
 #### 1.2.2.2. Lean UX Assumptions
 
-##### Business Outcomes:
+#### Business Outcomes 📊:
 
-* **1**<br>
 
-* **2**<br>
+* **🔵 Crecimiento de la Base de Usuarios**<br>
 
-* **3**<br>
+    FinTrack busca atraer a personas particulares, emprendedores y pequeñas empresas con campañas de marketing que resalten la facilidad de uso de la plataforma. Su diseño intuitivo y herramientas como el dashboard home y proyecciones fomentarán una adopción amplia y sostenida.
 
-* **4**<br>
+* **🔵 Alta Retención de Usuarios**<br>
 
-* **5**<br>
+    BUscamos retener a los usuarios comprometidos con una experiencia fluida y funcionalidades valiosas como metas personalizadas y alertas de gastos. El dashboard home, claro y accesible, asegurará que los usuarios integren la plataforma en su rutina financiera.
 
-* **6**<br>
+* **🔵 Ingresos por Suscripciones Premium**<br>
 
-* **7**<br>
+    Generaremos ingresos a través de suscripciones premium, con funciones avanzadas como proyecciones detalladas y análisis de préstamos. Estas herramientas motivarán a los usuarios a optar por planes pagos para mejorar su gestión financiera.
 
-* **8**<br>
+* **🔵 Minimización del Churn Rate**<br>
 
-* **9**<br>
+    Reducir la pérdida de usuarios es clave, incluso imprescindible, para FinTrack. Con un dashboard home útil y herramientas como metas y proyecciones, la plataforma ofrecerá valor continuo, manteniendo a los usuarios leales y comprometidos a largo plazo.
 
-* **10**<br>
+* **🔵 Satisfacción del Usuario (NPS)**<br>
 
-* **11**<br>
+    FinTrack maximizará la satisfacción con una interfaz intuitiva y funciones prácticas como el dashboard home y gestión de préstamos. La retroalimentación constante permitirá ajustar la plataforma para superar las expectativas de los usuarios.
 
-* **12**<br>
+* **🔵 Adopción de Proyecciones Financieras**<br>
 
-* **13**<br>
+     Fomentaremos el uso de proyecciones financieras, ayudando a los usuarios a planificar con datos históricos. Integrada en el dashboard home, esta herramienta será clave para que personas y empresas tomen decisiones estratégicas.
 
-* **14**<br>
+* **🔵 Establecimiento de Metas Financieras**<br>
 
-* **15**<br>
+     Buscaremos motivar a los usuarios a definir metas, como ahorrar o reducir deudas, con una interfaz sencilla y notificaciones motivadoras en el dashboard home. Esto convertirá a la plataforma en un aliado para el éxito financiero de cualquier negocio.
 
-##### User Outcomes
+* **🔵 Optimización de Costos Empresariales**<br>
+
+     FinTrack ayudará a pequeñas empresas a optimizar costos con herramientas de gestión de gastos e ingresos y reportes en el dashboard home. Recomendaciones personalizadas apoyarán la estabilidad y el crecimiento financiero.
+
+* **🔵 Precisión en Proyecciones de Emprendedores**<br>
+
+     FinTrack mejorará las proyecciones de emprendedores con datos históricos y escenarios confiables, accesibles desde el dashboard home. Esto les permitirá planificar estratégicamente y reducir riesgos en sus proyectos.
+
+* **🔵 Usuarios Activos en Pequeñas Empresas**<br>
+
+     FinTrack atraerá a pequeñas empresas con herramientas colaborativas y un  dashboard home intuitivo. Su enfoque asequible y escalable lo convertirá en la opción ideal para gestionar finanzas empresariales.
+
+* **🔵 Uso de Gestión de Préstamos**<br>
+
+     FinTrack promoverá el uso de su calculadora de préstamos, permitiendo a los usuarios evaluar opciones de financiamiento desde el dashboard home. Esto facilitará decisiones responsables y aumentará la confianza en la plataforma.
+
+* **🔵 Asociaciones con Instituciones Financieras**<br>
+
+    FinTrack establecerá alianzas con instituciones financieras para integrar servicios bancarios y préstamos. Estas colaboraciones, accesibles desde el dashboard home, enriquecerán la experiencia y el valor para los usuarios.
+
+* **🔵 Frecuencia de Uso del Dashboard Home**<br>
+
+    FinTrack incentivará el uso frecuente del dashboard home, que muestra saldos, tendencias y metas de forma clara. Su diseño atractivo asegurará que los usuarios lo consulten regularmente para gestionar sus finanzas.
+
+* **🔵 Precisión en Alertas de Gastos**<br>
+
+    FinTrack fortalecerá la confianza con alertas precisas de gastos inusuales, integradas en el dashboard home. Estas notificaciones ayudarán a los usuarios a identificar anomalías y tomar medidas rápidas.
+
+* **🔵 Reducción de Costos de Soporte**<br>
+
+     FinTrack minimizará los costos de soporte con tutoriales interactivos y FAQs integrados en la plataforma. Esto permitirá a los usuarios resolver dudas de forma autónoma, mejorando la experiencia general.
+
+#### User Outcomes 🙋
+
+* **🟢 Control Financiero Personal Mejorado**<br>
+
+     Los usuarios de FinTrack, especialmente personas particulares, lograrán un mayor control sobre sus finanzas personales al utilizar herramientas de gestión de gastos e ingresos. El dashboard home les proporcionará una visión clara de sus saldos y tendencias, permitiéndoles identificar oportunidades de ahorro y tomar decisiones informadas para mejorar su estabilidad financiera.
+
+* **🟢 Planificación Estratégica para Emprendedores**<br>
+
+     Los emprendedores usarán FinTrack para planificar estratégicamente sus proyectos, aprovechando las proyecciones financieras basadas en datos históricos. El dashboard home les ofrecerá una vista consolidada de su flujo de caja y metas, ayudándoles a anticipar desafíos y ajustar sus estrategias para asegurar el éxito de sus iniciativas.
+
+* **🟢 Optimización de Recursos en Pequeñas Empresas**<br>
+
+     Las pequeñas empresas optimizarán sus recursos financieros con FinTrack, utilizando la gestión colaborativa de gastos e ingresos y reportes detallados en el dashboard home. Esto les permitirá identificar ineficiencias, reducir costos operativos y enfocar sus esfuerzos en el crecimiento sostenible de sus operaciones.
+
+* **🟢 Confianza en Decisiones de Préstamos**<br>
+
+     Los usuarios que buscan financiamiento encontrarán en FinTrack una herramienta confiable para evaluar préstamos mediante la calculadora integrada. Desde el dashboard home, podrán simular escenarios de endeudamiento, tomar decisiones responsables y planificar pagos sin comprometer su estabilidad financiera.
+
+* **🟢 Adopción de Metas Financieras Personalizadas**<br>
+
+     FinTrack empoderará a los usuarios para establecer y seguir metas financieras, como ahorrar para una compra o reducir deudas, con una interfaz sencilla y notificaciones motivadoras en el dashboard home. Esto les ayudará a mantenerse enfocados y a alcanzar sus objetivos financieros con mayor facilidad.
+
+* **🟢 Reducción del Estrés Financiero**<br>
+
+     Los usuarios experimentarán menos estrés financiero al usar FinTrack, gracias a la claridad que ofrece el dashboard home y las alertas de gastos inusuales. Estas funcionalidades les permitirán monitorear sus finanzas en tiempo real, reaccionar ante anomalías y mantener el control sin esfuerzo.
+
+* **🟢 Mayor Confianza en Proyecciones Financieras**<br>
+
+     FinTrack aumentará la confianza de los usuarios en sus proyecciones financieras al proporcionar escenarios precisos basados en datos históricos, accesibles desde el dashboard home. Esto permitirá a personas y empresas anticipar tendencias y tomar decisiones proactivas para su futuro financiero.
+
+* **🟢 Experiencia de Uso Intuitiva**<br>
+
+     Los usuarios disfrutarán de una experiencia fluida y accesible con FinTrack, gracias a su interfaz intuitiva y al dashboard home que centraliza datos clave. Esto facilitará la adopción de la plataforma, incluso para aquellos con poca experiencia financiera, integrándola en su rutina diaria.
+
+* **🟢 Toma de Decisiones Colaborativas en Equipos**<br>
+
+     Las pequeñas empresas se beneficiarán de las herramientas colaborativas de FinTrack, que permiten a los equipos gestionar finanzas juntos. El dashboard home ofrecerá una visión compartida de los datos, fomentando decisiones coordinadas que impulsen la eficiencia y el crecimiento.
+
+* **🟢 Acceso a Recursos Financieros Externos**<br>
+
+     A través de asociaciones con instituciones financieras, los usuarios de FinTrack accederán a servicios bancarios y opciones de préstamos directamente desde la plataforma. Esto, integrado en el dashboard home, enriquecerá su experiencia y les proporcionará recursos adicionales para gestionar sus finanzas.
+
+* **🟢 Monitoreo Frecuente de Finanzas**<br>
+
+     FinTrack incentivará a los usuarios a monitorear sus finanzas regularmente a través del dashboard home, que presenta saldos, metas y tendencias de forma clara. Este hábito les permitirá mantenerse informados y tomar medidas rápidas para mantener sus finanzas en orden.
+
+* **🟢 Resolución Autónoma de Dudas**<br>
+
+     Los usuarios resolverán dudas de manera autónoma con los tutoriales interactivos y FAQs integrados en FinTrack. Esta funcionalidad reducirá la necesidad de soporte externo, permitiéndoles aprovechar al máximo la plataforma con confianza y facilidad.
+
+* **🟢 Mayor Claridad en Gastos e Ingresos**<br>
+
+     FinTrack ayudará a los usuarios a comprender mejor sus patrones de gastos e ingresos mediante reportes claros en el dashboard home. Esta claridad les permitirá ajustar sus hábitos financieros y alinear sus decisiones con sus objetivos a largo plazo.
+
+* **🟢 Motivación para Alcanzar Metas**<br>
+
+     Los usuarios se sentirán motivados para alcanzar sus metas financieras con las notificaciones de progreso y recordatorios de FinTrack, integrados en el dashboard home. Esta funcionalidad les ayudará a mantenerse enfocados y celebrar sus logros financieros.
+
+* **🟢 Reducción de Errores en Gestión Financiera**<br>
+
+     FinTrack minimizará los errores en la gestión financiera al automatizar el registro de transacciones y ofrecer alertas precisas en el dashboard home. Esto permitirá a los usuarios evitar equivocaciones costosas y mantener registros precisos con menos esfuerzo.
