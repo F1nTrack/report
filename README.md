@@ -236,13 +236,17 @@ static string[] Integrantes() {
    </div>
 
    <!--TODO: integrante 4 -->
-**> 🧑‍💻 Nombre del alumno 4**
+**> 🧑‍💻Jhunior Giussepe Taquiri Calderon (U20221C676)**
    <div align='center'>
 
    <img src="" alt="" width="100" align='right'>
 
    ~~~txt
-   
+   Soy estudiante del sexto ciclo de Ingeniería de Software en la UPC, con una formación orientada al desarrollo de software y al uso de diversas tecnologías.
+    Tengo experiencia en C++, Python, Java y SQL, además de bases en HTML, CSS y JavaScript, lo que me ha permitido trabajar tanto en lógica de programación como en aspectos de desarrollo web.
+    Me considero una persona responsable, organizada y comprometida, con facilidad para el trabajo en equipo y con interés en seguir aprendiendo para fortalecer mi perfil profesional.
+    Mis expectativas para el curso de Aplicaciones Web son muy altas, ya que representa una oportunidad para profundizar en el desarrollo frontend y backend, así como para aprender
+    nuevos frameworks como Vue, que serán de gran valor en mi futuro como desarrollador.
    ~~~
 
    </div>
