@@ -31,41 +31,7 @@ static string[] Integrantes() {
     };
 }
 ~~~
-<!-- ========== 1. Startup Profile ========== -->
-<section id="startup-profile">
-  <h2>1.1 Startup Profile</h2>
 
-  <!-- 1.1.1 Descripción de la Startup -->
-  <article id="descripcion-startup">
-    <h3>1.1.1. Descripción de la Startup</h3>
-    <p>
-      <strong>F1nTrack</strong> es una startup enfocada en desarrollar soluciones
-      tecnológicas para la <strong>gestión personal y empresarial de finanzas</strong>. Nuestro objetivo
-      es ayudar a los usuarios a controlar ingresos, egresos, presupuestos y metas financieras mediante
-      una aplicación web intuitiva y escalable.
-    </p>
-    <p>Propuesta de valor:</p>
-    <ul>
-      <li>Visualizaciones claras y amigables del estado financiero.</li>
-      <li>Registro ágil de ingresos y gastos (manual y con importación de datos).</li>
-      <li>Seguimiento de <em>metas financieras</em> personalizadas.</li>
-      <li>Reportes y alertas para una toma de decisiones informada.</li>
-    </ul>
-    <p>
-      Con F1nTrack buscamos fomentar la <strong>educación financiera</strong> y apoyar a estudiantes,
-      profesionales y emprendedores en decisiones responsables sobre su economía.
-    </p>
-  </article>
-
-</div>
-
-Agosto del 2025 🗓️
-_____
-
-
-</div>
-
-<div>
 
 ## Contenido del Informe
 
@@ -170,25 +136,66 @@ _____
 
 
 </div>
+<div align='left'>
 <!-- student outcome -->
+<section id="startup-profile">
+  <h2>1.1 Startup Profile</h2>
 
-# Capítulo I: Introducción
+  <!-- 1.1.1 Descripción de la Startup -->
+  <article id="descripcion-startup">
+    <h3>1.1.1. Descripción de la Startup</h3>
+    <p>
+      <strong>F1nTrack</strong> es una startup enfocada en desarrollar soluciones
+      tecnológicas para la <strong>gestión personal y empresarial de finanzas</strong>. Nuestro objetivo
+      es ayudar a los usuarios a controlar ingresos, egresos, presupuestos y metas financieras mediante
+      una aplicación web intuitiva y escalable.
+    </p>
+    <p>Propuesta de valor:</p>
+    <ul>
+      <li>Visualizaciones claras y amigables del estado financiero.</li>
+      <li>Registro ágil de ingresos y gastos (manual y con importación de datos).</li>
+      <li>Seguimiento de <em>metas financieras</em> personalizadas.</li>
+      <li>Reportes y alertas para una toma de decisiones informada.</li>
+    </ul>
+    <p>
+      Con F1nTrack buscamos fomentar la <strong>educación financiera</strong> y apoyar a estudiantes,
+      profesionales y emprendedores en decisiones responsables sobre su economía.
+    </p>
+    <p>
+      Como misión nos proponemos a brindar soluciones tecnológicas accesibles e innovadoras que permitan a personas, estudiantes,
+      profesionales y pequeñas empresas <strong>gestionar de manera eficiente sus finanzas</strong>,
+      facilitando el control de ingresos, egresos, presupuestos y metas económicas a través de una
+      plataforma web intuitiva, confiable y educativa.
+    </p>
+    <p>
+      Nuestra visión es convertirnos en la <strong>plataforma líder en educación y gestión financiera digital en Latinoamérica</strong>,
+      reconocida por ayudar a nuestros usuarios a <em>tomar decisiones financieras inteligentes y responsables</em>,
+      contribuyendo a su bienestar económico y al crecimiento sostenible de sus proyectos y negocios.
+    </p>
+  </article>
 
-## 1.1. Startup Profile
-
-### 1.1.1. Descripción de la Startup
-<!-- Acá colocan la descripción de la startup -->
-
-### 1.1.2 Perfiles de integrantes del equipo
-
+</div>
+<div align='left'>
+<h3>1.1.2. Perfiles de los integrantes del grupo</h3>
+<div align='center'>
    <!--TODO: integrante 1 -->
-**> 🧑‍💻 Nombre del alumno1**
-   <div align='center'>
+  > 🧑‍💻 <strong>Matias Rodolfo Salcedo Champi</strong> 
+   
 
-   <img src="" alt="" width="100" align='right'>
+   <div align='center'>
+     
+   <img src="resources/matias.png" alt="imagen Matias" width="100" align='right'>
 
    ~~~txt
+   Soy estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC), actualmente cursando el 5to ciclo de la carrera.
    
+   Durante mi formación he adquirido conocimientos en diversas tecnologías y buenas prácticas de desarrollo. Mis principales fortalezas se encuentran en C++, HTML y Java, lenguajes en los que me desenvuelvo con mayor seguridad, aplicando conceptos de programación estructurada y orientada a objetos, así como el diseño de interfaces y el desarrollo de aplicaciones.
+
+   Adicionalmente, he trabajado con SQL para la gestión de bases de datos, y con tecnologías web que me permiten tener una visión integral del desarrollo de software.
+
+   Me considero una persona responsable, comprometida y con facilidad para el trabajo en equipo, cualidades que me impulsan a mejorar constantemente.
+
+   Mis expectativas para el curso de Aplicaciones Web son muy altas, ya que representa una gran oportunidad para ampliar mis conocimientos tanto en frontend como en backend, explorando nuevos frameworks como Vue, que complementarán mi formación y me permitirán crecer profesionalmente en el campo del desarrollo web. 💻
    ~~~
 
    </div>
@@ -229,13 +236,18 @@ _____
    </div>
 
    <!--TODO: integrante 4 -->
-**> 🧑‍💻 Nombre del alumno 4**
+**> 🧑‍💻Jhunior Giussepe Taquiri Calderon (U20221C676)**
    <div align='center'>
 
-   <img src="" alt="" width="100" align='right'>
+   <img src="resources/giussepe.png" alt="imagen Giussepe" width="100" align='right'>
+  
 
    ~~~txt
-   
+   Soy estudiante del sexto ciclo de Ingeniería de Software en la UPC, con una formación orientada al desarrollo de software y al uso de diversas tecnologías.
+    Tengo experiencia en C++, Python, Java y SQL, además de bases en HTML, CSS y JavaScript, lo que me ha permitido trabajar tanto en lógica de programación como en aspectos de desarrollo web.
+    Me considero una persona responsable, organizada y comprometida, con facilidad para el trabajo en equipo y con interés en seguir aprendiendo para fortalecer mi perfil profesional.
+    Mis expectativas para el curso de Aplicaciones Web son muy altas, ya que representa una oportunidad para profundizar en el desarrollo frontend y backend, así como para aprender
+    nuevos frameworks como Vue, que serán de gran valor en mi futuro como desarrollador.
    ~~~
 
    </div>
@@ -244,15 +256,105 @@ _____
 **> 🧑‍💻 Nombre del alumno 5**
    <div align='center'>
 
-   <img src="" alt="" width="100" align='right'>
+   <img src="resources/Fabrizio1.jpg" alt="imagen Raul" width="100" align='right'>
 
    ~~~txt
-   
+    Actualmente curso el sexto ciclo de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC), donde he venido desarrollando una sólida base técnica y una visión crítica
+    sobre el desarrollo de soluciones digitales. Mi formación me ha permitido explorar distintos lenguajes y herramientas, desde la lógica estructurada de C++ hasta el dinamismo de frameworks
+    modernos como Angular, con los que he trabajado principalmente en el frontend. También tengo experiencia en Python y SQL, lo que me ha ayudado a comprender mejor la gestión de datos y la
+    construcción de aplicaciones más completas.
+
+    Más allá de lo técnico, me considero una persona comprometida con el aprendizaje constante, con facilidad para adaptarme a nuevos entornos y colaborar en equipo. Me gusta enfrentar desafíos
+    que me obliguen a pensar fuera de lo convencional y a buscar soluciones eficientes y sostenibles.
+
+    Tengo grandes expectativas para el curso de Aplicaciones Web, ya que representa una oportunidad para fortalecer mis habilidades en el desarrollo fullstack y familiarizarme con nuevas tecnologías
+    como Vue. Estoy convencido de que este tipo de experiencias me acercan cada vez más al perfil profesional que quiero construir: uno capaz de crear software útil, escalable y centrado en las personas.
    ~~~
 
    </div>
    
+<!-- 1.2.1 Antecedentes y problemática -->
+<div align='left'>
+<article id="solution-profile">
 
+<h2>1.2. Solution profile</h2>
+<article id="antecedentes-problematica">
+  <h3>1.2.1 Antecedentes y problemática</h3>
+  <p>
+    En la actualidad, muchas personas y pequeñas empresas enfrentan dificultades al momento de 
+    <strong>gestionar adecuadamente sus finanzas</strong>. La falta de educación financiera, el desorden en 
+    el registro de ingresos y egresos, así como la ausencia de herramientas tecnológicas accesibles y fáciles 
+    de usar, generan problemas de liquidez, endeudamiento innecesario y poca claridad en la toma de decisiones 
+    económicas. 
+  </p>
+  <p>
+    Frente a esta problemática surge la necesidad de contar con soluciones digitales prácticas que ayuden a 
+    los usuarios a tener una visión clara, organizada y en tiempo real de su situación financiera.
+  </p>
+
+  <h4>5“W”s + 2"H"</h4>
+  <ul>
+    <li>
+       <strong>WHAT (QUÉ):</strong>  
+      El problema principal es la <strong>dificultad de gestionar finanzas personales y empresariales</strong>.  
+      Muchos usuarios no llevan un control adecuado de sus ingresos, egresos ni presupuestos, lo que genera desorden, 
+      desconocimiento de su estado financiero real y problemas para alcanzar metas económicas.
+    </li>
+    <br>
+    <li>
+       <strong>WHEN (CUÁNDO):</strong>  
+      Este problema ocurre <strong>de manera constante y cotidiana</strong>.  
+      Se hace más notorio en etapas de crecimiento (por ejemplo, cuando una persona comienza a generar más ingresos o 
+      cuando un negocio aumenta sus operaciones), así como en momentos de desorganización financiera que pueden 
+      derivar en deudas y falta de liquidez.
+    </li>
+    <br>
+    <li>
+       <strong>WHERE (DÓNDE):</strong>  
+      El problema se da en distintos <strong>contextos</strong>:  
+      - En el ámbito <em>personal</em>, al no saber administrar gastos diarios o planificar metas de ahorro.  
+      - En el ámbito <em>académico</em>, entre estudiantes que manejan becas, préstamos o presupuestos limitados.  
+      - En el ámbito <em>empresarial</em>, especialmente en micro y pequeñas empresas que carecen de un área contable formal.
+    </li>
+    <br>
+    <li>
+       <strong>WHO (QUIÉN):</strong>  
+      Los principales afectados son:  
+      - <strong>Personas naturales</strong> que carecen de educación financiera básica.  
+      - <strong>Estudiantes y profesionales</strong> que quieren administrar mejor sus recursos.  
+      - <strong>Emprendedores y pequeñas empresas</strong> que no cuentan con presupuesto para contratar un contador o comprar 
+      software financiero costoso.
+    </li>
+    <br>
+    <li>
+       <strong>WHY (POR QUÉ):</strong>  
+      Porque actualmente <strong>no existen herramientas accesibles, educativas y fáciles de usar</strong> que integren de manera 
+      eficiente el control de ingresos, egresos, presupuestos y metas financieras.  
+      Las soluciones existentes suelen ser:  
+      - Demasiado técnicas y complejas para usuarios no especializados.  
+      - Costosas para estudiantes y pequeñas empresas.  
+      - Poco personalizables a las necesidades reales de cada usuario.
+    </li>
+    <br>
+    <li>
+       <strong>HOW (CÓMO):</strong>  
+      La solución se plantea mediante el desarrollo de una <strong>aplicación web</strong> que:  
+      - Permita registrar ingresos y egresos de forma ágil (manual o automática).  
+      - Genere visualizaciones gráficas que faciliten la comprensión de la situación financiera.  
+      - Ofrezca seguimiento de presupuestos y metas financieras personalizadas.  
+      - Envíe reportes y alertas para apoyar la toma de decisiones responsables.
+    </li>
+    <br>
+    <li>
+       <strong>HOW MUCH (CUÁNTO):</strong>  
+      Actualmente, contratar un contador o adquirir software especializado supone un <strong>costo elevado</strong>, inaccesible 
+      para estudiantes y pequeñas empresas.  
+      F1nTrack busca ofrecer una solución <strong>económica y escalable</strong>, con un modelo de bajo costo o incluso 
+      gratuito en sus funciones básicas, para que más usuarios puedan acceder a herramientas de gestión financiera 
+      sin una gran inversión inicial.
+    </li>
+  </ul>
+</article>
 ___
 ### 1.2.2 Lean Ux Process
 #### 1.2.2.1. Lean UX Problem Statements
