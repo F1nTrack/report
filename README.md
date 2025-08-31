@@ -239,7 +239,8 @@ static string[] Integrantes() {
 **> 🧑‍💻Jhunior Giussepe Taquiri Calderon (U20221C676)**
    <div align='center'>
 
-   <img src="" alt="" width="100" align='right'>
+   <img src="resources/giussepe.png" alt="imagen Giussepe" width="100" align='right'>
+  
 
    ~~~txt
    Soy estudiante del sexto ciclo de Ingeniería de Software en la UPC, con una formación orientada al desarrollo de software y al uso de diversas tecnologías.
