@@ -258,3 +258,39 @@ ___
 #### 1.2.2.1. Lean UX Problem Statements
 
 Actualmente tenemos diferentes problemas en cuanto a las finanzas, puesto que las personas no tienen los conocimientos necesarios para poder manejar y administrar sus finanzas por su propia cuenta o a lo mejor una empresa que recién está empezando necesita verificar el estado de sus ingresos o egresos, pero no tienen el capital suficiente para contratar a una persona que se dedique especificamente a eso, por ello FinTrack llega para brindar una solución a todo ello mediante la implementación de una pagina web... 
+
+#### 1.2.2.2. Lean UX Assumptions
+
+##### Business Outcomes:
+
+* **1**<br>
+
+* **2**<br>
+
+* **3**<br>
+
+* **4**<br>
+
+* **5**<br>
+
+* **6**<br>
+
+* **7**<br>
+
+* **8**<br>
+
+* **9**<br>
+
+* **10**<br>
+
+* **11**<br>
+
+* **12**<br>
+
+* **13**<br>
+
+* **14**<br>
+
+* **15**<br>
+
+##### User Outcomes
