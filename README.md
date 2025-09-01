@@ -253,7 +253,7 @@ static string[] Integrantes() {
    </div>
    <!--TODO: integrante 5 -->
 
-**> 🧑‍💻 Nombre del alumno 5**
+**> 🧑‍💻 Fabrizio Javier Quiroz Zambrano (U202213406)**
    <div align='center'>
 
    <img src="resources/Fabrizio1.jpg" alt="imagen Raul" width="100" align='right'>
