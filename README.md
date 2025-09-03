@@ -498,13 +498,89 @@ Nosotros consideramos que estos segmentos objetivo necesitan una solución integ
 #### Segmentos Objetivos:
 
 # Capítulo II: Requeriments Elicitation & Analysis
+---
 
-## 2.1. Competidores
-### 2.1.1. Análisis competitivo
-### 2.1.2. Estrategias y tácticas frente a competidores
+## 2.1 Competidores
 
-## 2.2. Entrevistas 💼
-### 2.2.1. Diseño de entrevistas
+### ¿Por qué llevar a cabo este análisis?
+
+El análisis de competidores es un paso esencial para el desarrollo estratégico de **KapakID**, ya que permite:
+
+- **Identificar el panorama competitivo actual**: conocer qué aplicaciones ofrecen servicios similares (billeteras digitales, apps de identidad, apps de transporte) y cómo se posicionan en el mercado.
+- **Detectar fortalezas y debilidades de la competencia**: entender qué hacen bien y en qué fallan, para aprovechar oportunidades y evitar errores.
+- **Definir nuestra propuesta de valor diferencial**: garantizar que **KapakID** no sea “una app más”, sino una solución única que combine lo mejor de las demás y agregue funcionalidades innovadoras.
+- **Optimizar la estrategia de marketing y producto**: orientar esfuerzos hacia segmentos desatendidos y necesidades no cubiertas por los competidores.
+- **Reducir riesgos y anticipar amenazas**: prever cambios regulatorios, tendencias tecnológicas y movimientos de la competencia que puedan impactar el proyecto.
+
+
+---
+
+### 2.1.1 Análisis competitivo (Comparativa)
+
+
+ Criterio                              | KapakID | Yape | Plin | IDPerú (RENIEC) | Google Wallet |
+|--------------------------------------|---------|------|------|------------------|---------------|
+| Centraliza documentos oficiales      | Sí      | No   | No   | Parcial          | No            |
+| Gestión de tarjetas de transporte    | Sí      | Parcial | Parcial | No           | No            |
+| Pagos y recargas                     | Sí (enlace a billeteras) | Sí | Sí | No | Sí |
+| Alertas inteligentes                 | Sí      | No   | No   | No               | No            |
+| Perfiles múltiples                   | Sí      | No   | No   | No               | No            |
+| Modo offline                         | Sí      | No   | No   | No               | Parcial       |
+| Asistente de trámites                | Sí      | No   | No   | No               | No            |
+| Cumplimiento Ley 29733               | Sí      | Sí   | Sí   | Sí               | Sí            |
+| Fortalezas clave                     | Centralización total, alertas, perfiles múltiples, seguridad | Popularidad, confianza bancaria | Interoperabilidad bancaria | Identidad digital oficial | Integración global |
+| Debilidades                          | Requiere confianza del usuario | No gestiona documentos | No alertas ni documentos | No pagos ni transporte | No adaptado a trámites locales |
+
+
+---
+
+### **¿Por qué KapakID es superior?**
+- **Integra lo mejor de todos los competidores**: pagos (como Yape/Plin), identidad segura (como IDPerú), y almacenamiento de tarjetas (como Google Wallet).
+- **Agrega valor único**: centralización de documentos, alertas inteligentes, perfiles múltiples, modo offline y asistentes de trámites.
+- **Diseñada para el contexto peruano**: compatible con Metropolitano, Línea 1, SUNEDU y CONADIS.
+
+
+---
+
+### 2.1.2 Estrategias y tácticas frente a competidores
+
+**Estrategias:**
+- Diferenciación por **centralización y seguridad** (cifrado, biometría).
+- Experiencia **adaptada al contexto peruano** (Metropolitano, Línea 1, SUNEDU, CONADIS).
+- Cumplimiento **Ley 29733** para generar confianza.
+
+**Tácticas:**
+- **Alianzas** con universidades y colectivos de transporte.
+- **Campañas digitales**: “Olvídate de cargar documentos físicos, usa KapakID”.
+- **Modelo freemium**: básico gratis, premium con alertas avanzadas y perfiles múltiples.
+
+---
+
+## 2.2 Entrevistas
+
+### 2.2.1 Diseño de entrevistas
+
+**Segmentos objetivo:**
+- **Estudiantes universitarios (18–29)** que usan transporte público.
+- **Padres/madres o tutores (25–45)** que gestionan documentos de hijos.
+
+**Objetivo:** Validar confianza, fricciones en trámites y pagos, valor de alertas y perfiles múltiples para **KapakID**.
+
+---
+
+#### Preguntas:
+
+1. **¿Qué documentos y tarjetas llevas contigo a diario?** (DNI, carné universitario, tarjetas de transporte, bancarias). ¿En qué situaciones los usas más?
+2. **¿Has perdido u olvidado algún documento importante en el último año?** ¿Cómo lo resolviste?
+3. **¿Cómo recargas actualmente tu tarjeta del Metropolitano o Línea 1?** ¿Qué pasos te resultan más molestos?
+4. **¿Qué tan difícil es para ti renovar documentos como DNI, carné universitario o CONADIS?** ¿Qué parte del proceso te genera más estrés?
+5. **Si KapakID te avisara del vencimiento de un documento o saldo bajo,** ¿qué tipo de alerta preferirías (push, correo, WhatsApp) y con cuánta anticipación?
+6. **¿Confiarías en KapakID para guardar copias digitales de tus documentos?** ¿Qué medidas de seguridad necesitas (biometría, PIN, cifrado)?
+7. **Si pudieras administrar documentos de tus hijos desde KapakID,** ¿qué funciones serían imprescindibles (alertas, perfiles separados, acceso offline)?
+8. **¿Qué tan útil sería para ti que KapakID incluya un asistente con checklist para trámites** (renovación de DNI, carné universitario, CONADIS)?
+9. **¿Qué funciones priorizarías en KapakID?** (alertas, recargas, historial, perfiles múltiples, modo offline)
+10. **¿Estarías dispuesto a pagar por funciones premium en KapakID?** ¿Qué precio considerarías justo?
+
 ### 2.2.2. Registro de entrevistas
 ### 2.2.3. Análisis de entrevistas
 
