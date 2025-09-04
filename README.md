@@ -35,57 +35,41 @@ static string[] Integrantes() {
 
 ## Contenido del Informe
 
-- [Informe Trabajo Final](#-informe-trabajo-final-)
-    - [Universidad Peruana de Ciencias Aplicadas ♨️](#universidad-peruana-de-ciencias-aplicadas-)
-  - [Registro de versiones del Informe](#registro-de-versiones-del-informe)
-  - [Project Report Collaboration Insights](#project-report-collaboration-insights)
-  - [Contenido](#contenido)
-  - [Student Outcome](#student-outcome)
-- [Capítulo I: Introducción](#capítulo-i-introducción)
-  - [1.1. Startup Profile 📌](#11-startup-profile)
-    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-    - [1.1.2 Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-  - [1.2. Solution Profile](#12-solution-profile)
-    - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
-      - [5“W”s + 2"H"'s](#️5ws--2hs)
-        - [🟢 WHAT (QUÉ)](#-what-qué)
-        - [🟢 WHEN (CUANDO)](#-when-cuando)
-        - [🟢 WHERE (DONDE)](#-where-donde)
-        - [🟢 WHO (QUIEN)](#-who-quien)
-        - [🟢 WHY (POR QUE)](#-why-por-que)
-        - [🟢 HOW (COMO)](#-how-como)
-        - [🟢 HOW MUCH (CUANTO)](#-how-much-cuanto)
+- [Informe Trabajo Final 📙](#informe-trabajo-final-)
+    - [Universidad Peruana de Ciencias Aplicadas ♨️](#universidad-peruana-de-ciencias-aplicadas-️)
+  - [Contenido del Informe](#contenido-del-informe)
     - [1.2.2 Lean Ux Process](#122-lean-ux-process)
       - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
       - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-        - [Business Outcomes:](#business-outcomes)
-        - [User Outcomes](#user-outcomes)
+      - [Business Outcomes 📊:](#business-outcomes-)
+      - [User Outcomes 🙋](#user-outcomes-)
       - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
       - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-  - [Segmentos Objetivos](#segmentos-objetivos)
+      - [Segmentos Objetivos:](#segmentos-objetivos)
 - [Capítulo II: Requeriments Elicitation \& Analysis](#capítulo-ii-requeriments-elicitation--analysis)
-  - [2.1. Competidores](#21-competidores)
-    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-  - [2.2. Entrevistas 💼](#22-entrevistas-)
-    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+  - [2.1 Competidores](#21-competidores)
+    - [¿Por qué llevar a cabo este análisis?](#por-qué-llevar-a-cabo-este-análisis)
+    - [2.1.1 Análisis competitivo (Comparativa)](#211-análisis-competitivo-comparativa)
+    - [**¿Por qué KapakID es superior?**](#por-qué-kapakid-es-superior)
+    - [2.1.2 Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2 Entrevistas](#22-entrevistas)
+    - [2.2.1 Diseño de entrevistas](#221-diseño-de-entrevistas)
+      - [Preguntas:](#preguntas)
     - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
     - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
   - [2.3. Needfinding](#23-needfinding)
     - [2.3.1. User Personas](#231-user-personas)
-      - [Administradores:](#administradores)
-      - [Clientes:](#clientes)
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
     - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-      - [Administradores:](#administradores-1)
-      - [Clientes:](#clientes-1)
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-      - [Administradores:](#administradores-2)
-      - [Clientes:](#clientes-2)
     - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-      - [Administradores:](#administradores-3)
-    - [Clientes:](#clientes-3)
   - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+    - [Identity \& Documents (Identidad y Documentos)](#identity--documents-identidad-y-documentos)
+    - [Transportation \& Cards (Transporte y Tarjetas)](#transportation--cards-transporte-y-tarjetas)
+    - [Payments \& Transactions (Pagos y Transacciones)](#payments--transactions-pagos-y-transacciones)
+    - [Governance \& Voting (Gobernanza y Votaciones)](#governance--voting-gobernanza-y-votaciones)
+    - [Notifications \& Alerts (Notificaciones y Alertas)](#notifications--alerts-notificaciones-y-alertas)
+    - [Access \& Profiles (Acceso y Perfiles)](#access--profiles-acceso-y-perfiles)
 - [Capítulo III: Requeriments Specification](#capítulo-iii-requeriments-specification)
   - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
   - [3.2. User Stories](#32-user-stories)
@@ -132,7 +116,6 @@ static string[] Integrantes() {
     - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
   - [5.4. Video About-the-Product](#54-video-about-the-product)
 - [Conclusiones](#conclusiones)
-  - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 
 
 </div>
@@ -604,6 +587,49 @@ El análisis de competidores es un paso esencial para el desarrollo estratégico
 - Clientes:
 
 ## 2.4. Ubiquitous Language
+
+En esta sección se presenta el glosario de términos y conceptos contemplados por el Bussiness  Domain.
+Los términos están definidos en inglés (con su equivalente en español entre paréntesis) y su definición en español.  
+Este lenguaje ubicuo debe ser utilizado de forma consistente por todos los miembros del equipo.
+
+---
+
+### Identity & Documents (Identidad y Documentos)
+- **National ID (DNI – Documento Nacional de Identidad):** Documento oficial de identidad emitido por RENIEC, utilizado para acreditar identidad en Perú.  
+- **Passport (Pasaporte):** Documento emitido por la autoridad competente que permite viajar al extranjero.  
+- **Driver’s License (Licencia de Conducir):** Documento emitido por el MTC que autoriza a una persona a conducir vehículos.  
+- **University ID (Carné Universitario):** Documento emitido por SUNEDU o universidades, utilizado para identificar a estudiantes en Perú.  
+- **Disability ID (Carné CONADIS):** Documento oficial que acredita a una persona con discapacidad en Perú.  
+- **Digital Document (Documento Digital):** Versión electrónica y certificada de un documento físico almacenado en KapakID.  
+
+### Transportation & Cards (Transporte y Tarjetas)
+- **Metro Card (Tarjeta del Tren):** Tarjeta recargable utilizada para acceder al Tren Electrico de Lima.  
+- **Metropolitano Card (Tarjeta del Metropolitano):** Tarjeta recargable utilizada en el sistema de transporte público Metropolitano de Lima.  
+- **Transport Balance (Saldo de Transporte):** Monto disponible en tarjetas de transporte registrado en KapakID.  
+- **Top-Up (Recarga):** Acción de añadir saldo a una tarjeta de transporte o celular desde KapakID.  
+
+### Payments & Transactions (Pagos y Transacciones)
+- **Debt Payment (Pago de Deuda):** Transacción realizada para cancelar obligaciones pendientes como servicios, multas o préstamos.  
+- **Phone Top-Up (Recarga Telefónica):** Proceso de añadir saldo a un número de celular desde KapakID.  
+- **Transaction History (Historial de Transacciones):** Registro detallado de recargas, pagos y movimientos financieros realizados en la app.  
+- **Service Renewal (Renovación de Documento/Servicio):** Trámite para actualizar o extender la vigencia de un documento desde KapakID.  
+
+### Governance & Voting (Gobernanza y Votaciones)
+- **Presidential Election (Elección Presidencial):** Proceso electoral nacional para elegir al Presidente del Perú, habilitado en KapakID mediante identificación única.  
+- **Municipal Election (Elección Municipal):** Proceso electoral local para elegir alcaldes y autoridades municipales.  
+- **Digital Vote (Voto Digital):** Emisión de voto certificado y único a través de KapakID utilizando la identidad verificada del usuario.  
+
+### Notifications & Alerts (Notificaciones y Alertas)
+- **Low Balance Alert (Alerta de Saldo Bajo):** Notificación enviada al usuario cuando el saldo de una tarjeta de transporte o celular es insuficiente.  
+- **Expiration Alert (Alerta de Vencimiento):** Notificación enviada cuando un documento o tarjeta está próximo a caducar.  
+- **Reminder (Recordatorio):** Aviso programado para acciones importantes como renovaciones, votaciones o recargas.  
+
+### Access & Profiles (Acceso y Perfiles)
+- **Offline Mode (Modo Offline):** Acceso limitado a documentos previamente verificados cuando no hay conexión a internet.  
+- **Verified Document (Documento Verificado):** Documento validado oficialmente en la app para uso legal y seguro.  
+- **User Profile (Perfil de Usuario):** Identidad principal del dueño de la cuenta en KapakID.  
+- **Family Profile (Perfil Familiar):** Espacio dentro de la app que permite administrar documentos de hijos u otros dependientes.  
+
 
 # Capítulo III: Requeriments Specification
 
