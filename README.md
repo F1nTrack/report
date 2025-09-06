@@ -207,13 +207,16 @@ static string[] Integrantes() {
    </div>
 
    <!--TODO: integrante 3 -->
-**> 🧑‍💻 Nombre del alumno3**
+**> 🧑‍💻 Ruiz Huisa, Daniel ELias**
    <div align='center'>
 
    <img src="" alt="" width="100" align='right'>
 
    ~~~txt
-   
+   Soy estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC), actualmente cursando el 6to ciclo de la carrera.
+  Durante mi formación he adquirido conocimientos en diversas tecnologías y buenas prácticas de desarrollo. Mis principales fortalezas se encuentran lenguajes con orientados fuertemente a la POO como C++ y Java. 
+  Adicionalmente, he trabajado con PGAdmin, MongoAtlas, MySQLlite como gestores de bases de datos, y con tecnologías web que me permiten tener una visión integral del desarrollo de software.
+
    ~~~
 
    </div>
