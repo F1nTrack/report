@@ -56,6 +56,9 @@ static string[] Integrantes() {
     - [2.2.1 Diseño de entrevistas](#221-diseño-de-entrevistas)
       - [Preguntas:](#preguntas)
     - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    - [2.2.2 Registro de entrevistas](#222-registro-de-entrevistas-1)
+      - [Entrevistas a estudiantes universitarios](#entrevistas-a-estudiantes-universitarios)
+      - [Entrevistas a padres/madres o tutores](#entrevistas-a-padresmadres-o-tutores)
     - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
   - [2.3. Needfinding](#23-needfinding)
     - [2.3.1. User Personas](#231-user-personas)
@@ -106,8 +109,24 @@ static string[] Integrantes() {
   - [5.1. Software Configuration Management](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
     - [5.1.2. Source Code Management](#512-source-code-management)
+      - [Repositorios del proyecto](#repositorios-del-proyecto)
+      - [GitFlow Workflow](#gitflow-workflow)
+        - [Ramas principales](#ramas-principales)
+        - [Ramas de soporte](#ramas-de-soporte)
+      - [Convenciones de versionado](#convenciones-de-versionado)
+      - [Convenciones de commits](#convenciones-de-commits)
     - [5.1.3. Source Code Style Guide \& Conventions](#513-source-code-style-guide--conventions)
+      - [HTML](#html)
+      - [CSS](#css)
+      - [JavaScript](#javascript)
+  - [Vue.js](#vuejs)
+  - [C#](#c)
+  - [BDD (Gherkin) para pruebas de aceptación](#bdd-gherkin-para-pruebas-de-aceptación)
+  - [Resumen de nomenclatura por lenguaje](#resumen-de-nomenclatura-por-lenguaje)
     - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
+    - [1. Landing Page](#1-landing-page)
+    - [2. Web Services (Backend)](#2-web-services-backend)
+    - [3. Frontend Web Applications](#3-frontend-web-applications)
   - [5.2. Landing Page, Service \& Applications Implementation](#52-landing-page-service--applications-implementation)
     - [5.2.x. Sprints](#52x-sprints)
   - [5.3. Validation Interviews](#53-validation-interviews)
@@ -750,9 +769,246 @@ Este lenguaje ubicuo debe ser utilizado de forma consistente por todos los miemb
 
 ## 5.1. Software Configuration Management
 ### 5.1.1. Software Development Environment Configuration
+
+| Categoría                | Producto / Lenguaje / Framework | Propósito dentro del proyecto                                                                 | Ruta de descarga / referencia |
+|---------------------------|---------------------------------|-----------------------------------------------------------------------------------------------|-------------------------------|
+| **Project Management**    | Trello                          | Gestión de tareas, backlog, sprints y seguimiento del avance del equipo.                      | [https://trello.com](https://trello.com) |
+| **Requirements Management** | Notion                        | Documentar, centralizar y gestionar requerimientos, especificaciones y notas de proyecto.      | [https://www.notion.so](https://www.notion.so) |
+| **Product UI/UX Design**  | Figma                          | Diseño de interfaces gráficas, prototipado colaborativo y validación con el cliente.           | [https://www.figma.com](https://www.figma.com) |
+| **Software Development**  | Lenguaje: C#                   | Desarrollo del backend y lógica de negocio.                                                   | [https://dotnet.microsoft.com/download](https://dotnet.microsoft.com/download) |
+|                           | Lenguaje: JavaScript (JS)      | Desarrollo del frontend dinámico y componentes interactivos.                                  | [https://nodejs.org](https://nodejs.org) |
+|                           | Framework: .NET Core           | Construcción de APIs y servicios backend robustos y escalables.                               | [https://dotnet.microsoft.com/download](https://dotnet.microsoft.com/download) |
+|                           | Framework: Vue (Vue CLI)       | Desarrollo del frontend como SPA (Single Page Application).                                   | [https://cli.vuejs.org/](https://cli.vuejs.org/) |
+|                           | IDE: Visual Studio Code        | Editor ligero y multiplataforma para desarrollo general.                                      | [https://code.visualstudio.com](https://code.visualstudio.com) |
+|                           | IDE: JetBrains Rider           | IDE especializado para backend con C#.                                                        | [https://www.jetbrains.com/rider/](https://www.jetbrains.com/rider/) |
+|                           | IDE: JetBrains WebStorm        | IDE especializado para frontend con Vue.js.                                                   | [https://www.jetbrains.com/webstorm/](https://www.jetbrains.com/webstorm/) |
+|                           | Git                            | Control de versiones distribuido para gestionar cambios en el código.                         | [https://git-scm.com/downloads](https://git-scm.com/downloads) |
+|                           | GitHub                         | Repositorio central para alojar el código, colaborar y gestionar integración continua.         | [https://github.com](https://github.com) |
+| **Software Deployment**   | Azure DevOps                   | Automatización de CI/CD, gestión de pipelines e implementación en la nube.                    | [https://azure.microsoft.com/services/devops/](https://azure.microsoft.com/services/devops/) |
+| **Software Documentation**| MkDocs                         | Generación de documentación técnica en formato estático, integrada con repositorios Git.       | [https://www.mkdocs.org](https://www.mkdocs.org) |
+
 ### 5.1.2. Source Code Management
+
+
+En este proyecto se utilizará **GitHub** como plataforma y sistema de control de versiones para la gestión del código fuente.  
+
+---
+
+####  Repositorios del proyecto  
+
+- **Documentación (Docs)** → [REPO_DOCS](https://github.com/F1nTrack/report.git)
+- **Landing Page** → [REPO_LANDING](https://github.com/F1nTrack/landingPage.git)
+- **Frontend Web Application** → [REPO_FRONTEND](https://github.com/F1nTrack/frontend-web-application.git) 
+- **Web Services (Backend + Tests)** → [REPO_BACKEND]  
+
+En el repositorio de **Web Services** se incluirán tanto el proyecto principal como los archivos de pruebas unitarias y de integración/aceptación.  
+
+---
+
+####  GitFlow Workflow  
+
+El equipo aplicará la estrategia de ramificación **GitFlow**, propuesta por Vincent Driessen, para garantizar un control estructurado de versiones y facilitar el trabajo colaborativo.  
+
+#####  Ramas principales  
+
+1. **`main`**  
+   - Rama principal del proyecto.  
+   - Contiene únicamente versiones estables y liberadas en producción.  
+   - Solo recibe merges desde ramas **release** o **hotfix**.  
+
+2. **`develop`**  
+   - Rama de integración donde se consolidan todas las funcionalidades en desarrollo.  
+   - Representa el estado más actualizado previo a un release.  
+
+#####  Ramas de soporte  
+
+3. **`feature/<nombre-funcionalidad>`**  
+   - Usada para el desarrollo de nuevas funcionalidades.  
+   - Se crea a partir de `develop` y se fusiona de nuevo en `develop` cuando la tarea está lista.  
+   - **Convención de nombres**: `feature/login-auth`, `feature/user-profile`, etc.  
+
+4. **`release/x.y.z`**  
+   - Preparación de una nueva versión estable.  
+   - Permite pruebas finales, correcciones menores y documentación.  
+   - Se fusiona en `main` (para liberar la versión) y en `develop` (para mantener consistencia).  
+   - **Convención de nombres**: `release/1.0.0`, siguiendo **Semantic Versioning 2.0.0**.  
+
+5. **`hotfix/x.y.z`**  
+   - Para resolver errores críticos detectados en producción.  
+   - Se crea a partir de `main` y se fusiona en `main` y `develop` tras la corrección.  
+   - **Convención de nombres**: `hotfix/1.0.1`.  
+
+---
+
+####  Convenciones de versionado  
+
+- Se aplicará **Semantic Versioning 2.0.0**, con el esquema:  
+  - **MAJOR** → cambios incompatibles o nuevas arquitecturas.  
+  - **MINOR** → nuevas funcionalidades compatibles.  
+  - **PATCH** → correcciones y mejoras menores.  
+---
+####  Convenciones de commits  
+
+Se aplicará el estándar **Conventional Commits**, con los siguientes prefijos:  
+
+- **feat:** nueva funcionalidad → `feat: agregar autenticación con JWT`  
+- **fix:** corrección de bug → `fix: resolver error en validación de email`  
+- **docs:** cambios en documentación → `docs: actualizar guía de instalación`  
+- **style:** cambios de formato (sin afectar la lógica)  
+- **refactor:** reestructuración de código sin cambio funcional  
+- **test:** agregar o modificar pruebas automatizadas  
+- **chore:** tareas menores o de mantenimiento 
+
+Ejemplo: `v1.0.0`, `v1.1.0`, `v1.1.1`.  
+
 ### 5.1.3. Source Code Style Guide & Conventions
+
+
+El equipo adoptará un conjunto de **convenciones de estilo y guías de codificación** para mantener un código limpio, consistente y fácil de mantener.  
+Todas las nomenclaturas (nombres de variables, funciones, clases, archivos y carpetas) se escribirán en **inglés**.  
+
+---
+
+ #### HTML
+- Basado en: [W3C HTML Coding Style](https://www.w3.org/2009/cheatsheet/#source:html) y [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html).  
+- Reglas principales:  
+  - Código indentado con **2 espacios**.  
+  - Uso de **minúsculas** para etiquetas y atributos.  
+  - Uso de comillas dobles (`" "`) en atributos.  
+  - Estructura semántica correcta (`<header>`, `<main>`, `<footer>`, etc.).  
+  - Comentarios claros (`<!-- Descripción -->`).  
+
+---
+
+ #### CSS  
+- Basado en: [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html).  
+- Reglas principales:  
+  - **Kebab-case** para nombres de clases: `.main-container`, `.button-primary`.  
+  - Organización de reglas siguiendo el orden: posición → caja → tipografía → visual → otros.  
+  - Uso de **variables CSS** para colores y tipografías.  
+  - Evitar el uso de `!important` salvo casos excepcionales.  
+  - Código indentado con **2 espacios**.  
+
+---
+
+####  JavaScript  
+- Basado en: [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html), [MDN Guidelines](https://developer.mozilla.org/en-US/docs/MDN/Guidelines) y [W3C JavaScript Guide](https://www.w3.org/wiki/JavaScript_best_practices).  
+- Reglas principales:  
+  - **camelCase** para variables y funciones: `userName`, `getUserData()`.  
+  - **PascalCase** para clases y componentes: `UserService`, `LoginForm`.  
+  - Declaraciones con `const` y `let` (evitar `var`).  
+  - Uso de funciones flecha (`()=>`) cuando sea apropiado.  
+  - Cada archivo debe exportar **una sola clase o componente principal**.  
+  - Código indentado con **2 espacios**.  
+
+---
+
+##  Vue.js  
+- Basado en: [Vue Style Guide (Oficial)](https://vuejs.org/style-guide/).  
+- Reglas principales:  
+  - Componentes en **PascalCase**: `UserProfile.vue`.  
+  - Props en **camelCase** en JS y **kebab-case** en templates:  
+    ```vue
+    <UserProfile user-name="John" />
+    props: { userName: String }
+    ```  
+  - Orden de secciones en componentes: `template` → `script` → `style`.  
+  - Código indentado con **2 espacios**.  
+  - Uso de **scoped styles** para evitar colisiones.  
+
+---
+
+##  C#  
+- Basado en: [Microsoft C# Coding Conventions](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions) y [ASP.NET Core Guidelines](https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures#aspnet-core).  
+- Reglas principales:  
+  - **PascalCase** para clases, métodos y propiedades: `CustomerService`, `GetUser()`.  
+  - **camelCase** para variables locales y parámetros: `int userId`.  
+  - Nombres de interfaces comienzan con `I`: `IRepository`, `IService`.  
+  - Cada archivo debe contener **una clase pública principal**.  
+  - Uso de **expresiones lambda** y **LINQ** para colecciones.  
+  - Código indentado con **4 espacios**.  
+
+---
+
+##  BDD (Gherkin) para pruebas de aceptación  
+- Basado en: [Gherkin Conventions](https://cucumber.io/docs/gherkin/).  
+- Reglas principales:  
+  - Escenarios escritos en inglés.  
+  - Formato estándar:  
+    ```
+    Feature: User Login
+      Scenario: Successful login
+        Given the user is on the login page
+        When the user submits valid credentials
+        Then the system redirects to the dashboard
+    ```  
+
+---
+
+##  Resumen de nomenclatura por lenguaje  
+
+- **HTML** → etiquetas y atributos en minúsculas.  
+- **CSS** → `kebab-case`.  
+- **JavaScript** → `camelCase` (variables/funciones), `PascalCase` (clases/componentes).  
+- **Vue.js** → Componentes en `PascalCase`, props `camelCase/kebab-case`.  
+- **C#** → `PascalCase` (clases/métodos), `camelCase` (variables/parametros), interfaces con prefijo `I`.  
+
+---
+
+
 ### 5.1.4. Software Deployment Configuration
+
+En esta sección se especifica la configuración necesaria para el despliegue de la solución digital, detallando los pasos para publicar satisfactoriamente cada producto a partir de sus repositorios de código fuente.
+
+---
+
+### 1. Landing Page
+**Repositorio:** [REPO_LANDING](https://github.com/F1nTrack/landingPage.git)
+
+**Configuración de despliegue:**
+1. Clonar el repositorio desde GitHub.
+2. Instalar dependencias necesarias con `npm install`.
+3. Generar la build de producción con `npm run build`.
+4. Configurar el hosting (ejemplo: Azure Static Web Apps, Vercel o Netlify).
+5. Desplegar la carpeta generada `/dist` o `/build`.
+6. Verificar la disponibilidad en el dominio configurado.
+
+---
+
+### 2. Web Services (Backend)
+**Repositorio:** [URL_REPO_BACKEND]
+
+**Configuración de despliegue:**
+1. Clonar el repositorio desde GitHub.
+2. Abrir el proyecto en **JetBrains Rider**.
+3. Restaurar dependencias de .NET Core con `dotnet restore`.
+4. Ejecutar las pruebas unitarias e integración incluidas en el repositorio.
+5. Configurar variables de entorno (por ejemplo: cadenas de conexión a base de datos, credenciales).
+6. Publicar el servicio con `dotnet publish`.
+7. Implementar en Azure App Service u otro servicio de hosting para APIs.
+8. Monitorear logs y asegurar la correcta disponibilidad de los endpoints.
+
+---
+
+### 3. Frontend Web Applications
+**Repositorio:** [REPO_FRONTEND](https://github.com/F1nTrack/frontend-web-application.git)
+
+**Configuración de despliegue:**
+1. Clonar el repositorio desde GitHub.
+2. Abrir el proyecto en **JetBrains WebStorm** o **VS Code**.
+3. Instalar dependencias con `npm install`.
+4. Generar la build de producción con `npm run build`.
+5. Configurar el servidor de despliegue (ejemplo: Azure Static Web Apps, Vercel o Netlify).
+6. Desplegar la carpeta generada `/dist`.
+7. Validar la correcta integración con los Web Services desplegados.
+
+---
+
+📌 **Notas adicionales:**
+- Se recomienda el uso de **Azure DevOps** para automatizar el despliegue mediante pipelines CI/CD.  
+- Cada despliegue debe estar vinculado a una rama específica del GitFlow (generalmente `release` o `main`).  
+- Todos los entornos deben contar con **versionado semántico** y logs de cambios documentados en GitHub.
+
 
 ## 5.2. Landing Page, Service & Applications Implementation
 ### 5.2.x. Sprints
