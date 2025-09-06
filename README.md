@@ -565,6 +565,75 @@ El análisis de competidores es un paso esencial para el desarrollo estratégico
 10. **¿Estarías dispuesto a pagar por funciones premium en KapakID?** ¿Qué precio considerarías justo?
 
 ### 2.2.2. Registro de entrevistas
+
+
+### 2.2.2 Registro de entrevistas
+
+#### Entrevistas a estudiantes universitarios
+
+| Campo         | Información |
+|---------------|-------------|
+| Entrevistado 1 |             |
+| Edad          |             |
+| Distrito      |             |
+| Foto          | ![Foto entrevistado 1]() |
+| Timing        | [Ver grabación]() |
+
+---
+
+| Campo         | Información |
+|---------------|-------------|
+| Entrevistado 2 |             |
+| Edad          |             |
+| Distrito      |             |
+| Foto          | ![Foto entrevistado 2]() |
+| Timing        | [Ver grabación]() |
+
+---
+
+| Campo         | Información |
+|---------------|-------------|
+| Entrevistado 3 |             |
+| Edad          |             |
+| Distrito      |             |
+| Foto          | ![Foto entrevistado 3]() |
+| Timing        | [Ver grabación]() |
+
+---
+
+#### Entrevistas a padres/madres o tutores
+
+| Campo         | Información |
+|---------------|-------------|
+| Entrevistado 1 |             |
+| Edad          |             |
+| Distrito      |             |
+| Foto          | ![Foto entrevistado 1]() |
+| Timing        | [Ver grabación]() |
+
+---
+
+| Campo         | Información |
+|---------------|-------------|
+| Entrevistado 2 |             |
+| Edad          |             |
+| Distrito      |             |
+| Foto          | ![Foto entrevistado 2]() |
+| Timing        | [Ver grabación]() |
+
+---
+
+| Campo         | Información |
+|---------------|-------------|
+| Entrevistado 3 |             |
+| Edad          |             |
+| Distrito      |             |
+| Foto          | ![Foto entrevistado 3]() |
+| Timing        | [Ver grabación]() |
+
+---
+
+
 ### 2.2.3. Análisis de entrevistas
 
 ## 2.3. Needfinding
