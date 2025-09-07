@@ -662,11 +662,11 @@ El análisis de competidores es un paso esencial para el desarrollo estratégico
 ### 2.3.1. User Personas
 
 - **Estudiante universitario**  
-<td><img src="resources/Luis%20Alberto%20Ramírez(1).png" alt="imagen Luis Alberto Ramírez"</td>
+<td><img src="resources/Luis%20Alberto%20Ramírez(2).png" alt="imagen Luis Alberto Ramírez"</td>
 
 
 - **Madre de familia**  
-<td><img src="resources/Patricia%20Valverde(2).png" alt="imagen Patricia Valverde"</td>
+<td><img src="resources/Patricia%20Valverde(1).png" alt="imagen Patricia Valverde"</td>
 
 
 
