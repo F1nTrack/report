@@ -882,13 +882,179 @@ La jerarquía organiza la información de forma clara y priorizada:
 
 
 ### 4.1.2. Web Style Guidelines
+Para KapakID, se plantea una plataforma web con un enfoque de **seguridad, claridad y accesibilidad**, que ofrezca una experiencia confiable y eficiente para la gestión de identidad y servicios digitales.  
+Se implementará un **diseño adaptable (Responsive Design)** que optimice la presentación de la información en cualquier dispositivo, garantizando legibilidad y usabilidad en todo momento.
 
+#### Panel de control principal (Dashboard)
+- Acceso centralizado a documentos digitales (DNI, pasaporte, carné universitario).  
+- Visualización de saldo disponible y notificaciones relevantes.  
+- Gestión rápida de pagos, recargas y alertas.  
+
+#### Gestión de Documentos y Pagos
+- Añadir, validar y consultar documentos oficiales.  
+- Realizar pagos de servicios básicos y transporte.  
+- Módulos organizados en tarjetas visuales fáciles de identificar con íconos representativos.  
+
+#### Transporte y Movilidad
+- Recarga de tarjetas de transporte.  
+- Consulta de historial de viajes.  
+- Alertas sobre vencimientos o saldos bajos.  
+
+#### Alertas y Notificaciones
+- Avisos sobre documentos próximos a vencer.  
+- Pagos pendientes o validaciones críticas.  
+- Priorización de seguridad para evitar contratiempos.  
+
+#### Comunicación y Soporte
+- Sección de ayuda accesible desde el menú principal.  
+- Guías, preguntas frecuentes y chat de asistencia en tiempo real.  
+
+Este diseño garantiza **usabilidad, eficiencia y confianza**, consolidando a KapakID como una **super-app peruana de conectividad y modernidad digital**.
+
+---
 ## 4.2. Information Architecture
 ### 4.2.1. Organization Systems
+
+#### Landing Page e Inicio de la Aplicación
+- **Tipo de organización:** Jerárquica.  
+- La landing page destacará: beneficios, funcionalidades principales (documentos, pagos, transporte y alertas) y testimonios.  
+- En la pantalla de inicio se priorizan accesos rápidos al DNI digital, saldos, pagos pendientes y alertas urgentes.  
+
+#### Gestión de Documentos y Pagos
+- **Tipo de organización:** Secuencial.  
+- Flujos: registro → validación → confirmación.  
+- Reduce errores y refuerza la seguridad.  
+
+#### Módulos de Transporte y Movilidad
+- **Tipo de organización:** Matricial.  
+- Acceso a recargas, historial de viajes y tarjetas vinculadas.  
+- Exploración flexible por saldo, fecha o tipo de transporte.  
+
+#### Alertas y Notificaciones
+- **Esquema de categorización:** Por tópicos.  
+- Categorías: seguridad, transporte, pagos, documentos.  
+- Permite priorizar atención de forma inmediata.  
+
+#### Historial de Transacciones y Actividades
+- **Esquema de categorización:** Cronológico.  
+- Pagos, recargas y validaciones ordenados por fecha.  
+- Registro confiable y auditable.  
+
+#### Contenido Personalizado por Perfil de Usuario
+- **Esquema de categorización:** Según audiencia.  
+- **Estudiantes:** Recargas rápidas, gestión de carné universitario, beneficios educativos.  
+- **Familias:** Perfiles familiares para pagos y documentos de dependientes.  
+- **Ciudadanos generales:** Validación de identidad, pagos de servicios básicos, transporte.  
+
+#### Búsqueda de Documentos y Servicios
+- **Esquema de categorización:** Alfabético.  
+- Localización rápida de documentos y servicios.  
+
+---
 ### 4.2.2. Labeling Systems
+#### Landing Page
+- **Home/Inicio:** Propuesta de valor de KapakID.  
+- **Features/Características:** Funciones clave (identidad digital, pagos, transporte).  
+- **Benefits/Beneficios:** Seguridad, rapidez, confianza y centralización.  
+- **Testimonials/Testimonios:** Experiencias de usuarios.  
+- **About/Acerca de:** Equipo desarrollador y propósito de KapakID (*Qhapaq = importante*).  
+- **Contact/Contacto:** Soporte, redes sociales, correo.  
+
+#### Web Application
+- **Home/Inicio:** Accesos rápidos a DNI digital, saldo, pagos pendientes y alertas.  
+- **Perfil:** Gestión de información personal, documentos, métodos de pago y preferencias.  
+- **Documentos:** DNI, pasaporte, carné universitario, brevete.  
+- **Pagos:** Servicios, transporte y recargas. Incluye historial.  
+- **Transporte:** Tarjetas vinculadas, historial de viajes, saldos y recargas.  
+- **Búsqueda:** Localización de documentos o servicios.  
+- **Favoritos:** Acceso a elementos prioritarios.  
+- **Alertas/Notificaciones:** Vencimientos, saldos bajos, pagos pendientes.  
+- **Soporte:** FAQs, guías y contacto con atención al cliente.  
+---
+
 ### 4.2.3. SEO Tags and Meta Tags
-### 4.2.4. Searching Systems
-### 4.2.5. Navigation Systems
+– KapakID  
+
+#### Landing Page  
+Title: Texto visible en la parte superior del navegador y en los resultados de búsqueda.  
+
+```html
+<title>KapakID – Tu identidad y pagos digitales seguros en un solo lugar</title>
+-Codificación de caracteres:
+<meta charset="utf-8">
+-Description: Breve descripción de la aplicación.
+<meta name="description" content="KapakID es tu plataforma digital segura para gestionar tu identidad, documentos y pagos en un solo lugar."/>
+
+-Key Words: Palabras clave relacionadas con la app.
+<meta name="keywords" content="identidad digital, billetera electrónica, pagos seguros, transporte, documentos digitales, Perú"/>
+
+Author & Copyright:
+
+<meta name="author" content="KapakID Team"/>
+<meta name="copyright" content="Copyright KapakID Team" />
+
+-Web Application
+-Title:
+<title>KapakID</title>
+-Description
+<meta name="description" content="KapakID – Plataforma oficial para gestionar tu identidad digital, documentos y pagos de forma segura."/>
+
+-Key Words:
+<meta name="keywords" content="KapakID, identidad digital, pagos, transporte, documentos, seguridad, conectividad"/>
+-Author & Copyright:
+<meta name="author" content="KapakID Team"/>
+<meta name="copyright" content="Copyright KapakID Team" />
+
+### 4.2.4. Searching Systems – KapakID  
+
+- **Barra de búsqueda general:**  
+  Ubicada en la parte superior derecha de la plataforma web y dentro del menú principal de la app.  
+  Permitirá acceder rápidamente a recursos como: validación de documentos, historial de pagos, transporte, billetera digital y servicios vinculados.  
+
+- **Sugerencias automáticas (autocompletado):**  
+  El sistema mostrará resultados predictivos mientras el usuario escribe, basados en documentos registrados (DNI, brevete, carnés), transacciones recientes y accesos frecuentes.  
+
+- **Filtros de búsqueda:**  
+  Se ofrecerán filtros que permitan refinar la búsqueda según:  
+  - Categorías: Identidad, Pagos, Transporte, Beneficios Sociales.  
+  - Contenido: Documentos, Transacciones, Validaciones, Recibos.  
+  - Estado: Activo, Expirado, Pendiente de validación.  
+
+- **Filtros avanzados:**  
+  Opciones adicionales como:  
+  - Recientes / Más antiguos.  
+  - Monto de transacción.  
+  - Tipo de pago (tarjeta, QR, billetera digital).  
+  - Institución asociada (RENIEC, bancos, transporte).  
+---
+### 4.2.5. Navigation Systems – KapakID  
+
+#### Landing Page  
+La navegación en la landing page estará orientada a generar confianza y facilitar el registro.  
+Se implementará un menú superior con enlaces visibles hacia:  
+
+- **Inicio:** Presentación general de KapakID.  
+- **Características:** Explicación de las principales funciones (identidad digital, pagos, transporte).  
+- **Beneficios:** Cómo mejora la vida del usuario en seguridad, accesibilidad y rapidez.  
+- **Testimonios:** Opiniones de usuarios reales y casos de uso.  
+- **Acerca de:** Información del equipo y visión de KapakID.  
+- **Contacto:** Formulario y canales de atención.  
+
+El logotipo funcionará como acceso directo al inicio, asegurando navegación fluida.  
+---
+#### Web Application  
+La navegación dentro de la app web se organizará en torno a un **dashboard central** que aparecerá tras el inicio de sesión, mostrando accesos rápidos a las funciones principales.  
+
+- **Dashboard principal:** Acceso directo a identidad, billetera, transporte y notificaciones.  
+
+- **Panel lateral de navegación:**  
+  - Perfil: Información personal, configuración y preferencias.  
+  - Documentos: Gestión y validación de DNI, brevete, carnés, etc.  
+  - Pagos: Historial de transacciones, métodos de pago y recargas.  
+  - Transporte: Acceso a tickets, pasajes y movilidad urbana.  
+  - Historial: Registros cronológicos de actividades y validaciones.  
+  - Notificaciones: Alertas de vencimiento, confirmaciones de pago o actualizaciones del sistema.  
+  - Soporte / Ayuda: Acceso a FAQs y contacto directo con asistencia.  
 
 ## 4.3. Landing Page UI Desing
 ### 4.3.1. Landing Page Wireframes
