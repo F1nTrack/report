@@ -768,10 +768,119 @@ Este lenguaje ubicuo debe ser utilizado de forma consistente por todos los miemb
 ## 3.3. Impact Mapping
 ## 3.4. Product Backlog
 
-# Capítulo IV: Product Desing
+# Capítulo IV: Product Design
+
+En este capítulo se describen las directrices de diseño del producto **KapakID**, estableciendo lineamientos visuales y de interacción que garanticen una experiencia de usuario coherente, accesible y adaptada al contexto peruano.  
+El objetivo es asegurar la consistencia estética y funcional en todas las plataformas (web y móvil), respetando tanto estándares internacionales de diseño como particularidades culturales y normativas locales.
+
 
 ## 4.1. Style Guidelines
+
+Las guías de estilo definen la identidad visual del producto, determinando los principios básicos de **tipografía, color, iconografía, componentes y usabilidad**.  
+Estas directrices buscan un equilibrio entre **modernidad, simplicidad y confianza**, elementos clave para una aplicación que gestiona documentos y pagos sensibles.
+
+
+
 ### 4.1.1. General Style Guidelines
+
+#### Branding
+
+El nombre **KapakID** proviene del término quechua *Qhapaq*, que significa **importante o principal**.  
+Esta raíz cultural refuerza la esencia de la aplicación: ser una identidad digital central, segura y confiable para las personas.  
+
+La marca proyecta tres valores fundamentales:
+
+- **Seguridad**: protección de datos y confianza.  
+- **Centralidad**: ser el eje principal de la identidad digital del usuario.  
+- **Cultura**: rescatar lo importante (*Qhapaq*) como base de la modernidad.  
+
+El logo combina un **escudo** como símbolo de protección, con un sistema de **nodos inspirados en los quipus**, que representan la unión de distintos servicios (documentos, movilidad, transacciones y validaciones).  
+Esta integración transmite innovación tecnológica con un fuerte vínculo a la herencia cultural andina.  
+
+<td><img src="resources/Logo%20KapakID%20Moderno.png" alt="Logo KapakID Moderno"></td>
+
+
+#### Paleta de Colores – KapakID
+
+Los colores refuerzan los valores de **confianza, identidad cultural, seguridad y accesibilidad**.  
+Se dividen en institucionales, de acción, alerta, neutrales y de acento cultural.  
+
+<td><img src="resources/Colors.png" alt="Paleta de Colores KapakID"></td>
+
+**Colores institucionales**  
+- Azul Escudo #0A3557: principal. Seguridad, headers, botones primarios.  
+- Celeste Andino `#2D9CDB`: frescura, innovación, fondos alternativos.  
+
+**Acción positiva**  
+- Verde Conexión #17877D: validación, éxito, checkmarks.  
+- Verde Andes #27AE60: energía, accesibilidad.  
+
+**Alertas**  
+- Rojo Señal #E85B46: errores críticos.  
+- Naranja Inti #F2994A: advertencias preventivas.  
+
+**Neutrales**  
+- Blanco Nevado #F9FAFB: fondo principal.  
+- Gris Claro #E5E7EB: fondos secundarios.  
+- Gris Neutro #6B7280: textos secundarios, íconos inactivos.  
+- Gris Oscuro #374151: textos principales.  
+
+**Acento cultural**  
+- Amarillo Inti #F2C94C: energía, resaltes, microinteracciones.  
+- Lila Qhapaq #9B51E0: innovación, modernidad.  
+
+#### Tipografía – KapakID
+
+La tipografía es un eje central en la identidad visual. Se busca un estilo **moderno, claro y altamente legible** en dispositivos móviles y entornos digitales.  
+
+<td><img src="resources/Diseño%20Tipográfico%20.png" alt="Diseño Tipográfico"></td>
+
+**Fuentes principales**  
+- **Poppins Bold** → títulos y encabezados.  
+- **Poppins Medium** → subtítulos y secundarios.  
+- **Roboto Regular** → párrafos y formularios.  
+- **Roboto Mono** → datos técnicos, validaciones, códigos.  
+<td><img src="resources/Fuentes%20y%20Tipografías.png" alt="Fuentes y Tipografías"></td>
+
+**Escala tipográfica**  
+- H1: 32–36 px, Poppins Bold, Azul Escudo.  
+- H2: 24–28 px, Poppins Medium, Gris Oscuro.  
+- H3: 18–22 px, Poppins Medium, Gris Neutro.  
+- Texto cuerpo: 14–16 px, Roboto Regular.  
+- Texto técnico: 12–14 px, Roboto Mono.  
+- Texto ayuda: 12–14 px, Roboto Regular Gris Claro.  
+<td><img src="resources/Tipográfica%20.png" alt="Ejemplo Tipográfico"></td>
+
+**Line-height y espaciado**  
+- Encabezados: 110%.  
+- Texto principal: 140–150%.  
+- Texto técnico: 130%.  
+#### Iconografía
+
+La iconografía aporta **claridad, simplicidad y accesibilidad** en la navegación.  
+
+<td><img src="resources/Iconografía.png" alt="Iconografía KapakID"></td>
+
+- Estilo outline minimalista, 2 px.  
+- Esquinas redondeadas, coherentes con botones y tarjetas.  
+- Colores según estado:  
+  - Azul Escudo → íconos principales.  
+  - Verde Conexión → validaciones.  
+  - Rojo Señal → errores.  
+  - Gris Neutro → inactivos.  
+- Ejemplos: documentos, identidad, transporte, pagos, validaciones.  
+- Todos los íconos deben tener etiquetas accesibles (`alt` / `aria-label`).  
+
+#### Jerarquía Visual
+La jerarquía organiza la información de forma clara y priorizada:  
+- **Títulos principales (H1):** Azul Escudo, 32–36 px.  
+- **Subtítulos (H2–H3):** Gris Neutro, 18–28 px.  
+- **Texto principal:** Roboto Regular, 14–16 px, Gris Oscuro.  
+- **Botón primario:** Azul Escudo, texto blanco.  
+- **Botón secundario:** Verde Conexión o Gris Neutro.  
+- **Acciones críticas:** Rojo Señal + ícono de advertencia.  
+
+
 ### 4.1.2. Web Style Guidelines
 
 ## 4.2. Information Architecture
