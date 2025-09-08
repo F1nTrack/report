@@ -63,6 +63,7 @@ static string[] Integrantes() {
   - [2.3. Needfinding](#23-needfinding)
     - [2.3.1. User Personas](#231-user-personas)
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [Task Matrix](#task-matrix)
     - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
     - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
@@ -78,16 +79,39 @@ static string[] Integrantes() {
   - [3.2. User Stories](#32-user-stories)
   - [3.3. Impact Mapping](#33-impact-mapping)
   - [3.4. Product Backlog](#34-product-backlog)
-- [Capítulo IV: Product Desing](#capítulo-iv-product-desing)
+- [Capítulo IV: Product Design](#capítulo-iv-product-design)
   - [4.1. Style Guidelines](#41-style-guidelines)
     - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+      - [Branding](#branding)
+      - [Paleta de Colores – KapakID](#paleta-de-colores--kapakid)
+      - [Tipografía – KapakID](#tipografía--kapakid)
+      - [Iconografía](#iconografía)
+      - [Jerarquía Visual](#jerarquía-visual)
     - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
+      - [Panel de control principal (Dashboard)](#panel-de-control-principal-dashboard)
+      - [Gestión de Documentos y Pagos](#gestión-de-documentos-y-pagos)
+      - [Transporte y Movilidad](#transporte-y-movilidad)
+      - [Alertas y Notificaciones](#alertas-y-notificaciones)
+      - [Comunicación y Soporte](#comunicación-y-soporte)
   - [4.2. Information Architecture](#42-information-architecture)
     - [4.2.1. Organization Systems](#421-organization-systems)
+      - [Landing Page e Inicio de la Aplicación](#landing-page-e-inicio-de-la-aplicación)
+      - [Gestión de Documentos y Pagos](#gestión-de-documentos-y-pagos-1)
+      - [Módulos de Transporte y Movilidad](#módulos-de-transporte-y-movilidad)
+      - [Alertas y Notificaciones](#alertas-y-notificaciones-1)
+      - [Historial de Transacciones y Actividades](#historial-de-transacciones-y-actividades)
+      - [Contenido Personalizado por Perfil de Usuario](#contenido-personalizado-por-perfil-de-usuario)
+      - [Búsqueda de Documentos y Servicios](#búsqueda-de-documentos-y-servicios)
     - [4.2.2. Labeling Systems](#422-labeling-systems)
+      - [Landing Page](#landing-page)
+      - [Web Application](#web-application)
     - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-    - [4.2.4. Searching Systems](#424-searching-systems)
-    - [4.2.5. Navigation Systems](#425-navigation-systems)
+      - [Landing Page](#landing-page-1)
+    - [4.2.4. Searching Systems – KapakID](#424-searching-systems--kapakid)
+    - [4.2.5. Navigation Systems – KapakID](#425-navigation-systems--kapakid)
+      - [Landing Page](#landing-page-2)
+  - [El logotipo funcionará como acceso directo al inicio, asegurando navegación fluida.](#el-logotipo-funcionará-como-acceso-directo-al-inicio-asegurando-navegación-fluida)
+      - [Web Application](#web-application-1)
   - [4.3. Landing Page UI Desing](#43-landing-page-ui-desing)
     - [4.3.1. Landing Page Wireframes](#431-landing-page-wireframes)
     - [4.3.2. Landing Page Mock-Up](#432-landing-page-mock-up)
@@ -765,6 +789,37 @@ Este lenguaje ubicuo debe ser utilizado de forma consistente por todos los miemb
 
 ## 3.1. To-Be Scenario Mapping
 ## 3.2. User Stories
+**Tabla de Epics**
+| Epic ID | Título                       | Descripción                                                                 |
+|---------|------------------------------|-----------------------------------------------------------------------------|
+| E1      | Gestión de Usuarios y Perfiles | Administración de usuarios, autenticación y creación de múltiples perfiles familiares. |
+| E2      | Gestión de Documentos Digitales | Registro, validación, visualización y renovación de documentos oficiales en la app. |
+| E3      | Pagos y Recargas             | Recarga de tarjetas de transporte y celulares, pagos de deudas y registro de historial de transacciones. |
+| E4      | Votaciones Digitales         | Emisión de votos únicos y seguros en procesos electorales mediante identificación digital. |
+| E5      | Notificaciones y Alertas     | Envío de recordatorios y notificaciones sobre saldos bajos y vencimiento de documentos. |
+| E6      | Acceso Offline               | Permitir acceso limitado a documentos previamente verificados sin conexión a internet. |
+| E7      | Landing Page Informativa     | Presentar la propuesta de valor de KapakID, funcionalidades clave, guías de descarga y contacto. |
+| E8      | API REST Backend             | Servicios técnicos para manejar autenticación, gestión de documentos, pagos y notificaciones. |
+
+**Tabla de US**
+
+| US ID | Título                     | Descripción | Criterios de Aceptación (Gherkin) | Epic Relacionada |
+|-------|-----------------------------|-------------|----------------------------------|------------------|
+| US1   | Registro de usuario         | Como **usuario**, quiero registrarme con mi correo o celular para crear mi cuenta en KapakID. | **Scenario 1:**<br>Given un usuario no registrado <br>When ingresa sus datos válidos <br>Then el sistema crea la cuenta y confirma el registro.<br><br>**Scenario 2:**<br>Given un usuario intenta registrarse <br>When ingresa datos inválidos o incompletos <br>Then el sistema rechaza el registro y muestra el motivo. | E1 |
+| US2   | Creación de perfiles familiares | Como **usuario**, quiero agregar perfiles de mis hijos para administrar sus documentos desde mi cuenta. | **Scenario 1:**<br>Given un usuario autenticado <br>When agrega un nuevo perfil familiar <br>Then el sistema registra el perfil vinculado a la cuenta.<br><br>**Scenario 2:**<br>Given un usuario intenta crear un perfil <br>When excede el límite permitido <br>Then el sistema rechaza la acción con un mensaje. | E1 |
+| US3   | Registro de documentos      | Como **usuario**, quiero registrar mi DNI, pasaporte y otros documentos para tenerlos disponibles en la app. | **Scenario 1:**<br>Given un usuario autenticado <br>When registra un documento válido <br>Then el sistema almacena el documento digitalmente.<br><br>**Scenario 2:**<br>Given un usuario ingresa un documento inválido <br>When intenta registrarlo <br>Then el sistema rechaza la operación con justificación. | E2 |
+| US4   | Renovación de documentos    | Como **usuario**, quiero renovar mis documentos vencidos desde la app para evitar trámites presenciales. | **Scenario 1:**<br>Given un documento próximo a vencer <br>When el usuario solicita renovación <br>Then el sistema envía la solicitud a la entidad correspondiente.<br><br>**Scenario 2:**<br>Given un documento ya vencido <br>When el usuario intenta renovarlo <br>Then el sistema informa si la renovación aún es posible. | E2 |
+| US5   | Recarga de transporte       | Como **usuario**, quiero recargar mi tarjeta del Metropolitano para no quedarme sin saldo. | **Scenario 1:**<br>Given un usuario autenticado <br>When selecciona una tarjeta válida y monto de recarga <br>Then el sistema procesa el pago y actualiza el saldo.<br><br>**Scenario 2:**<br>Given una tarjeta inválida <br>When el usuario intenta recargar <br>Then el sistema rechaza la operación. | E3 |
+| US6   | Pago de deudas              | Como **usuario**, quiero pagar mis deudas de servicios o multas desde la app para evitar filas. | **Scenario 1:**<br>Given un usuario autenticado <br>When selecciona una deuda pendiente <br>Then el sistema procesa el pago y registra la operación.<br><br>**Scenario 2:**<br>Given un pago realizado <br>When el usuario consulta el historial <br>Then el sistema muestra el registro de pago exitoso. | E3 |
+| US7   | Voto digital único          | Como **ciudadano**, quiero emitir mi voto en elecciones mediante KapakID para participar de manera segura. | **Scenario 1:**<br>Given un ciudadano autenticado <br>When emite su voto en el proceso electoral vigente <br>Then el sistema registra el voto de forma cifrada.<br><br>**Scenario 2:**<br>Given un ciudadano ya votó <br>When intenta hacerlo nuevamente <br>Then el sistema rechaza el intento. | E4 |
+| US8   | Alerta de vencimiento       | Como **usuario**, quiero recibir una notificación cuando mis documentos estén próximos a vencer. | **Scenario 1:**<br>Given un documento con 30 días antes de su vencimiento <br>When el sistema procesa la verificación <br>Then envía una alerta al usuario.<br><br>**Scenario 2:**<br>Given un documento vencido <br>When el sistema detecta la fecha caducada <br>Then notifica al usuario inmediatamente. | E5 |
+| US9   | Acceso a documentos offline | Como **usuario**, quiero acceder a mis documentos verificados incluso sin conexión a internet. | **Scenario 1:**<br>Given un usuario autenticado previamente <br>When no tiene conexión <br>Then el sistema permite visualizar documentos validados.<br><br>**Scenario 2:**<br>Given un usuario sin conexión <br>When intenta realizar una recarga <br>Then el sistema informa que la función no está disponible. | E6 |
+| US10  | Información de funcionalidades | Como **visitante**, quiero ver en la landing page las funcionalidades principales de KapakID para entender sus beneficios. | **Scenario 1:**<br>Given un visitante accede a la landing <br>When navega a la sección de funcionalidades <br>Then visualiza la lista con descripciones claras.<br><br>**Scenario 2:**<br>Given un visitante explora la página <br>When busca información de seguridad <br>Then encuentra detalles sobre la protección de datos. | E7 |
+| US11  | Descarga de la app          | Como **visitante**, quiero encontrar enlaces de descarga de KapakID en la landing page para instalar la aplicación. | **Scenario 1:**<br>Given un visitante accede a la landing <br>When navega a la sección de descarga <br>Then visualiza enlaces a App Store y Google Play.<br><br>**Scenario 2:**<br>Given un visitante hace clic en un enlace válido <br>When se redirige a la tienda correspondiente <br>Then puede iniciar la descarga de la app. | E7 |
+| US12  | API de autenticación        | Como **developer**, quiero consumir un endpoint de autenticación para validar credenciales de usuarios. | **Scenario 1:**<br>Given un request con credenciales válidas <br>When se envía al endpoint de login <br>Then el sistema responde con un token válido.<br><br>**Scenario 2:**<br>Given un request con credenciales inválidas <br>When se procesa en el backend <br>Then el sistema devuelve un error 401 Unauthorized. | E8 |
+| US13  | API de documentos           | Como **developer**, quiero consumir un endpoint para registrar y consultar documentos de un usuario. | **Scenario 1:**<br>Given un request válido con documento y metadatos <br>When se envía al endpoint correspondiente <br>Then el sistema responde confirmando el registro.<br><br>**Scenario 2:**<br>Given un request de consulta con un ID de documento válido <br>When se procesa en el backend <br>Then el sistema devuelve la información del documento. | E8 |
+
+
 ## 3.3. Impact Mapping
 ## 3.4. Product Backlog
 
