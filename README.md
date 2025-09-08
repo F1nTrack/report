@@ -4,7 +4,7 @@
 
 # Informe Trabajo Final 📙
 
-<img src="./resources/Banner-UPC.png" alt="Banner UPC">
+<img src="./resources/Cap-1/Banner-UPC.png" alt="Banner UPC">
 
 ### Universidad Peruana de Ciencias Aplicadas ♨️
 
@@ -230,7 +230,7 @@ static string[] Integrantes() {
 **> 🧑‍💻 Raul Hiroshi Tasayco Osorio**
    <div align='center'>
 
-   <img src="resources/Image_raul_tasayco.png" alt="imagen Raul" width="100" align='right'>
+   <img src="resources/Cap-1/Members/Image_raul_tasayco.png" alt="imagen Raul" width="100" align='right'>
 
    ~~~txt
    Soy un estudiante de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas (UPC),
@@ -253,7 +253,7 @@ static string[] Integrantes() {
 **> 🧑‍💻 Ruiz Huisa, Daniel ELias**
    <div align='center'>
 
-   <img src="" alt="" width="100" align='right'>
+   <img src="resources/Cap-1/Members/Daniel.jpg" alt="" width="100" align='right'>
 
    ~~~txt
    Soy estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC), actualmente cursando el 6to ciclo de la carrera.
@@ -268,7 +268,7 @@ static string[] Integrantes() {
 **> 🧑‍💻Jhunior Giussepe Taquiri Calderon (U20221C676)**
    <div align='center'>
 
-   <img src="resources/giussepe.png" alt="imagen Giussepe" width="100" align='right'>
+   <img src="resources/Cap-1/Members/giussepe.png" alt="imagen Giussepe" width="100" align='right'>
   
 
    ~~~txt
@@ -285,7 +285,7 @@ static string[] Integrantes() {
 **> 🧑‍💻 Fabrizio Javier Quiroz Zambrano (U202213406)**
    <div align='center'>
 
-   <img src="resources/Fabrizio1.jpg" alt="imagen Raul" width="100" align='right'>
+   <img src="resources/Cap-1/Members/Fabrizio1.jpg" alt="imagen Raul" width="100" align='right'>
 
    ~~~txt
     Actualmente curso el sexto ciclo de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC), donde he venido desarrollando una sólida base técnica y una visión crítica
@@ -717,28 +717,28 @@ El análisis de las tareas de estudiantes universitarios y madres de familia mue
 ### 2.3.3. User Journey Mapping
 - **Empathy Map Estudiante Universitario **
   
-<td><img src="resources/Empathy%20map%20Luis.png" alt="Empathy map Luis" ></td>
+<td><img src="resources/Cap-2/Empathy-Map/Empathy%20map%20Luis.png" alt="Empathy map Luis" ></td>
 
 - **Empathy Map Madre de Familia**
-<td><img src="resources/Empathy%20map%20Madre%20de%20Familia%20(1).png" alt="Empathy map Madre de Familia" ></td>
+<td><img src="resources/Cap-2/Empathy-Map/Empathy%20map%20Madre%20de%20Familia%20(1).png" alt="Empathy map Madre de Familia" ></td>
 
 ### 2.3.4. Empathy Mapping
 **User Journey Mapping Estudiante Universitario** 
- <td><img src="resources/User%20Journey%20Mapping%20Estudiante%20universitario%20(1).png" alt="User Journey Mapping Estudiante universitario"></td>
+ <td><img src="resources/Cap-2/User-Journey-Mapping/User%20Journey%20Mapping%20Estudiante%20universitario%20(1).png" alt="User Journey Mapping Estudiante universitario"></td>
  
 **User Journey Mapping Madre de Familia**  
 
-<td><img src="resources/Customer%20journey%20map%20Madre%20de%20Familia.png" alt="Customer journey map Madre de Familia" ></td>
+<td><img src="resources/Cap-2/User-Journey-Mapping/Customer%20journey%20map%20Madre%20de%20Familia.png" alt="Customer journey map Madre de Familia" ></td>
 
 ### 2.3.5. As-is Scenario Mapping
 
 - **TO-BE Scenario Mapping Estudiante Universitario (Luis)**
   
- <td><img src="resources/TO-BE%20Scenario%20Mapping%20Luis.png" alt="TO-BE Scenario Mapping Luis" ></td>
+ <td><img src="resources/Cap-2/AS-IS_Scenario_Mapping/TO-BE%20Scenario%20Mapping%20Luis.png" alt="TO-BE Scenario Mapping Luis" ></td>
 
 - **TO-BE Scenario Mapping Madre de Familia (Patricia)**
   
- <td><img src="resources/TO-BE%20Scenario%20Mapping%20Patricia.png" alt="TO-BE Scenario Mapping Patricia" ></td>
+ <td><img src="resources/Cap-2/AS-IS_Scenario_Mapping/TO-BE%20Scenario%20Mapping%20Patricia.png" alt="TO-BE Scenario Mapping Patricia" ></td>
 
 ## 2.4. Ubiquitous Language
 
@@ -788,6 +788,15 @@ Este lenguaje ubicuo debe ser utilizado de forma consistente por todos los miemb
 # Capítulo III: Requeriments Specification
 
 ## 3.1. To-Be Scenario Mapping
+
+- **TO-BE Scenario Mapping Estudiante Universitario (Luis)**
+  
+ <td><img src="resources/Cap-3/TO-BE_Scenario_Mapping/To-Be_Scenario_Mapping_Persona1_Estudiante_Universitario.png" alt="TO-BE Scenario Mapping Luis" ></td>
+
+- **TO-BE Scenario Mapping Madre de Familia (Patricia)**
+  
+ <td><img src="resources/Cap-3/TO-BE_Scenario_Mapping/To-Be Scenario_Mapping_Persona2_Padre_de_Familia.png" alt="TO-BE Scenario Mapping Patricia" ></td>
+
 ## 3.2. User Stories
 **Tabla de Epics**
 | Epic ID | Título                       | Descripción                                                                 |
@@ -821,6 +830,9 @@ Este lenguaje ubicuo debe ser utilizado de forma consistente por todos los miemb
 
 
 ## 3.3. Impact Mapping
+
+
+
 ## 3.4. Product Backlog
 
 | Order | US ID | Título                           | Descripción                                                                                           | Story Points |
@@ -869,7 +881,7 @@ La marca proyecta tres valores fundamentales:
 El logo combina un **escudo** como símbolo de protección, con un sistema de **nodos inspirados en los quipus**, que representan la unión de distintos servicios (documentos, movilidad, transacciones y validaciones).  
 Esta integración transmite innovación tecnológica con un fuerte vínculo a la herencia cultural andina.  
 
-<td><img src="resources/Logo%20KapakID%20Moderno.png" alt="Logo KapakID Moderno"></td>
+<td><img src="resources/Cap-4/General_Style_Guidelines/Logo/Logo%20KapakID%20Moderno.png" alt="Logo KapakID Moderno"></td>
 
 
 #### Paleta de Colores – KapakID
@@ -877,7 +889,7 @@ Esta integración transmite innovación tecnológica con un fuerte vínculo a la
 Los colores refuerzan los valores de **confianza, identidad cultural, seguridad y accesibilidad**.  
 Se dividen en institucionales, de acción, alerta, neutrales y de acento cultural.  
 
-<td><img src="resources/Colors.png" alt="Paleta de Colores KapakID"></td>
+<td><img src="resources/Cap-4/General_Style_Guidelines/Colors/Colors.png" alt="Paleta de Colores KapakID"></td>
 
 **Colores institucionales**  
 - Azul Escudo #0A3557: principal. Seguridad, headers, botones primarios.  
@@ -905,14 +917,14 @@ Se dividen en institucionales, de acción, alerta, neutrales y de acento cultura
 
 La tipografía es un eje central en la identidad visual. Se busca un estilo **moderno, claro y altamente legible** en dispositivos móviles y entornos digitales.  
 
-<td><img src="resources/Diseño%20Tipográfico%20.png" alt="Diseño Tipográfico"></td>
+<td><img src="resources/Cap-4/General_Style_Guidelines/Typos/Diseño%20Tipográfico%20.png" alt="Diseño Tipográfico"></td>
 
 **Fuentes principales**  
 - **Poppins Bold** → títulos y encabezados.  
 - **Poppins Medium** → subtítulos y secundarios.  
 - **Roboto Regular** → párrafos y formularios.  
 - **Roboto Mono** → datos técnicos, validaciones, códigos.  
-<td><img src="resources/Fuentes%20y%20Tipografías.png" alt="Fuentes y Tipografías"></td>
+<td><img src="resources/Cap-4/General_Style_Guidelines/Typos/Fuentes%20y%20Tipografías.png" alt="Fuentes y Tipografías"></td>
 
 **Escala tipográfica**  
 - H1: 32–36 px, Poppins Bold, Azul Escudo.  
@@ -921,7 +933,7 @@ La tipografía es un eje central en la identidad visual. Se busca un estilo **mo
 - Texto cuerpo: 14–16 px, Roboto Regular.  
 - Texto técnico: 12–14 px, Roboto Mono.  
 - Texto ayuda: 12–14 px, Roboto Regular Gris Claro.  
-<td><img src="resources/Tipográfica%20.png" alt="Ejemplo Tipográfico"></td>
+<td><img src="resources/Cap-4/General_Style_Guidelines/Typos/Tipográfica%20.png" alt="Ejemplo Tipográfico"></td>
 
 **Line-height y espaciado**  
 - Encabezados: 110%.  
@@ -931,7 +943,7 @@ La tipografía es un eje central en la identidad visual. Se busca un estilo **mo
 
 La iconografía aporta **claridad, simplicidad y accesibilidad** en la navegación.  
 
-<td><img src="resources/Iconografía.png" alt="Iconografía KapakID"></td>
+<td><img src="resources/Cap-4/General_Style_Guidelines/Typos/Iconografía.png" alt="Iconografía KapakID"></td>
 
 - Estilo outline minimalista, 2 px.  
 - Esquinas redondeadas, coherentes con botones y tarjetas.  
@@ -1076,6 +1088,8 @@ Author & Copyright:
 -Author & Copyright:
 <meta name="author" content="KapakID Team"/>
 <meta name="copyright" content="Copyright KapakID Team" />
+
+```
 
 ### 4.2.4. Searching Systems – KapakID  
 
