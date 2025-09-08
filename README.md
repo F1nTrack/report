@@ -717,18 +717,19 @@ El análisis de las tareas de estudiantes universitarios y madres de familia mue
 ### 2.3.3. User Journey Mapping
 - **Empathy Map Estudiante Universitario **
   
-<td><img src="resources/Cap-2/Empathy-Map/Empathy%20map%20Luis.png" alt="Empathy map Luis" ></td>
+<td><img src="resources/Empathy%20map%20Luis.png" alt="Empathy map Luis" ></td>
 
 - **Empathy Map Madre de Familia**
-<td><img src="resources/Cap-2/Empathy-Map/Empathy%20map%20Madre%20de%20Familia%20(1).png" alt="Empathy map Madre de Familia" ></td>
+<td><img src="resources/Empathy%20map%20Madre%20de%20Familia%20(1).png" alt="Empathy map Madre de Familia" ></td>
 
 ### 2.3.4. Empathy Mapping
 **User Journey Mapping Estudiante Universitario** 
- <td><img src="resources/Cap-2/User-Journey-Mapping/User%20Journey%20Mapping%20Estudiante%20universitario%20(1).png" alt="User Journey Mapping Estudiante universitario"></td>
+ <td><img src="resources/User%20Journey%20Mapping%20Estudiante%20universitario%20(1).png" alt="User Journey Mapping Estudiante universitario"></td>
  
 **User Journey Mapping Madre de Familia**  
+<td><img src="resources/Empathy%20map%20Madre%20de%20Familia%20(1).png" alt="Empathy map Madre de Familia" ></td>
 
-<td><img src="resources/Cap-2/User-Journey-Mapping/Customer%20journey%20map%20Madre%20de%20Familia.png" alt="Customer journey map Madre de Familia" ></td>
+<td><img src="resources/Customer%20journey%20map%20Madre%20de%20Familia.png" alt="Customer journey map Madre de Familia" ></td>
 
 ### 2.3.5. As-is Scenario Mapping
 
