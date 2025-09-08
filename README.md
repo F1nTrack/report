@@ -832,7 +832,7 @@ Este lenguaje ubicuo debe ser utilizado de forma consistente por todos los miemb
 
 ## 3.3. Impact Mapping
 
-
+<td><img src="resources/Cap-3/Impact_Mapping/Impact_Mapping.png" alt="Impact Mapping" ></td>
 
 ## 3.4. Product Backlog
 
