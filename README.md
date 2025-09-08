@@ -823,6 +823,23 @@ Este lenguaje ubicuo debe ser utilizado de forma consistente por todos los miemb
 ## 3.3. Impact Mapping
 ## 3.4. Product Backlog
 
+| Order | US ID | Título                           | Descripción                                                                                           | Story Points |
+|-------|-------|-----------------------------------|-------------------------------------------------------------------------------------------------------|--------------|
+| 1     | US10  | Información de funcionalidades   | Como visitante, deseo ver en la landing page las funcionalidades principales de KapakID para entender sus beneficios. | 3 |
+| 2     | US11  | Descarga de la app               | Como visitante, deseo encontrar enlaces de descarga de KapakID en la landing page para instalar la aplicación. | 2 |
+| 3     | US01  | Gestión de perfiles              | Como usuario, deseo registrar y administrar mi perfil para acceder a mis documentos y servicios. | 3 |
+| 4     | US12  | Perfiles familiares              | Como usuario, deseo administrar múltiples perfiles familiares para gestionar documentos de mis hijos o dependientes. | 4 |
+| 5     | US02  | Registro de documentos           | Como usuario, deseo registrar mis documentos personales en formato digital para llevarlos de manera segura. | 5 |
+| 6     | US13  | Renovación de documentos         | Como usuario, deseo realizar la renovación de documentos oficiales desde la app para evitar trámites presenciales. | 5 |
+| 7     | US03  | Recargas y pagos                 | Como usuario, deseo recargar mis tarjetas de transporte y celular, y pagar mis deudas desde la app. | 4 |
+| 8     | US04  | Notificaciones y alertas         | Como usuario, deseo recibir notificaciones de vencimiento y saldo bajo para mantener mis documentos y pagos al día. | 3 |
+| 9     | US05  | Votaciones digitales             | Como usuario, deseo emitir mi voto de manera digital y segura para evitar duplicidad y fraudes. | 5 |
+| 10    | US06  | Acceso offline                   | Como usuario, deseo acceder a mis documentos verificados aun sin conexión a internet para usarlos en emergencias. | 3 |
+| 11    | US07  | Registro de transacciones        | Como usuario, deseo consultar mi historial de pagos y trámites para mantener un control personal. | 3 |
+| 12    | US08  | API de autenticación             | Como developer, deseo contar con un endpoint de autenticación para validar a los usuarios de la aplicación. | 4 |
+| 13    | US09  | API de documentos                | Como developer, deseo exponer un endpoint para registrar y consultar documentos de los usuarios. | 5 |
+
+
 # Capítulo IV: Product Design
 
 En este capítulo se describen las directrices de diseño del producto **KapakID**, estableciendo lineamientos visuales y de interacción que garanticen una experiencia de usuario coherente, accesible y adaptada al contexto peruano.  
