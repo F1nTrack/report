@@ -1145,6 +1145,7 @@ La navegación dentro de la app web se organizará en torno a un **dashboard cen
 
 ## 4.3. Landing Page UI Desing
 ### 4.3.1. Landing Page Wireframes
+<img src="./resources/Cap-4/General_Style_Guidelines/Wireframe Landing.jpg" alt="Wireframe Landing">
 ### 4.3.2. Landing Page Mock-Up
 
 ## 4.4. Web Applications UX/UI Desing
