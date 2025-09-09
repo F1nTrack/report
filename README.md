@@ -597,8 +597,18 @@ ___
 
 #### Segmentos Objetivos:
 
+En KapakID, tenemos dos segmentos objetivos principales que se benefician de las funcionalidades de nuestra aplicación:
+
+* **Estudiantes Universitarios (18–29)**
+
+  Este segmento busca la conveniencia y eficiencia. Su principal problema es la necesidad de llevar múltiples tarjetas (universidad, transporte, débito), lo que aumenta el riesgo de pérdida. KapakID les permite centralizar todo en su celular para hacer consultas de saldo y recargas al instante, simplificando su rutina diaria y reduciendo el riesgo.
+
+* **Padres/Madres o Tutores (25–45)**
+
+  Este grupo se enfoca en la organización y la seguridad familiar. Su dolor es la gestión dispersa de los documentos de sus hijos, desde carnés escolares hasta certificados de vacunas. KapakID resuelve esto con su función premium de perfiles múltiples, que les permite centralizar de forma segura toda la información familiar en un solo lugar, brindándoles control total y tranquilidad.
+
+
 # Capítulo II: Requeriments Elicitation & Analysis
----
 
 ## 2.1 Competidores
 
@@ -1238,11 +1248,18 @@ La navegación dentro de la app web se organizará en torno a un **dashboard cen
 
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Software Architecture Context Diagram
+![](<>)
 ### 4.6.2. Software Architecture Container Diagram
+![](<>)
 ### 4.6.3. Software Architecture Components Diagram
-
+![](<>)
+![](<>)
+![](<>)
+![](<>)
+![](<>)
 ## 4.7. Software Object-Oriented Desing
 ### 4.7.1. Class Diagram
+![](<>)
 ### 4.7.2. Class Dictionary
 
 ## 4.8. Database Desing
