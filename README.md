@@ -617,13 +617,14 @@ El análisis de competidores es un paso esencial para el desarrollo estratégico
 
 #### Entrevistas a estudiantes universitarios
 
-| Campo          | Información |
-|----------------|-------------|
-| Entrevistado 1 | Sebastian Delgado  |
-| Edad           | 20 años     |
-| Distrito       | San Borja   |
-| Foto           | ![Foto entrevistado 1](resources/Cap-1/SSInterview1.png) |
-| Timing         | [Ver grabación](https://drive.google.com/file/d/1L56VeFgJNXZNlBG1SJi8R2q2ly_IwkGr/view?usp=sharing) |
+| Campo         | Información |
+|---------------|-------------|
+| Entrevistado 1 |             |
+| Edad          |             |
+| Distrito      |             |
+| Foto          | ![Foto entrevistado 1]() |
+| Timing        | [Ver grabación]() |
+
 ---
 
 | Campo         | Información |
@@ -820,41 +821,36 @@ Este lenguaje ubicuo debe ser utilizado de forma consistente por todos los miemb
 | US4   | Renovación de documentos    | Como **usuario**, quiero renovar mis documentos vencidos desde la app para evitar trámites presenciales. | **Scenario 1:**<br>Given un documento próximo a vencer <br>When el usuario solicita renovación <br>Then el sistema envía la solicitud a la entidad correspondiente.<br><br>**Scenario 2:**<br>Given un documento ya vencido <br>When el usuario intenta renovarlo <br>Then el sistema informa si la renovación aún es posible. | E2 |
 | US5   | Recarga de transporte       | Como **usuario**, quiero recargar mi tarjeta del Metropolitano para no quedarme sin saldo. | **Scenario 1:**<br>Given un usuario autenticado <br>When selecciona una tarjeta válida y monto de recarga <br>Then el sistema procesa el pago y actualiza el saldo.<br><br>**Scenario 2:**<br>Given una tarjeta inválida <br>When el usuario intenta recargar <br>Then el sistema rechaza la operación. | E3 |
 | US6   | Pago de deudas              | Como **usuario**, quiero pagar mis deudas de servicios o multas desde la app para evitar filas. | **Scenario 1:**<br>Given un usuario autenticado <br>When selecciona una deuda pendiente <br>Then el sistema procesa el pago y registra la operación.<br><br>**Scenario 2:**<br>Given un pago realizado <br>When el usuario consulta el historial <br>Then el sistema muestra el registro de pago exitoso. | E3 |
-| US7   | Registro de transacciones          | Como **usuario**, quiero registrar los movimientos de los documentos que he realizado desde la aplicacion. | **Scenario 1:**<br>Given un usuario autenticado <br>When ingresa para revisar sus movimientos <br>Then el sistema le muestra los movimientos registrados de sus documentos.<br><br>**Scenario 2:**<br>Given un usuario autenticado <br>When accede a un documento vencido <br>Then el sistema le alerta que el documento vencio | E3 |
-| US8   | Voto digital único          | Como **ciudadano**, quiero emitir mi voto en elecciones mediante KapakID para participar de manera segura. | **Scenario 1:**<br>Given un ciudadano autenticado <br>When emite su voto en el proceso electoral vigente <br>Then el sistema registra el voto de forma cifrada.<br><br>**Scenario 2:**<br>Given un ciudadano ya votó <br>When intenta hacerlo nuevamente <br>Then el sistema rechaza el intento.<br><br> **Scenario 3:** Given un cuidadano votante <br> When intenta votar con un Documento de Identidad Vencido <br> Then el sistema rechaza la solicitd y le informa que su documento vencio| E4 |
-| US9   | Alerta de vencimiento       | Como **usuario**, quiero recibir una notificación cuando mis documentos estén próximos a vencer. | **Scenario 1:**<br>Given un documento con 30 días antes de su vencimiento <br>When el sistema procesa la verificación <br>Then envía una alerta al usuario.<br><br>**Scenario 2:**<br>Given un documento vencido <br>When el sistema detecta la fecha caducada <br>Then notifica al usuario inmediatamente. | E5 |
-| US10   | Notificacion de Tramite       | Como **usuario**, quiero recibir una notificación cuando se haya cumplido una solicitu de tramite. | **Scenario 1:**<br>Given un documento puede ser recogido <br>When el sistema procesa la verificación <br>Then envía una alerta al usuario.<br><br>**Scenario 2:**<br>Given un documento nuevo <br>When el sistema detecta la generacion del documento <br>Then notifica al usuario inmediatamente. | E5 |
-| US11   | Acceso a documentos offline | Como **usuario**, quiero acceder a mis documentos verificados incluso sin conexión a internet. | **Scenario 1:**<br>Given un usuario autenticado previamente <br>When no tiene conexión <br>Then el sistema permite visualizar documentos validados.<br><br>**Scenario 2:**<br>Given un usuario sin conexión <br>When intenta realizar una recarga <br>Then el sistema informa que la función no está disponible. | E6 |
-| US12  | Información de funcionalidades | Como **visitante**, quiero ver en la landing page las funcionalidades principales de KapakID para entender sus beneficios. | **Scenario 1:**<br>Given un visitante accede a la landing <br>When navega a la sección de funcionalidades <br>Then visualiza la lista con descripciones claras.<br><br>**Scenario 2:**<br>Given un visitante explora la página <br>When busca información de seguridad <br>Then encuentra detalles sobre la protección de datos. | E7 |
-| US13  | Acceso a la app          | Como **visitante**, quiero encontrar enlaces de acceso de KapakID en la landing page para acceder a la aplicación. | **Scenario 1:**<br>Given un visitante no registrado accede a la landing <br>When hace click en registrate <br>Then redirecciona al signin.<br><br> **Scenario 2:**<br>Given un visitante registrado accede a la landing <br>When hace click en ingresa <br>Then redirecciona al login.<br><br> | E7 |
-| US14  | API de autenticación        | Como **developer**, quiero consumir un endpoint de autenticación para validar credenciales de usuarios. | **Scenario 1:**<br>Given un request con credenciales válidas <br>When se envía al endpoint de login <br>Then el sistema responde con un token válido.<br><br>**Scenario 2:**<br>Given un request con credenciales inválidas <br>When se procesa en el backend <br>Then el sistema devuelve un error 401 Unauthorized. | E8 |
-| US15  | API de documentos           | Como **developer**, quiero consumir un endpoint para registrar y consultar documentos de un usuario. | **Scenario 1:**<br>Given un request válido con documento y metadatos <br>When se envía al endpoint correspondiente <br>Then el sistema responde confirmando el registro.<br><br>**Scenario 2:**<br>Given un request de consulta con un ID de documento válido <br>When se procesa en el backend <br>Then el sistema devuelve la información del documento. | E8 |
+| US7   | Voto digital único          | Como **ciudadano**, quiero emitir mi voto en elecciones mediante KapakID para participar de manera segura. | **Scenario 1:**<br>Given un ciudadano autenticado <br>When emite su voto en el proceso electoral vigente <br>Then el sistema registra el voto de forma cifrada.<br><br>**Scenario 2:**<br>Given un ciudadano ya votó <br>When intenta hacerlo nuevamente <br>Then el sistema rechaza el intento. | E4 |
+| US8   | Alerta de vencimiento       | Como **usuario**, quiero recibir una notificación cuando mis documentos estén próximos a vencer. | **Scenario 1:**<br>Given un documento con 30 días antes de su vencimiento <br>When el sistema procesa la verificación <br>Then envía una alerta al usuario.<br><br>**Scenario 2:**<br>Given un documento vencido <br>When el sistema detecta la fecha caducada <br>Then notifica al usuario inmediatamente. | E5 |
+| US9   | Acceso a documentos offline | Como **usuario**, quiero acceder a mis documentos verificados incluso sin conexión a internet. | **Scenario 1:**<br>Given un usuario autenticado previamente <br>When no tiene conexión <br>Then el sistema permite visualizar documentos validados.<br><br>**Scenario 2:**<br>Given un usuario sin conexión <br>When intenta realizar una recarga <br>Then el sistema informa que la función no está disponible. | E6 |
+| US10  | Información de funcionalidades | Como **visitante**, quiero ver en la landing page las funcionalidades principales de KapakID para entender sus beneficios. | **Scenario 1:**<br>Given un visitante accede a la landing <br>When navega a la sección de funcionalidades <br>Then visualiza la lista con descripciones claras.<br><br>**Scenario 2:**<br>Given un visitante explora la página <br>When busca información de seguridad <br>Then encuentra detalles sobre la protección de datos. | E7 |
+| US11  | Descarga de la app          | Como **visitante**, quiero encontrar enlaces de descarga de KapakID en la landing page para instalar la aplicación. | **Scenario 1:**<br>Given un visitante accede a la landing <br>When navega a la sección de descarga <br>Then visualiza enlaces a App Store y Google Play.<br><br>**Scenario 2:**<br>Given un visitante hace clic en un enlace válido <br>When se redirige a la tienda correspondiente <br>Then puede iniciar la descarga de la app. | E7 |
+| US12  | API de autenticación        | Como **developer**, quiero consumir un endpoint de autenticación para validar credenciales de usuarios. | **Scenario 1:**<br>Given un request con credenciales válidas <br>When se envía al endpoint de login <br>Then el sistema responde con un token válido.<br><br>**Scenario 2:**<br>Given un request con credenciales inválidas <br>When se procesa en el backend <br>Then el sistema devuelve un error 401 Unauthorized. | E8 |
+| US13  | API de documentos           | Como **developer**, quiero consumir un endpoint para registrar y consultar documentos de un usuario. | **Scenario 1:**<br>Given un request válido con documento y metadatos <br>When se envía al endpoint correspondiente <br>Then el sistema responde confirmando el registro.<br><br>**Scenario 2:**<br>Given un request de consulta con un ID de documento válido <br>When se procesa en el backend <br>Then el sistema devuelve la información del documento. | E8 |
 
 
 ## 3.3. Impact Mapping
 
-<td><img src="resources/Cap-3/Impact_Mapping/Impact_Mapping.png" alt="Impact Mapping" ></td>
+
 
 ## 3.4. Product Backlog
 
-| Order | US ID | Título | Descripción | Story Points |
-|-------|-------|--------|-------------|--------------|
-| 1 | US12 | Información de funcionalidades | Como **visitante**, quiero ver en la landing page las funcionalidades principales de KapakID para entender sus beneficios. | 3 |
-| 2 | US13 | Acceso a la app | Como **visitante**, quiero encontrar enlaces de acceso de KapakID en la landing page para acceder a la aplicación. | 2 |
-| 3 | US1 | Registro de usuario | Como **usuario**, quiero registrarme con mi correo o celular para crear mi cuenta en KapakID. | 5 |
-| 4 | US2 | Creación de perfiles familiares | Como **usuario**, quiero agregar perfiles de mis hijos para administrar sus documentos desde mi cuenta. | 4 |
-| 5 | US3 | Registro de documentos | Como **usuario**, quiero registrar mi DNI, pasaporte y otros documentos para tenerlos disponibles en la app. | 5 |
-| 6 | US4 | Renovación de documentos | Como **usuario**, quiero renovar mis documentos vencidos desde la app para evitar trámites presenciales. | 3 |
-| 7 | US5 | Recarga de transporte | Como **usuario**, quiero recargar mi tarjeta del Metropolitano para no quedarme sin saldo. | 4 |
-| 8 | US6 | Pago de deudas | Como **usuario**, quiero pagar mis deudas de servicios o multas desde la app para evitar filas. | 3 |
-| 9 | US7 | Registro de transacciones | Como **usuario**, quiero registrar los movimientos de los documentos que he realizado desde la aplicación. | 4 |
-| 10 | US8 | Voto digital único | Como **ciudadano**, quiero emitir mi voto en elecciones mediante KapakID para participar de manera segura. | 5 |
-| 11 | US9 | Alerta de vencimiento | Como **usuario**, quiero recibir una notificación cuando mis documentos estén próximos a vencer. | 2 |
-| 12 | US10 | Notificación de trámite | Como **usuario**, quiero recibir una notificación cuando se haya cumplido una solicitud de trámite. | 2 |
-| 13 | US11 | Acceso a documentos offline | Como **usuario**, quiero acceder a mis documentos verificados incluso sin conexión a internet. | 3 |
-| 14 | US14 | API de autenticación | Como **developer**, quiero consumir un endpoint de autenticación para validar credenciales de usuarios. | 3 |
-| 15 | US15 | API de documentos | Como **developer**, quiero consumir un endpoint para registrar y consultar documentos de un usuario. | 4 |
-
+| Order | US ID | Título                           | Descripción                                                                                           | Story Points |
+|-------|-------|-----------------------------------|-------------------------------------------------------------------------------------------------------|--------------|
+| 1     | US10  | Información de funcionalidades   | Como visitante, deseo ver en la landing page las funcionalidades principales de KapakID para entender sus beneficios. | 3 |
+| 2     | US11  | Descarga de la app               | Como visitante, deseo encontrar enlaces de descarga de KapakID en la landing page para instalar la aplicación. | 2 |
+| 3     | US01  | Gestión de perfiles              | Como usuario, deseo registrar y administrar mi perfil para acceder a mis documentos y servicios. | 3 |
+| 4     | US12  | Perfiles familiares              | Como usuario, deseo administrar múltiples perfiles familiares para gestionar documentos de mis hijos o dependientes. | 4 |
+| 5     | US02  | Registro de documentos           | Como usuario, deseo registrar mis documentos personales en formato digital para llevarlos de manera segura. | 5 |
+| 6     | US13  | Renovación de documentos         | Como usuario, deseo realizar la renovación de documentos oficiales desde la app para evitar trámites presenciales. | 5 |
+| 7     | US03  | Recargas y pagos                 | Como usuario, deseo recargar mis tarjetas de transporte y celular, y pagar mis deudas desde la app. | 4 |
+| 8     | US04  | Notificaciones y alertas         | Como usuario, deseo recibir notificaciones de vencimiento y saldo bajo para mantener mis documentos y pagos al día. | 3 |
+| 9     | US05  | Votaciones digitales             | Como usuario, deseo emitir mi voto de manera digital y segura para evitar duplicidad y fraudes. | 5 |
+| 10    | US06  | Acceso offline                   | Como usuario, deseo acceder a mis documentos verificados aun sin conexión a internet para usarlos en emergencias. | 3 |
+| 11    | US07  | Registro de transacciones        | Como usuario, deseo consultar mi historial de pagos y trámites para mantener un control personal. | 3 |
+| 12    | US08  | API de autenticación             | Como developer, deseo contar con un endpoint de autenticación para validar a los usuarios de la aplicación. | 4 |
+| 13    | US09  | API de documentos                | Como developer, deseo exponer un endpoint para registrar y consultar documentos de los usuarios. | 5 |
 
 
 # Capítulo IV: Product Design
@@ -1150,10 +1146,20 @@ La navegación dentro de la app web se organizará en torno a un **dashboard cen
 ## 4.3. Landing Page UI Desing
 ### 4.3.1. Landing Page Wireframes
 <img src="./resources/Cap-4/General_Style_Guidelines/Wireframe Landing.jpg" alt="Wireframe Landing">
+
 ### 4.3.2. Landing Page Mock-Up
+
+<img src="./resources/Cap-4/General_Style_Guidelines/LandingPage KapaID Mockup.png" alt="Landing Page Mock-Up2">
+<img src="./resources/Cap-4/General_Style_Guidelines/LandingPage KapaID Mockup2.png" alt="Landing Page Mock-Up">
 
 ## 4.4. Web Applications UX/UI Desing
 ### 4.4.1. Web Applications Wireframes
+<img src="./resources/Cap-4/General_Style_Guidelines/wireframe webaplication1.png" alt="Wireframe web aplication">
+<img src="./resources/Cap-4/General_Style_Guidelines/wireframe webaplication2.png" alt="Wireframe web aplication">
+<img src="./resources/Cap-4/General_Style_Guidelines/wireframe webaplication3.jpg" alt="Wireframe web aplication">
+<img src="./resources/Cap-4/General_Style_Guidelines/wireframe webaplication4.png" alt="Wireframe web aplication">
+<img src="./resources/Cap-4/General_Style_Guidelines/wireframe webaplication5.png" alt="Wireframe web aplication">
+
 ### 4.4.2. Web Applications Wireflow Diagrams
 ### 4.4.3. Web Applications User Flow Diagrams
 
