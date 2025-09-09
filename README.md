@@ -210,7 +210,7 @@ static string[] Integrantes() {
 
    <div align='center'>
      
-   <img src="resources/matias.png" alt="imagen Matias" width="100" align='right'>
+   <img src="resources/Cap-1/Members/matias.png" alt="imagen Matias" width="100" align='right'>
 
    ~~~txt
    Soy estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC), actualmente cursando el 5to ciclo de la carrera.
@@ -389,140 +389,211 @@ ___
 ### 1.2.2 Lean Ux Process
 #### 1.2.2.1. Lean UX Problem Statements
  
-Actualmente, personas particulares, emprendedores y pequeñas empresas enfrentan grandes problemas para gestionar sus finanzas de manera efectiva, ya que no cuentan con los conocimientos, recursos o herramientas necesarias para administrar lo que vienen a ser sus ingresos, gastos, proyecciones y metas financieras. Esto se debe a varios factores, entre ellos tenemos: la falta de educación financiera, el alto costo de contratar expertos en el área y la complejidad de soluciones existentes no adaptadas a sus necesidades, lo que resulta en desequilibrios presupuestarios, decisiones inciertas y dificultades para alcanzar objetivos financieros. <br>
+Actualmente, las personas enfrentan grandes dificultades para gestionar y llevar consigo sus documentos personales y tarjetas, como DNI, pasaporte, tarjetas bancarias, licencias de conducir, carnés universitarios, entre otros, debido a la incomodidad de portar documentos físicos, el riesgo de pérdida o robo, y la falta de una solución digital integrada que facilite su uso y administración. Esto se debe a varios factores, como la ausencia de una plataforma centralizada para almacenar y verificar documentos, la complejidad de realizar trámites digitales como renovaciones o pagos, y la falta de acceso offline a información crítica, lo que resulta en inconvenientes, pérdida de tiempo y dificultades para gestionar trámites y pagos de manera eficiente.
 
-Nosotros consideramos que estos segmentos objetivo necesitan una solución integral y eficiente que les permita tomar el control de sus finanzas sin tener la necesidad de depender de recursos externos que sean demasiado costosos. Por ello, FinTrack resuelve este problema mediante una aplicación web intuitiva, para que cualquier persona pueda usar de esta, que ofrece gestión automatizada de ingresos y gastos, proyecciones financieras basadas en datos históricos que se recopiló, establecimiento de metas y objetivos personalizados, como ahorros, rentabilidad o reducción de deudas, herramientas para simular y gestionar préstamos, y un dashboard home que destaca datos clave como saldos, flujo de dinero, alertas de gastos inusuales y progreso hacia metas. Sabremos que hemos tenido éxito cuando los usuarios reporten una reducción considerable en gastos innecesarios, un aumento significativo en la adherencia a metas financieras y una mejora en la satisfacción con la gestión financiera dentro de los primeros tres meses de uso.
+Nosotros consideramos que estos usuarios necesitan una solución integral y segura que les permita centralizar, gestionar y utilizar sus documentos y tarjetas desde su celular, sin depender de llevar documentos físicos o acceder a múltiples plataformas para realizar trámites. Por ello, KapakID resuelve este problema mediante una aplicación web intuitiva desarrollada en Vue, que permite registrar y verificar documentos como DNI, pasaporte, tarjetas bancarias, licencias, carnés, certificados de vacunas, y más. Ofrece funcionalidades como recarga de tarjetas de transporte, pago de deudas, recarga de teléfono, renovación de documentos, consulta de saldos, historial de trámites y pagos, notificaciones de saldo bajo o vencimiento de documentos, modo offline para acceso limitado a documentos verificados, y una opción premium para gestionar múltiples perfiles (por ejemplo, documentos de hijos). Sabremos que hemos tenido éxito cuando los usuarios reporten una reducción significativa en el uso de documentos físicos, un aumento en la eficiencia al realizar trámites digitales, y una mejora en la satisfacción con la gestión de sus documentos y pagos dentro de los primeros tres meses de uso.
 
 #### 1.2.2.2. Lean UX Assumptions
 
 #### Business Outcomes 📊:
 
 
-* **🔵 Crecimiento de la Base de Usuarios**<br>
+* **🔵 Crecimiento de la Base de Usuarios** <br>
 
-    FinTrack busca atraer a personas particulares, emprendedores y pequeñas empresas con campañas de marketing que resalten la facilidad de uso de la plataforma. Su diseño intuitivo y herramientas como el dashboard home y proyecciones fomentarán una adopción amplia y sostenida.
 
-* **🔵 Alta Retención de Usuarios**<br>
+     KapakID busca atraer a personas que desean gestionar sus documentos y tarjetas de manera digital con campañas de marketing que resalten la facilidad de uso de la plataforma. Su diseño intuitivo y herramientas como el registro de DNI, pasaporte, tarjetas bancarias y notificaciones fomentarán una adopción amplia y sostenida.
 
-    BUscamos retener a los usuarios comprometidos con una experiencia fluida y funcionalidades valiosas como metas personalizadas y alertas de gastos. El dashboard home, claro y accesible, asegurará que los usuarios integren la plataforma en su rutina financiera.
 
-* **🔵 Ingresos por Suscripciones Premium**<br>
 
-    Generaremos ingresos a través de suscripciones premium, con funciones avanzadas como proyecciones detalladas y análisis de préstamos. Estas herramientas motivarán a los usuarios a optar por planes pagos para mejorar su gestión financiera.
+* **🔵 Alta Retención de Usuarios** <br>
 
-* **🔵 Minimización del Churn Rate**<br>
 
-    Reducir la pérdida de usuarios es clave, incluso imprescindible, para FinTrack. Con un dashboard home útil y herramientas como metas y proyecciones, la plataforma ofrecerá valor continuo, manteniendo a los usuarios leales y comprometidos a largo plazo.
+     Buscamos retener a los usuarios comprometidos con una experiencia fluida y funcionalidades valiosas como consulta de saldos, historial de trámites y notificaciones de vencimiento. El dashboard principal, claro y accesible, asegurará que los usuarios integren KapakID en su rutina diaria.
 
-* **🔵 Satisfacción del Usuario (NPS)**<br>
 
-    FinTrack maximizará la satisfacción con una interfaz intuitiva y funciones prácticas como el dashboard home y gestión de préstamos. La retroalimentación constante permitirá ajustar la plataforma para superar las expectativas de los usuarios.
 
-* **🔵 Adopción de Proyecciones Financieras**<br>
+* **🔵 Ingresos por Suscripciones Premium** <br>
 
-     Fomentaremos el uso de proyecciones financieras, ayudando a los usuarios a planificar con datos históricos. Integrada en el dashboard home, esta herramienta será clave para que personas y empresas tomen decisiones estratégicas.
 
-* **🔵 Establecimiento de Metas Financieras**<br>
+     Generaremos ingresos a través de suscripciones premium, con funciones avanzadas como soporte para múltiples perfiles (por ejemplo, para gestionar documentos de hijos). Estas herramientas motivarán a los usuarios a optar por planes pagos para una mayor comodidad en la gestión de documentos.
 
-     Buscaremos motivar a los usuarios a definir metas, como ahorrar o reducir deudas, con una interfaz sencilla y notificaciones motivadoras en el dashboard home. Esto convertirá a la plataforma en un aliado para el éxito financiero de cualquier negocio.
 
-* **🔵 Optimización de Costos Empresariales**<br>
 
-     FinTrack ayudará a pequeñas empresas a optimizar costos con herramientas de gestión de gastos e ingresos y reportes en el dashboard home. Recomendaciones personalizadas apoyarán la estabilidad y el crecimiento financiero.
+* **🔵 Minimización del Churn Rate** <br>
 
-* **🔵 Precisión en Proyecciones de Emprendedores**<br>
 
-     FinTrack mejorará las proyecciones de emprendedores con datos históricos y escenarios confiables, accesibles desde el dashboard home. Esto les permitirá planificar estratégicamente y reducir riesgos en sus proyectos.
+     Reducir la pérdida de usuarios es clave para KapakID. Con un dashboard principal útil y herramientas como modo offline y notificaciones de vencimiento, la plataforma ofrecerá valor continuo, manteniendo a los usuarios leales y comprometidos a largo plazo.
 
-* **🔵 Usuarios Activos en Pequeñas Empresas**<br>
 
-     FinTrack atraerá a pequeñas empresas con herramientas colaborativas y un  dashboard home intuitivo. Su enfoque asequible y escalable lo convertirá en la opción ideal para gestionar finanzas empresariales.
 
-* **🔵 Uso de Gestión de Préstamos**<br>
+* **🔵 Satisfacción del Usuario (NPS)** <br>
 
-     FinTrack promoverá el uso de su calculadora de préstamos, permitiendo a los usuarios evaluar opciones de financiamiento desde el dashboard home. Esto facilitará decisiones responsables y aumentará la confianza en la plataforma.
 
-* **🔵 Asociaciones con Instituciones Financieras**<br>
+     KapakID maximizará la satisfacción con una interfaz intuitiva y funciones prácticas como recarga de tarjetas, renovación de documentos y modo offline. La retroalimentación constante permitirá ajustar la plataforma para superar las expectativas de los usuarios.
 
-    FinTrack establecerá alianzas con instituciones financieras para integrar servicios bancarios y préstamos. Estas colaboraciones, accesibles desde el dashboard home, enriquecerán la experiencia y el valor para los usuarios.
 
-* **🔵 Frecuencia de Uso del Dashboard Home**<br>
 
-    FinTrack incentivará el uso frecuente del dashboard home, que muestra saldos, tendencias y metas de forma clara. Su diseño atractivo asegurará que los usuarios lo consulten regularmente para gestionar sus finanzas.
+* **🔵 Adopción de Funciones de Gestión de Documentos** <br>
 
-* **🔵 Precisión en Alertas de Gastos**<br>
 
-    FinTrack fortalecerá la confianza con alertas precisas de gastos inusuales, integradas en el dashboard home. Estas notificaciones ayudarán a los usuarios a identificar anomalías y tomar medidas rápidas.
+     Fomentaremos el uso de herramientas para registrar y verificar documentos como DNI, pasaporte, licencias y carnés, accesibles desde el dashboard principal. Estas funcionalidades serán clave para que los usuarios reemplacen documentos físicos por la app.
+
+
+
+* **🔵 Establecimiento de Hábitos de Gestión Digital** <br>
+
+
+     Buscaremos motivar a los usuarios a gestionar trámites y pagos, como recargas de teléfono o renovación de documentos, con una interfaz sencilla y notificaciones motivadoras en el dashboard principal. Esto convertirá a KapakID en un aliado para la organización personal.
+
+
+
+* **🔵 Optimización de Trámites Digitales** <br>
+
+
+     KapakID ayudará a los usuarios a optimizar trámites con herramientas de renovación de documentos, consulta de saldos y historial de pagos, accesibles desde el dashboard principal. Notificaciones personalizadas apoyarán la eficiencia y la organización.
+
+
+
+* **🔵 Precisión en Notificaciones de Vencimiento** <br>
+
+
+     KapakID mejorará la experiencia con notificaciones precisas sobre vencimientos de documentos o saldos bajos, integradas en el dashboard principal. Esto permitirá a los usuarios planificar y actuar con anticipación.
+
+
+
+* **🔵 Usuarios Activos en Familias** <br>
+
+
+     KapakID atraerá a familias con la opción premium para gestionar múltiples perfiles, como documentos de hijos, desde un dashboard principal intuitivo. Su enfoque práctico y escalable lo convertirá en la opción ideal para la gestión documental familiar.
+
+
+
+* **🔵 Uso de Funciones de Pago y Recarga** <br>
+
+
+     KapakID promoverá el uso de herramientas para recargar tarjetas de transporte, pagar deudas y recargar teléfonos desde el dashboard principal. Esto facilitará una gestión financiera responsable y aumentará la confianza en la plataforma.
+
+
+
+* **🔵 Asociaciones con Entidades Gubernamentales y Financieras** <br>
+
+
+     KapakID establecerá alianzas con entidades gubernamentales y financieras para integrar servicios como renovación de documentos y pagos de tarjetas. Estas colaboraciones, accesibles desde el dashboard principal, enriquecerán la experiencia y el valor para los usuarios.
+
+
+
+* **🔵 Frecuencia de Uso del Dashboard Principal** <br>
+
+
+     KapakID incentivará el uso frecuente del dashboard principal, que muestra documentos, saldos, historial de trámites y notificaciones de forma clara. Su diseño atractivo asegurará que los usuarios lo consulten regularmente para gestionar sus documentos y pagos.
+
+
+
+* **🔵 Precisión en Notificaciones de Saldo Bajo**<br>
+
+     KapakID fortalecerá la confianza con notificaciones precisas de saldos bajos en tarjetas, integradas en el dashboard principal. Estas alertas ayudarán a los usuarios a identificar necesidades de recarga y tomar medidas rápidas.
+
+
 
 * **🔵 Reducción de Costos de Soporte**<br>
 
-     FinTrack minimizará los costos de soporte con tutoriales interactivos y FAQs integrados en la plataforma. Esto permitirá a los usuarios resolver dudas de forma autónoma, mejorando la experiencia general.
+     KapakID minimizará los costos de soporte con tutoriales interactivos y FAQs integrados en la plataforma. Esto permitirá a los usuarios resolver dudas de forma autónoma, mejorando la experiencia general.
 
-#### User Outcomes 🙋
+### User Outcomes 🙋
 
-* **🟢 Control Financiero Personal Mejorado**<br>
+* **🟢 Control Documental Personal Mejorado**<br>
 
-     Los usuarios de FinTrack, especialmente personas particulares, lograrán un mayor control sobre sus finanzas personales al utilizar herramientas de gestión de gastos e ingresos. El dashboard home les proporcionará una visión clara de sus saldos y tendencias, permitiéndoles identificar oportunidades de ahorro y tomar decisiones informadas para mejorar su estabilidad financiera.
+     Los usuarios de KapakID lograrán un mayor control sobre sus documentos personales y tarjetas, como DNI, pasaporte, licencias y carnés, al utilizar herramientas de registro y verificación digital. El dashboard principal les proporcionará una visión clara de sus documentos, saldos y trámites, permitiéndoles gestionar todo desde su celular y reducir la dependencia de documentos físicos.
 
-* **🟢 Planificación Estratégica para Emprendedores**<br>
+* **🟢 Organización Eficiente para Familias**<br>
 
-     Los emprendedores usarán FinTrack para planificar estratégicamente sus proyectos, aprovechando las proyecciones financieras basadas en datos históricos. El dashboard home les ofrecerá una vista consolidada de su flujo de caja y metas, ayudándoles a anticipar desafíos y ajustar sus estrategias para asegurar el éxito de sus iniciativas.
+     Los usuarios, especialmente familias, usarán KapakID para organizar documentos de múltiples perfiles (como los de sus hijos) con la opción premium. El dashboard principal les ofrecerá una vista consolidada de documentos y trámites, ayudándoles a anticipar vencimientos y gestionar renovaciones de manera eficiente.
 
-* **🟢 Optimización de Recursos en Pequeñas Empresas**<br>
+* **🟢 Optimización de Trámites Digitales**<br>
 
-     Las pequeñas empresas optimizarán sus recursos financieros con FinTrack, utilizando la gestión colaborativa de gastos e ingresos y reportes detallados en el dashboard home. Esto les permitirá identificar ineficiencias, reducir costos operativos y enfocar sus esfuerzos en el crecimiento sostenible de sus operaciones.
+     Los usuarios optimizarán sus trámites con KapakID, utilizando herramientas para renovar documentos, recargar tarjetas de transporte y pagar deudas desde el dashboard principal. Esto les permitirá ahorrar tiempo, reducir la necesidad de acudir a oficinas físicas y mantener un historial organizado de sus gestiones.
 
-* **🟢 Confianza en Decisiones de Préstamos**<br>
+* **🟢 Confianza en la Gestión de Pagos**<br>
 
-     Los usuarios que buscan financiamiento encontrarán en FinTrack una herramienta confiable para evaluar préstamos mediante la calculadora integrada. Desde el dashboard home, podrán simular escenarios de endeudamiento, tomar decisiones responsables y planificar pagos sin comprometer su estabilidad financiera.
+     Los usuarios que realizan pagos encontrarán en KapakID una herramienta confiable para recargar tarjetas, pagar deudas o recargar teléfonos. Desde el dashboard principal, podrán consultar saldos y revisar el historial de pagos, tomando decisiones informadas sin comprometer su organización financiera.
 
-* **🟢 Adopción de Metas Financieras Personalizadas**<br>
+* **🟢 Adopción de Gestión Documental Digital**<br>
 
-     FinTrack empoderará a los usuarios para establecer y seguir metas financieras, como ahorrar para una compra o reducir deudas, con una interfaz sencilla y notificaciones motivadoras en el dashboard home. Esto les ayudará a mantenerse enfocados y a alcanzar sus objetivos financieros con mayor facilidad.
+     KapakID empoderará a los usuarios para gestionar documentos digitalmente, como DNI, pasaporte o certificados, con una interfaz sencilla y notificaciones de vencimiento en el dashboard principal. Esto les ayudará a mantenerse organizados y reducir el uso de documentos físicos con facilidad.
 
-* **🟢 Reducción del Estrés Financiero**<br>
+* **🟢 Reducción del Estrés Documental**<br>
 
-     Los usuarios experimentarán menos estrés financiero al usar FinTrack, gracias a la claridad que ofrece el dashboard home y las alertas de gastos inusuales. Estas funcionalidades les permitirán monitorear sus finanzas en tiempo real, reaccionar ante anomalías y mantener el control sin esfuerzo.
+     Los usuarios experimentarán menos estrés al gestionar documentos gracias a la claridad que ofrece el dashboard principal y las notificaciones de vencimiento o saldo bajo. Estas funcionalidades les permitirán monitorear sus documentos en tiempo real, reaccionar ante alertas y mantener el control sin esfuerzo.
 
-* **🟢 Mayor Confianza en Proyecciones Financieras**<br>
+* **🟢 Mayor Confianza en la Seguridad de Documentos**<br>
 
-     FinTrack aumentará la confianza de los usuarios en sus proyecciones financieras al proporcionar escenarios precisos basados en datos históricos, accesibles desde el dashboard home. Esto permitirá a personas y empresas anticipar tendencias y tomar decisiones proactivas para su futuro financiero.
+     KapakID aumentará la confianza de los usuarios al proporcionar un entorno seguro para almacenar y verificar documentos, con acceso offline a documentos verificados desde el dashboard principal. Esto permitirá a los usuarios sentirse protegidos y acceder a su información incluso sin conexión.
 
 * **🟢 Experiencia de Uso Intuitiva**<br>
 
-     Los usuarios disfrutarán de una experiencia fluida y accesible con FinTrack, gracias a su interfaz intuitiva y al dashboard home que centraliza datos clave. Esto facilitará la adopción de la plataforma, incluso para aquellos con poca experiencia financiera, integrándola en su rutina diaria.
+     Los usuarios disfrutarán de una experiencia fluida y accesible con KapakID, gracias a su interfaz intuitiva y al dashboard principal que centraliza documentos, saldos y trámites. Esto facilitará la adopción de la plataforma, incluso para aquellos con poca experiencia digital, integrándola en su rutina diaria.
 
-* **🟢 Toma de Decisiones Colaborativas en Equipos**<br>
+* **🟢 Gestión Colaborativa de Documentos Familiares**<br>
 
-     Las pequeñas empresas se beneficiarán de las herramientas colaborativas de FinTrack, que permiten a los equipos gestionar finanzas juntos. El dashboard home ofrecerá una visión compartida de los datos, fomentando decisiones coordinadas que impulsen la eficiencia y el crecimiento.
+     Las familias se beneficiarán de la opción premium de KapakID, que permite gestionar documentos de varios miembros desde el dashboard principal. Esto fomentará una organización coordinada, asegurando que todos los documentos estén centralizados y accesibles.
 
-* **🟢 Acceso a Recursos Financieros Externos**<br>
+* **🟢 Acceso a Servicios de Trámites Externos**<br>
 
-     A través de asociaciones con instituciones financieras, los usuarios de FinTrack accederán a servicios bancarios y opciones de préstamos directamente desde la plataforma. Esto, integrado en el dashboard home, enriquecerá su experiencia y les proporcionará recursos adicionales para gestionar sus finanzas.
+     A través de asociaciones con entidades gubernamentales y financieras, los usuarios de KapakID accederán a servicios como renovación de documentos o pagos directamente desde la plataforma. Esto, integrado en el dashboard principal, enriquecerá su experiencia y les proporcionará recursos adicionales para gestionar sus documentos.
 
-* **🟢 Monitoreo Frecuente de Finanzas**<br>
+* **🟢 Monitoreo Frecuente de Documentos y Pagos**<br>
 
-     FinTrack incentivará a los usuarios a monitorear sus finanzas regularmente a través del dashboard home, que presenta saldos, metas y tendencias de forma clara. Este hábito les permitirá mantenerse informados y tomar medidas rápidas para mantener sus finanzas en orden.
+     KapakID incentivará a los usuarios a monitorear sus documentos y pagos regularmente a través del dashboard principal, que presenta documentos, saldos, historial de trámites y notificaciones de forma clara. Este hábito les permitirá mantenerse informados y tomar medidas rápidas para mantener todo en orden.
 
 * **🟢 Resolución Autónoma de Dudas**<br>
 
-     Los usuarios resolverán dudas de manera autónoma con los tutoriales interactivos y FAQs integrados en FinTrack. Esta funcionalidad reducirá la necesidad de soporte externo, permitiéndoles aprovechar al máximo la plataforma con confianza y facilidad.
+     Los usuarios resolverán dudas de manera autónoma con los tutoriales interactivos y FAQs integrados en KapakID. Esta funcionalidad reducirá la necesidad de soporte externo, permitiéndoles aprovechar al máximo la plataforma con confianza y facilidad.
 
-* **🟢 Mayor Claridad en Gastos e Ingresos**<br>
+* **🟢 Mayor Claridad en Trámites y Pagos**<br>
 
-     FinTrack ayudará a los usuarios a comprender mejor sus patrones de gastos e ingresos mediante reportes claros en el dashboard home. Esta claridad les permitirá ajustar sus hábitos financieros y alinear sus decisiones con sus objetivos a largo plazo.
+     KapakID ayudará a los usuarios a comprender mejor sus trámites y pagos mediante reportes claros en el dashboard principal. Esta claridad les permitirá ajustar sus hábitos de gestión y alinear sus decisiones con sus necesidades personales o familiares.
 
-* **🟢 Motivación para Alcanzar Metas**<br>
+* **🟢 Motivación para Mantener Documentos Actualizados**<br>
 
-     Los usuarios se sentirán motivados para alcanzar sus metas financieras con las notificaciones de progreso y recordatorios de FinTrack, integrados en el dashboard home. Esta funcionalidad les ayudará a mantenerse enfocados y celebrar sus logros financieros.
+     Los usuarios se sentirán motivados para mantener sus documentos actualizados con las notificaciones de vencimiento y recordatorios de KapakID, integrados en el dashboard principal. Esta funcionalidad les ayudará a mantenerse organizados y celebrar sus logros en la gestión documental.
 
-* **🟢 Reducción de Errores en Gestión Financiera**<br>
+* **🟢 Reducción de Errores en Gestión Documental**<br>
 
-     FinTrack minimizará los errores en la gestión financiera al automatizar el registro de transacciones y ofrecer alertas precisas en el dashboard home. Esto permitirá a los usuarios evitar equivocaciones costosas y mantener registros precisos con menos esfuerzo.
+     KapakID minimizará los errores en la gestión documental al automatizar el registro de documentos y ofrecer notificaciones precisas en el dashboard principal. Esto permitirá a los usuarios evitar equivocaciones costosas y mantener registros precisos con menos esfuerzo.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
+💡Creemos que digitalizar y centralizar todos los documentos personales y tarjetas en KapakID facilitará la vida diaria de los usuarios al reducir la dependencia de llevar documentos físicos.
+
+💭Sabremos que esto es cierto cuando los usuarios reporten un uso reducido de su billetera física para trámites o pagos cotidianos en el primer mes de uso.
+___
+💡Creemos que las notificaciones automatizadas sobre vencimientos de documentos y saldos bajos ayudarán a los usuarios a mantenerse proactivos y a evitar inconvenientes o estrés por no tener sus documentos al día.
+
+💭Sabremos que esto es cierto cuando el 90% de los usuarios que reciban una notificación de vencimiento inicien el trámite de renovación directamente desde la app, y cuando el uso de la función de recarga aumente un 15% tras las alertas de saldo bajo.
+___
+💡Creemos que la función de modo offline proporcionará un valor esencial y aumentará la confianza del usuario, asegurando que siempre tengan acceso a sus documentos verificados, incluso sin conexión a internet.
+
+💭Sabremos que esto es cierto cuando al menos el 20% de los usuarios acceda a la app en modo offline en un periodo de 30 días, y cuando los comentarios sobre la seguridad y la conveniencia de esta función sean consistentemente positivos.
+___
+💡Creemos que el plan premium con soporte para múltiples perfiles motivará a los usuarios a suscribirse, ya que les permitirá administrar de forma eficiente los documentos de sus hijos y otros miembros de la familia.
+
+💭Sabremos que esto es cierto cuando al menos el 10% de los usuarios que usen la prueba gratuita del plan premium decidan pagar por la suscripción en el primer mes.
+___
+💡Creemos que una interfaz de usuario intuitiva y los tutoriales interactivos permitirán a usuarios con poca familiaridad tecnológica adoptar la app y completar tareas clave como el registro de documentos y los trámites sin necesitar soporte técnico directo.
+
+💭Sabremos que esto es cierto cuando el 85% de los usuarios nuevos completen su perfil y registren al menos tres documentos personales en la primera semana sin abrir un ticket de soporte.
+___
+💡Creemos que la integración con entidades gubernamentales para la renovación de documentos y el acceso a servicios como el pago de impuestos o multas facilitará la adopción masiva, ya que los usuarios verán la app como una plataforma oficial y confiable para realizar trámites importantes.
+
+💭Sabremos que esto es cierto cuando al menos el 25% de los usuarios que hayan registrado un documento con fecha de vencimiento próxima intenten iniciar el proceso de renovación a través de la app.
+___
+💡Creemos que la capacidad de pagar deudas y servicios básicos (como la recarga de teléfono) directamente desde KapakID aumentará la frecuencia de uso diario y posicionará a la app como una herramienta esencial para la gestión financiera personal.
+
+💭Sabremos que esto es cierto cuando el 40% de los usuarios que tengan tarjetas bancarias registradas realicen al menos una transacción de pago o recarga en un periodo de 30 días.
+
 #### 1.2.2.4. Lean UX Canvas
+
+![Lean UX Canvas](<resources/Cap-1/LeanUX/Lean UX Canvas.png>)
 
 #### Segmentos Objetivos:
 
