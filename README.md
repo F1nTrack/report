@@ -617,14 +617,13 @@ El análisis de competidores es un paso esencial para el desarrollo estratégico
 
 #### Entrevistas a estudiantes universitarios
 
-| Campo         | Información |
-|---------------|-------------|
-| Entrevistado 1 |             |
-| Edad          |             |
-| Distrito      |             |
-| Foto          | ![Foto entrevistado 1]() |
-| Timing        | [Ver grabación]() |
-
+| Campo          | Información |
+|----------------|-------------|
+| Entrevistado 1 | Sebastian Delgado  |
+| Edad           | 20 años     |
+| Distrito       | San Borja   |
+| Foto           | ![Foto entrevistado 1](resources/Cap-1/SSInterview1.png) |
+| Timing         | [Ver grabación](https://drive.google.com/file/d/1L56VeFgJNXZNlBG1SJi8R2q2ly_IwkGr/view?usp=sharing) |
 ---
 
 | Campo         | Información |
