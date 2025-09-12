@@ -1255,10 +1255,12 @@ La navegación dentro de la app web se organizará en torno a un **dashboard cen
 ## 4.5. Web Applications Prototyping
 
 ## 4.6. Domain-Driven Software Architecture
+En el apartado de Domain Driven Software Architecture para KapakID, puedes introducir el concepto destacando cómo esta metodología guía el diseño de la aplicación alineándose con el dominio del negocio. Por ejemplo:
+"La arquitectura orientada al dominio (DDD) para KapakID se centra en modelar el sistema en torno al dominio del negocio, que es la gestión digital de documentos y tarjetas personales, como DNI, pasaportes, carnés y tarjetas de transporte, junto con funcionalidades de transacciones, renovaciones y notificaciones. Este enfoque asegura que el software refleje fielmente las necesidades de los usuarios (jóvenes y adultos) y los procesos clave, como registro de documentos, pagos y soporte premium para perfiles familiares. Al emplear DDD, priorizamos un lenguaje ubicuo que unifica la comunicación entre el equipo técnico y los stakeholders, garantizando que cada componente del sistema responda directamente a los requisitos del dominio, promoviendo una solución robusta, escalable y alineada con el propósito de ofrecer una billetera digital integral, segura y accesible.
 ### 4.6.1. Software Architecture Context Diagram
 ![context diagram c4](<resources/Cap-4/Model_C4/structurizr-SystemContext-001.png>)
 ### 4.6.2. Software Architecture Container Diagram
-![](<>)
+![container diagram c4](<resources/Cap-4/Model_C4/structurizr-ContainerDiagram.png>)
 ### 4.6.3. Software Architecture Components Diagram
 ![](<>)
 ![](<>)
