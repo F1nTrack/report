@@ -1256,7 +1256,7 @@ La navegación dentro de la app web se organizará en torno a un **dashboard cen
 
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Software Architecture Context Diagram
-![](<>)
+![context diagram c4](<resources/Cap-4/Model_C4/structurizr-SystemContext-001.png>)
 ### 4.6.2. Software Architecture Container Diagram
 ![](<>)
 ### 4.6.3. Software Architecture Components Diagram
