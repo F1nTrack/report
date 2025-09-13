@@ -1085,7 +1085,7 @@ Se implementará un **diseño adaptable (Responsive Design)** que optimice la pr
 
 Este diseño garantiza **usabilidad, eficiencia y confianza**, consolidando a KapakID como una **super-app peruana de conectividad y modernidad digital**.
 
----
+
 ## 4.2. Information Architecture
 ### 4.2.1. Organization Systems
 
@@ -1123,8 +1123,7 @@ Este diseño garantiza **usabilidad, eficiencia y confianza**, consolidando a Ka
 #### Búsqueda de Documentos y Servicios
 - **Esquema de categorización:** Alfabético.  
 - Localización rápida de documentos y servicios.  
-
----
+  
 ### 4.2.2. Labeling Systems
 #### Landing Page
 - **Home/Inicio:** Propuesta de valor de KapakID.  
@@ -1144,7 +1143,7 @@ Este diseño garantiza **usabilidad, eficiencia y confianza**, consolidando a Ka
 - **Favoritos:** Acceso a elementos prioritarios.  
 - **Alertas/Notificaciones:** Vencimientos, saldos bajos, pagos pendientes.  
 - **Soporte:** FAQs, guías y contacto con atención al cliente.  
----
+  
 
 ### 4.2.3. SEO Tags and Meta Tags
 – KapakID  
@@ -1216,21 +1215,25 @@ Se implementará un menú superior con enlaces visibles hacia:
 - **Acerca de:** Información del equipo y visión de KapakID.  
 - **Contacto:** Formulario y canales de atención.  
 
-El logotipo funcionará como acceso directo al inicio, asegurando navegación fluida.  
----
+
 #### Web Application  
-La navegación dentro de la app web se organizará en torno a un **dashboard central** que aparecerá tras el inicio de sesión, mostrando accesos rápidos a las funciones principales.  
 
-- **Dashboard principal:** Acceso directo a identidad, billetera, transporte y notificaciones.  
+Dentro de la **aplicación web**, la navegación se centrará en un **dashboard central**, accesible tras el inicio de sesión.  
 
-- **Panel lateral de navegación:**  
-  - Perfil: Información personal, configuración y preferencias.  
-  - Documentos: Gestión y validación de DNI, brevete, carnés, etc.  
-  - Pagos: Historial de transacciones, métodos de pago y recargas.  
-  - Transporte: Acceso a tickets, pasajes y movilidad urbana.  
-  - Historial: Registros cronológicos de actividades y validaciones.  
-  - Notificaciones: Alertas de vencimiento, confirmaciones de pago o actualizaciones del sistema.  
-  - Soporte / Ayuda: Acceso a FAQs y contacto directo con asistencia.  
+- **Dashboard principal:**  
+  Vista general con accesos rápidos a identidad, billetera digital, transporte y notificaciones prioritarias.  
+
+- **Panel lateral de navegación (sidebar):**  
+  - **Perfil:** Información personal, configuración y preferencias.  
+  - **Documentos:** Gestión y validación de DNI, brevete, carnés, etc.  
+  - **Pagos:** Métodos de pago, recargas, historial de transacciones y comprobantes.  
+  - **Transporte:** Tickets, pasajes electrónicos y servicios de movilidad urbana.  
+  - **Historial:** Registro cronológico de actividades, transacciones y validaciones.  
+  - **Notificaciones:** Alertas de vencimiento, confirmaciones y actualizaciones del sistema.  
+  - **Soporte / Ayuda:** FAQs, chat en línea y contacto directo con asistencia.  
+
+- **Consistencia visual:** El logotipo en la parte superior del sidebar permitirá volver al **dashboard principal**.  
+- **Acciones rápidas:** Atajos destacados en el dashboard (ej. “Validar documento”, “Recargar saldo”, “Comprar pasaje”) para reducir clics y mejorar eficiencia.  
 
 ## 4.3. Landing Page UI Desing
 ### 4.3.1. Landing Page Wireframes
