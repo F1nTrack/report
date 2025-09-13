@@ -700,12 +700,11 @@ El análisis de competidores es un paso esencial para el desarrollo estratégico
 
 | Campo         | Información |
 |---------------|-------------|
-| Entrevistado 1 |             |
-| Edad          |             |
-| Distrito      |             |
-| Foto          | ![Foto entrevistado 1]() |
-| Timing        | [Ver grabación]() |
-
+| Entrevistado 1 | Hany Pareja Berocal |
+| Edad          | 20 años |
+| Distrito      | Miraflores |
+| Foto          | ![Foto entrevistado 1](resources/Cap-2/registro%20de%20entrevistas/entrevista%20KapakID.png) |
+| Timing        | [Ver grabación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c576_upc_edu_pe/EQuM6qNAe-5MhSFGE_dESuYBpHtdmfK5y9TPWPT4EQjGyA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1WERnv) |
 ---
 
 | Campo         | Información |
@@ -762,6 +761,56 @@ El análisis de competidores es un paso esencial para el desarrollo estratégico
 
 
 ### 2.2.3. Análisis de entrevistas
+
+**Segmento 1: Jóvenes universitarios usuarios de transporte y documentos digitales (Hany Pareja Berocal)**
+
+  * **Perfil**
+    * Hany, 20 años, estudiante universitario en Miraflores, usa diariamente DNI, carné universitario, tarjeta del corredor y tarjeta bancaria. Maneja múltiples documentos físicos para distintos contextos: identificación, acceso a campus, transporte y pagos.  
+
+  * **Insights clave**
+    * Los usuarios jóvenes dependen de una combinación de documentos físicos y tarjetas para actividades cotidianas, pero los procesos presenciales generan fricción y estrés, especialmente al olvidar tarjetas o enfrentar colas para recargas.  
+    * Valoran la eficiencia, la conveniencia y la seguridad digital como factores determinantes para adoptar nuevas soluciones.  
+    * Prefieren alertas multicanal (push y WhatsApp) con anticipación suficiente para evitar problemas con vencimientos o saldo bajo.  
+
+  * **Problemas y frustraciones**
+    * Olvido de tarjeta de transporte obliga a pagos en efectivo, generando inconvenientes.  
+    * Recargar tarjetas físicas implica tiempo de espera y desplazamientos.  
+    * Renovación de documentos como DNI es percibida como complicada y estresante por colas y citas.  
+
+  * **Necesidades**
+    ```
+    Gestión centralizada de documentos y tarjetas para reducir fricción y olvidos.
+    ```
+    ```
+    Alertas multicanal y personalizables que notifiquen vencimientos de documentos y saldo bajo.
+    ```
+    ```
+    Funcionalidades offline y perfiles múltiples que permitan organizar documentos personales y académicos.
+    ```
+    ```
+    Métodos seguros de almacenamiento digital (biometría, PIN, cifrado) para garantizar confianza.
+    ```
+    ```
+    Recarga de transporte y pagos integrados dentro de la app para ahorrar tiempo.
+    ```
+
+  * **Oportunidades para KapakID**
+    ```
+    Alertas multicanal: Implementar notificaciones push y por WhatsApp para documentos y saldo bajo.
+    ```
+    ```
+    Gestión integral: Permitir almacenar, organizar y acceder a documentos personales y académicos desde la app.
+    ```
+    ```
+    Recargas y pagos integrados: Incluir funcionalidades para recargar tarjetas de transporte y realizar pagos de manera segura.
+    ```
+    ```
+    Funcionalidades offline: Garantizar acceso a documentos y perfiles sin conexión a internet.
+    ```
+    ```
+    Modelo freemium/premium: Ofrecer funciones avanzadas (historial, perfiles múltiples, checklist de trámites) con opción de suscripción anual.
+    ```
+
 
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
