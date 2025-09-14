@@ -168,66 +168,42 @@ static string[] Integrantes() {
   <h2>1.1 Startup Profile</h2>
 
   <!-- 1.1.1 Descripción de la Startup -->
-  <article id="descripcion-startup">
-    <h3>1.1.1. Descripción de la Startup</h3>
-    <p>
-      <strong>F1nTrack</strong> es una startup enfocada en desarrollar soluciones
-      tecnológicas para la <strong>gestión personal y empresarial de finanzas</strong>. Nuestro objetivo
-      es ayudar a los usuarios a controlar ingresos, egresos, presupuestos y metas financieras mediante
-      una aplicación web intuitiva y escalable.
-    </p>
-    <p>Propuesta de valor:</p>
-    <ul>
-      <li><strong>Riesgo de pérdida o robo</strong> de documentos esenciales (DNI, tarjetas bancarias, licencias), lo que genera estrés y largos trámites de reposición.</li>
-      <li><strong>Pérdida de tiempo</strong> en la búsqueda de documentos específicos o la consolidación de información, como saldos de tarjetas de transporte o fechas de vencimiento.</li>
-      <li><strong>Falta de acceso</strong> a documentos en situaciones de emergencia o cuando no se llevan consigo.</li>
-      <li><strong>Dificultades para recordar</strong> y gestionar las fechas de vencimiento de licencias, carnés y certificados.</li>
-      <li><strong>Falta de integración</strong> con sistemas de recarga o pago de servicios, lo que obliga a usar múltiples apps o métodos.</li>
-    </ul>
-    <p>
-      Además, los usuarios finales (estudiantes, padres, profesionales) no cuentan con 
-      una solución accesible y centralizada para monitorear sus documentos personales, 
-      realizar pagos o trámites y tener todo en un solo lugar.
-    </p>
-    
-    <h3>Objetivo del Proyecto 📌</h3>
-    <p>
-      Desarrollar <strong>KapakID</strong>, una plataforma integral, segura y en la nube 
-      para la gestión de documentos personales, que permita a los usuarios:
-    </p>
-    <ul>
-      <li><strong>Acceder</strong> a sus documentos personales y tarjetas desde cualquier dispositivo con conexión a internet, de forma segura y sincronizada.</li>
-      <li><strong>Monitorear</strong> saldos de tarjetas de transporte y consultar historiales de pagos en tiempo real.</li>
-      <li><strong>Centralizar</strong> la información de documentos de identidad, tarjetas bancarias, licencias y certificados.</li>
-      <li><strong>Generar</strong> un historial de trámites y pagos para tener un registro claro de todas sus gestiones.</li>
-      <li><strong>Integrar</strong> la plataforma con APIs de transporte, bancarias y de servicios para recargas y pagos.</li>
-      <li><strong>Ofrecer</strong> a los usuarios una experiencia simplificada para gestionar su identidad y realizar trámites cotidianos.</li>
-    </ul>
+ <article id="descripcion-startup" aria-labelledby="descripcion-startup-title">
+  <h3 id="descripcion-startup-title">1.1.1 Descripción de la Startup</h3>
 
-    <h3>Impacto Esperado 📢</h3>
-    <ul>
-      <li><strong>Reducción</strong> de la dependencia de documentos físicos, disminuyendo el riesgo de pérdida.</li>
-      <li>Mayor <strong>tranquilidad y seguridad</strong> al tener toda la información personal en un solo lugar.</li>
-      <li><strong>Ahorro de tiempo</strong> en la gestión de trámites y pagos recurrentes.</li>
-      <li>Mayor <strong>accesibilidad</strong> para todos, democratizando el acceso a herramientas avanzadas para la gestión de documentos.</li>
-      <li><strong>Escalabilidad</strong> para adaptarse al crecimiento y las necesidades de los usuarios, incluyendo la gestión familiar.</li>
-    </ul>
+  <p>
+    <strong>KapakID</strong> es una startup enfocada en desarrollar soluciones
+    tecnológicas para la <strong>gestión personal de documentos e identidad digital</strong>. 
+    Nuestro objetivo es ayudar a los usuarios a centralizar, proteger y acceder de forma segura 
+    a sus documentos esenciales desde cualquier dispositivo conectado a internet.
+  </p>
 
-    <h3>Herramientas y Tecnologías que Usamos 🔧</h3>
-    <p>
-      Para construir KapakID, utilizamos un conjunto de herramientas diseñadas para 
-      garantizar rendimiento, escalabilidad y una buena experiencia de usuario. 
-      Nuestras herramientas incluyen:
-    </p>
-    <ul>
-      <li><strong>Lenguajes de programación:</strong> C#, JavaScript, HTML, CSS</li>
-      <li><strong>Frameworks:</strong> Vue.js para el apartado de frontend y .NET para realizar el backend en la segunda mitad del curso</li>
-      <li><strong>Bases de datos:</strong> MySQL para gestionar los datos financieros</li>
-      <li><strong>Control de versiones:</strong> Git</li>
-      <li><strong>Repositorio remoto:</strong> GitHub</li>
-    </ul>
-  </article>
-</section>
+  <h4>Propuesta de valor</h4>
+  <ul>
+    <li><strong>Seguridad:</strong> reducción del riesgo de pérdida o robo de documentos físicos.</li>
+    <li><strong>Ahorro de tiempo:</strong> búsqueda rápida y consolidación de información en un solo lugar.</li>
+    <li><strong>Acceso inmediato:</strong> disponibilidad de documentos en situaciones de emergencia.</li>
+    <li><strong>Gestión eficiente:</strong> recordatorios automáticos para fechas de vencimiento.</li>
+    <li><strong>Integración:</strong> conexión con sistemas de pago y recarga de servicios.</li>
+  </ul>
+
+  <h4>Misión</h4>
+  <p>
+    Proporcionar soluciones digitales accesibles e innovadoras que permitan a estudiantes, 
+    profesionales y familias <strong>gestionar de forma centralizada y segura sus documentos personales</strong>, 
+    facilitando el acceso, la organización y la protección de su identidad digital.
+  </p>
+
+  <h4>Visión</h4>
+  <p>
+    Convertirnos en la <strong>plataforma líder en gestión de documentos e identidad digital en Latinoamérica</strong>, 
+    reconocida por brindar seguridad, confianza y accesibilidad, contribuyendo al bienestar 
+    de las personas y al avance hacia sociedades más digitales y organizadas.
+  </p>
+</article>
+
+
+
 </div>
 <div align='left'>
 <h3>1.1.2. Perfiles de los integrantes del grupo</h3>
@@ -339,79 +315,85 @@ static string[] Integrantes() {
   <h3>1.2.1 Antecedentes y problemática</h3>
   <p>
     En la actualidad, muchas personas y pequeñas empresas enfrentan dificultades al momento de 
-    <strong>gestionar adecuadamente sus finanzas</strong>. La falta de educación financiera, el desorden en 
-    el registro de ingresos y egresos, así como la ausencia de herramientas tecnológicas accesibles y fáciles 
-    de usar, generan problemas de liquidez, endeudamiento innecesario y poca claridad en la toma de decisiones 
-    económicas. 
+    <strong>gestionar, proteger y acceder a sus documentos importantes</strong>. 
+    La dependencia de formatos físicos, el desorden en el almacenamiento digital y la ausencia de 
+    herramientas tecnológicas accesibles generan pérdida de tiempo, riesgo de extravío y 
+    complicaciones en trámites que requieren información inmediata. 
   </p>
   <p>
-    Frente a esta problemática surge la necesidad de contar con soluciones digitales prácticas que ayuden a 
-    los usuarios a tener una visión clara, organizada y en tiempo real de su situación financiera.
+    Frente a esta problemática surge la necesidad de contar con soluciones digitales prácticas que 
+    permitan a los usuarios centralizar, resguardar y disponer de sus documentos en cualquier momento 
+    y lugar, de forma segura y confiable.
   </p>
 
   <h4>5“W”s + 2"H"</h4>
   <ul>
     <li>
-       <strong>WHAT (QUÉ):</strong>  
-      El problema principal es la <strong>dificultad de gestionar finanzas personales y empresariales</strong>.  
-      Muchos usuarios no llevan un control adecuado de sus ingresos, egresos ni presupuestos, lo que genera desorden, 
-      desconocimiento de su estado financiero real y problemas para alcanzar metas económicas.
+      <strong>WHAT (QUÉ):</strong>  
+      El problema principal es la <strong>dificultad para gestionar documentos personales y empresariales</strong>.  
+      Muchos usuarios no tienen un sistema ordenado para guardar DNI, contratos, certificados o 
+      recibos, lo que ocasiona pérdidas de información, duplicidad de archivos y retrasos en 
+      procesos administrativos.
     </li>
     <br>
     <li>
-       <strong>WHEN (CUÁNDO):</strong>  
-      Este problema ocurre <strong>de manera constante y cotidiana</strong>.  
-      Se hace más notorio en etapas de crecimiento (por ejemplo, cuando una persona comienza a generar más ingresos o 
-      cuando un negocio aumenta sus operaciones), así como en momentos de desorganización financiera que pueden 
-      derivar en deudas y falta de liquidez.
+      <strong>WHEN (CUÁNDO):</strong>  
+      Este problema ocurre <strong>de manera frecuente</strong>, especialmente en situaciones críticas:  
+      - Renovación de documentos o trámites legales.  
+      - Acceso a información en emergencias.  
+      - Fechas de vencimiento de contratos, pólizas o servicios.  
+      La falta de organización se hace evidente justo cuando más se necesita la información.
     </li>
     <br>
     <li>
-       <strong>WHERE (DÓNDE):</strong>  
-      El problema se da en distintos <strong>contextos</strong>:  
-      - En el ámbito <em>personal</em>, al no saber administrar gastos diarios o planificar metas de ahorro.  
-      - En el ámbito <em>académico</em>, entre estudiantes que manejan becas, préstamos o presupuestos limitados.  
-      - En el ámbito <em>empresarial</em>, especialmente en micro y pequeñas empresas que carecen de un área contable formal.
+      <strong>WHERE (DÓNDE):</strong>  
+      El problema se da en distintos <strong>ámbitos</strong>:  
+      - En el <em>personal</em>, cuando alguien requiere documentos médicos, escolares o financieros.  
+      - En el <em>profesional</em>, entre estudiantes y trabajadores que deben presentar certificados o 
+        contratos.  
+      - En el <em>empresarial</em>, en micro y pequeñas empresas que no cuentan con sistemas digitales 
+        para organizar facturas, permisos o documentación interna.
     </li>
     <br>
     <li>
-       <strong>WHO (QUIÉN):</strong>  
+      <strong>WHO (QUIÉN):</strong>  
       Los principales afectados son:  
-      - <strong>Personas naturales</strong> que carecen de educación financiera básica.  
-      - <strong>Estudiantes y profesionales</strong> que quieren administrar mejor sus recursos.  
-      - <strong>Emprendedores y pequeñas empresas</strong> que no cuentan con presupuesto para contratar un contador o comprar 
-      software financiero costoso.
+      - <strong>Personas naturales</strong> que dependen de trámites frecuentes.  
+      - <strong>Estudiantes y profesionales</strong> que requieren tener certificados y documentos al día.  
+      - <strong>Emprendedores y pequeñas empresas</strong> que no pueden costear soluciones corporativas 
+        avanzadas de gestión documental.
     </li>
     <br>
     <li>
-       <strong>WHY (POR QUÉ):</strong>  
-      Porque actualmente <strong>no existen herramientas accesibles, educativas y fáciles de usar</strong> que integren de manera 
-      eficiente el control de ingresos, egresos, presupuestos y metas financieras.  
-      Las soluciones existentes suelen ser:  
-      - Demasiado técnicas y complejas para usuarios no especializados.  
-      - Costosas para estudiantes y pequeñas empresas.  
-      - Poco personalizables a las necesidades reales de cada usuario.
+      <strong>WHY (POR QUÉ):</strong>  
+      Porque actualmente <strong>no existen herramientas accesibles, seguras y fáciles de usar</strong> 
+      que permitan gestionar documentos de manera integral.  
+      Las soluciones disponibles suelen ser:  
+      - Limitadas a almacenamiento básico en la nube sin organización avanzada.  
+      - Costosas para usuarios comunes o pequeñas empresas.  
+      - Poco personalizables para distintos tipos de documentos y recordatorios de vencimiento.
     </li>
     <br>
     <li>
-       <strong>HOW (CÓMO):</strong>  
-      La solución se plantea mediante el desarrollo de una <strong>aplicación web</strong> que:  
-      - Permita registrar ingresos y egresos de forma ágil (manual o automática).  
-      - Genere visualizaciones gráficas que faciliten la comprensión de la situación financiera.  
-      - Ofrezca seguimiento de presupuestos y metas financieras personalizadas.  
-      - Envíe reportes y alertas para apoyar la toma de decisiones responsables.
+      <strong>HOW (CÓMO):</strong>  
+      La solución se plantea mediante el desarrollo de una <strong>plataforma web</strong> que:  
+      - Centralice el almacenamiento digital de documentos.  
+      - Brinde recordatorios automáticos para fechas de vencimiento.  
+      - Permita acceso inmediato y seguro desde cualquier dispositivo.  
+      - Ofrezca integración con pagos y recargas de servicios relacionados a la documentación.
     </li>
     <br>
     <li>
-       <strong>HOW MUCH (CUÁNTO):</strong>  
-      Actualmente, contratar un contador o adquirir software especializado supone un <strong>costo elevado</strong>, inaccesible 
-      para estudiantes y pequeñas empresas.  
-      F1nTrack busca ofrecer una solución <strong>económica y escalable</strong>, con un modelo de bajo costo o incluso 
-      gratuito en sus funciones básicas, para que más usuarios puedan acceder a herramientas de gestión financiera 
-      sin una gran inversión inicial.
+      <strong>HOW MUCH (CUÁNTO):</strong>  
+      Actualmente, contratar un gestor documental empresarial o servicios especializados supone un 
+      <strong>costo elevado</strong>, inaccesible para la mayoría.  
+      KapakID busca ofrecer una solución <strong>económica, accesible y escalable</strong>, con planes 
+      gratuitos para funciones básicas y opciones premium de bajo costo para usuarios con mayores 
+      necesidades.
     </li>
   </ul>
 </article>
+
 ___
 
 ### 1.2.2 Lean Ux Process
