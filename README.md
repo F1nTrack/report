@@ -178,28 +178,56 @@ static string[] Integrantes() {
     </p>
     <p>Propuesta de valor:</p>
     <ul>
-      <li>Visualizaciones claras y amigables del estado financiero.</li>
-      <li>Registro ágil de ingresos y gastos (manual y con importación de datos).</li>
-      <li>Seguimiento de <em>metas financieras</em> personalizadas.</li>
-      <li>Reportes y alertas para una toma de decisiones informada.</li>
+      <li><strong>Riesgo de pérdida o robo</strong> de documentos esenciales (DNI, tarjetas bancarias, licencias), lo que genera estrés y largos trámites de reposición.</li>
+      <li><strong>Pérdida de tiempo</strong> en la búsqueda de documentos específicos o la consolidación de información, como saldos de tarjetas de transporte o fechas de vencimiento.</li>
+      <li><strong>Falta de acceso</strong> a documentos en situaciones de emergencia o cuando no se llevan consigo.</li>
+      <li><strong>Dificultades para recordar</strong> y gestionar las fechas de vencimiento de licencias, carnés y certificados.</li>
+      <li><strong>Falta de integración</strong> con sistemas de recarga o pago de servicios, lo que obliga a usar múltiples apps o métodos.</li>
     </ul>
     <p>
-      Con F1nTrack buscamos fomentar la <strong>educación financiera</strong> y apoyar a estudiantes,
-      profesionales y emprendedores en decisiones responsables sobre su economía.
+      Además, los usuarios finales (estudiantes, padres, profesionales) no cuentan con 
+      una solución accesible y centralizada para monitorear sus documentos personales, 
+      realizar pagos o trámites y tener todo en un solo lugar.
     </p>
+    
+    <h3>Objetivo del Proyecto 📌</h3>
     <p>
-      Como misión nos proponemos a brindar soluciones tecnológicas accesibles e innovadoras que permitan a personas, estudiantes,
-      profesionales y pequeñas empresas <strong>gestionar de manera eficiente sus finanzas</strong>,
-      facilitando el control de ingresos, egresos, presupuestos y metas económicas a través de una
-      plataforma web intuitiva, confiable y educativa.
+      Desarrollar <strong>KapakID</strong>, una plataforma integral, segura y en la nube 
+      para la gestión de documentos personales, que permita a los usuarios:
     </p>
-    <p>
-      Nuestra visión es convertirnos en la <strong>plataforma líder en educación y gestión financiera digital en Latinoamérica</strong>,
-      reconocida por ayudar a nuestros usuarios a <em>tomar decisiones financieras inteligentes y responsables</em>,
-      contribuyendo a su bienestar económico y al crecimiento sostenible de sus proyectos y negocios.
-    </p>
-  </article>
+    <ul>
+      <li><strong>Acceder</strong> a sus documentos personales y tarjetas desde cualquier dispositivo con conexión a internet, de forma segura y sincronizada.</li>
+      <li><strong>Monitorear</strong> saldos de tarjetas de transporte y consultar historiales de pagos en tiempo real.</li>
+      <li><strong>Centralizar</strong> la información de documentos de identidad, tarjetas bancarias, licencias y certificados.</li>
+      <li><strong>Generar</strong> un historial de trámites y pagos para tener un registro claro de todas sus gestiones.</li>
+      <li><strong>Integrar</strong> la plataforma con APIs de transporte, bancarias y de servicios para recargas y pagos.</li>
+      <li><strong>Ofrecer</strong> a los usuarios una experiencia simplificada para gestionar su identidad y realizar trámites cotidianos.</li>
+    </ul>
 
+    <h3>Impacto Esperado 📢</h3>
+    <ul>
+      <li><strong>Reducción</strong> de la dependencia de documentos físicos, disminuyendo el riesgo de pérdida.</li>
+      <li>Mayor <strong>tranquilidad y seguridad</strong> al tener toda la información personal en un solo lugar.</li>
+      <li><strong>Ahorro de tiempo</strong> en la gestión de trámites y pagos recurrentes.</li>
+      <li>Mayor <strong>accesibilidad</strong> para todos, democratizando el acceso a herramientas avanzadas para la gestión de documentos.</li>
+      <li><strong>Escalabilidad</strong> para adaptarse al crecimiento y las necesidades de los usuarios, incluyendo la gestión familiar.</li>
+    </ul>
+
+    <h3>Herramientas y Tecnologías que Usamos 🔧</h3>
+    <p>
+      Para construir KapakID, utilizamos un conjunto de herramientas diseñadas para 
+      garantizar rendimiento, escalabilidad y una buena experiencia de usuario. 
+      Nuestras herramientas incluyen:
+    </p>
+    <ul>
+      <li><strong>Lenguajes de programación:</strong> C#, JavaScript, HTML, CSS</li>
+      <li><strong>Frameworks:</strong> Vue.js para el apartado de frontend y .NET para realizar el backend en la segunda mitad del curso</li>
+      <li><strong>Bases de datos:</strong> MySQL para gestionar los datos financieros</li>
+      <li><strong>Control de versiones:</strong> Git</li>
+      <li><strong>Repositorio remoto:</strong> GitHub</li>
+    </ul>
+  </article>
+</section>
 </div>
 <div align='left'>
 <h3>1.1.2. Perfiles de los integrantes del grupo</h3>
