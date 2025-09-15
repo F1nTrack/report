@@ -717,13 +717,13 @@ El análisis de competidores es un paso esencial para el desarrollo estratégico
 | Timing        | [Ver grabación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c576_upc_edu_pe/EQuM6qNAe-5MhSFGE_dESuYBpHtdmfK5y9TPWPT4EQjGyA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1WERnv) |
 ---
 
-| Campo         | Información |
-|---------------|-------------|
-| Entrevistado 2 |             |
-| Edad          |             |
-| Distrito      |             |
-| Foto          | ![Foto entrevistado 2]() |
-| Timing        | [Ver grabación]() |
+| Campo          | Información |
+|----------------|-------------|
+| Entrevistado 1 | Sebastian Delgado  |
+| Edad           | 20 años     |
+| Distrito       | San Borja   |
+| Foto           | ![Foto entrevistado 1](resources/Cap-1/SSInterview1.png) |
+| Timing         | [Ver grabación](https://drive.google.com/file/d/1L56VeFgJNXZNlBG1SJi8R2q2ly_IwkGr/view?usp=sharing) |
 
 ---
 
