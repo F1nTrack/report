@@ -1312,9 +1312,23 @@ Dentro de la **aplicación web**, la navegación se centrará en un **dashboard 
 <img src="./resources/Cap-4/General_Style_Guidelines/wireframe webaplication5.png" alt="Wireframe web aplication">
 
 ### 4.4.2. Web Applications Wireflow Diagrams
+<img src="./resources/Cap-4/General_Style_Guidelines/Typos/WireframeDiagram.jpg" alt="Wireframe web diagram">
+
+
 ### 4.4.3. Web Applications User Flow Diagrams
+<img src="./resources/Cap-4/General_Style_Guidelines/Typos/UserFlowDiagram.jpg" alt="user flow diagram">
+
+### 4.4.4. Web Applications Mockup
+
+<img src="./resources/Cap-4/General_Style_Guidelines/Typos/WebMockup1.jpg" alt="application web diagram">
+<img src="./resources/Cap-4/General_Style_Guidelines/Typos/WebMockup2.jpg" alt="application web diagram">
+<img src="./resources/Cap-4/General_Style_Guidelines/Typos/WebMockup3.jpg" alt="application web diagram">
+<img src="./resources/Cap-4/General_Style_Guidelines/Typos/WebMockup4.jpg" alt="application web diagram">
+
 
 ## 4.5. Web Applications Prototyping
+
+https://www.figma.com/design/3HTodQ2CADUGConW20ZLCc/Untitled?node-id=0-1&p=f&t=WclMvp5kiCyljXH8-0
 
 ## 4.6. Domain-Driven Software Architecture
 En el apartado de Domain Driven Software Architecture para KapakID, puedes introducir el concepto destacando cómo esta metodología guía el diseño de la aplicación alineándose con el dominio del negocio. Por ejemplo:
