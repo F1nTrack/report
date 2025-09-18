@@ -729,11 +729,11 @@ El análisis de competidores es un paso esencial para el desarrollo estratégico
 
 | Campo         | Información |
 |---------------|-------------|
-| Entrevistado 3 |             |
-| Edad          |             |
-| Distrito      |             |
-| Foto          | ![Foto entrevistado 3]() |
-| Timing        | [Ver grabación]() |
+| Entrevistado 3 | Santiago Baldeon |
+| Edad          |     25      |
+| Distrito      |  Villa Maria del Triunfo  |
+| Foto          | ![Foto entrevistado 3](resources/Cap-1/SSSANTI.png) |
+| Timing        | [Ver grabación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319698_upc_edu_pe/Ea0to8pDhttOhst0CPbOsT4B6GESisWNpC92K_xX7bteNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=5T1kLL) |
 
 ---
 
