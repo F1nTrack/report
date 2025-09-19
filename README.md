@@ -1334,15 +1334,15 @@ https://www.figma.com/design/3HTodQ2CADUGConW20ZLCc/Untitled?node-id=0-1&p=f&t=W
 En el apartado de Domain Driven Software Architecture para KapakID, puedes introducir el concepto destacando cómo esta metodología guía el diseño de la aplicación alineándose con el dominio del negocio. Por ejemplo:
 "La arquitectura orientada al dominio (DDD) para KapakID se centra en modelar el sistema en torno al dominio del negocio, que es la gestión digital de documentos y tarjetas personales, como DNI, pasaportes, carnés y tarjetas de transporte, junto con funcionalidades de transacciones, renovaciones y notificaciones. Este enfoque asegura que el software refleje fielmente las necesidades de los usuarios (jóvenes y adultos) y los procesos clave, como registro de documentos, pagos y soporte premium para perfiles familiares. Al emplear DDD, priorizamos un lenguaje ubicuo que unifica la comunicación entre el equipo técnico y los stakeholders, garantizando que cada componente del sistema responda directamente a los requisitos del dominio, promoviendo una solución robusta, escalable y alineada con el propósito de ofrecer una billetera digital integral, segura y accesible.
 ### 4.6.1. Software Architecture Context Diagram
-![context diagram c4](<resources/Cap-4/Model_C4/structurizr-SystemContext-001.png>)
+![context diagram c4](<resources/Cap-4/Model_C4/structurizr-ContextDiagram.png>)
 ### 4.6.2. Software Architecture Container Diagram
 ![container diagram c4](<resources/Cap-4/Model_C4/structurizr-ContainerDiagram.png>)
 ### 4.6.3. Software Architecture Components Diagram
-![](<>)
-![](<>)
-![](<>)
-![](<>)
-![](<>)
+![component diagram c4 1](<resources/Cap-4/Model_C4/structurizr-ComponentDiagram5.png>)
+![component diagram c4 2](<resources/Cap-4/Model_C4/structurizr-ComponentDiagram4.png>)
+![component diagram c4 3](<resources/Cap-4/Model_C4/structurizr-ComponentDiagram3.png>)
+![component diagram c4 4](<resources/Cap-4/Model_C4/structurizr-ComponentDiagram2.png>)
+![component diagram c4 5](<resources/Cap-4/Model_C4/structurizr-ComponentDiagram1.png>)
 ## 4.7. Software Object-Oriented Desing
 ### 4.7.1. Class Diagram
 ![](<>)
