@@ -924,6 +924,10 @@ El análisis de las tareas de estudiantes universitarios y madres de familia mue
 
 ## 2.4. Big Picture EventStorming
 
+<td>
+  <img src="resources/Cap-2/Big%20Picture%20EventStorming/Big%20Picture%20EventStorming.png"
+       alt="Big Picture EventStorming">
+</td>
 
 
 ## 2.5. Ubiquitous Language
