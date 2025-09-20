@@ -1350,7 +1350,10 @@ En el apartado de Domain Driven Software Architecture para KapakID, puedes intro
 ![component diagram c4 5](<resources/Cap-4/Model_C4/structurizr-ComponentDiagram1.png>)
 ## 4.7. Software Object-Oriented Desing
 ### 4.7.1. Class Diagram
-![Class Diagram](<resources/Cap-4/Data_Base/data_base_diagram.jpg>)
+
+[![](https://img.plantuml.biz/plantuml/svg/lLInRjim4Dq5w1ykNZe5tJCKYP8sy93KYEjcD2xKsIOi7LsIYYiK_VSUASSM5GMTaerwzuxl-DxPbywZzKrTvTcPtr1DeCWs5I7dMPwvhUOTMgn1LUWS_CapW0BLTcrDm-MrgOo5jSKsuiQMP3jilz6U0dXbhTaFi6-6VGBzJPHClJDCx3z4hKIFJ-ZeGyHGUVsiVVkEOdds2QvV72G7BJYoprffu_BiPEra8J1CXM9Ng6W2w60nJHXNiodSegSzjh4itylRnvJIoCgmrmgzDWppgDHT5ahB0v3qt1ZLrE5qXunhYiT-ezINT-lQZpR_iCWkk3XGY_Xenq_ZDQyJSWUTsC6o8gn0IM4TWb77hPZS74xTR4N7dcldgHQ0Vek1FB2sGDx2l0sKs1M-4yBt-zdNM0c7f78lewsETfwkYFYo0xeH7gX22PL9j1TJE3__SWW8BkInN3gmzAiXvwNUpo9bTXdqkSBkYe4tp48w7apZauOUFKdXFzmqX35odhsIZpCLWKnOki-FLhPUcAdk6wI1u1kiLrQDSF8i9ZpsOldbrGs70EKfU-qtexeXzd7ow8lxuH_JvTwcZ5eGPxo0cJMAd1E5bMPafR42ioFxqfXdbt9V_F__1m00)](https://editor.plantuml.com/uml/lLInRjim4Dq5w1ykNZe5tJCKYP8sy93KYEjcD2xKsIOi7LsIYYiK_VSUASSM5GMTaerwzuxl-DxPbywZzKrTvTcPtr1DeCWs5I7dMPwvhUOTMgn1LUWS_CapW0BLTcrDm-MrgOo5jSKsuiQMP3jilz6U0dXbhTaFi6-6VGBzJPHClJDCx3z4hKIFJ-ZeGyHGUVsiVVkEOdds2QvV72G7BJYoprffu_BiPEra8J1CXM9Ng6W2w60nJHXNiodSegSzjh4itylRnvJIoCgmrmgzDWppgDHT5ahB0v3qt1ZLrE5qXunhYiT-ezINT-lQZpR_iCWkk3XGY_Xenq_ZDQyJSWUTsC6o8gn0IM4TWb77hPZS74xTR4N7dcldgHQ0Vek1FB2sGDx2l0sKs1M-4yBt-zdNM0c7f78lewsETfwkYFYo0xeH7gX22PL9j1TJE3__SWW8BkInN3gmzAiXvwNUpo9bTXdqkSBkYe4tp48w7apZauOUFKdXFzmqX35odhsIZpCLWKnOki-FLhPUcAdk6wI1u1kiLrQDSF8i9ZpsOldbrGs70EKfU-qtexeXzd7ow8lxuH_JvTwcZ5eGPxo0cJMAd1E5bMPafR42ioFxqfXdbt9V_F__1m00)
+
+
 
 ### 4.7.2. Class Dictionary
   <table>
@@ -1361,40 +1364,39 @@ En el apartado de Domain Driven Software Architecture para KapakID, puedes intro
 </tr>
 </thead>
 <tbody>
-<tr><td><code>user</code></td><td>La entidad principal del sistema, que contiene la información de la cuenta del usuario, su email, contraseña y fecha de creación.</td></tr>
+<tr><td><code>User Interface</code></td><td>La capa de presentación que interactúa directamente con el usuario. Envía solicitudes a la API Gateway.
+</td></tr>
 
-<tr><td><code>user_data</code></td><td>Almacena los datos personales de los usuarios, como nombre, apellido y número de DNI.</td></tr>
+<tr><td><code>API Gateway</code></td><td>Un punto de entrada único que enruta las solicitudes a los microservicios correspondientes, como el de documentos o transacciones.
+</td></tr>
 
-<tr><td><code>profile</code></td><td>Almacena la información del perfil del usuario, incluyendo fecha de nacimiento, dirección y las claves foráneas a sus credenciales y tarjetas.</td></tr>
+<tr><td><code>Authentication Service</code></td><td>El servicio encargado de manejar el registro, inicio de sesión y autenticación de los usuarios. Se comunica con la base de datos para leer y escribir datos de usuario.
+</td></tr>
 
-<tr><td><code>role</code></td><td>Define los roles de los usuarios en el sistema ('Estudiante', 'Apoderado').</td></tr>
+<tr><td><code>Document Management Service</code></td><td>El servicio que procesa todas las transacciones financieras, como recargas de tarjetas y pagos. Se comunica con la base de datos y el sistema bancario.
+</td></tr>
 
-<tr><td><code>subscription</code></td><td>Representa la suscripción del usuario a planes, como el premium.</td></tr>
+<tr><td><code>Transaction Service</code></td><td>El servicio que procesa todas las transacciones financieras, como recargas de tarjetas y pagos. Se comunica con la base de datos y el sistema bancario.
+</td></tr>
 
-<tr><td><code>financial_account</code></td><td>Representa la cuenta financiera de un usuario, donde se registra el saldo disponible.</td></tr>
+<tr><td><code>Voting Service</code></td><td>Encargado de gestionar las elecciones y registrar los votos de los usuarios. Se comunica con la base de datos y el sistema de votación externo (ONPE).</td></tr>
 
-<tr><td><code>transaction</code></td><td>Registra cada movimiento financiero, como recargas o pagos, con detalles como el monto y la fecha.</td></tr>
+<tr><td><code>Database </code></td><td>El almacén centralizado para los datos de la aplicación. Todos los servicios de backend leen y escriben datos en ella.
+</td></tr>
 
-<tr><td><code>transaction_type</code></td><td>Guarda la información de las notificaciones enviadas a los usuarios, como alertas de saldo bajo o vencimiento.</td></tr>
+<tr><td><code>Bank System</code></td><td>Un sistema externo con el que KapakID se comunica para procesar pagos y otras operaciones financieras.
+</td></tr>
 
-<tr><td><code>notification</code></td><td>Servicio de aplicación que orquesta operaciones de alto nivel sobre el Inventario.</td></tr>
-
-<tr><td><code>type_notification	</code></td><td>Define los tipos de notificaciones disponibles en la aplicación.</td></tr>
-
-<tr><td><code>credential</code></td><td>Contiene los datos de los documentos, como la fecha de vencimiento y el estado de verificación.</td></tr>
-
-<tr><td><code>card</code></td><td>Representa una tarjeta de transporte o bancaria, con información como el saldo y el estado de verificación.</td></tr>
-
-<tr><td><code>election</code></td><td>Registra los eventos de votación, como elecciones presidenciales o municipales.</td></tr>
-
-<tr><td><code>vote</code></td><td>Guarda el voto de un usuario para una elección especifica.</td></tr>
+<tr><td><code>Notification System</code></td><td>Un sistema externo que envía notificaciones a los usuarios (ej. alertas de saldo bajo o recordatorios).</td></tr>
 
 </tbody>
 </table>
 
+___
+
 ## 4.8. Database Desing
 ### 4.8.1. Database Diagram
-
+![db Diagram](<resources/Cap-4/Data_Base/data_base_diagram.jpg>)
 # Capítulo V: Product Implementation, Validation & Deployment
 
 ## 5.1. Software Configuration Management
