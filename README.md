@@ -913,8 +913,8 @@ El análisis de competidores es un paso esencial para el desarrollo estratégico
 El análisis de las tareas de estudiantes universitarios y madres de familia muestra enfoques distintos en el uso de KapakID. Los estudiantes se orientan a actividades operativas y cotidianas, como recargar la tarjeta de transporte, recibir alertas de saldo bajo, centralizar documentos y acceder en modo offline. Su prioridad es evitar olvidos, ahorrar tiempo y simplificar la movilidad diaria, con alto valor en funciones de seguridad biométrica y vinculación con billeteras digitales. Sin embargo, relegan a un segundo plano tareas menos frecuentes como renovación de documentos o generación de reportes. Las madres de familia, en contraste, priorizan la gestión integral y el control familiar, enfocándose en administrar múltiples perfiles, recibir alertas de vencimientos, acceder a documentos de manera segura y simplificar trámites repetitivos. Además, otorgan gran importancia al seguimiento financiero, utilizando historial de transacciones, pagos de servicios y reportes como parte de su rol en la organización del hogar. Mientras ambos segmentos coinciden en valorar la centralización documental, las alertas inteligentes y la seguridad, difieren en su enfoque: el estudiante busca rapidez y autonomía personal, mientras que la madre necesita organización, control y previsión familiar, consolidando a KapakID como una solución versátil para ambos perfiles.
 
 ### 2.3.3. User Journey Mapping
-- **Empathy Map Estudiante Universitario **
-  
+- **Empathy Map Estudiante Universitario**
+
 <td><img src="resources/Cap-2/Empathy-Map/Empathy map Luis.png" alt="Empathy map Luis" ></td>
 
 - **Empathy Map Madre de Familia**
@@ -925,7 +925,6 @@ El análisis de las tareas de estudiantes universitarios y madres de familia mue
  <td><img src="resources/Cap-2/User-Journey-Mapping/User Journey Mapping Estudiante universitario (1).png" alt="User Journey Mapping Estudiante universitario"></td>
  
 **User Journey Mapping Madre de Familia**  
-<td><img src="resources/Cap-2/User-Journey-Mapping/User Journey Mapping Estudiante universitario (1).png" alt="Empathy map Madre de Familia" ></td>
 
 <td><img src="resources/Cap-2/User-Journey-Mapping/Customer journey map Madre de Familia.png" alt="Customer journey map Madre de Familia" ></td>
 
