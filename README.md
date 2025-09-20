@@ -1699,24 +1699,32 @@ En esta sección se especifica la configuración necesaria para el despliegue de
 |Elaborar y diseñar una landing page atractiva e informativa para la aplicación KapakID|9|9|
 ### 5.2.1.2. Aspect Leaders and Collaborators
 
-Aquí se presentan los líderes de los diferentes aspectos del proyecto KapakID durante el Sprint 1, junto con los colaboradores de apoyo, basados en las responsabilidades compartidas reflejadas en el informe.
-
-| Aspecto / Área                                | Líder Principal                                                                   | Colaboradores de Apoyo                                                    | Responsabilidades Clave                                                                                                         |
-|-----------------------------------------------|-----------------------------------------------------------------------------------|-----------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| Conceptualización del proyecto / Startup Profile | Fabrizio Javier Quiroz Zambrano                                                     | Todo el equipo     | Redacción del perfil de la startup (misión, visión, propuesta de valor), definición de problemática y alignment de visión de equipo. |
-| Definición de Problemas / Lean UX / Hypothesis | Matías Rodolfo Salcedo Champi                                                     | Todo el equipo                                           | Formulación de declaraciones de problema (problem statements), hipótesis, Lean UX Canvas.                                       |
-| Planificación del informe y entregables (TB1) | Raul Hiroshi Tasayco Osorio                                                  | Todo el equipo                          | Organización de capítulos, coordinación de versiones, cumplimiento de objetivos, planificación del contenido del informe.         |
-| Colaboración, revisión por pares y calidad     | Jhunior Giussepe Taquiri Calderon                                                 | Todo el equipo                             | Asegurar coherencia entre secciones, revisar entregables entre compañeros, mantener consistencia y calidad en contenido y estilo.   |
-| Desarrollo de la Landing Page                  | Daniel Elias  Ruiz Huisa                                                |Todo el equipo                 | Implementación de la estructura de la landing page, maquetación en HTML/CSS/JavaScript utilizando el framework de astro, integración de secciones Home, Beneficios, Casos de Éxito y Contacto. |
+En esta sección se presenta la **Leadership-and-Collaboration Matrix (LACX)**, que indica para cada aspecto del Sprint quién es líder (**L**) y quiénes actúan como colaboradores (**C**).  
+Los aspectos considerados en el Sprint 1 son:  
+- Startup Profile / Conceptualización del Proyecto  
+- Lean UX / Hypothesis  
+- Planificación del Informe (TB1)  
+- Colaboración, revisión por pares y calidad  
+- Desarrollo de la Landing Page  
 
 ---
 
-#### Observaciones sobre roles y colaboración
+| Team Member (Last Name, First Name) | GitHub Username | Startup Profile | Lean UX / Hypothesis | TB1 Planificación Informe | Revisión y Calidad | Landing Page |
+|-------------------------------------|-----------------|-----------------|----------------------|---------------------------|--------------------|--------------|
+| Quiroz Zambrano, Fabrizio Javier    | RelyCloud       | L               | C                    | C                         | C                  | C            |
+| Salcedo Champi, Matías Rodolfo      | Matiasg23       | C               | L                    | C                         | C                  | C            |
+| Tasayco Osorio, Raúl Hiroshi        | Raul Hiroshi Tasayco Osorio       | C               | C                    | L                         | C                  | C            |
+| Taquiri Calderón, Jhunior Giussepe  | GiussepeTC0410       | C               | C                    | C                         | L                  | C            |
+| Ruiz Huisa, Daniel Elías            | DanRuizPeru          | C               | C                    | C                         | C                  | L            |
 
-- El liderazgo se distribuyó entre conceptualización, planificación, documentación y desarrollo técnico, lo que permitió avanzar en paralelo.  
-- La colaboración entre los integrantes aseguró consistencia entre lo escrito en el informe y lo implementado en la landing page.  
-- La incorporación de un **líder técnico específico para la Landing Page** garantizó la materialización de los conceptos de diseño en un producto desplegable y validable durante el Sprint Review.  
-- Se identificó un equilibrio entre **roles de documentación/planificación** y **roles de desarrollo práctico**, lo que fortalece el avance integral del proyecto.
+---
+
+#### Observaciones
+- El equipo adoptó un modelo de liderazgo distribuido: cada aspecto del Sprint tuvo un responsable principal (L) y varios colaboradores (C).  
+- Esta distribución permitió avanzar en paralelo y garantizar la consistencia entre la documentación y la implementación técnica.  
+- La Landing Page contó con un **líder técnico especializado**, asegurando la traducción del diseño conceptual en un artefacto desplegable.  
+- La organización de líderes y colaboradores mantiene relación directa con la posterior asignación de tareas en el Sprint Backlog.
+
 
 ### 5.2.1.3. Sprint Backlog 1.
 
@@ -1728,56 +1736,64 @@ El propósito del sprint es validar la **propuesta de valor central**: facilitar
 
 ---
 
-### Historias de Usuario Seleccionadas
+### Control de Estado del Sprint 1
 
-| ID   | Historia de Usuario                                                                                                                  | Prioridad |
-|------|--------------------------------------------------------------------------------------------------------------------------------------|-----------|
-| US-01 | Como usuario quiero **crear mi identidad digital única** para poder usarla como base en transacciones seguras.                       | Alta      |
-| US-02 | Como usuario quiero **subir y almacenar credenciales verificables (DNI, pasaporte, licencia)** para validarlas en el sistema.        | Alta      |
-| US-03 | Como usuario quiero **recibir notificaciones si mis credenciales están próximas a expirar o requieren actualización**, para mantener mi información vigente. | Media     |
-| US-04 | Como administrador del sistema quiero **acceder a un panel de verificación de usuarios**, para aprobar o rechazar solicitudes de identidad digital. | Media     |
-
----
-
-### Detalle de Tareas por Historia
-
-| Historia | Tareas principales                                                                                                              | Estimación | Criterios de Aceptación |
-|----------|----------------------------------------------------------------------------------------------------------------------------------|------------|--------------------------|
-| US-01 Identidad Digital Única | - Definir modelo de datos para identidades<br>- Endpoint `POST /identity/create`<br>- Generación de ID único en backend<br>- Formulario inicial de creación en frontend<br>- Validaciones de duplicados en BD | 8 puntos | - Cada usuario recibe un ID único<br>- El ID no se repite en la base de datos<br>- Error claro si se intenta duplicar una identidad |
-| US-02 Subida de Credenciales | - Implementar endpoint `POST /credentials/upload` con validación de formato<br>- Interfaz de carga de archivos (PDF/JPG/PNG)<br>- Validación de tamaño y formato<br>- Guardar en almacenamiento seguro<br>- Registro de metadatos (fecha de subida, estado) | 10 puntos | - Usuario puede subir credenciales aceptadas<br>- Error si el formato no es válido<br>- Credenciales quedan asociadas a la identidad digital |
-| US-03 Notificaciones de Expiración | - Implementar servicio de notificaciones en backend<br>- Definir regla de expiración (ej. DNI vencido)<br>- Interfaz de alertas en frontend<br>- Tests unitarios de notificaciones<br>- Documentar configuración de alertas | 5 puntos | - Sistema genera alerta antes del vencimiento<br>- Usuario visualiza notificación en dashboard<br>- Se registran alertas en BD |
-| US-04 Panel de Verificación | - Crear endpoint `GET /admin/pending-identities`<br>- Interfaz de administración con lista de usuarios pendientes<br>- Botones de aprobar/rechazar<br>- Auditoría básica (quién aprobó, fecha)<br>- Restricción de acceso solo para rol administrador | 7 puntos | - Administrador puede ver solicitudes pendientes<br>- Puede aprobar o rechazar usuarios<br>- Acceso restringido únicamente a administradores |
-
----
-
-### Priorización del Sprint 1
-
-| Historia | Prioridad | Estimación |
-|----------|-----------|------------|
-| US-01 Identidad Digital Única | Alta | 8 |
-| US-02 Subida de Credenciales | Alta | 10 |
-| US-03 Notificaciones de Expiración | Media | 5 |
-| US-04 Panel de Verificación | Media | 7 |
-
-**Total estimado:** 30 puntos  
-**Capacidad del equipo:** ~28–32 puntos (ajustado al sprint inicial).
+| User Story | Work-Item / Task | Description | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
+|------------|------------------|-------------|---------------------|-------------|-----------------------------------------------|
+| **US-01**: Crear identidad digital única | T01 | Definir modelo de datos para identidades | 4h | Salcedo Champi, Matías Rodolfo (Matiasg23) | Done |
+| | T02 | Implementar endpoint `POST /identity/create` en backend | 6h | Salcedo Champi, Matías Rodolfo (Matiasg23) | In-Process |
+| | T03 | Diseñar formulario de creación en frontend (React/TypeScript) | 5h | Quiroz Zambrano, Fabrizio Javier (RelyCloud) | To-do |
+| | T04 | Validar duplicados en BD y mostrar mensajes de error claros | 3h | Salcedo Champi, Matías Rodolfo (Matiasg23) | To-do |
+| **US-02**: Subir y almacenar credenciales verificables | T05 | Implementar endpoint `POST /credentials/upload` con validación de formato | 6h | Salcedo Champi, Matías Rodolfo (Matiasg23) | To-do |
+| | T06 | Diseñar interfaz de carga de archivos (PDF/JPG/PNG) | 5h | Quiroz Zambrano, Fabrizio Javier (RelyCloud) | To-do |
+| | T07 | Validación de tamaño y formato en frontend | 3h | Quiroz Zambrano, Fabrizio Javier (RelyCloud) | To-do |
+| | T08 | Guardar documentos en almacenamiento seguro (ej. S3) | 6h | Salcedo Champi, Matías Rodolfo (Matiasg23) | To-do |
+| | T09 | Registrar metadatos (fecha de subida, estado) en BD | 4h | Salcedo Champi, Matías Rodolfo (Matiasg23) | To-do |
+| **US-03**: Notificaciones de expiración | T10 | Implementar servicio de notificaciones en backend | 6h | Salcedo Champi, Matías Rodolfo (Matiasg23) | To-do |
+| | T11 | Definir reglas de expiración de credenciales (ej. DNI vencido) | 3h | Tasayco Osorio, Raúl Hiroshi (Raul Hiroshi Tasayco Osorio) | To-do |
+| | T12 | Diseñar interfaz de alertas en dashboard | 4h | Quiroz Zambrano, Fabrizio Javier (RelyCloud) | To-do |
+| | T13 | Pruebas unitarias de notificaciones | 3h | Taquiri Calderón, Jhunior Giussepe (GiussepeTC0410) | To-do |
+| **US-04**: Panel de verificación de identidades | T14 | Crear endpoint `GET /admin/pending-identities` | 4h | Salcedo Champi, Matías Rodolfo (Matiasg23) | To-do |
+| | T15 | Diseñar interfaz de administración con lista de usuarios | 6h | Ruiz Huisa, Daniel Elías (DanRuizPeru) | To-do |
+| | T16 | Implementar botones de aprobar/rechazar | 4h | Ruiz Huisa, Daniel Elías (DanRuizPeru) | To-do |
+| | T17 | Auditoría básica (quién aprobó, fecha) | 3h | Tasayco Osorio, Raúl Hiroshi (Raul Hiroshi Tasayco Osorio) | To-do |
+| | T18 | Restricción de acceso solo para rol administrador | 4h | Taquiri Calderón, Jhunior Giussepe (GiussepeTC0410) | To-do |
 
 ---
 
-### Entregables del Sprint 1
+### Resumen de Estimaciones
+- **US-01**: 18h  
+- **US-02**: 24h  
+- **US-03**: 16h  
+- **US-04**: 21h  
 
-| Entregable | Descripción |
-|------------|-------------|
-| Módulo de Identidad Digital | Creación de identidades únicas y persistentes en la base de datos. |
-| Subida de Credenciales | Funcionalidad para cargar, validar y almacenar documentos oficiales. |
-| Servicio de Notificaciones | Alertas para credenciales próximas a vencer, visibles en el dashboard. |
-| Panel de Verificación | Interfaz de administrador con flujos de aprobación/rechazo de identidades. |
-| Reporte de Validación | Documento con feedback inicial de pruebas de usabilidad y validación de procesos. |
+**Total estimado:** 79h (aprox. 30 puntos en Planning Poker).  
+**Capacidad del equipo:** ~75–80h en Sprint 1.
+
+---
+
+### Observaciones
+- Las asignaciones de tareas siguen la **Leadership-and-Collaboration Matrix (LACX)** definida en la sección 5.2.1.2.  
+- Cada aspecto tiene un líder responsable que asume las tareas principales, mientras que los demás apoyan en funciones complementarias.  
+- El backlog está diseñado para que **frontend, backend y QA** puedan trabajar en paralelo.  
+- El status será actualizado de forma continua en el tablero de control del sprint (ej. GitHub Projects / Trello).
+
 
 
 ### 5.2.1.4. Development Evidence for Sprint Review.
 
 Para la entrega del Sprint 1 se intentó alcanzar el desarrollo completo, implementación y despliegue del Landing Page. Es por ello que la sección de "feature" se centro en la implementación de los archivos que contiene nuestro landing page. Dichos features se basan en los User Stories especificados en el sprint backlog y detallando cada uno de los escenarios que planeamos desarrollar.
+
+
+| Repository             | Branch                        | Commit Id | Commit Message                                                   | Commit Message Body                                                                                                      | Commited on (Date) |
+|------------------------|-------------------------------|-----------|------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|--------------------|
+| F1nTrack/landingPage   | feature/header+home           | 0143718   | feat: home component finished                                    | Se finalizó el desarrollo del componente Home, incluyendo la estructura principal, estilos iniciales y pruebas de integración visual. | 05/09/2025 |
+| F1nTrack/landingPage   | feature/review+carrusel       | 26d3d6e   | feat: add header and home components plus configurations and structure | Se implementaron los componentes Header y Home junto con la configuración base del proyecto y la estructura general para la landing page. | 06/09/2025 |
+| F1nTrack/landingPage   | feature/footer+responsive-design | c4d1f77   | feat(benefits): add benefits section layout and content placeholders | Se desarrolló la sección Beneficios, definiendo el layout con Tailwind, placeholders de contenido y soporte de diseño responsivo. | 07/09/2025 |
+| F1nTrack/landingPage   | feature/about+pages           | 01af656   | feat: add Home section layout with Tailwind grid and styles      | Se añadió el layout de la sección Home utilizando Tailwind Grid, con estilos personalizados y adaptación inicial para distintas páginas. | 08/09/2025 |
+
+
+
 
 
 ### 5.2.1.5. Execution Evidence for Sprint Review
