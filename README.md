@@ -68,7 +68,8 @@ static string[] Integrantes() {
     - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
     - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+  - [2.4. Big Picture EventStorming](#24-big-picture-eventstorming)
+  - [2.5. Ubiquitous Language](#25-ubiquitous-language)
     - [Identity \& Documents (Identidad y Documentos)](#identity--documents-identidad-y-documentos)
     - [Transportation \& Cards (Transporte y Tarjetas)](#transportation--cards-transporte-y-tarjetas)
     - [Payments \& Transactions (Pagos y Transacciones)](#payments--transactions-pagos-y-transacciones)
@@ -882,7 +883,12 @@ El análisis de las tareas de estudiantes universitarios y madres de familia mue
   
  <td><img src="resources/Cap-2/AS-IS_Scenario_Mapping/TO-BE%20Scenario%20Mapping%20Patricia.png" alt="TO-BE Scenario Mapping Patricia" ></td>
 
-## 2.4. Ubiquitous Language
+
+## 2.4. Big Picture EventStorming
+
+
+
+## 2.5. Ubiquitous Language
 
 En esta sección se presenta el glosario de términos y conceptos contemplados por el Bussiness  Domain.
 Los términos están definidos en inglés (con su equivalente en español entre paréntesis) y su definición en español.  
