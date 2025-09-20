@@ -1353,7 +1353,44 @@ En el apartado de Domain Driven Software Architecture para KapakID, puedes intro
 ![Class Diagram](<resources/Cap-4/Data_Base/data_base_diagram.jpg>)
 
 ### 4.7.2. Class Dictionary
+  <table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr><td><code>user</code></td><td>La entidad principal del sistema, que contiene la información de la cuenta del usuario, su email, contraseña y fecha de creación.</td></tr>
 
+<tr><td><code>user_data</code></td><td>Almacena los datos personales de los usuarios, como nombre, apellido y número de DNI.</td></tr>
+
+<tr><td><code>profile</code></td><td>Almacena la información del perfil del usuario, incluyendo fecha de nacimiento, dirección y las claves foráneas a sus credenciales y tarjetas.</td></tr>
+
+<tr><td><code>role</code></td><td>Define los roles de los usuarios en el sistema ('Estudiante', 'Apoderado').</td></tr>
+
+<tr><td><code>subscription</code></td><td>Representa la suscripción del usuario a planes, como el premium.</td></tr>
+
+<tr><td><code>financial_account</code></td><td>Representa la cuenta financiera de un usuario, donde se registra el saldo disponible.</td></tr>
+
+<tr><td><code>transaction</code></td><td>Registra cada movimiento financiero, como recargas o pagos, con detalles como el monto y la fecha.</td></tr>
+
+<tr><td><code>transaction_type</code></td><td>Guarda la información de las notificaciones enviadas a los usuarios, como alertas de saldo bajo o vencimiento.</td></tr>
+
+<tr><td><code>notification</code></td><td>Servicio de aplicación que orquesta operaciones de alto nivel sobre el Inventario.</td></tr>
+
+<tr><td><code>type_notification	</code></td><td>Define los tipos de notificaciones disponibles en la aplicación.</td></tr>
+
+<tr><td><code>credential</code></td><td>Contiene los datos de los documentos, como la fecha de vencimiento y el estado de verificación.</td></tr>
+
+<tr><td><code>card</code></td><td>Representa una tarjeta de transporte o bancaria, con información como el saldo y el estado de verificación.</td></tr>
+
+<tr><td><code>election</code></td><td>Registra los eventos de votación, como elecciones presidenciales o municipales.</td></tr>
+
+<tr><td><code>vote</code></td><td>Guarda el voto de un usuario para una elección especifica.</td></tr>
+
+</tbody>
+</table>
 
 ## 4.8. Database Desing
 ### 4.8.1. Database Diagram
