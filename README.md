@@ -742,11 +742,11 @@ El análisis de competidores es un paso esencial para el desarrollo estratégico
 
 | Campo         | Información |
 |---------------|-------------|
-| Entrevistado 1 |             |
-| Edad          |             |
-| Distrito      |             |
-| Foto          | ![Foto entrevistado 1]() |
-| Timing        | [Ver grabación]() |
+| Entrevistado 1 |  Freddy Jesus Torre Valverde    |
+| Edad          | 25            |
+| Distrito      | Surco         |
+| Foto          | ![Foto entrevistado 1](<resources/Cap-2/registro de entrevistas/imagen-freddy.png>) |
+| Timing        | [Ver grabación](https://youtu.be/LSnkTj_Xj1Q) |
 
 ---
 
