@@ -1779,8 +1779,6 @@ El propósito del sprint es validar la **propuesta de valor central**: facilitar
 
 Para la entrega del Sprint 1 se intentó alcanzar el desarrollo completo, implementación y despliegue del Landing Page. Es por ello que la sección de "feature" se centro en la implementación de los archivos que contiene nuestro landing page. Dichos features se basan en los User Stories especificados en el sprint backlog y detallando cada uno de los escenarios que planeamos desarrollar.
 
-### 5.2.1.5. Execution Evidence for Sprint Review.
-En este sprint 1 se hizo un desarrollo parcial de la implementacion del despliegue de la landing page, en la cual tenemos 4 diferentes secciones de informacion para el usuario.
 
 ### 5.2.1.5. Execution Evidence for Sprint Review
 
