@@ -463,7 +463,7 @@ Nosotros consideramos que estos usuarios necesitan una solución integral y segu
 
 #### 1.2.2.2. Lean UX Assumptions
 
-#### Business Outcomes 📊:
+#### Business Outcomes :
 
 
 * **🔵 Crecimiento de la Base de Usuarios** <br>
@@ -567,7 +567,7 @@ Nosotros consideramos que estos usuarios necesitan una solución integral y segu
 
      KapakID minimizará los costos de soporte con tutoriales interactivos y FAQs integrados en la plataforma. Esto permitirá a los usuarios resolver dudas de forma autónoma, mejorando la experiencia general.
 
-### User Outcomes 🙋
+### User Outcomes 
 
 * **🟢 Control Documental Personal Mejorado**<br>
 
@@ -631,33 +631,33 @@ Nosotros consideramos que estos usuarios necesitan una solución integral y segu
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-💡Creemos que digitalizar y centralizar todos los documentos personales y tarjetas en KapakID facilitará la vida diaria de los usuarios al reducir la dependencia de llevar documentos físicos.
+Creemos que digitalizar y centralizar todos los documentos personales y tarjetas en KapakID facilitará la vida diaria de los usuarios al reducir la dependencia de llevar documentos físicos.
 
-💭Sabremos que esto es cierto cuando los usuarios reporten un uso reducido de su billetera física para trámites o pagos cotidianos en el primer mes de uso.
+Sabremos que esto es cierto cuando los usuarios reporten un uso reducido de su billetera física para trámites o pagos cotidianos en el primer mes de uso.
 ___
-💡Creemos que las notificaciones automatizadas sobre vencimientos de documentos y saldos bajos ayudarán a los usuarios a mantenerse proactivos y a evitar inconvenientes o estrés por no tener sus documentos al día.
+Creemos que las notificaciones automatizadas sobre vencimientos de documentos y saldos bajos ayudarán a los usuarios a mantenerse proactivos y a evitar inconvenientes o estrés por no tener sus documentos al día.
 
-💭Sabremos que esto es cierto cuando el 90% de los usuarios que reciban una notificación de vencimiento inicien el trámite de renovación directamente desde la app, y cuando el uso de la función de recarga aumente un 15% tras las alertas de saldo bajo.
+Sabremos que esto es cierto cuando el 90% de los usuarios que reciban una notificación de vencimiento inicien el trámite de renovación directamente desde la app, y cuando el uso de la función de recarga aumente un 15% tras las alertas de saldo bajo.
 ___
-💡Creemos que la función de modo offline proporcionará un valor esencial y aumentará la confianza del usuario, asegurando que siempre tengan acceso a sus documentos verificados, incluso sin conexión a internet.
+Creemos que la función de modo offline proporcionará un valor esencial y aumentará la confianza del usuario, asegurando que siempre tengan acceso a sus documentos verificados, incluso sin conexión a internet.
 
-💭Sabremos que esto es cierto cuando al menos el 20% de los usuarios acceda a la app en modo offline en un periodo de 30 días, y cuando los comentarios sobre la seguridad y la conveniencia de esta función sean consistentemente positivos.
+Sabremos que esto es cierto cuando al menos el 20% de los usuarios acceda a la app en modo offline en un periodo de 30 días, y cuando los comentarios sobre la seguridad y la conveniencia de esta función sean consistentemente positivos.
 ___
-💡Creemos que el plan premium con soporte para múltiples perfiles motivará a los usuarios a suscribirse, ya que les permitirá administrar de forma eficiente los documentos de sus hijos y otros miembros de la familia.
+Creemos que el plan premium con soporte para múltiples perfiles motivará a los usuarios a suscribirse, ya que les permitirá administrar de forma eficiente los documentos de sus hijos y otros miembros de la familia.
 
-💭Sabremos que esto es cierto cuando al menos el 10% de los usuarios que usen la prueba gratuita del plan premium decidan pagar por la suscripción en el primer mes.
+Sabremos que esto es cierto cuando al menos el 10% de los usuarios que usen la prueba gratuita del plan premium decidan pagar por la suscripción en el primer mes.
 ___
-💡Creemos que una interfaz de usuario intuitiva y los tutoriales interactivos permitirán a usuarios con poca familiaridad tecnológica adoptar la app y completar tareas clave como el registro de documentos y los trámites sin necesitar soporte técnico directo.
+Creemos que una interfaz de usuario intuitiva y los tutoriales interactivos permitirán a usuarios con poca familiaridad tecnológica adoptar la app y completar tareas clave como el registro de documentos y los trámites sin necesitar soporte técnico directo.
 
-💭Sabremos que esto es cierto cuando el 85% de los usuarios nuevos completen su perfil y registren al menos tres documentos personales en la primera semana sin abrir un ticket de soporte.
+Sabremos que esto es cierto cuando el 85% de los usuarios nuevos completen su perfil y registren al menos tres documentos personales en la primera semana sin abrir un ticket de soporte.
 ___
-💡Creemos que la integración con entidades gubernamentales para la renovación de documentos y el acceso a servicios como el pago de impuestos o multas facilitará la adopción masiva, ya que los usuarios verán la app como una plataforma oficial y confiable para realizar trámites importantes.
+Creemos que la integración con entidades gubernamentales para la renovación de documentos y el acceso a servicios como el pago de impuestos o multas facilitará la adopción masiva, ya que los usuarios verán la app como una plataforma oficial y confiable para realizar trámites importantes.
 
-💭Sabremos que esto es cierto cuando al menos el 25% de los usuarios que hayan registrado un documento con fecha de vencimiento próxima intenten iniciar el proceso de renovación a través de la app.
+Sabremos que esto es cierto cuando al menos el 25% de los usuarios que hayan registrado un documento con fecha de vencimiento próxima intenten iniciar el proceso de renovación a través de la app.
 ___
-💡Creemos que la capacidad de pagar deudas y servicios básicos (como la recarga de teléfono) directamente desde KapakID aumentará la frecuencia de uso diario y posicionará a la app como una herramienta esencial para la gestión financiera personal.
+Creemos que la capacidad de pagar deudas y servicios básicos (como la recarga de teléfono) directamente desde KapakID aumentará la frecuencia de uso diario y posicionará a la app como una herramienta esencial para la gestión financiera personal.
 
-💭Sabremos que esto es cierto cuando el 40% de los usuarios que tengan tarjetas bancarias registradas realicen al menos una transacción de pago o recarga en un periodo de 30 días.
+Sabremos que esto es cierto cuando el 40% de los usuarios que tengan tarjetas bancarias registradas realicen al menos una transacción de pago o recarga en un periodo de 30 días.
 
 #### 1.2.2.4. Lean UX Canvas
 
@@ -815,15 +815,6 @@ El análisis de competidores es un paso esencial para el desarrollo estratégico
 | Foto          | ![Foto entrevistado 2]() |
 | Timing        | [Ver grabación]() |
 
----
-
-| Campo         | Información |
-|---------------|-------------|
-| Entrevistado 3 |             |
-| Edad          |             |
-| Distrito      |             |
-| Foto          | ![Foto entrevistado 3]() |
-| Timing        | [Ver grabación]() |
 
 ---
 
@@ -846,38 +837,30 @@ El análisis de competidores es un paso esencial para el desarrollo estratégico
     * Renovación de documentos como DNI es percibida como complicada y estresante por colas y citas.  
 
   * **Necesidades**
-    ```
+   
     Gestión centralizada de documentos y tarjetas para reducir fricción y olvidos.
-    ```
-    ```
+  
     Alertas multicanal y personalizables que notifiquen vencimientos de documentos y saldo bajo.
-    ```
-    ```
+   
     Funcionalidades offline y perfiles múltiples que permitan organizar documentos personales y académicos.
-    ```
-    ```
+    
     Métodos seguros de almacenamiento digital (biometría, PIN, cifrado) para garantizar confianza.
-    ```
-    ```
+  
     Recarga de transporte y pagos integrados dentro de la app para ahorrar tiempo.
-    ```
+   
 
   * **Oportunidades para KapakID**
-    ```
+    
     Alertas multicanal: Implementar notificaciones push y por WhatsApp para documentos y saldo bajo.
-    ```
-    ```
+    
     Gestión integral: Permitir almacenar, organizar y acceder a documentos personales y académicos desde la app.
-    ```
-    ```
+    
     Recargas y pagos integrados: Incluir funcionalidades para recargar tarjetas de transporte y realizar pagos de manera segura.
-    ```
-    ```
+    
     Funcionalidades offline: Garantizar acceso a documentos y perfiles sin conexión a internet.
-    ```
-    ```
+    
     Modelo freemium/premium: Ofrecer funciones avanzadas (historial, perfiles múltiples, checklist de trámites) con opción de suscripción anual.
-    ```
+    
 
 
 ## 2.3. Needfinding
@@ -1698,22 +1681,256 @@ En esta sección se especifica la configuración necesaria para el despliegue de
 
 ---
 
-📌 **Notas adicionales:**
+ **Notas adicionales:**
 - Se recomienda el uso de **Azure DevOps** para automatizar el despliegue mediante pipelines CI/CD.  
 - Cada despliegue debe estar vinculado a una rama específica del GitFlow (generalmente `release` o `main`).  
 - Todos los entornos deben contar con **versionado semántico** y logs de cambios documentados en GitHub.
 
 
 ## 5.2. Landing Page, Service & Applications Implementation
-### 5.2.x. Sprints
+### 5.2.1. Sprint 1
+### 5.2.1.1. Sprint Planning 1.
+|Sprint #|Date|Time|Location|Prepared By|Attendees|
+|-|-|-|-|-|-|
+|1|15/09/2025|15:00 PM|Reunión virtual mediante la aplicación Discord|Fabrizio Quiroz|Raul Tasayco, Matias Rodolfo, Daniel Ruiz, Junior Taquiri|
 
-## 5.3. Validation Interviews
-### 5.3.1. Diseño de Entrevistas
-### 5.3.2. Registro de Entrevistas
-### 5.3.3. Evaluaciones según heurísticas
+|Sprint 1 Goal|Sprint 1 Velocity|Sum of Story Points|
+|-|-|-|
+|Elaborar y diseñar una landing page atractiva e informativa para la aplicación KapakID|9|9|
+### 5.2.1.2. Aspect Leaders and Collaborators
 
-## 5.4. Video About-the-Product
+Aquí se presentan los líderes de los diferentes aspectos del proyecto KapakID durante el Sprint 1, junto con los colaboradores de apoyo, basados en las responsabilidades compartidas reflejadas en el informe.
+
+| Aspecto / Área                                | Líder Principal                                                                   | Colaboradores de Apoyo                                                    | Responsabilidades Clave                                                                                                         |
+|-----------------------------------------------|-----------------------------------------------------------------------------------|-----------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
+| Conceptualización del proyecto / Startup Profile | Fabrizio Javier Quiroz Zambrano                                                     | Todo el equipo     | Redacción del perfil de la startup (misión, visión, propuesta de valor), definición de problemática y alignment de visión de equipo. |
+| Definición de Problemas / Lean UX / Hypothesis | Matías Rodolfo Salcedo Champi                                                     | Todo el equipo                                           | Formulación de declaraciones de problema (problem statements), hipótesis, Lean UX Canvas.                                       |
+| Planificación del informe y entregables (TB1) | Raul Hiroshi Tasayco Osorio                                                  | Todo el equipo                          | Organización de capítulos, coordinación de versiones, cumplimiento de objetivos, planificación del contenido del informe.         |
+| Colaboración, revisión por pares y calidad     | Jhunior Giussepe Taquiri Calderon                                                 | Todo el equipo                             | Asegurar coherencia entre secciones, revisar entregables entre compañeros, mantener consistencia y calidad en contenido y estilo.   |
+| Desarrollo de la Landing Page                  | Daniel Elias  Ruiz Huisa                                                |Todo el equipo                 | Implementación de la estructura de la landing page, maquetación en HTML/CSS/JavaScript utilizando el framework de astro, integración de secciones Home, Beneficios, Casos de Éxito y Contacto. |
+
+---
+
+#### Observaciones sobre roles y colaboración
+
+- El liderazgo se distribuyó entre conceptualización, planificación, documentación y desarrollo técnico, lo que permitió avanzar en paralelo.  
+- La colaboración entre los integrantes aseguró consistencia entre lo escrito en el informe y lo implementado en la landing page.  
+- La incorporación de un **líder técnico específico para la Landing Page** garantizó la materialización de los conceptos de diseño en un producto desplegable y validable durante el Sprint Review.  
+- Se identificó un equilibrio entre **roles de documentación/planificación** y **roles de desarrollo práctico**, lo que fortalece el avance integral del proyecto.
+
+### 5.2.1.3. Sprint Backlog 1.
+
+## Sprint Backlog 1 – Proyecto KapakID
+
+### Sprint Goal
+Construir un MVP inicial de KapakID que permita a los usuarios **gestionar su identidad digital básica**, incluir un **primer nivel de verificación de credenciales**, y ofrecer un **panel seguro** donde visualizar sus datos.  
+El propósito del sprint es validar la **propuesta de valor central**: facilitar la gestión y verificación de identidades de manera confiable y usable.
+
+---
+
+### Historias de Usuario Seleccionadas
+
+| ID   | Historia de Usuario                                                                                                                  | Prioridad |
+|------|--------------------------------------------------------------------------------------------------------------------------------------|-----------|
+| US-01 | Como usuario quiero **crear mi identidad digital única** para poder usarla como base en transacciones seguras.                       | Alta      |
+| US-02 | Como usuario quiero **subir y almacenar credenciales verificables (DNI, pasaporte, licencia)** para validarlas en el sistema.        | Alta      |
+| US-03 | Como usuario quiero **recibir notificaciones si mis credenciales están próximas a expirar o requieren actualización**, para mantener mi información vigente. | Media     |
+| US-04 | Como administrador del sistema quiero **acceder a un panel de verificación de usuarios**, para aprobar o rechazar solicitudes de identidad digital. | Media     |
+
+---
+
+### Detalle de Tareas por Historia
+
+| Historia | Tareas principales                                                                                                              | Estimación | Criterios de Aceptación |
+|----------|----------------------------------------------------------------------------------------------------------------------------------|------------|--------------------------|
+| US-01 Identidad Digital Única | - Definir modelo de datos para identidades<br>- Endpoint `POST /identity/create`<br>- Generación de ID único en backend<br>- Formulario inicial de creación en frontend<br>- Validaciones de duplicados en BD | 8 puntos | - Cada usuario recibe un ID único<br>- El ID no se repite en la base de datos<br>- Error claro si se intenta duplicar una identidad |
+| US-02 Subida de Credenciales | - Implementar endpoint `POST /credentials/upload` con validación de formato<br>- Interfaz de carga de archivos (PDF/JPG/PNG)<br>- Validación de tamaño y formato<br>- Guardar en almacenamiento seguro<br>- Registro de metadatos (fecha de subida, estado) | 10 puntos | - Usuario puede subir credenciales aceptadas<br>- Error si el formato no es válido<br>- Credenciales quedan asociadas a la identidad digital |
+| US-03 Notificaciones de Expiración | - Implementar servicio de notificaciones en backend<br>- Definir regla de expiración (ej. DNI vencido)<br>- Interfaz de alertas en frontend<br>- Tests unitarios de notificaciones<br>- Documentar configuración de alertas | 5 puntos | - Sistema genera alerta antes del vencimiento<br>- Usuario visualiza notificación en dashboard<br>- Se registran alertas en BD |
+| US-04 Panel de Verificación | - Crear endpoint `GET /admin/pending-identities`<br>- Interfaz de administración con lista de usuarios pendientes<br>- Botones de aprobar/rechazar<br>- Auditoría básica (quién aprobó, fecha)<br>- Restricción de acceso solo para rol administrador | 7 puntos | - Administrador puede ver solicitudes pendientes<br>- Puede aprobar o rechazar usuarios<br>- Acceso restringido únicamente a administradores |
+
+---
+
+### Priorización del Sprint 1
+
+| Historia | Prioridad | Estimación |
+|----------|-----------|------------|
+| US-01 Identidad Digital Única | Alta | 8 |
+| US-02 Subida de Credenciales | Alta | 10 |
+| US-03 Notificaciones de Expiración | Media | 5 |
+| US-04 Panel de Verificación | Media | 7 |
+
+**Total estimado:** 30 puntos  
+**Capacidad del equipo:** ~28–32 puntos (ajustado al sprint inicial).
+
+---
+
+### Entregables del Sprint 1
+
+| Entregable | Descripción |
+|------------|-------------|
+| Módulo de Identidad Digital | Creación de identidades únicas y persistentes en la base de datos. |
+| Subida de Credenciales | Funcionalidad para cargar, validar y almacenar documentos oficiales. |
+| Servicio de Notificaciones | Alertas para credenciales próximas a vencer, visibles en el dashboard. |
+| Panel de Verificación | Interfaz de administrador con flujos de aprobación/rechazo de identidades. |
+| Reporte de Validación | Documento con feedback inicial de pruebas de usabilidad y validación de procesos. |
+
+
+### 5.2.1.4. Development Evidence for Sprint Review.
+
+Para la entrega del Sprint 1 se intentó alcanzar el desarrollo completo, implementación y despliegue del Landing Page. Es por ello que la sección de "feature" se centro en la implementación de los archivos que contiene nuestro landing page. Dichos features se basan en los User Stories especificados en el sprint backlog y detallando cada uno de los escenarios que planeamos desarrollar.
+
+### 5.2.1.5. Execution Evidence for Sprint Review.
+En este sprint 1 se hizo un desarrollo parcial de la implementacion del despliegue de la landing page, en la cual tenemos 4 diferentes secciones de informacion para el usuario.
+
+### 5.2.1.5. Execution Evidence for Sprint Review
+
+En esta sección se presenta la evidencia de lo desarrollado durante el **Sprint 1**, correspondiente al avance de la **Landing Page de KapakID**.  
+La entrega incluye: Landing Page completa, Home, Beneficios, Casos de Éxito y Contacto.
+
+---
+
+#### Landing Page Completa
+
+| Evidencia |
+|-----------|
+| ![Landing Page Completa](<resources/Cap-5/Landing-page-SS/Completelandingpage.png>) |
+
+Descripción: Captura de la **Landing Page** mostrando la estructura general, la navegación principal y la coherencia visual con la identidad del proyecto.
+
+---
+
+#### Home de la Landing Page
+
+| Evidencia |
+|-----------|
+| ![Home Landing Page](<resources/Cap-5/Landing-page-SS/HomeLanding.png>) |
+
+Descripción: Vista principal de la página, diseñada para transmitir confianza y destacar el valor de **KapakID** desde el primer contacto con el usuario.
+
+---
+
+#### Apartado de Beneficios
+
+| Evidencia |
+|-----------|
+| ![Beneficios](<resources/Cap-5/Landing-page-SS/BenefitsLanding.png>) |
+
+Descripción: Sección que comunica los beneficios principales de la plataforma. Cada beneficio se presenta de forma clara y diferenciada, con un diseño orientado a la rápida comprensión del usuario.
+
+---
+
+#### Casos de Éxito
+
+| Evidencia |
+|-----------|
+| ![Casos de Éxito](<resources/Cap-5/Landing-page-SS/CasesLanding.png>) |
+
+Descripción: Ejemplos de uso y testimonios simulados que refuerzan la propuesta de valor de **KapakID** mediante experiencias positivas y resultados tangibles.
+
+---
+
+#### Contacto
+
+| Evidencia |
+|-----------|
+| ![Contacto](<resources/Cap-5/Landing-page-SS/ContactLanding.png>) |
+
+Descripción: Sección de contacto que incluye datos relevantes, facilitando la comunicación con usuarios interesados o stakeholders potenciales.
+
+---
+
+#### Observaciones Finales del Sprint Review
+
+- La Landing Page desarrollada cumple con los objetivos planteados para el **Sprint 1**.  
+- Se validó la coherencia visual con la guía de estilos del proyecto.  
+- Se priorizó la claridad de la propuesta de valor y la usabilidad básica en todos los apartados.  
+
+### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+
+    En este sprint no fue contemplada la evidencia de implementacion de servicios
+
+### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+
+Durante la **entrega del Sprint 1**, se realizó el despliegue inicial de la **Landing Page de KapakID**.  
+El despliegue corresponde a una versión **parcialmente completa**, donde se implementaron las secciones principales (Home, Beneficios, Casos de Éxito y Contacto), aunque se identificaron algunos errores menores y áreas de mejora que se abordarán en futuros sprints.
+
+**Enlace de acceso al despliegue:**  
+[Landing Page de KapakID](https://tu-enlace-de-despliegue.com)
+
+| Aspecto evaluado      | Estado Sprint 1 | Observaciones |
+|------------------------|-----------------|---------------|
+| Disponibilidad         | ✔ Online        | Accesible mediante GitHub Pages. |
+| Home                   | ✔ Implementado  | Requiere optimización en tiempos de carga de imágenes. |
+| Beneficios             | ✔ Implementado  | Sección clara, pendiente ajuste tipográfico. |
+| Casos de Éxito         | ✔ Implementado  | Contenido simulado, se integrará real en Sprint 2. |
+| Contacto               | ✔ Implementado  | Falta validación completa en formulario. |
+| Bugs/Errores conocidos | ✖ Presentes     | Inconsistencias en responsive design (móviles). |
+
+---
+
+### 5.2.1.8. Team Collaboration Insights during Sprint.
+
+La colaboración del equipo durante el **Sprint 1** se organizó en torno a la implementación de secciones específicas de la Landing Page, promoviendo la **distribución equitativa de responsabilidades** y el **trabajo en paralelo**.
+
+| Integrante                          | Actividad Principal                                                                 |
+|-------------------------------------|-------------------------------------------------------------------------------------|
+| Apellido, Nombre – Rol (si aplica) | Implementación del **header** y la sección **Home** (estructura general y navegación). |
+| Apellido, Nombre – Rol (si aplica) | Desarrollo del apartado **Beneficios**, con maquetación y estilos iniciales.          |
+| Apellido, Nombre – Rol (si aplica) | Creación de la sección **Casos de Éxito**, incluyendo estructura y placeholders.      |
+| Apellido, Nombre – Rol (si aplica) | Implementación del módulo **Contacto** (formulario y datos básicos).                 |
+| Apellido, Nombre – Rol (si aplica) | Integración general y pruebas iniciales (responsive design, enlaces internos).       |
+
+**Evidencia gráfica del trabajo en equipo:**
+
+| Evidencia Colaborativa |
+|-------------------------|
+| ![Captura colaboración](<resources/Cap-5/Landing-page-SS/TeamCollaborationCommitsSprint1.png>) |
+
+**Observaciones del trabajo colaborativo:**
+- Se logró una integración temprana de las secciones en una sola rama de desarrollo.  
+- Se utilizó control de versiones en GitHub para organizar *pull requests* y revisiones.  
+- La comunicación del equipo permitió identificar rápidamente errores de diseño responsive.  
+- El reparto de actividades permitió avanzar de manera equilibrada, reduciendo dependencias.  
+
 
 # Conclusiones
 
-Conclusiones y recomendaciones
+El proyecto **KapakID** ha logrado definir y materializar componentes fundamentales durante el Sprint 1, tales como la landing page y sus secciones principales (Home, Beneficios, Casos de Éxito y Contacto). Estos avances evidencian un enfoque claro en transmitir la propuesta de valor y generar confianza en los usuarios desde el primer contacto. Sin embargo, la funcionalidad técnica de gestión y verificación de identidades digitales aún se encuentra en fases iniciales, lo que implica que en los siguientes sprints será crucial fortalecer la integración con el backend, la seguridad y la verificación de credenciales.
+
+Se observa un esfuerzo consistente en priorizar el diseño y la experiencia de usuario. La estructura de la landing page, la claridad en la comunicación de beneficios y la navegación intuitiva son fortalezas del proyecto. Aun así, persisten oportunidades de mejora en aspectos técnicos como la velocidad de carga, la optimización para dispositivos móviles y la consistencia tipográfica. Las evaluaciones heurísticas y futuras pruebas con usuarios permitirán identificar ajustes que mejoren aún más la usabilidad y refuercen la percepción de confiabilidad de la plataforma.
+
+El equipo ha mostrado una organización adecuada, distribuyendo responsabilidades de forma clara y utilizando prácticas ágiles basadas en sprints. Esto ha permitido avanzar de manera incremental y documentada. Sin embargo, se identifica la necesidad de incorporar **feedback real de usuarios finales** para validar las hipótesis de valor y usabilidad. El éxito del proyecto dependerá no solo de la calidad técnica y del diseño, sino también de su aceptación y pertinencia en el contexto social y tecnológico en el que busca posicionarse.
+
+
+
+#  Bibliografía
+
+- Nielsen Norman Group. *10 Usability Heuristics for User Interface Design*.  
+  Disponible en: [https://www.nngroup.com/articles/ten-usability-heuristics/](https://www.nngroup.com/articles/ten-usability-heuristics/)
+
+- Nielsen Norman Group. *How to Rate the Severity of Usability Problems*.  
+  Disponible en: [https://www.nngroup.com/articles/how-to-rate-the-severity-of-usability-problems/](https://www.nngroup.com/articles/how-to-rate-the-severity-of-usability-problems/)
+
+- Gothelf, Jeff; Seiden, Josh. *Lean UX: Designing Great Products with Agile Teams*.  
+  O’Reilly Media.
+
+- Microsoft Docs. *TypeScript Handbook*.  
+  Disponible en: [https://www.typescriptlang.org/docs/handbook/intro.html](https://www.typescriptlang.org/docs/handbook/intro.html)
+
+- Astro Documentation. *Astro Framework Documentation*.  
+  Disponible en: [https://docs.astro.build](https://docs.astro.build)
+
+- Tidwell, Jenifer. *Designing Interfaces: Patterns for Effective Interaction Design*.  
+  O’Reilly Media.
+
+- World Wide Web Consortium (W3C). *Web Content Accessibility Guidelines (WCAG)*.  
+  Disponible en: [https://www.w3.org/WAI/standards-guidelines/wcag/](https://www.w3.org/WAI/standards-guidelines/wcag/)
+
+- Sethi, P.; Sarangi, S. *Internet of Things: Architectures, Protocols, and Applications*.  
+  *Journal of Electrical and Computer Engineering*.
+
+- Google Web Fundamentals. *Web Performance Optimization Guidelines*.  
+  Disponible en: [https://developers.google.com/web/fundamentals/performance](https://developers.google.com/web/fundamentals/performance)
+
+
+# Anexos
