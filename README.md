@@ -216,8 +216,8 @@ static string[] Integrantes() {
 
 | Criterio específico | Acciones realizadas (TB1) | Conclusiones (TB1) |
 |---|---|---|
-| **Trabaja en equipo para proporcionar liderazgo en forma conjunta** | **Giussepe Taquiri :**    <br> **Raul  Tasayco :**  <br> **Daniel  Ruiz  :**  <br> **Matias  Salcedo :** . <br> **Fabrizio  Quiroz  :**  | El equipo demostró **liderazgo distribuido por especialidad**, permitiendo decisiones más rápidas y alineadas con el dominio. La coordinación cruzada entre UX, arquitectura y especificación redujo reprocesos y generó un TB1 **coherente y consistente**. |
-| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** |  **Giussepe Taquiri :**  <br> **Raul  Tasayco :**  <br> **Daniel  Ruiz  :**  <br> **Matias  Salcedo :** . <br> **Fabrizio  Quiroz :** | Se cumplieron los objetivos de **TB1** con entregables completos y trazables. La **planificación** y metas claras facilitaron el cumplimiento a tiempo; la **revisión por pares** elevó la calidad del informe. El entorno **colaborativo e inclusivo** favoreció la participación activa y el logro del **SO5**. |
+| **Trabaja en equipo para proporcionar liderazgo en forma conjunta** | **Giussepe Taquiri :**    <br> **Raul  Tasayco :** Aporté en el liderazgo fragmentando los bloques a trabajar para la elección personal de cada uno, creé la organización de github añadiendo a mis compañeros y configurando todos los repositorios y colocando fechas aproximadas de entregas <br> **Daniel  Ruiz  :** Contribuí al liderazgo compartido mediante la gestión de configuraciones y control de versiones (**Software Development Configuration Management** y **Source Code Management**). Además, impulsé la estandarización con una **guía de estilo de código** y participé en la **configuración de despliegues**, lo que fortaleció la organización y confiabilidad del trabajo en equipo.   <br> **Matias  Salcedo :*Me encargué de la conceptualización inicial del proyecto KapakID, redactando el Perfil de la Startup (misión, visión y propuesta de valor). Mi trabajo fue crucial para que el equipo tuviera una visión unificada y supiera exactamente a dónde queríamos llegar. Me encargué de la redacción de los perfiles de los integrantes, asegurando que cada miembro estuviera bien representado y que nuestras fortalezas individuales se complementaran para el proyecto. Mi aporte en estas secciones fue importante para el resto del equipo.* . <br> **Fabrizio  Quiroz  :**  | El equipo demostró **liderazgo distribuido por especialidad**, permitiendo decisiones más rápidas y alineadas con el dominio. La coordinación cruzada entre UX, arquitectura y especificación redujo reprocesos y generó un TB1 **coherente y consistente**. |
+| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** |  **Giussepe Taquiri :**  <br> **Raul  Tasayco :**  Traté de fomentar la colaboración con la separación de tareas o metas a lograr por cada semana, elaboré el apartado de LeanUX Process y definí los segmentos objetivos del proyecto, también realicé el apartado del Domain Driven Design con el uso de el C4 Model usando structurizr, finalmente realicé la estructura de la base de datos con la normalización respectiva <br> **Daniel  Ruiz  :** Fomenté la colaboración definiendo un **ubiquitous language**, elaborando el **to-be-scenario mapping** y organizando las **User Stories en épicas**. Asimismo, realicé el **Impact Mapping**, el **Product Backlog** y el **diagrama de clases con diccionario**, lo que permitió al equipo alinear objetivos, planificar tareas y comprender de forma conjunta el diseño del sistema. <br> **Matias  Salcedo :*Participé en la etapa de definición de la problemática, aportando en la formulación de las 5Ws + 2H. Al desglosar el problema con esta metodología, logramos establecer metas muy claras y una hoja de ruta precisa para el equipo. La planificación de esta primera etapa, en la que contribuí de manera positiva, fue clave para que las siguientes fases del informe (como el Lean UX Canvas) fluyeran sin contratiempos, permitiéndonos cumplir con todos los objetivos del TB1 de manera eficiente y a tiempo.* . <br> **Fabrizio  Quiroz :** | Se cumplieron los objetivos de **TB1** con entregables completos y trazables. La **planificación** y metas claras facilitaron el cumplimiento a tiempo; la **revisión por pares** elevó la calidad del informe. El entorno **colaborativo e inclusivo** favoreció la participación activa y el logro del **SO5**. |
 
 
 
@@ -463,7 +463,7 @@ Nosotros consideramos que estos usuarios necesitan una solución integral y segu
 
 #### 1.2.2.2. Lean UX Assumptions
 
-#### Business Outcomes 📊:
+#### Business Outcomes :
 
 
 * **🔵 Crecimiento de la Base de Usuarios** <br>
@@ -567,7 +567,7 @@ Nosotros consideramos que estos usuarios necesitan una solución integral y segu
 
      KapakID minimizará los costos de soporte con tutoriales interactivos y FAQs integrados en la plataforma. Esto permitirá a los usuarios resolver dudas de forma autónoma, mejorando la experiencia general.
 
-### User Outcomes 🙋
+### User Outcomes 
 
 * **🟢 Control Documental Personal Mejorado**<br>
 
@@ -631,33 +631,33 @@ Nosotros consideramos que estos usuarios necesitan una solución integral y segu
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
-💡Creemos que digitalizar y centralizar todos los documentos personales y tarjetas en KapakID facilitará la vida diaria de los usuarios al reducir la dependencia de llevar documentos físicos.
+Creemos que digitalizar y centralizar todos los documentos personales y tarjetas en KapakID facilitará la vida diaria de los usuarios al reducir la dependencia de llevar documentos físicos.
 
-💭Sabremos que esto es cierto cuando los usuarios reporten un uso reducido de su billetera física para trámites o pagos cotidianos en el primer mes de uso.
+Sabremos que esto es cierto cuando los usuarios reporten un uso reducido de su billetera física para trámites o pagos cotidianos en el primer mes de uso.
 ___
-💡Creemos que las notificaciones automatizadas sobre vencimientos de documentos y saldos bajos ayudarán a los usuarios a mantenerse proactivos y a evitar inconvenientes o estrés por no tener sus documentos al día.
+Creemos que las notificaciones automatizadas sobre vencimientos de documentos y saldos bajos ayudarán a los usuarios a mantenerse proactivos y a evitar inconvenientes o estrés por no tener sus documentos al día.
 
-💭Sabremos que esto es cierto cuando el 90% de los usuarios que reciban una notificación de vencimiento inicien el trámite de renovación directamente desde la app, y cuando el uso de la función de recarga aumente un 15% tras las alertas de saldo bajo.
+Sabremos que esto es cierto cuando el 90% de los usuarios que reciban una notificación de vencimiento inicien el trámite de renovación directamente desde la app, y cuando el uso de la función de recarga aumente un 15% tras las alertas de saldo bajo.
 ___
-💡Creemos que la función de modo offline proporcionará un valor esencial y aumentará la confianza del usuario, asegurando que siempre tengan acceso a sus documentos verificados, incluso sin conexión a internet.
+Creemos que la función de modo offline proporcionará un valor esencial y aumentará la confianza del usuario, asegurando que siempre tengan acceso a sus documentos verificados, incluso sin conexión a internet.
 
-💭Sabremos que esto es cierto cuando al menos el 20% de los usuarios acceda a la app en modo offline en un periodo de 30 días, y cuando los comentarios sobre la seguridad y la conveniencia de esta función sean consistentemente positivos.
+Sabremos que esto es cierto cuando al menos el 20% de los usuarios acceda a la app en modo offline en un periodo de 30 días, y cuando los comentarios sobre la seguridad y la conveniencia de esta función sean consistentemente positivos.
 ___
-💡Creemos que el plan premium con soporte para múltiples perfiles motivará a los usuarios a suscribirse, ya que les permitirá administrar de forma eficiente los documentos de sus hijos y otros miembros de la familia.
+Creemos que el plan premium con soporte para múltiples perfiles motivará a los usuarios a suscribirse, ya que les permitirá administrar de forma eficiente los documentos de sus hijos y otros miembros de la familia.
 
-💭Sabremos que esto es cierto cuando al menos el 10% de los usuarios que usen la prueba gratuita del plan premium decidan pagar por la suscripción en el primer mes.
+Sabremos que esto es cierto cuando al menos el 10% de los usuarios que usen la prueba gratuita del plan premium decidan pagar por la suscripción en el primer mes.
 ___
-💡Creemos que una interfaz de usuario intuitiva y los tutoriales interactivos permitirán a usuarios con poca familiaridad tecnológica adoptar la app y completar tareas clave como el registro de documentos y los trámites sin necesitar soporte técnico directo.
+Creemos que una interfaz de usuario intuitiva y los tutoriales interactivos permitirán a usuarios con poca familiaridad tecnológica adoptar la app y completar tareas clave como el registro de documentos y los trámites sin necesitar soporte técnico directo.
 
-💭Sabremos que esto es cierto cuando el 85% de los usuarios nuevos completen su perfil y registren al menos tres documentos personales en la primera semana sin abrir un ticket de soporte.
+Sabremos que esto es cierto cuando el 85% de los usuarios nuevos completen su perfil y registren al menos tres documentos personales en la primera semana sin abrir un ticket de soporte.
 ___
-💡Creemos que la integración con entidades gubernamentales para la renovación de documentos y el acceso a servicios como el pago de impuestos o multas facilitará la adopción masiva, ya que los usuarios verán la app como una plataforma oficial y confiable para realizar trámites importantes.
+Creemos que la integración con entidades gubernamentales para la renovación de documentos y el acceso a servicios como el pago de impuestos o multas facilitará la adopción masiva, ya que los usuarios verán la app como una plataforma oficial y confiable para realizar trámites importantes.
 
-💭Sabremos que esto es cierto cuando al menos el 25% de los usuarios que hayan registrado un documento con fecha de vencimiento próxima intenten iniciar el proceso de renovación a través de la app.
+Sabremos que esto es cierto cuando al menos el 25% de los usuarios que hayan registrado un documento con fecha de vencimiento próxima intenten iniciar el proceso de renovación a través de la app.
 ___
-💡Creemos que la capacidad de pagar deudas y servicios básicos (como la recarga de teléfono) directamente desde KapakID aumentará la frecuencia de uso diario y posicionará a la app como una herramienta esencial para la gestión financiera personal.
+Creemos que la capacidad de pagar deudas y servicios básicos (como la recarga de teléfono) directamente desde KapakID aumentará la frecuencia de uso diario y posicionará a la app como una herramienta esencial para la gestión financiera personal.
 
-💭Sabremos que esto es cierto cuando el 40% de los usuarios que tengan tarjetas bancarias registradas realicen al menos una transacción de pago o recarga en un periodo de 30 días.
+Sabremos que esto es cierto cuando el 40% de los usuarios que tengan tarjetas bancarias registradas realicen al menos una transacción de pago o recarga en un periodo de 30 días.
 
 #### 1.2.2.4. Lean UX Canvas
 
@@ -815,15 +815,6 @@ El análisis de competidores es un paso esencial para el desarrollo estratégico
 | Foto          | ![Foto entrevistado 2]() |
 | Timing        | [Ver grabación]() |
 
----
-
-| Campo         | Información |
-|---------------|-------------|
-| Entrevistado 3 |             |
-| Edad          |             |
-| Distrito      |             |
-| Foto          | ![Foto entrevistado 3]() |
-| Timing        | [Ver grabación]() |
 
 ---
 
@@ -846,38 +837,30 @@ El análisis de competidores es un paso esencial para el desarrollo estratégico
     * Renovación de documentos como DNI es percibida como complicada y estresante por colas y citas.  
 
   * **Necesidades**
-    ```
+   
     Gestión centralizada de documentos y tarjetas para reducir fricción y olvidos.
-    ```
-    ```
+  
     Alertas multicanal y personalizables que notifiquen vencimientos de documentos y saldo bajo.
-    ```
-    ```
+   
     Funcionalidades offline y perfiles múltiples que permitan organizar documentos personales y académicos.
-    ```
-    ```
+    
     Métodos seguros de almacenamiento digital (biometría, PIN, cifrado) para garantizar confianza.
-    ```
-    ```
+  
     Recarga de transporte y pagos integrados dentro de la app para ahorrar tiempo.
-    ```
+   
 
   * **Oportunidades para KapakID**
-    ```
+    
     Alertas multicanal: Implementar notificaciones push y por WhatsApp para documentos y saldo bajo.
-    ```
-    ```
+    
     Gestión integral: Permitir almacenar, organizar y acceder a documentos personales y académicos desde la app.
-    ```
-    ```
+    
     Recargas y pagos integrados: Incluir funcionalidades para recargar tarjetas de transporte y realizar pagos de manera segura.
-    ```
-    ```
+    
     Funcionalidades offline: Garantizar acceso a documentos y perfiles sin conexión a internet.
-    ```
-    ```
+    
     Modelo freemium/premium: Ofrecer funciones avanzadas (historial, perfiles múltiples, checklist de trámites) con opción de suscripción anual.
-    ```
+    
 
 
 ## 2.3. Needfinding
@@ -1697,22 +1680,270 @@ En esta sección se especifica la configuración necesaria para el despliegue de
 
 ---
 
-📌 **Notas adicionales:**
+ **Notas adicionales:**
 - Se recomienda el uso de **Azure DevOps** para automatizar el despliegue mediante pipelines CI/CD.  
 - Cada despliegue debe estar vinculado a una rama específica del GitFlow (generalmente `release` o `main`).  
 - Todos los entornos deben contar con **versionado semántico** y logs de cambios documentados en GitHub.
 
 
 ## 5.2. Landing Page, Service & Applications Implementation
-### 5.2.x. Sprints
+### 5.2.1. Sprint 1
+### 5.2.1.1. Sprint Planning 1.
+|Sprint #|Date|Time|Location|Prepared By|Attendees|
+|-|-|-|-|-|-|
+|1|15/09/2025|15:00 PM|Reunión virtual mediante la aplicación Discord|Fabrizio Quiroz|Raul Tasayco, Matias Rodolfo, Daniel Ruiz, Junior Taquiri|
 
-## 5.3. Validation Interviews
-### 5.3.1. Diseño de Entrevistas
-### 5.3.2. Registro de Entrevistas
-### 5.3.3. Evaluaciones según heurísticas
+|Sprint 1 Goal|Sprint 1 Velocity|Sum of Story Points|
+|-|-|-|
+|Elaborar y diseñar una landing page atractiva e informativa para la aplicación KapakID|9|9|
+### 5.2.1.2. Aspect Leaders and Collaborators
 
-## 5.4. Video About-the-Product
+En esta sección se presenta la **Leadership-and-Collaboration Matrix (LACX)**, que indica para cada aspecto del Sprint quién es líder (**L**) y quiénes actúan como colaboradores (**C**).  
+Los aspectos considerados en el Sprint 1 son:  
+- Startup Profile / Conceptualización del Proyecto  
+- Lean UX / Hypothesis  
+- Planificación del Informe (TB1)  
+- Colaboración, revisión por pares y calidad  
+- Desarrollo de la Landing Page  
+
+---
+
+| Team Member (Last Name, First Name) | GitHub Username | Startup Profile | Lean UX / Hypothesis | TB1 Planificación Informe | Revisión y Calidad | Landing Page |
+|-------------------------------------|-----------------|-----------------|----------------------|---------------------------|--------------------|--------------|
+| Quiroz Zambrano, Fabrizio Javier    | RelyCloud       | L               | C                    | C                         | C                  | C            |
+| Salcedo Champi, Matías Rodolfo      | Matiasg23       | C               | L                    | C                         | C                  | C            |
+| Tasayco Osorio, Raúl Hiroshi        | Raul Hiroshi Tasayco Osorio       | C               | C                    | L                         | C                  | C            |
+| Taquiri Calderón, Jhunior Giussepe  | GiussepeTC0410       | C               | C                    | C                         | L                  | C            |
+| Ruiz Huisa, Daniel Elías            | DanRuizPeru          | C               | C                    | C                         | C                  | L            |
+
+---
+
+#### Observaciones
+- El equipo adoptó un modelo de liderazgo distribuido: cada aspecto del Sprint tuvo un responsable principal (L) y varios colaboradores (C).  
+- Esta distribución permitió avanzar en paralelo y garantizar la consistencia entre la documentación y la implementación técnica.  
+- La Landing Page contó con un **líder técnico especializado**, asegurando la traducción del diseño conceptual en un artefacto desplegable.  
+- La organización de líderes y colaboradores mantiene relación directa con la posterior asignación de tareas en el Sprint Backlog.
+
+
+### 5.2.1.3. Sprint Backlog 1.
+
+## Sprint Backlog 1 – Proyecto KapakID
+
+### Sprint Goal
+Construir un MVP inicial de KapakID que permita a los usuarios **gestionar su identidad digital básica**, incluir un **primer nivel de verificación de credenciales**, y ofrecer un **panel seguro** donde visualizar sus datos.  
+El propósito del sprint es validar la **propuesta de valor central**: facilitar la gestión y verificación de identidades de manera confiable y usable.
+
+---
+
+### Control de Estado del Sprint 1
+
+| User Story | Work-Item / Task | Description | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
+|------------|------------------|-------------|---------------------|-------------|-----------------------------------------------|
+| **US-01**: Crear identidad digital única | T01 | Definir modelo de datos para identidades | 4h | Salcedo Champi, Matías Rodolfo (Matiasg23) | Done |
+| | T02 | Implementar endpoint `POST /identity/create` en backend | 6h | Salcedo Champi, Matías Rodolfo (Matiasg23) | In-Process |
+| | T03 | Diseñar formulario de creación en frontend (React/TypeScript) | 5h | Quiroz Zambrano, Fabrizio Javier (RelyCloud) | To-do |
+| | T04 | Validar duplicados en BD y mostrar mensajes de error claros | 3h | Salcedo Champi, Matías Rodolfo (Matiasg23) | To-do |
+| **US-02**: Subir y almacenar credenciales verificables | T05 | Implementar endpoint `POST /credentials/upload` con validación de formato | 6h | Salcedo Champi, Matías Rodolfo (Matiasg23) | To-do |
+| | T06 | Diseñar interfaz de carga de archivos (PDF/JPG/PNG) | 5h | Quiroz Zambrano, Fabrizio Javier (RelyCloud) | To-do |
+| | T07 | Validación de tamaño y formato en frontend | 3h | Quiroz Zambrano, Fabrizio Javier (RelyCloud) | To-do |
+| | T08 | Guardar documentos en almacenamiento seguro (ej. S3) | 6h | Salcedo Champi, Matías Rodolfo (Matiasg23) | To-do |
+| | T09 | Registrar metadatos (fecha de subida, estado) en BD | 4h | Salcedo Champi, Matías Rodolfo (Matiasg23) | To-do |
+| **US-03**: Notificaciones de expiración | T10 | Implementar servicio de notificaciones en backend | 6h | Salcedo Champi, Matías Rodolfo (Matiasg23) | To-do |
+| | T11 | Definir reglas de expiración de credenciales (ej. DNI vencido) | 3h | Tasayco Osorio, Raúl Hiroshi (Raul Hiroshi Tasayco Osorio) | To-do |
+| | T12 | Diseñar interfaz de alertas en dashboard | 4h | Quiroz Zambrano, Fabrizio Javier (RelyCloud) | To-do |
+| | T13 | Pruebas unitarias de notificaciones | 3h | Taquiri Calderón, Jhunior Giussepe (GiussepeTC0410) | To-do |
+| **US-04**: Panel de verificación de identidades | T14 | Crear endpoint `GET /admin/pending-identities` | 4h | Salcedo Champi, Matías Rodolfo (Matiasg23) | To-do |
+| | T15 | Diseñar interfaz de administración con lista de usuarios | 6h | Ruiz Huisa, Daniel Elías (DanRuizPeru) | To-do |
+| | T16 | Implementar botones de aprobar/rechazar | 4h | Ruiz Huisa, Daniel Elías (DanRuizPeru) | To-do |
+| | T17 | Auditoría básica (quién aprobó, fecha) | 3h | Tasayco Osorio, Raúl Hiroshi (Raul Hiroshi Tasayco Osorio) | To-do |
+| | T18 | Restricción de acceso solo para rol administrador | 4h | Taquiri Calderón, Jhunior Giussepe (GiussepeTC0410) | To-do |
+
+---
+
+### Resumen de Estimaciones
+- **US-01**: 18h  
+- **US-02**: 24h  
+- **US-03**: 16h  
+- **US-04**: 21h  
+
+**Total estimado:** 79h (aprox. 30 puntos en Planning Poker).  
+**Capacidad del equipo:** ~75–80h en Sprint 1.
+
+---
+
+### Observaciones
+- Las asignaciones de tareas siguen la **Leadership-and-Collaboration Matrix (LACX)** definida en la sección 5.2.1.2.  
+- Cada aspecto tiene un líder responsable que asume las tareas principales, mientras que los demás apoyan en funciones complementarias.  
+- El backlog está diseñado para que **frontend, backend y QA** puedan trabajar en paralelo.  
+- El status será actualizado de forma continua en el tablero de control del sprint (ej. GitHub Projects / Trello).
+
+
+
+### 5.2.1.4. Development Evidence for Sprint Review.
+
+Para la entrega del Sprint 1 se intentó alcanzar el desarrollo completo, implementación y despliegue del Landing Page. Es por ello que la sección de "feature" se centro en la implementación de los archivos que contiene nuestro landing page. Dichos features se basan en los User Stories especificados en el sprint backlog y detallando cada uno de los escenarios que planeamos desarrollar.
+
+
+| Repository             | Branch                        | Commit Id | Commit Message                                                   | Commit Message Body                                                                                                      | Commited on (Date) |
+|------------------------|-------------------------------|-----------|------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|--------------------|
+| F1nTrack/landingPage   | feature/header+home           | 0143718   | feat: home component finished                                    | Se finalizó el desarrollo del componente Home, incluyendo la estructura principal, estilos iniciales y pruebas de integración visual. | 05/09/2025 |
+| F1nTrack/landingPage   | feature/review+carrusel       | 26d3d6e   | feat: add header and home components plus configurations and structure | Se implementaron los componentes Header y Home junto con la configuración base del proyecto y la estructura general para la landing page. | 06/09/2025 |
+| F1nTrack/landingPage   | feature/footer+responsive-design | c4d1f77   | feat(benefits): add benefits section layout and content placeholders | Se desarrolló la sección Beneficios, definiendo el layout con Tailwind, placeholders de contenido y soporte de diseño responsivo. | 07/09/2025 |
+| F1nTrack/landingPage   | feature/about+pages           | 01af656   | feat: add Home section layout with Tailwind grid and styles      | Se añadió el layout de la sección Home utilizando Tailwind Grid, con estilos personalizados y adaptación inicial para distintas páginas. | 08/09/2025 |
+
+
+
+
+
+### 5.2.1.5. Execution Evidence for Sprint Review
+
+En esta sección se presenta la evidencia de lo desarrollado durante el **Sprint 1**, correspondiente al avance de la **Landing Page de KapakID**.  
+La entrega incluye: Landing Page completa, Home, Beneficios, Casos de Éxito y Contacto.
+
+---
+
+#### Landing Page Completa
+
+| Evidencia |
+|-----------|
+| ![Landing Page Completa](<resources/Cap-5/Landing-page-SS/Completelandingpage.png>) |
+
+Descripción: Captura de la **Landing Page** mostrando la estructura general, la navegación principal y la coherencia visual con la identidad del proyecto.
+
+---
+
+#### Home de la Landing Page
+
+| Evidencia |
+|-----------|
+| ![Home Landing Page](<resources/Cap-5/Landing-page-SS/HomeLanding.png>) |
+
+Descripción: Vista principal de la página, diseñada para transmitir confianza y destacar el valor de **KapakID** desde el primer contacto con el usuario.
+
+---
+
+#### Apartado de Beneficios
+
+| Evidencia |
+|-----------|
+| ![Beneficios](<resources/Cap-5/Landing-page-SS/BenefitsLanding.png>) |
+
+Descripción: Sección que comunica los beneficios principales de la plataforma. Cada beneficio se presenta de forma clara y diferenciada, con un diseño orientado a la rápida comprensión del usuario.
+
+---
+
+#### Casos de Éxito
+
+| Evidencia |
+|-----------|
+| ![Casos de Éxito](<resources/Cap-5/Landing-page-SS/CasesLanding.png>) |
+
+Descripción: Ejemplos de uso y testimonios simulados que refuerzan la propuesta de valor de **KapakID** mediante experiencias positivas y resultados tangibles.
+
+---
+
+#### Contacto
+
+| Evidencia |
+|-----------|
+| ![Contacto](<resources/Cap-5/Landing-page-SS/ContactLanding.png>) |
+
+Descripción: Sección de contacto que incluye datos relevantes, facilitando la comunicación con usuarios interesados o stakeholders potenciales.
+
+---
+
+#### Observaciones Finales del Sprint Review
+
+- La Landing Page desarrollada cumple con los objetivos planteados para el **Sprint 1**.  
+- Se validó la coherencia visual con la guía de estilos del proyecto.  
+- Se priorizó la claridad de la propuesta de valor y la usabilidad básica en todos los apartados.  
+
+### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+
+    En este sprint no fue contemplada la evidencia de implementacion de servicios
+
+### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+
+Durante la **entrega del Sprint 1**, se realizó el despliegue inicial de la **Landing Page de KapakID**.  
+El despliegue corresponde a una versión **parcialmente completa**, donde se implementaron las secciones principales (Home, Beneficios, Casos de Éxito y Contacto), aunque se identificaron algunos errores menores y áreas de mejora que se abordarán en futuros sprints.
+
+**Enlace de acceso al despliegue:**  
+[Landing Page de KapakID](https://tu-enlace-de-despliegue.com)
+
+| Aspecto evaluado      | Estado Sprint 1 | Observaciones |
+|------------------------|-----------------|---------------|
+| Disponibilidad         | ✔ Online        | Accesible mediante GitHub Pages. |
+| Home                   | ✔ Implementado  | Requiere optimización en tiempos de carga de imágenes. |
+| Beneficios             | ✔ Implementado  | Sección clara, pendiente ajuste tipográfico. |
+| Casos de Éxito         | ✔ Implementado  | Contenido simulado, se integrará real en Sprint 2. |
+| Contacto               | ✔ Implementado  | Falta validación completa en formulario. |
+| Bugs/Errores conocidos | ✖ Presentes     | Inconsistencias en responsive design (móviles). |
+
+---
+
+### 5.2.1.8. Team Collaboration Insights during Sprint.
+
+La colaboración del equipo durante el **Sprint 1** se organizó en torno a la implementación de secciones específicas de la Landing Page, promoviendo la **distribución equitativa de responsabilidades** y el **trabajo en paralelo**.
+
+| Integrante                          | Actividad Principal                                                                 |
+|-------------------------------------|-------------------------------------------------------------------------------------|
+| Quiroz Zambrano ,Fabrizio Javier | Implementación del **header** y la sección **Home** (estructura general y navegación). |
+| Taquiri Calderon, Jhunior Giussepe  | Desarrollo del apartado **Beneficios**, con maquetación y estilos iniciales.          |
+| Salcedo Champi, Matias Rodolfo | Creación de la sección **Casos de Éxito**, incluyendo estructura y placeholders.      |
+| Ruiz Huisa, Daniel Elias | Implementación del módulo **Contacto** (formulario y datos básicos).                 |
+| Tasayco Osorio, Raul Hiroshi | Integración general y pruebas iniciales (responsive design, enlaces internos).       |
+
+**Evidencia gráfica del trabajo en equipo:**
+
+| Evidencia Colaborativa |
+|-------------------------|
+| ![Captura colaboración](<resources/Cap-5/Landing-page-SS/TeamCollaborationCommitsSprint1.png>) |
+
+**Observaciones del trabajo colaborativo:**
+- Se logró una integración temprana de las secciones en una sola rama de desarrollo.  
+- Se utilizó control de versiones en GitHub para organizar *pull requests* y revisiones.  
+- La comunicación del equipo permitió identificar rápidamente errores de diseño responsive.  
+- El reparto de actividades permitió avanzar de manera equilibrada, reduciendo dependencias.  
+
 
 # Conclusiones
 
-Conclusiones y recomendaciones
+El proyecto **KapakID** ha logrado definir y materializar componentes fundamentales durante el Sprint 1, tales como la landing page y sus secciones principales (Home, Beneficios, Casos de Éxito y Contacto). Estos avances evidencian un enfoque claro en transmitir la propuesta de valor y generar confianza en los usuarios desde el primer contacto. Sin embargo, la funcionalidad técnica de gestión y verificación de identidades digitales aún se encuentra en fases iniciales, lo que implica que en los siguientes sprints será crucial fortalecer la integración con el backend, la seguridad y la verificación de credenciales.
+
+Se observa un esfuerzo consistente en priorizar el diseño y la experiencia de usuario. La estructura de la landing page, la claridad en la comunicación de beneficios y la navegación intuitiva son fortalezas del proyecto. Aun así, persisten oportunidades de mejora en aspectos técnicos como la velocidad de carga, la optimización para dispositivos móviles y la consistencia tipográfica. Las evaluaciones heurísticas y futuras pruebas con usuarios permitirán identificar ajustes que mejoren aún más la usabilidad y refuercen la percepción de confiabilidad de la plataforma.
+
+El equipo ha mostrado una organización adecuada, distribuyendo responsabilidades de forma clara y utilizando prácticas ágiles basadas en sprints. Esto ha permitido avanzar de manera incremental y documentada. Sin embargo, se identifica la necesidad de incorporar **feedback real de usuarios finales** para validar las hipótesis de valor y usabilidad. El éxito del proyecto dependerá no solo de la calidad técnica y del diseño, sino también de su aceptación y pertinencia en el contexto social y tecnológico en el que busca posicionarse.
+
+
+
+#  Bibliografía
+
+- Nielsen Norman Group. *10 Usability Heuristics for User Interface Design*.  
+  Disponible en: [https://www.nngroup.com/articles/ten-usability-heuristics/](https://www.nngroup.com/articles/ten-usability-heuristics/)
+
+- Nielsen Norman Group. *How to Rate the Severity of Usability Problems*.  
+  Disponible en: [https://www.nngroup.com/articles/how-to-rate-the-severity-of-usability-problems/](https://www.nngroup.com/articles/how-to-rate-the-severity-of-usability-problems/)
+
+- Gothelf, Jeff; Seiden, Josh. *Lean UX: Designing Great Products with Agile Teams*.  
+  O’Reilly Media.
+
+- Microsoft Docs. *TypeScript Handbook*.  
+  Disponible en: [https://www.typescriptlang.org/docs/handbook/intro.html](https://www.typescriptlang.org/docs/handbook/intro.html)
+
+- Astro Documentation. *Astro Framework Documentation*.  
+  Disponible en: [https://docs.astro.build](https://docs.astro.build)
+
+- Tidwell, Jenifer. *Designing Interfaces: Patterns for Effective Interaction Design*.  
+  O’Reilly Media.
+
+- World Wide Web Consortium (W3C). *Web Content Accessibility Guidelines (WCAG)*.  
+  Disponible en: [https://www.w3.org/WAI/standards-guidelines/wcag/](https://www.w3.org/WAI/standards-guidelines/wcag/)
+
+- Sethi, P.; Sarangi, S. *Internet of Things: Architectures, Protocols, and Applications*.  
+  *Journal of Electrical and Computer Engineering*.
+
+- Google Web Fundamentals. *Web Performance Optimization Guidelines*.  
+  Disponible en: [https://developers.google.com/web/fundamentals/performance](https://developers.google.com/web/fundamentals/performance)
+
+
+# Anexos
