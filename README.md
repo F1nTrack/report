@@ -1345,8 +1345,10 @@ En el apartado de Domain Driven Software Architecture para KapakID, puedes intro
 ![component diagram c4 5](<resources/Cap-4/Model_C4/structurizr-ComponentDiagram1.png>)
 ## 4.7. Software Object-Oriented Desing
 ### 4.7.1. Class Diagram
-![](<>)
+![Class Diagram](<resources/Cap-4/Data_Base/data_base_diagram.jpg>)
+
 ### 4.7.2. Class Dictionary
+
 
 ## 4.8. Database Desing
 ### 4.8.1. Database Diagram
