@@ -1888,11 +1888,11 @@ La colaboración del equipo durante el **Sprint 1** se organizó en torno a la i
 
 | Integrante                          | Actividad Principal                                                                 |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Apellido, Nombre – Rol (si aplica) | Implementación del **header** y la sección **Home** (estructura general y navegación). |
-| Apellido, Nombre – Rol (si aplica) | Desarrollo del apartado **Beneficios**, con maquetación y estilos iniciales.          |
-| Apellido, Nombre – Rol (si aplica) | Creación de la sección **Casos de Éxito**, incluyendo estructura y placeholders.      |
-| Apellido, Nombre – Rol (si aplica) | Implementación del módulo **Contacto** (formulario y datos básicos).                 |
-| Apellido, Nombre – Rol (si aplica) | Integración general y pruebas iniciales (responsive design, enlaces internos).       |
+| Quiroz Zambrano ,Fabrizio Javier | Implementación del **header** y la sección **Home** (estructura general y navegación). |
+| Taquiri Calderon, Jhunior Giussepe  | Desarrollo del apartado **Beneficios**, con maquetación y estilos iniciales.          |
+| Salcedo Champi, Matias Rodolfo | Creación de la sección **Casos de Éxito**, incluyendo estructura y placeholders.      |
+| Ruiz Huisa, Daniel Elias | Implementación del módulo **Contacto** (formulario y datos básicos).                 |
+| Tasayco Osorio, Raul Hiroshi | Integración general y pruebas iniciales (responsive design, enlaces internos).       |
 
 **Evidencia gráfica del trabajo en equipo:**
 
