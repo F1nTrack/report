@@ -695,20 +695,28 @@ El análisis de competidores es un paso esencial para el desarrollo estratégico
 
 ### 2.1.1 Análisis competitivo (Comparativa)
 
+**¿Por qué llevar a cabo este análisis?**  
+El análisis competitivo de **KapakID** permite entender el panorama actual de billeteras digitales e identidades electrónicas en Perú, identificar qué hacen bien los competidores y en qué fallan, y posicionar a KapakID como una solución integral que combina pagos, identidad y gestión de documentos.
 
- Criterio                              | KapakID | Yape | Plin | IDPerú (RENIEC) | Google Wallet |
-|--------------------------------------|---------|------|------|------------------|---------------|
-| Centraliza documentos oficiales      | Sí      | No   | No   | Parcial          | No            |
-| Gestión de tarjetas de transporte    | Sí      | Parcial | Parcial | No           | No            |
-| Pagos y recargas                     | Sí (enlace a billeteras) | Sí | Sí | No | Sí |
-| Alertas inteligentes                 | Sí      | No   | No   | No               | No            |
-| Perfiles múltiples                   | Sí      | No   | No   | No               | No            |
-| Modo offline                         | Sí      | No   | No   | No               | Parcial       |
-| Asistente de trámites                | Sí      | No   | No   | No               | No            |
-| Cumplimiento Ley 29733               | Sí      | Sí   | Sí   | Sí               | Sí            |
-| Fortalezas clave                     | Centralización total, alertas, perfiles múltiples, seguridad | Popularidad, confianza bancaria | Interoperabilidad bancaria | Identidad digital oficial | Integración global |
-| Debilidades                          | Requiere confianza del usuario | No gestiona documentos | No alertas ni documentos | No pagos ni transporte | No adaptado a trámites locales |
+---
 
+| **Aspecto** | **KapakID** | **Yape** | **Plin** | **IDPerú (RENIEC)** | **Google Wallet** |
+|-------------|-------------|----------|----------|----------------------|-------------------|
+| **Perfil** |||||  
+| **Overview** | Plataforma digital que integra identidad, pagos, transporte y gestión de documentos. | Billetera digital bancaria popular en Perú. | Billetera digital interoperable entre bancos. | Plataforma estatal de identidad digital. | Billetera digital global de Google. | 
+| **Ventaja competitiva / Valor ofrecido** | Centralización de documentos + pagos + alertas + transporte en una sola app. | Confianza y popularidad entre usuarios peruanos. | Interoperabilidad bancaria amplia. | Identidad digital oficial. | Integración global en dispositivos Android. |
+| **Nivel de Marketing** ||||| 
+| **Mercado objetivo** | Estudiantes, familias y ciudadanos que requieren gestionar trámites, transporte y pagos en Perú. | Jóvenes y adultos bancarizados en Perú. | Usuarios de banca digital en Perú. | Ciudadanos peruanos que requieren autenticación oficial. | Usuarios globales de Android interesados en pagos digitales. |
+| **Estrategias de marketing** | Diferenciación por seguridad, centralización y adaptación local (Metropolitano, Línea 1, SUNEDU, CONADIS). Campañas digitales y alianzas institucionales. | Marketing masivo, respaldo bancario. | Posicionamiento en interoperabilidad y simplicidad. | Difusión estatal y obligatoriedad en trámites oficiales. | Estrategia global en Google Pay y servicios Android. |
+| **Perfil de Producto** |||||  
+| **Productos & Servicios** | Identidad digital, pagos, recargas de transporte, alertas inteligentes, asistente de trámites. | Pagos y transferencias. | Pagos y transferencias entre bancos. | Autenticación y certificados digitales. | Pagos digitales y almacenamiento de tarjetas. |
+| **Precios & Costos** | Modelo freemium: básico gratis, premium con alertas avanzadas y perfiles múltiples. | Gratis para usuarios. | Gratis para usuarios. | Gratis para ciudadanos (respaldado por el Estado). | Gratis, requiere dispositivos Android. |
+| **Canales de distribución (Web/Móvil)** | App móvil (Android/iOS) con integración a servicios locales. | App móvil Android/iOS. | App móvil Android/iOS. | Plataforma digital oficial, apps de gobierno. | App móvil preinstalada en Android. |
+| **Análisis SWOT** |||||  
+| **Fortalezas** | Centralización total de documentos, alertas inteligentes, perfiles múltiples, modo offline, asistente de trámites. | Popularidad masiva, confianza en respaldo bancario. | Interoperabilidad bancaria, simplicidad. | Respaldo oficial del Estado, obligatoriedad en trámites. | Integración global y masiva en Android. |
+| **Debilidades** | Requiere generar confianza inicial en usuarios para almacenar documentos sensibles. | No gestiona documentos ni transporte. | No maneja alertas ni documentos. | No cubre pagos ni transporte. | No adaptado al contexto peruano, sin enfoque en trámites locales. |
+| **Oportunidades** | Creciente digitalización de trámites en Perú, necesidad de integración transporte + pagos + identidad. | Crecer en funcionalidades más allá de pagos. | Mejorar experiencia de usuario e incluir servicios adicionales. | Ampliar servicios digitales más allá de identidad. | Expandirse en mercados emergentes con servicios locales. |
+| **Amenazas** | Competidores bancarios consolidados, desconfianza en gestión digital de documentos sensibles. | Aparición de apps más completas en Perú. | Nuevos competidores fintech más versátiles. | Baja adopción si usuarios prefieren soluciones privadas. | Regulaciones locales que limiten su alcance. |
 
 ---
 
