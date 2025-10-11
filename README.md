@@ -853,15 +853,24 @@ El análisis competitivo de **KapakID** permite entender el panorama actual de b
 
 | Campo         | Información |
 |---------------|-------------|
-| Entrevistado 2 |             |
-| Edad          |             |
-| Distrito      |             |
-| Foto          | ![Foto entrevistado 2]() |
-| Timing        | [Ver grabación]() |
+| Entrevistado 2 |    Daniel Paolo Ita Rojas         |
+| Edad          |     21        |
+| Distrito      |          Villa Maria del Triunfo   |
+| Foto          | ![Foto entrevistado 2](<resources/Cap-2/registro de entrevistas/Imagen-entrevistaPaolo.png) |
+| Timing        | [Ver grabación](https://drive.google.com/file/d/16iohQr01hyAhS6zoUO3Td08Vxon0hDhe/view?usp=sharing) |
 
 
 ---
 
+| Campo         | Información |
+|---------------|-------------|
+| Entrevistado 2 |     Jose Rodrigo Rodriguez     |
+| Edad          |   20      |
+| Distrito      |      Villa Maria del Triunfo    |
+| Foto          | ![Foto entrevistado 2](<resources/Cap-2/registro de entrevistas/Imagen-entrevistaJose.png) |
+| Timing        | [Ver grabación](https://drive.google.com/file/d/1NJMvMY5To5xtlis-if2pwjwBhdjVMOpi/view?usp=sharing) |
+
+---
 
 ### 2.2.3. Análisis de entrevistas
 
