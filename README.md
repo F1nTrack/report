@@ -31,7 +31,6 @@ static string[] Integrantes() {
     };
 }
 ~~~
-## Registro de versiones del informe
 
 <!-- Registro de versiones -->
 <h1 align="left">Registro de versiones del Informe</h1>
@@ -67,6 +66,43 @@ static string[] Integrantes() {
           <li>Capítulo III: Requirements Specification</li>
           <li>Capítulo IV: Product Design</li>
           <li>Capítulo V: Product Implementation, Validation & Deployment (hasta el primer sprint)</li>
+          <li>Avance de Conclusiones, Bibliografía y Anexos</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<br>
+
+<table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; font-size: 14px;">
+  <thead>
+    <tr style="background:#f7f7f7;">
+      <td align="center" style="border: 1px solid #ddd; padding: 8px; width: 10%;">Versión</td>
+      <td align="center" style="border: 1px solid #ddd; padding: 8px; width: 12%;">Fecha</td>
+      <td align="center" style="border: 1px solid #ddd; padding: 8px; width: 33%;">Autores</td>
+      <td align="center" style="border: 1px solid #ddd; padding: 8px;">Descripción</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #ccbebeff; padding: 8px; font-weight: 600;">TP1</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">10/10/2025</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">
+        <ul style="margin:0 0 0 18px;">
+          <li>Jhunior Giussepe Taquiri Calderon – u20221C576</li>
+          <li>Raul Hiroshi Tasayco Osorio – U202319415</li>
+          <li>Daniel Elias Ruiz Huisa – U202210764</li>
+          <li>Matias Rodolfo Salcedo Champi – u202319698</li>
+          <li>Fabrizio Javier Quiroz Zambrano – U202213406</li>
+        </ul>
+      </td>
+      <td style="border: 1px solid #ddd; padding: 8px;">
+        <strong>Proyecto:</strong> F1nTrack – KapakID
+        <ul style="margin:6px 0 0 18px;">
+          <li>Capítulo V: Product Implementation, Validation & Deployment (hasta el segundo sprint)</li>
+          <li>FrontEnd: Implementacion del Front End hasta el sprint 2</li>
           <li>Avance de Conclusiones, Bibliografía y Anexos</li>
         </ul>
       </td>
