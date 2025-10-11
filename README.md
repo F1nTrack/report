@@ -2053,6 +2053,147 @@ El objetivo fue **conectar la interfaz con el backend** para ofrecer una experie
 - Se documentaron las rutas, componentes y estándares de estilo en el repositorio principal `frontend-web-application`.
 
 
+### 5.2.2.4. Development Evidence for Sprint Review
+
+Durante la entrega del **Sprint 2**, el objetivo fue implementar el **Frontend Web de KapakID**, logrando la integración visual y funcional de las vistas principales con los servicios backend definidos en la arquitectura.  
+La sección de *features* se centró en la creación de los módulos dinámicos, componentes reutilizables y configuración del entorno de despliegue.  
+Cada *commit* refleja el avance en la interfaz, validaciones, rutas y pruebas de integración visual.
+
+| Repository                  | Branch                        | Commit Id | Commit Message                                                  | Commit Message Body                                                                                                       | Committed on (Date) |
+|-----------------------------|-------------------------------|-----------|-----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|----------------------|
+| F1nTrack/frontend-web-application | feature/login+auth           | 91b2e5a   | feat: implement login view and auth service connection          | Se desarrolló el formulario de inicio de sesión con validaciones y conexión a la API de autenticación (`/auth/login`).   | 03/10/2025 |
+| F1nTrack/frontend-web-application | feature/dashboard+layout     | b4f8c31   | feat: dashboard layout and router configuration completed        | Se finalizó la estructura del dashboard principal con barra lateral, widgets y navegación entre módulos principales.      | 04/10/2025 |
+| F1nTrack/frontend-web-application | feature/documents+upload     | e28c772   | feat: add document upload view and local preview functionality  | Se implementó el módulo de gestión de documentos, permitiendo previsualizar archivos antes del envío al backend.          | 05/10/2025 |
+| F1nTrack/frontend-web-application | feature/payments+recargas    | 34cf1d2   | feat: add payment and recharge components with API simulation   | Se añadió el módulo de recargas y pagos, integrando funciones simuladas y manejo de formularios con PrimeVue.             | 06/10/2025 |
+| F1nTrack/frontend-web-application | feature/notifications+alerts | 5e9a8a9   | feat: implement notifications system and alert history view     | Se configuraron alertas locales, notificaciones visuales y una vista de historial de vencimientos.                        | 07/10/2025 |
+| F1nTrack/frontend-web-application | feature/deploy+viteconfig    | 7cfaa1e   | chore: optimize vite config and prepare deployment environment  | Se ajustaron las configuraciones de Vite, Tailwind y Router, preparando el entorno para despliegue en Netlify.            | 09/10/2025 |
+
+---
+
+### 5.2.2.5. Execution Evidence for Sprint Review
+
+Esta sección presenta la evidencia visual y funcional del **Frontend Web Implementado** durante el **Sprint 2**, incluyendo los módulos de **Login**, **Dashboard**, **Gestión de Documentos**, **Recargas** y **Notificaciones**.
+
+---
+
+#### Login de Usuario
+
+| Evidencia |
+|-----------|
+| ![Login KapakID](<resources/Cap-5/Frontend-SS/LoginKapakID.png>) |
+
+**Descripción:** Vista inicial de acceso a la aplicación, implementada con Vue y PrimeVue. Incluye validaciones, diseño responsive y conexión con la API de autenticación.
+
+---
+
+#### Dashboard Principal
+
+| Evidencia |
+|-----------|
+| ![Dashboard KapakID](<resources/Cap-5/Frontend-SS/DashboardKapakID.png>) |
+
+**Descripción:** Panel principal que centraliza la información del usuario, mostrando saldo, vencimientos y accesos rápidos a los módulos principales.
+
+---
+
+#### Gestión de Documentos
+
+| Evidencia |
+|-----------|
+| ![Gestión de Documentos](<resources/Cap-5/Frontend-SS/DocumentsKapakID.png>) |
+
+**Descripción:** Vista que permite subir, visualizar y eliminar documentos personales. Incluye validación de formatos y previsualización de archivos antes de enviarlos al backend.
+
+---
+
+#### Módulo de Recargas y Pagos
+
+| Evidencia |
+|-----------|
+| ![Recargas KapakID](<resources/Cap-5/Frontend-SS/RecargasKapakID.png>) |
+
+**Descripción:** Interfaz para realizar recargas de tarjetas de transporte y pagos simulados, con formularios dinámicos y confirmaciones visuales.
+
+---
+
+#### Notificaciones y Alertas
+
+| Evidencia |
+|-----------|
+| ![Notificaciones KapakID](<resources/Cap-5/Frontend-SS/NotificacionesKapakID.png>) |
+
+**Descripción:** Vista que muestra las alertas de vencimiento, saldo bajo y notificaciones push. Permite acceder al historial de alertas previas y configuraciones personalizadas.
+
+---
+
+#### Observaciones Finales del Sprint Review
+
+- Se completó la implementación del **frontend principal de KapakID**, cumpliendo el objetivo de navegación y funcionalidad general.  
+- Las vistas fueron desarrolladas con **Vue.js + PrimeVue + TailwindCSS**, asegurando coherencia con la guía de estilo definida en el Capítulo IV.  
+- El frontend se encuentra completamente operativo en entorno de pruebas y preparado para integración final con los servicios backend del Sprint 3.
+
+---
+
+### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Durante este sprint se documentó la conexión entre el **frontend y los endpoints** del backend, registrando las rutas de comunicación y métodos de validación empleados.
+
+| Endpoint | Método | Descripción | Estado |
+|-----------|---------|-------------|---------|
+| `/auth/login` | POST | Autenticación de usuario y generación de token de sesión. | ✔ Activo |
+| `/documents/upload` | POST | Carga de archivos y validación de formato. | ✔ Activo |
+| `/notifications/list` | GET | Obtiene las notificaciones y alertas activas del usuario. | ✔ Activo |
+| `/payments/top-up` | POST | Simula recargas de tarjetas y pagos de servicios. | ✔ Activo |
+
+**Observación:** Todos los servicios se probaron con peticiones simuladas desde el frontend. La integración completa con el backend real está planificada para el Sprint 3.
+
+---
+
+### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante el **Sprint 2**, se desplegó la aplicación **KapakID Frontend** en un entorno de prueba (Netlify) para la validación visual e interactiva de los módulos implementados.
+
+**Enlace de acceso al despliegue:**  
+[KapakID Frontend – Entorno de Pruebas](https://f1ntrack.netlify.app/)
+
+| Aspecto evaluado      | Estado Sprint 2 | Observaciones |
+|------------------------|-----------------|---------------|
+| Disponibilidad         | ✔ Online        | Accesible mediante Netlify. |
+| Login / Autenticación  | ✔ Implementado  | Validaciones de usuario y sesión funcionales. |
+| Dashboard              | ✔ Implementado  | Correcta visualización de widgets y navegación. |
+| Gestión de Documentos  | ✔ Implementado  | Integración parcial con backend simulada. |
+| Pagos y Recargas       | ✔ Implementado  | Conexión mock activa, se probará con API real en Sprint 3. |
+| Notificaciones         | ✔ Implementado  | Alerta visual y registro en historial operativo. |
+| Bugs/Errores conocidos | ✖ Menores       | Pendiente ajuste en animaciones de transiciones de vista. |
+
+---
+
+### 5.2.2.8. Team Collaboration Insights during Sprint
+
+La colaboración del equipo durante el **Sprint 2** se centró en el desarrollo conjunto del frontend, asignando roles según experiencia técnica y asegurando una integración eficiente de los componentes.
+
+| Integrante | Actividad Principal |
+|-------------|--------------------|
+| Quiroz Zambrano, Fabrizio Javier | Implementación de **login**, conexión con servicios y despliegue final. |
+| Salcedo Champi, Matías Rodolfo | Creación del **dashboard principal** y componentes de interfaz reutilizables. |
+| Tasayco Osorio, Raúl Hiroshi | Integración de APIs (autenticación, documentos y pagos). |
+| Taquiri Calderón, Jhunior Giussepe | Configuración de **notificaciones locales** y pruebas funcionales. |
+| Ruiz Huisa, Daniel Elías | **Despliegue en Netlify**, validación de accesibilidad y control de dependencias. |
+
+**Evidencia colaborativa:**
+
+| Evidencia Colaborativa |
+|-------------------------|
+| ![Captura colaboración Sprint 2](<resources/Cap-5/Frontend-SS/TeamCollaborationSprint2.png>) |
+
+**Observaciones del trabajo colaborativo:**
+- Se establecieron **ramas de desarrollo separadas** por módulo para evitar conflictos de código.  
+- Se aplicó una política de *pull requests* y revisiones por pares antes de integrar a la rama principal.  
+- El uso de GitHub Projects permitió gestionar tareas y seguimiento del progreso en tiempo real.  
+- La comunicación constante facilitó la resolución de conflictos y el refinamiento del diseño UI/UX.
+
+
+
 
 # Conclusiones
 
