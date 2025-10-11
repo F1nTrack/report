@@ -846,7 +846,7 @@ El análisis competitivo de **KapakID** permite entender el panorama actual de b
 | Entrevistado 1 |  Freddy Jesus Torre Valverde    |
 | Edad          | 25            |
 | Distrito      | Surco         |
-| Foto          | ![Foto entrevistado 1](<resources/Cap-2/registro de entrevistas/imagen-freddy.png>) |
+| Foto          | ![Foto entrevistado 4](<resources/Cap-2/registro de entrevistas/imagen-freddy.png>) |
 | Timing        | [Ver grabación](https://youtu.be/LSnkTj_Xj1Q) |
 
 ---
@@ -856,7 +856,7 @@ El análisis competitivo de **KapakID** permite entender el panorama actual de b
 | Entrevistado 2 |    Daniel Paolo Ita Rojas         |
 | Edad          |     21        |
 | Distrito      |          Villa Maria del Triunfo   |
-| Foto          | ![Foto entrevistado 2](<resources/Cap-2/registro de entrevistas/Imagen-entrevistaPaolo.png) |
+| Foto          | ![Foto entrevistado 5](<resources/Cap-2/registro de entrevistas/Imagen-entrevistaPaolo.png>) |
 | Timing        | [Ver grabación](https://drive.google.com/file/d/16iohQr01hyAhS6zoUO3Td08Vxon0hDhe/view?usp=sharing) |
 
 
@@ -867,7 +867,7 @@ El análisis competitivo de **KapakID** permite entender el panorama actual de b
 | Entrevistado 2 |     Jose Rodrigo Rodriguez     |
 | Edad          |   20      |
 | Distrito      |      Villa Maria del Triunfo    |
-| Foto          | ![Foto entrevistado 2](<resources/Cap-2/registro de entrevistas/Imagen-entrevistaJose.png) |
+| Foto          | ![Foto entrevistado 6](<resources/Cap-2/registro de entrevistas/Imagen-entrevistaJose.png>) |
 | Timing        | [Ver grabación](https://drive.google.com/file/d/1NJMvMY5To5xtlis-if2pwjwBhdjVMOpi/view?usp=sharing) |
 
 ---
