@@ -1960,7 +1960,98 @@ La colaboración del equipo durante el **Sprint 1** se organizó en torno a la i
 - Se logró una integración temprana de las secciones en una sola rama de desarrollo.  
 - Se utilizó control de versiones en GitHub para organizar *pull requests* y revisiones.  
 - La comunicación del equipo permitió identificar rápidamente errores de diseño responsive.  
-- El reparto de actividades permitió avanzar de manera equilibrada, reduciendo dependencias.  
+- El reparto de actividades permitió avanzar de manera equilibrada, reduciendo dependencias.
+
+
+  ## 5.2.3. Sprint 2
+
+### 5.2.3.1. Sprint Planning 2
+
+| Sprint # | Date | Time | Location | Prepared By | Attendees |
+|-----------|------|------|-----------|--------------|------------|
+| 2 | 10/10/2025 | 16:00 PM | Reunión virtual mediante Discord | Fabrizio Quiroz | Raúl Tasayco, Matías Salcedo, Daniel Ruiz, Junior Taquiri |
+
+| Sprint 2 Goal | Sprint 2 Velocity | Sum of Story Points |
+|----------------|-------------------|----------------------|
+| Implementar el **frontend web de KapakID**, desarrollando las vistas principales (Login, Dashboard, Gestión de Documentos, Recargas y Notificaciones) y conectando la interfaz con los servicios del backend para validar la interacción completa. | 11 | 11 |
+
+---
+
+### 5.2.3.2. Aspect Leaders and Collaborators
+
+En este sprint, el enfoque principal fue la **implementación del frontend web**, asegurando la integración visual y funcional con la arquitectura definida en el Capítulo IV.  
+La siguiente tabla presenta la **Leadership-and-Collaboration Matrix (LACX)** del Sprint 2.
+
+| Team Member (Last Name, First Name) | GitHub Username | UI/UX Implementation | Component Architecture | API Integration | Testing & Validation | Deployment |
+|-------------------------------------|-----------------|----------------------|------------------------|-----------------|----------------------|-------------|
+| Quiroz Zambrano, Fabrizio Javier | RelyCloud | L | C | L | C | C |
+| Salcedo Champi, Matías Rodolfo | Matiasg23 | C | L | C | C | C |
+| Tasayco Osorio, Raúl Hiroshi | Raul Hiroshi Tasayco Osorio | C | C | L | C | C |
+| Taquiri Calderón, Jhunior Giussepe | GiussepeTC0410 | C | C | C | L | C |
+| Ruiz Huisa, Daniel Elías | DanRuizPeru | C | C | C | C | L |
+
+#### Observaciones
+
+- Se mantuvo el modelo de **liderazgo distribuido**, asignando líderes por especialidad técnica (Frontend, Integración, Testing, Despliegue).  
+- **Fabrizio Quiroz** lideró la implementación del **frontend** y la **conexión con los servicios** del backend.  
+- **Matías Salcedo** coordinó la organización de componentes y estilos, garantizando consistencia visual con el **Brand Book y Style Guidelines**.  
+- **Raúl Tasayco** supervisó la **integración API** y los controladores de datos entre módulos.  
+- **Junior Taquiri** lideró la validación funcional (pruebas de vistas y comportamiento de componentes).  
+- **Daniel Ruiz** apoyó en la **configuración de despliegue** y pruebas de accesibilidad visual.  
+
+---
+
+### 5.2.3.3. Sprint Backlog 2
+
+#### Sprint Goal
+Construir e integrar el **frontend funcional de KapakID**, implementando las vistas dinámicas y los componentes principales definidos en el diseño UI/UX del Capítulo IV.  
+El objetivo fue **conectar la interfaz con el backend** para ofrecer una experiencia coherente, segura y completamente navegable.
+
+---
+
+### Control de Estado del Sprint 2
+
+| User Story | Work-Item / Task | Description | Estimation (Hours) | Assigned To | Status |
+|-------------|------------------|-------------|---------------------|-------------|---------|
+| **US-05**: Implementar autenticación y login de usuarios | T19 | Desarrollar formulario de inicio de sesión (Vue.js + PrimeVue) con validaciones. | 5h | Quiroz Zambrano, Fabrizio Javier (RelyCloud) | Done |
+|  | T20 | Integrar API de autenticación con backend (`/auth/login`) | 4h | Raúl Hiroshi Tasayco Osorio | Done |
+| **US-06**: Implementar Dashboard principal | T21 | Crear layout general con navbar, sidebar y routing dinámico | 5h | Matías Salcedo Champi | Done |
+|  | T22 | Conectar widgets de saldo, vencimiento y notificaciones | 4h | Fabrizio Quiroz | Done |
+|  | T23 | Implementar gráficos de transacciones con PrimeVue Charts | 4h | Matías Salcedo | In-Process |
+| **US-07**: Módulo de gestión de documentos | T24 | Crear vista para carga y visualización de documentos (PDF, PNG, JPG) | 5h | Fabrizio Quiroz | Done |
+|  | T25 | Integrar lógica de subida con backend (`/documents/upload`) | 4h | Raúl Tasayco | In-Process |
+|  | T26 | Añadir alertas de vencimiento con notificaciones locales | 3h | Daniel Ruiz | To-Review |
+| **US-08**: Recarga y pagos | T27 | Implementar vista de recarga de tarjetas de transporte | 5h | Fabrizio Quiroz | Done |
+|  | T28 | Conectar flujo de recarga con API simulada (`/payments/top-up`) | 4h | Raúl Tasayco | In-Process |
+| **US-09**: Notificaciones | T29 | Configurar servicio de notificaciones push en frontend | 3h | Jhunior Taquiri | Done |
+|  | T30 | Crear vista de historial de alertas y vencimientos | 4h | Daniel Ruiz | Done |
+| **US-10**: Despliegue de frontend | T31 | Ajustar configuración Vite y dependencias (PrimeVue, Tailwind, Router) | 3h | Fabrizio Quiroz | Done |
+|  | T32 | Desplegar aplicación en entorno de prueba (Netlify / Vercel) | 3h | Daniel Ruiz | Done |
+
+---
+
+### Resumen de Estimaciones
+
+- **US-05**: 9h  
+- **US-06**: 13h  
+- **US-07**: 12h  
+- **US-08**: 9h  
+- **US-09**: 7h  
+- **US-10**: 6h  
+
+**Total estimado:** 56h (~22 puntos en Planning Poker)  
+**Capacidad del equipo:** ~55–60h en Sprint 2.
+
+---
+
+### Observaciones
+
+- Se logró un **frontend navegable y funcional**, alineado con la arquitectura y los mockups de diseño.  
+- Se integraron **componentes reutilizables**, mejorando la mantenibilidad del código.  
+- Se completó el despliegue del **frontend en entorno de pruebas** con Vue Router, TailwindCSS y PrimeVue.  
+- Quedaron pendientes ajustes menores en la **integración de pagos simulados** y la conexión con **documentos en backend**, planificados para el Sprint 3.  
+- Se documentaron las rutas, componentes y estándares de estilo en el repositorio principal `frontend-web-application`.
+
 
 
 # Conclusiones
