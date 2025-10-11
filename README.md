@@ -719,6 +719,7 @@ En KapakID, tenemos dos segmentos objetivos principales que se benefician de las
 
 ## 2.1 Competidores
 
+
 ### ¿Por qué llevar a cabo este análisis?
 
 El análisis de competidores es un paso esencial para el desarrollo estratégico de **KapakID**, ya que permite:
@@ -821,6 +822,7 @@ El análisis competitivo de **KapakID** permite entender el panorama actual de b
 | Foto          | ![Foto entrevistado 1](resources/Cap-2/registro%20de%20entrevistas/entrevista%20KapakID.png) |
 | Timing        | [Ver grabación](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c576_upc_edu_pe/EQuM6qNAe-5MhSFGE_dESuYBpHtdmfK5y9TPWPT4EQjGyA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1WERnv) |
 ---
+
 
 | Campo          | Información |
 |----------------|-------------|
