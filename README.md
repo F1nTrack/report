@@ -2083,9 +2083,18 @@ Esta sección presenta la evidencia visual y funcional del **Frontend Web Implem
 
 | Evidencia |
 |-----------|
-| ![Login KapakID](<resources/Cap-5/Frontend-SS/LoginKapakID.png>) |
+| ![Login KapakID](<resources/Cap-5/Frontend-SS/LoginKapaqID.png>) |
 
 **Descripción:** Vista inicial de acceso a la aplicación, implementada con Vue y PrimeVue. Incluye validaciones, diseño responsive y conexión con la API de autenticación.
+
+---
+
+#### Register de Usuario
+
+| Evidencia |
+|-----------|
+| ![Register KapakID](<resources/Cap-5/Frontend-SS/RegisterKapaqID.png>) |
+**Descripción:** Vista inicial de registro en la aplicación, implementada con Vue y PrimeVue. Incluye validaciones, diseño responsive y conexión con la API de autenticación.
 
 ---
 
