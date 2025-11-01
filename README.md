@@ -16,7 +16,7 @@
 
 **StartUp:** F1nTrack
 
-**Producto:** Undefined
+**Producto:** KapakID
 
 <div align='left'>	
 
@@ -236,11 +236,46 @@ static string[] Integrantes() {
     - [2. Web Services (Backend)](#2-web-services-backend)
     - [3. Frontend Web Applications](#3-frontend-web-applications)
   - [5.2. Landing Page, Service \& Applications Implementation](#52-landing-page-service--applications-implementation)
-    - [5.2.x. Sprints](#52x-sprints)
+    - [5.2.1. Sprints](#52x-sprints)
+     - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
+      - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
+      - [5.2.1.3. Sprint Backlog 1.](#5213-sprint-backlog-1)
+      - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
+      - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
+      - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
+      - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
+      - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+    - [5.2.2. Sprint 2](#522-sprint-2)
+      - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
+      - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+      - [5.2.2.3. Sprint Backlog 2.](#5223-sprint-backlog-2)
+      - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
+      - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+      - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
+      - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+      - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+    - [5.2.3. Sprint 3](#523-sprint-3)
+      - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
+      - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+      - [5.2.3.3. Sprint Backlog 3.](#5233-sprint-backlog-3)
+      - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+      - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+      - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+
+
+
+
+
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
     - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
+
+
+
+    
   - [5.4. Video About-the-Product](#54-video-about-the-product)
 - [Conclusiones](#conclusiones)
 
@@ -2205,6 +2240,451 @@ La colaboración del equipo durante el **Sprint 2** se centró en el desarrollo 
 - Se aplicó una política de *pull requests* y revisiones por pares antes de integrar a la rama principal.  
 - El uso de GitHub Projects permitió gestionar tareas y seguimiento del progreso en tiempo real.  
 - La comunicación constante facilitó la resolución de conflictos y el refinamiento del diseño UI/UX.
+
+#### 5.2.3.1. Sprint Planning 3
+
+
+<table border="1" cellpadding="6" cellspacing="0">
+  <tbody>
+    <tr>
+      <th>Sprint #</th>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th colspan="2">Sprint Planning Background</th>
+    </tr>
+    <tr>
+      <th>Date</th>
+      <td>29/05/2025</td>
+    </tr>
+    <tr>
+      <th>Time</th>
+      <td>07:00 PM</td>
+    </tr>
+    <tr>
+      <th>Location</th>
+      <td>Reunión virtual (Discord)</td>
+    </tr>
+    <tr>
+      <th>Prepared By</th>
+      <td>Jhunior Giussepe Taquiri Calderón</td>
+    </tr>
+    <tr>
+      <th>Attendees (to planning meeting)</th>
+      <td>J. G. Taquiri, R. H. Tasayco, D. E. Ruiz, M. R. Salcedo, F. J. Quiroz</td>
+    </tr>
+    <tr>
+      <th>Sprint 2 Review Summary</th>
+      <td>Se completaron vistas principales del Frontend (Login, Dashboard, Documentos, Recargas, Notificaciones) con integración a API simulada y despliegue en entorno de pruebas.</td>
+    </tr>
+    <tr>
+      <th>Sprint 2 Retrospective Summary</th>
+      <td>Fortalezas: integración temprana y coordinación en ramas/PRs; Áreas de mejora: cobertura de pruebas, documentación de flujos críticos y optimización responsive.</td>
+    </tr>
+    <tr>
+      <th colspan="2">Sprint Goal & User Stories</th>
+    </tr>
+    <tr>
+      <th>Sprint 3 Goal</th>
+      <td>Consolidar la experiencia end-to-end: <strong>documentos digitales + pagos/recargas + notificaciones + modo offline</strong>, con <strong>servicios REST</strong> de autenticación y documentos listos para integración. (E1, E2, E3, E5, E6, E8).</td>
+    </tr>
+    <tr>
+      <th>Sprint 3 Velocity</th>
+      <td>50</td>
+    </tr>
+    <tr>
+      <th>Sum of Story Points</th>
+      <td>50</td>
+    </tr>
+  </tbody>
+</table>
+
+#### 5.2.3.2. Aspect Leaders and Collaborators.
+Para este Sprint se priorizan US del <strong>dominio KapakID</strong>: registro/renovación de documentos, notificaciones (vencimiento y trámite), acceso offline, pagos/recargas y endpoints del backend (Auth, Documentos, Notificaciones, Recargas).
+
+<table border="1" align="center">
+<tr>
+  <th rowspan="2">User/Tech Story</th>
+  <th colspan="5">Team Members</th>
+</tr>
+<tr>
+  <th>J. G.<br/>Taquiri</th>
+  <th>R. H.<br/>Tasayco</th>
+  <th>D. E.<br/>Ruiz</th>
+  <th>M. R.<br/>Salcedo</th>
+  <th>F. J.<br/>Quiroz</th>
+</tr>
+<tr>
+  <td>US3: Registro de documentos (E2)</td><td>L</td><td>C</td><td>C</td><td>C</td><td>C</td>
+</tr>
+<tr>
+  <td>US4: Renovación de documentos (E2)</td><td>L</td><td>C</td><td>C</td><td>C</td><td>C</td>
+</tr>
+<tr>
+  <td>US9: Alerta de vencimiento (E5)</td><td>C</td><td>L</td><td>C</td><td>C</td><td>C</td>
+</tr>
+<tr>
+  <td>US10: Notificación de trámite (E5)</td><td>C</td><td>L</td><td>C</td><td>C</td><td>C</td>
+</tr>
+<tr>
+  <td>US11: Acceso a documentos offline (E6)</td><td>C</td><td>C</td><td>L</td><td>C</td><td>C</td>
+</tr>
+<tr>
+  <td>US3/US4-UI: Flujo Frontend Documentos (E2)</td><td>C</td><td>C</td><td>C</td><td>L</td><td>C</td>
+</tr>
+<tr>
+  <td>US9/US10-UI: Preferencias y Centro de notificaciones (E5)</td><td>C</td><td>C</td><td>C</td><td>L</td><td>C</td>
+</tr>
+<tr>
+  <td>TS-AUTH: POST /auth/login, POST /auth/register (E8)</td><td>L</td><td>C</td><td>C</td><td>C</td><td>C</td>
+</tr>
+<tr>
+  <td>TS-DOCS: POST/GET /documents, PATCH /documents/:id (E8)</td><td>L</td><td>C</td><td>C</td><td>C</td><td>C</td>
+</tr>
+<tr>
+  <td>TS-NOTIF: GET/POST /notifications (E8)</td><td>C</td><td>L</td><td>C</td><td>C</td><td>C</td>
+</tr>
+<tr>
+  <td>TS-RECHARGE: POST /recharges (E3/E8)</td><td>C</td><td>C</td><td>L</td><td>C</td><td>C</td>
+</tr>
+</table>
+
+#### 5.2.3.3. Sprint Backlog 3.
+> Tablero de control (ejemplo): GitHub Projects / Trello. Mantén el enlace donde hagas seguimiento de <strong>To-do / In Process / To Review / Done</strong>.
+
+<table border="1">
+<tr>
+<th colspan="2">User/Technical Story</th>
+<th colspan="5">Work-Item/Task</th>
+</tr>
+<tr>
+<th>Id</th>
+<th>Title</th>
+<th>Id</th>
+<th>Title</th>
+<th>Description</th>
+<th>Estimation (Hours)</th>
+<th>Assigned To</th>
+<th>Status (To-do / In Process / To Review / Done)</th>
+</tr>
+
+<!-- Documentos (E2) -->
+<tr>
+<td rowspan="3">US3</td>
+<td rowspan="3">Registro de documentos</td>
+<td>TK301</td><td>Formulario + validación</td><td>UI/UX para alta de DNI/pasaporte con validaciones</td><td>3</td><td>J. G. Taquiri</td><td>Done</td>
+</tr>
+<tr>
+<td>TK302</td><td>Integración API /documents</td><td>Conectar formulario con POST /documents (E8)</td><td>3</td><td>J. G. Taquiri</td><td>To Review</td>
+</tr>
+<tr>
+<td>TK303</td><td>Pruebas de aceptación</td><td>Escenarios Gherkin US3</td><td>2</td><td>M. R. Salcedo</td><td>In Process</td>
+</tr>
+
+<tr>
+<td rowspan="2">US4</td>
+<td rowspan="2">Renovación de documentos</td>
+<td>TK304</td><td>Flujo de renovación</td><td>UI + estado de solicitud</td><td>3</td><td>J. G. Taquiri</td><td>Done</td>
+</tr>
+<tr>
+<td>TK305</td><td>PATCH /documents/:id</td><td>Endpoint y conexión desde UI</td><td>3</td><td>D. E. Ruiz</td><td>To Review</td>
+</tr>
+
+<!-- Notificaciones (E5) -->
+<tr>
+<td rowspan="3">US9</td>
+<td rowspan="3">Alerta de vencimiento</td>
+<td>TK306</td><td>Job de verificación</td><td>Cron que detecta fechas próximas a vencimiento</td><td>3</td><td>R. H. Tasayco</td><td>Done</td>
+</tr>
+<tr>
+<td>TK307</td><td>GET/POST /notifications</td><td>API para registrar y consultar alertas</td><td>2</td><td>R. H. Tasayco</td><td>To Review</td>
+</tr>
+<tr>
+<td>TK308</td><td>Centro de notificaciones</td><td>UI con filtros (tipo/estado)</td><td>2</td><td>M. R. Salcedo</td><td>Done</td>
+</tr>
+
+<tr>
+<td rowspan="2">US10</td>
+<td rowspan="2">Notificación de trámite</td>
+<td>TK309</td><td>Webhook simulado</td><td>Simular evento “documento listo” → notificación</td><td>2</td><td>R. H. Tasayco</td><td>Done</td>
+</tr>
+<tr>
+<td>TK310</td><td>Preferencias de usuario</td><td>Opt-in/Opt-out y canales</td><td>2</td><td>F. J. Quiroz</td><td>In Process</td>
+</tr>
+
+<!-- Offline (E6) -->
+<tr>
+<td rowspan="2">US11</td>
+<td rowspan="2">Acceso offline</td>
+<td>TK311</td><td>Caché seguro</td><td>IndexedDB + cifrado básico para documentos verificados</td><td>3</td><td>D. E. Ruiz</td><td>To Review</td>
+</tr>
+<tr>
+<td>TK312</td><td>Guardias de ruta</td><td>Restringir acciones no disponibles sin conexión</td><td>2</td><td>F. J. Quiroz</td><td>Done</td>
+</tr>
+
+<!-- Recargas/Pagos (E3) -->
+<tr>
+<td rowspan="2">TS-RECHARGE</td>
+<td rowspan="2">POST /recharges</td>
+<td>TK313</td><td>Endpoint de recargas</td><td>Registro de recargas (transporte/celular) y validaciones</td><td>3</td><td>D. E. Ruiz</td><td>Done</td>
+</tr>
+<tr>
+<td>TK314</td><td>UI de recarga</td><td>Formulario con confirmación y recibo</td><td>2</td><td>M. R. Salcedo</td><td>Done</td>
+</tr>
+
+<!-- Auth & Docs (E8) -->
+<tr>
+<td rowspan="3">TS-AUTH</td>
+<td rowspan="3">/auth</td>
+<td>TK315</td><td>POST /auth/register</td><td>Alta de usuario (hash + validación)</td><td>2</td><td>J. G. Taquiri</td><td>Done</td>
+</tr>
+<tr>
+<td>TK316</td><td>POST /auth/login</td><td>JWT, refresh-token y expiración</td><td>2</td><td>J. G. Taquiri</td><td>Done</td>
+</tr>
+<tr>
+<td>TK317</td><td>Middleware de autorización</td><td>Protección de rutas /documents y /notifications</td><td>2</td><td>R. H. Tasayco</td><td>To Review</td>
+</tr>
+
+<tr>
+<td rowspan="2">TS-DOCS</td>
+<td rowspan="2">/documents</td>
+<td>TK318</td><td>POST /documents</td><td>Registro con validación de tipo y metadatos</td><td>3</td><td>J. G. Taquiri</td><td>To Review</td>
+</tr>
+<tr>
+<td>TK319</td><td>GET /documents</td><td>Listado paginado + búsqueda</td><td>2</td><td>F. J. Quiroz</td><td>Done</td>
+</tr>
+</table>
+
+#### 5.2.3.4. Development Evidence for Sprint Review.
+> Muestra de commits representativos (repos/ramas del equipo). Mantén el patrón: <strong>repo → branch → commit id → mensaje → autor/fecha</strong>.
+
+<table border="1">
+<tr>
+<th>Repository</th>
+<th>Branch</th>
+<th>Commit id</th>
+<th>Commit Message</th>
+<th>Commit Message Body</th>
+<th>Committer on (Date)</th>
+</tr>
+<tr>
+  <td>F1nTrack/kapakid-webapp</td>
+  <td>feature/docs-register</td>
+  <td>7f3a2b1</td>
+  <td>feat(documents): add create form with validations</td>
+  <td>UI de alta de documentos + validaciones de tipo y fecha</td>
+  <td>May 30, 2025</td>
+</tr>
+<tr>
+  <td>F1nTrack/kapakid-api</td>
+  <td>feature/auth</td>
+  <td>a19c0d4</td>
+  <td>feat(auth): register & login with JWT/refresh</td>
+  <td>Se agregan endpoints /auth/register y /auth/login con expiración y refresh-token</td>
+  <td>May 31, 2025</td>
+</tr>
+<tr>
+  <td>F1nTrack/kapakid-api</td>
+  <td>feature/notifications</td>
+  <td>b4d977c</td>
+  <td>feat(notifications): expiry alerts + webhook simulation</td>
+  <td>Cron de vencimiento y webhook simulado para “trámite listo”</td>
+  <td>Jun 1, 2025</td>
+</tr>
+<tr>
+  <td>F1nTrack/kapakid-webapp</td>
+  <td>feature/offline-mode</td>
+  <td>3d61a8e</td>
+  <td>feat(offline): secure cache for verified docs</td>
+  <td>IndexedDB + cifrado básico para lectura offline</td>
+  <td>Jun 1, 2025</td>
+</tr>
+<tr>
+  <td>F1nTrack/kapakid-api</td>
+  <td>feature/recharges</td>
+  <td>c8a2f55</td>
+  <td>feat(recharges): POST /recharges for transport/mobile</td>
+  <td>Valida montos, medio de pago y emite comprobante</td>
+  <td>Jun 1, 2025</td>
+</tr>
+</table>
+
+#### 5.2.3.5. Execution Evidence for Sprint Review.
+Se muestran evidencias de la implementación <strong>frontend</strong> y <strong>backend</strong> (user goals y correcciones del despliegue anterior):
+
+- Frontend  
+  `<img src="public/assets/images/Sprint3/docs-register.png" alt="Registro de Documentos">`  
+  `<img src="public/assets/images/Sprint3/notifications-center.png" alt="Centro de Notificaciones">`  
+  `<img src="public/assets/images/Sprint3/offline-mode.png" alt="Modo Offline">`
+
+- Backend  
+  `<img src="public/assets/images/Sprint3/postman-auth.png" alt="Auth Endpoints">`  
+  `<img src="public/assets/images/Sprint3/postman-documents.png" alt="Documents Endpoints">`  
+  `<img src="public/assets/images/Sprint3/postman-recharges.png" alt="Recharges Endpoint">`
+
+
+
+# 5.3. Validation Interviews (KapakID)
+
+> Esta sección sigue la estructura definida en el informe (Cap. V – *Product Implementation, Validation & Deployment* → **5.3 Validation Interviews**), y se alinea con los dominios y módulos de KapakID (Identidad y Documentos, Transporte y Tarjetas, Pagos y Transacciones, Notificaciones y Alertas, Acceso y Perfiles).
+
+## 5.3.1. Diseño de entrevistas
+
+**Objetivo.** Validar con usuarios reales la propuesta de KapakID en los flujos críticos: registro y acceso, gestión de documentos, recargas/pagos, movilidad (tarjetas/transportes) y notificaciones; midiendo claridad, facilidad de uso, tiempos y percepción de valor.
+
+**Segmentos objetivo**
+- **S1 – Estudiantes universitarios** (16–25): uso frecuente de trámites/credenciales, movilidad y recargas.
+- **S2 – Padres/madres o tutores**: registro/seguimiento de dependientes, pagos y notificaciones.
+- **S3 – Operadores/atención (opcional)**: consultas rápidas, verificación de documentos y soporte.
+
+**Metodología**
+- Guion semiestructurado (10–15 min por participante).
+- Escenarios con tareas guiadas (pensamiento en voz alta).
+- Captura de pantalla y métricas (tiempo por tarea, errores, SUS breve).
+
+### User goals (tareas críticas por rol)
+
+#### User Goal: Registrarse y elegir suscripción/plan (S1, S2)
+El usuario elige su tipo (estudiante / tutor). El formulario muestra campos dinámicos según el rol. Tras confirmación de email, selecciona plan (Free/Plus) y medio de pago. Con el pago confirmado, accede a las herramientas de su plan.
+
+#### User Goal: Iniciar sesión (S1, S2)
+Ingreso con email/contraseña. Ante error, se muestran mensajes claros y opción “¿Olvidaste tu contraseña?”. Acceso al dashboard según plan/rol.
+
+#### User Goal: Editar su perfil (S1, S2)
+Desde “Perfil”, el usuario actualiza datos (identidad, contacto, preferencias de notificación/idioma). Validaciones y feedback inmediato.
+
+#### User Goal: Gestionar documentos (registrar, editar, visualizar) (S1, S2)
+Desde “Documentos”, registra nuevas credenciales (DNI/pasaporte/licencias), edita metadatos, visualiza estatus y descarga comprobantes. Búsqueda y paginación.
+
+#### User Goal: Pagos y recargas (S1, S2)
+Desde “Pagos/Recargas”, selecciona servicio (transporte/móvil), ingresa monto y confirma. Recibe comprobante y notificación.
+
+#### User Goal: Transporte y tarjetas (S1)
+Gestiona tarjeta de transporte, ve saldo y movimientos. Puede hacer recarga y consultar historial.
+
+#### User Goal: Notificaciones y alertas (S1, S2)
+Configuración de preferencias (email/app). Recibe avisos de vencimiento y estados de trámite. Centro de notificaciones con filtros.
+
+---
+
+## 5.3.2. Registro de entrevistas
+
+> A continuación se documentan entrevistas por segmento. Incluye imagen (captura), *timing* en el video, y enlace a la grabación.
+
+### Entrevistas a estudiantes universitarios (S1)
+
+<table border="1">
+  <tr><th>Campo</th><th>Información</th></tr>
+  <tr><td>Entrevistado 1</td><td>A01 – Estudiante</td></tr>
+  <tr>
+    <td><img src="public/assets/images/interview-validation/s1-a01.png" alt="A01 Estudiante"></td>
+    <td>
+      Percibe registro y login como claros; valora notificaciones de vencimiento. Califica la navegación con 4/5. Sugiere botón visible para “recuperar contraseña” en login y mayor detalle en planes.
+    </td>
+  </tr>
+  <tr>
+    <td>Timing: 00:05–04:10</td>
+    <td><a href="#">Ver grabación</a></td>
+  </tr>
+</table>
+
+<table border="1">
+  <tr><th>Campo</th><th>Información</th></tr>
+  <tr><td>Entrevistado 2</td><td>A02 – Estudiante</td></tr>
+  <tr>
+    <td><img src="public/assets/images/interview-validation/s1-a02.png" alt="A02 Estudiante"></td>
+    <td>
+      Encuentra útil la centralización de documentos; 5/5 en utilidad de alertas. Pide resaltar mejor “Agregar documento” y un flujo guiado para la primera recarga.
+    </td>
+  </tr>
+  <tr>
+    <td>Timing: 04:10–08:40</td>
+    <td><a href="#">Ver grabación</a></td>
+  </tr>
+</table>
+
+### Entrevistas a padres/madres o tutores (S2)
+
+<table border="1">
+  <tr><th>Campo</th><th>Información</th></tr>
+  <tr><td>Entrevistado 3</td><td>B01 – Tutor</td></tr>
+  <tr>
+    <td><img src="public/assets/images/interview-validation/s2-b01.png" alt="B01 Tutor"></td>
+    <td>
+      Valora seguimiento de trámites y notificaciones. 4/5 en intuitividad; recomienda clarificar diferencia entre “editar” y “clonar” documento y mejorar contraste de iconos.
+    </td>
+  </tr>
+  <tr>
+    <td>Timing: 08:40–13:20</td>
+    <td><a href="#">Ver grabación</a></td>
+  </tr>
+</table>
+
+<table border="1">
+  <tr><th>Campo</th><th>Información</th></tr>
+  <tr><td>Entrevistado 4</td><td>B02 – Tutor</td></tr>
+  <tr>
+    <td><img src="public/assets/images/interview-validation/s2-b02.png" alt="B02 Tutor"></td>
+    <td>
+      Considera la app rápida para pagos y recargas; sugiere checklist de “requisitos” por tipo de documento. Califica optimización de procesos 9/10.
+    </td>
+  </tr>
+  <tr>
+    <td>Timing: 13:20–18:05</td>
+    <td><a href="#">Ver grabación</a></td>
+  </tr>
+</table>
+
+> **Nota:** Puedes añadir más casos por segmento repitiendo las tablas anteriores y ajustando imágenes y enlaces.
+
+---
+
+## 5.3.3. Evaluaciones según heurísticas
+
+### Web Application a evaluar
+**KapakID** – Plataforma web para gestión de documentos, pagos/recargas, movilidad y notificaciones.  
+**Meta:** Identificar problemas de usabilidad y priorizarlos con la *Lista Heurística de Nielsen*.
+
+### Escala de Severidad
+| Nivel | Descripción |
+|------:|-------------|
+| 1 | Superficial: fácil de superar o poco frecuente. |
+| 2 | Menor: ocurre un poco más o cuesta superarlo. Prioridad baja. |
+| 3 | Mayor: frecuente o bloqueante parcial. Prioridad alta. |
+| 4 | Muy grave: impide continuar. Debe corregirse antes del lanzamiento. |
+
+### Problemas Identificados – Landing Page
+| # | Problema | Severidad | Heurística |
+|---:|----------|:--------:|------------|
+| 1 | Falta sección “About the product” con propuesta de valor clara | 3 | Correspondencia con el mundo real |
+| 2 | Botones “Iniciar sesión / Registrarme” no redirigen a formularios | 3 | Visibilidad del estado / estándares |
+| 3 | Iconografía ambigua para secciones clave | 2 | Estética y diseño minimalista |
+| 4 | Planes poco específicos (beneficios/limitaciones) | 3 | Arquitectura de información |
+| 5 | Formulario “Contáctanos” sin feedback ni envío | 4 | Visibilidad del estado |
+| 6 | Inconsistencias de tamaño/jerarquía en botones | 2 | Consistencia y estándares |
+| 7 | Logo sin comportamiento para volver a inicio | 2 | Correspondencia con el mundo real |
+| 8 | Ausencia de internacionalización funcional | 3 | Flexibilidad y eficiencia |
+
+**Recomendaciones clave**: incorporar sección “About”, corregir rutas de CTA, normalizar iconografía y botones, especificar planes con comparativas, operar el formulario de contacto con feedback, habilitar i18n.
+
+### Problemas Identificados – Web Application
+| # | Problema | Severidad | Heurística |
+|---:|----------|:--------:|------------|
+| 1 | Falta “¿Olvidaste tu contraseña?” en login | 3 | Prevención de errores |
+| 2 | Gestión de perfil limitada (sin editar/eliminar cuenta) | 3 | Flexibilidad y control del usuario |
+| 3 | Rutas no configuradas para módulos (404 en flujo) | 3 | Consistencia y estándares |
+| 4 | Registro de documentos/recargas intermitente | 4 | Eficiencia y corrección |
+| 5 | Falta de estados vacíos y guías en primeras tareas | 2 | Visibilidad del estado |
+
+**Recomendaciones clave**: añadir recuperación de contraseña; habilitar edición/eliminación de cuenta; revisar enrutado; pruebas de flujo (documentos/recargas); estados vacíos con guías.
+
+---
+
+## 5.4. Video About-the-Product (KapakID)
+> Video que resume *features* principales, decisiones de diseño y propósito de la aplicación (enlace a YouTube/MS Stream).
+- **Título sugerido:** `f1ntrack-kapakid-about-the-product-sprint-3`
+- **Evidencia UI**:  
+  `<img src="public/assets/images/abouttheproduct/cover.png" alt="Cover About the Product">`
 
 
 
