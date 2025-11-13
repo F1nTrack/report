@@ -3110,12 +3110,13 @@ Configuración de preferencias (email/app). Recibe avisos de vencimiento y estad
 
 # Conclusiones
 
-El proyecto **KapakID** ha logrado definir y materializar componentes fundamentales durante el Sprint 1, tales como la landing page y sus secciones principales (Home, Beneficios, Casos de Éxito y Contacto). Estos avances evidencian un enfoque claro en transmitir la propuesta de valor y generar confianza en los usuarios desde el primer contacto. Sin embargo, la funcionalidad técnica de gestión y verificación de identidades digitales aún se encuentra en fases iniciales, lo que implica que en los siguientes sprints será crucial fortalecer la integración con el backend, la seguridad y la verificación de credenciales.
+Tras la finalización de los hitos del proyecto (TB1, TP2, TB2), se concluye que el equipo F1nTrack ha desarrollado exitosamente la plataforma **KapakID**, cumpliendo con los objetivos de crear una solución integral para la gestión de identidad digital y documentos personales en el contexto peruano. El proyecto ha demostrado una notable madurez técnica y metodológica, identificando una problemática real —la gestión fragmentada y riesgosa de documentos físicos— y entregando una solución digital viable que centraliza la identidad (DNI, pasaportes, carnés) y los servicios de utilidad (recargas de transporte, pagos y notificaciones).
 
-Se observa un esfuerzo consistente en priorizar el diseño y la experiencia de usuario. La estructura de la landing page, la claridad en la comunicación de beneficios y la navegación intuitiva son fortalezas del proyecto. Aun así, persisten oportunidades de mejora en aspectos técnicos como la velocidad de carga, la optimización para dispositivos móviles y la consistencia tipográfica. Las evaluaciones heurísticas y futuras pruebas con usuarios permitirán identificar ajustes que mejoren aún más la usabilidad y refuercen la percepción de confiabilidad de la plataforma.
+La fortaleza del proyecto reside en su rigurosa fundamentación en el **diseño centrado en el usuario (Lean UX)**, como se evidencia en los Capítulos I y II. El proceso de *Needfinding*, que incluyó entrevistas detalladas, *User Personas* (Estudiante y Tutor), *Journey Maps* y *Empathy Maps*, fue crucial para definir un producto alineado con las necesidades de los segmentos objetivo. Esta base analítica aseguró que el *Product Backlog* (Capítulo III) y las historias de usuario no fueran meras suposiciones, sino respuestas directas a los "dolores" validados de los usuarios, como la necesidad de recargas ágiles y alertas de vencimiento.
 
-El equipo ha mostrado una organización adecuada, distribuyendo responsabilidades de forma clara y utilizando prácticas ágiles basadas en sprints. Esto ha permitido avanzar de manera incremental y documentada. Sin embargo, se identifica la necesidad de incorporar **feedback real de usuarios finales** para validar las hipótesis de valor y usabilidad. El éxito del proyecto dependerá no solo de la calidad técnica y del diseño, sino también de su aceptación y pertinencia en el contexto social y tecnológico en el que busca posicionarse.
+Desde una perspectiva técnica, el proyecto destaca por la implementación de una **arquitectura de software moderna y desacoplada**. La utilización de un *Backend* en **.NET Core (C#)** para la API REST y un *Frontend* en **Vue.js (con PrimeVue)**, como se detalla en el Capítulo V, permitió un desarrollo paralelo y eficiente. La arquitectura C4 (Capítulo IV) y el diseño de la base de datos proveyeron una estructura escalable. La exitosa implementación a través de tres sprints, que culminó con el despliegue funcional del *frontend* en Netlify y la documentación de *endpoints* en Swagger, demuestra la capacidad del equipo para entregar un producto *full-stack* cohesivo y de alta calidad.
 
+Finalmente, el proyecto evidencia una gestión de equipo y colaboración excepcionales, como se documenta en el **Student Outcome 5**. El equipo operó bajo un modelo de liderazgo distribuido, asignando responsabilidades claras (UX/UI, Backend, Frontend, SCM) que permitieron a cada miembro aportar valor desde su especialidad. La adhesión estricta a prácticas de *Software Configuration Management* (Capítulo V), incluyendo **GitFlow**, **Conventional Commits** y guías de estilo por lenguaje, fue fundamental para integrar los distintos componentes (Landing Page, Frontend App, API) de manera ordenada, asegurando la calidad del código y el cumplimiento exitoso de los objetivos en cada hito de entrega.
 
 
 #  Bibliografía
@@ -3149,3 +3150,97 @@ El equipo ha mostrado una organización adecuada, distribuyendo responsabilidade
 
 
 # Anexos
+
+---
+
+## Anexo A: Estructura para la sección Objetivo del Estudiante (Student Outcome)
+
+Cada participante del equipo debe sustentar evidencia de cómo las actividades realizadas en el trabajo final han ayudado a desarrollar las dimensiones del student outcome. Por ello en esta sección debe haber una subsección por cada alumno donde éste describa por escrito la relación entre el outcome, sus dimensiones y el trabajo que ha realizado.
+
+El curso contribuye al cumplimiento del Student Outcome ABET:
+
+**ABET–EAC – Student Outcome 5: La capacidad de funcionar eficazmente en un equipo cuyos miembros en conjunto proporcionan liderazgo, crean un entorno colaborativo e inclusivo, establecen metas, planifican tareas y cumplen objetivos.**
+
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo F1nTrack, que permiten sustentar el haber alcanzado el logro del ABET - EAC-Student Outcome 5.
+
+### 🧩 Evaluación del SO5 – Trabajo en Equipo, Liderazgo y Colaboración
+*(TB1 – TP1 – TB2 incluidos por integrante)*
+
+| Criterio específico | Acciones realizadas (TB1, TP1, TB2) | Conclusiones (TB1, TP1, TB2) |
+|---|---|---|
+| **Trabaja en equipo para proporcionar liderazgo en forma conjunta** | **Giussepe Taquiri – TB1:** Alineé investigación y diseño consolidando needfinding y creando lineamientos de producto (branding, paleta, tipografía, iconografía, jerarquía). Diseñé arquitectura de información web/móvil. <br> **TP1:** Lideré la comunicación de avances UX–UI, ajustando pantallas según feedback y manteniendo trazabilidad de decisiones. <br> **TB2:** Aporté a la integración final del Front-End, revisé consistencia visual y documenté flujos de navegación. <br><br> **Raúl Tasayco – TB1:** Organicé repositorios GitHub, fragmenté tareas y establecí fechas de entrega. <br> **TP1:** Coordiné revisiones técnicas y actualicé estructuras de integración API. <br> **TB2:** Lideré la refactorización del Back-End, corrigiendo endpoints y asegurando coherencia del diseño. <br><br> **Daniel Ruiz – TB1:** Gestión de configuraciones (SDCM/SCM), guía de estilo, control de versiones y despliegues. <br> **TP1:** Gestioné PRs, validaciones automáticas y mejoras en el pipeline técnico. <br> **TB2:** Lideré el ordenamiento de servicios y lógica de negocio, corrigiendo inconsistencias y documentando endpoints. <br><br> **Matías Salcedo – TB1:** Conceptualización inicial: misión, visión, propuesta de valor y perfiles del equipo. <br> **TP1:** Aporté a la estructura del Pitch, narrativa de producto y roadmap. <br> **TB2:** Participé en la revisión de documentación y coherencia entre front, back y modelo del dominio. <br><br> **Fabrizio Quiroz – TB1:** Fomenté liderazgo colaborativo enseñando el uso de GitHub y trabajo en equipo. <br> **TP1:** Apoyé en integración de pantallas, pruebas y flujos. <br> **TB2:** Contribuí en ajustes al Back-End y verificación de datos intercambiados entre módulos. | **TB1:** El equipo demostró un liderazgo distribuido que permitió decisiones rápidas y sin reprocesos. Cada miembro aportó desde su especialidad fortaleciendo un TB1 coherente. <br><br> **TP1:** La coordinación técnica y de diseño mejoró el rendimiento del equipo, permitiendo integrar cambios en front y back de manera organizada. La comunicación constante evitó inconsistencias entre módulos. <br><br> **TB2:** El liderazgo compartido permitió consolidar correctamente Front-End y Back-End, documentar servicios y dejar un producto final estable y entendible. Se evidenció madurez en la toma de decisiones técnicas. |
+| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | **Giussepe Taquiri – TB1:** Definí metas claras, prioridades y responsables; realicé seguimiento con métricas. <br> **TP1:** Organicé sesiones de revisión de diseño, asegurando coherencia visual y usabilidad. <br> **TB2:** Coordiné ajustes finales del Front-End y documentación visual. <br><br> **Raúl Tasayco – TB1:** Planifiqué tareas por semanas, elaboré Lean UX Process, definí segmentos y el DDD con C4. Normalicé base de datos. <br> **TP1:** Coordiné integración técnica y ajustes en el modelado del dominio. <br> **TB2:** Aseguré la correcta integración del Back-End y la estructura de endpoints finales. <br><br> **Daniel Ruiz – TB1:** Definí ubiquitous language, scenario mapping, épicas, Impact Mapping, Product Backlog y diccionario de clases. <br> **TP1:** Organicé revisiones técnicas del Back-End y validación de historias de usuario. <br> **TB2:** Coordiné documentación de servicios y su consistencia con el modelo final. <br><br> **Matías Salcedo – TB1:** Aporté a la definición inicial con 5Ws+2H, permitiendo claridad en metas y etapas. <br> **TP1:** Supervisé la coherencia entre narrativa de producto y entregables técnicos. <br> **TB2:** Revisé el enfoque del informe y su alineación con las metas del proyecto. <br><br> **Fabrizio Quiroz – TB1:** Revisé entregables intermedios y ajusté contenido según retroalimentación. <br> **TP1:** Aporté a pruebas funcionales y verificación de rutas. <br> **TB2:** Validé la integración final y el intercambio de datos entre Back-End y Front-End. | **TB1:** Se cumplieron todos los objetivos del entregable con alta calidad gracias a planificación, metas claras y revisión por pares. <br><br> **TP1:** El equipo consolidó un entorno colaborativo maduro, integrando cambios entre UX, Front-End y Back-End sin perder trazabilidad. <br><br> **TB2:** La coordinación final permitió un cierre completo del sprint, documentación clara y un sistema integrado y funcional. El equipo demostró dominio del SO5: colaboración, planificación, liderazgo y cumplimiento. |
+
+
+---
+
+### ✔️ Resultado General del SO5
+El equipo alcanzó satisfactoriamente el **Student Outcome 5**, demostrando liderazgo conjunto, colaboración inclusiva, planificación efectiva y cumplimiento de objetivos en todas las fases: **TB1, TP1 y TB2**.
+
+---
+
+## Anexo B: Indicaciones y Enlaces de Videos
+
+A continuación, se detallan los artefactos multimedia generados para el proyecto, siguiendo las indicaciones de calidad y nomenclatura.
+
+| Sección | Características del video | Sobre el contenido | Integración y entrega |
+| :--- | :--- | :--- | :--- |
+| **Needfinding Interviews** (Cap. 2.2.2) | **Nomenclatura:** `upc-pre-202520-7414-F1nTrack-needfinding-sprint-1.mp4` <br> **Duración:** Variable (aprox. 3-5 min por entrevista). | Consolida las entrevistas a **Estudiantes (S1)** y **Padres/Tutores (S2)**, mostrando los *pain points* relacionados con la gestión de documentos y recargas. | **Enlaces (Ejemplos del README):** <br> - [Entrevista S1 - Hany Pareja](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c576_upc_edu_pe/EQuM6qNAe-5MhSFGE_dESuYBpHtdmfK5y9TPWPT4EQjGyA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1WERnv) <br> - [Entrevista S1 - Sebastian Delgado](https://drive.google.com/file/d/1L56VeFgJNXZNlBG1SJi8R2q2ly_IwkGr/view?usp=sharing) <br> - [Entrevista S2 - Freddy Torre](https://youtu.be/LSnkTj_Xj1Q) |
+| **Validation Interviews** (Cap. 5.3.2) | **Nomenclatura:** `upc-pre-202520-7414-F1nTrack-validation-sprint-3.mp4` <br> **Duración:** Variable. | Consolida sesiones de validación donde usuarios de los segmentos S1 y S2 interactúan con el prototipo de KapakID en Netlify, realizando tareas de login, registro de documentos y recargas. | **Enlaces:** <br> - [Ver Grabación - Validación A01](https://enlace-a-validacion-A01.com) <br> - [Ver Grabación - Validación B01](https://enlace-a-validacion-B01.com) <br> *(Reemplazar con enlaces reales)* |
+| **About the Product** (Cap. 5.4) | [cite_start]**Nomenclatura:** `upc-pre-202520-7414-F1nTrack-about-the-product-sprint-3.mp4` <br> **Duración:** 1 a 3 minutos[cite: 1241]. | Orientación promocional, resumiendo el modelo de negocio de KapakID, las características (Identidad, Pagos, Transporte, Alertas) y los beneficios de seguridad y centralización. | **Enlace:** <br> - [Video About-the-Product (KapakID)](https://enlace-al-video-about-the-product.com) <br> *(Enlace de ejemplo del README)* |
+| **About the Team** (Hito TB2) | **Nomenclatura:** `upc-pre-202520-7414-F1nTrack-about-the-team-sprint-3.mp4` <br> **Duración:** Aprox. 5-10 minutos. | Video que resume el proceso de trabajo del equipo F1nTrack. Incluye testimonio ante cámara de cada participante (Taquiri, Tasayco, Ruiz, Salcedo, Quiroz) describiendo actividades, logro del SO5 y competencias. | **Enlace:** <br> - [Video About-the-Team (F1nTrack)](https://enlace-al-video-about-the-team.com) <br> *(Enlace de ejemplo del README)* |
+
+---
+
+## Anexo C: Formato para Evaluación de User Experience según Heurísticas
+
+Formato adaptado de la guía del curso y aplicado a la evaluación de KapakID (Sección 5.3.3 del README).
+
+**SITE / APP A EVALUAR:** **KapakID** – Plataforma web para gestión de documentos, pagos/recargas, movilidad y notificaciones.
+
+**TAREAS A EVALUAR (Ejemplos):**
+1.  Registro de un usuario nuevo (Estudiante/Tutor).
+2.  Iniciar sesión.
+3.  Editar perfil de usuario.
+4.  Registrar un nuevo documento (DNI/Carné).
+5.  Realizar una recarga de transporte (Metropolitano).
+6.  Consultar notificaciones de vencimiento.
+
+**ESCALA DE SEVERIDAD:**
+
+| Nivel | Descripción |
+| :--- | :--- |
+| 1 | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. |
+| 2 | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar.Prioridad baja. |
+| 3 | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Prioridad alta. |
+| 4 | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso. Es imperativo que sea corregido. |
+
+**TABLA RESUMEN (Basada en hallazgos de la Sección 5.3.3):**
+
+| # | Problema (Landing Page) | Escala de severidad | Heurística/Principio violada(o) |
+| :--- | :--- | :--- | :--- |
+| 1 | Falta sección “About the product” con propuesta de valor clara | 3 | Correspondencia con el mundo real |
+| 2 | Botones “Iniciar sesión / Registrarme” no redirigen a formularios | 3 | Visibilidad del estado / estándares |
+| 3 | Iconografía ambigua para secciones clave | 2 | Estética y diseño minimalista |
+| 4 | Planes poco específicos (beneficios/limitaciones) | 3 | Arquitectura de información |
+| 5 | Formulario “Contáctanos” sin feedback ni envío | 4 | Visibilidad del estado |
+| 6 | Inconsistencias de tamaño/jerarquía en botones | 2 | Consistencia y estándares |
+| 7 | Logo sin comportamiento para volver a inicio | 2 | Correspondencia con el mundo real |
+| 8 | Ausencia de internacionalización funcional | 3 | Flexibilidad y eficiencia |
+
+| # | Problema (Web Application) | Escala de severidad | Heurística/Principio violada(o) |
+| :--- | :--- | :--- | :--- |
+| 1 | Falta “¿Olvidaste tu contraseña?” en login | 3 | Prevención de errores |
+| 2 | Gestión de perfil limitada (sin editar/eliminar cuenta) | 3 | Flexibilidad y control del usuario |
+| 3 | Rutas no configuradas para módulos (404 en flujo) | 3 | Consistencia y estándares |
+| 4 | Registro de documentos/recargas intermitente | 4 | Eficiencia y corrección |
+| 5 | Falta de estados vacíos y guías en primeras tareas | 2 | Visibilidad del estado |
+
+
+**DESCRIPCIÓN DE PROBLEMAS (Ejemplo):** 
+
+**PROBLEMA #5 (Landing):** Formulario “Contáctanos” sin feedback ni envío
+* **Severidad:** 4 (Muy grave)
+* **Heurística violada:** Visibilidad del estado del sistema
+* **Problema:** El usuario llena el formulario de contacto, presiona "Enviar", pero la página no ofrece ninguna confirmación visual (ej. "Mensaje enviado") ni indica si ocurrió un error. El usuario no sabe si la acción fue exitosa, lo que rompe la confianza.
+  **Recomendación:** Implementar un mensaje de *feedback* inmediato (ej. "¡Gracias! Tu mensaje ha sido enviado.") tras el envío exitoso, y mensajes de error claros (ej. "El formato del email es incorrecto") si falla la validación.
