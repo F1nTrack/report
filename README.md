@@ -2852,13 +2852,13 @@ Se presentan las evidencias correspondientes al <strong>Sprint 3</strong> del pr
 
 #### Register
 <strong>Responsable:</strong> F. J. Quiroz  
-<img src="Cap-5\Frontend-SS\RegisterKapaqID.png" alt="Register KapakID">
+<img src="resources\Cap-5\Frontend-SS\RegisterKapaqID.png" alt="Register KapakID">
 
 ---
 
 ####  Gestión de Documentos
 <strong>Responsable:</strong> J. G. Taquiri  
-<img src="Cap-5\Frontend-SS\DocumentsKapakID.png" alt="Documents KapakID">
+<img src="resources\Cap-5\Frontend-SS\DocumentsKapakID.png" alt="Documents KapakID">
 
 ---
 
@@ -2908,13 +2908,13 @@ Se presentan las evidencias correspondientes al <strong>Sprint 3</strong> del pr
 
 ####  Documentos (POST / PATCH / GET)  
 <strong>Responsables:</strong> J. G. Taquiri & D. E. Ruiz  
-<img src="resources\Cap-5\Backend-SS\postman-documents.png" alt="Documents Endpoints">
+<img src="resources\Cap-5\Backend-SS\documents.png" alt="Documents Endpoints">
 
 ---
 
 ####  Alertas y Notificaciones (GET / POST /alerts /notifications)  
 <strong>Responsable:</strong> R. H. Tasayco  
-<img src="\resources\Cap-5\Backend-SS\postman-notifications.png" alt="Notifications API">
+<img src="resources\Cap-5\Backend-SS\postman-notifications.png" alt="Notifications API">
 
 ---
 
