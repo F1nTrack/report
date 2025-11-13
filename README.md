@@ -2287,12 +2287,22 @@ Facilita el acompañamiento al usuario ante incidencias o dudas sobre el funcion
 
 Durante este sprint se documentó la conexión entre el **frontend y los endpoints** del backend, registrando las rutas de comunicación y métodos de validación empleados.
 
-| Endpoint | Método | Descripción | Estado |
-|-----------|---------|-------------|---------|
-| `/auth/login` | POST | Autenticación de usuario y generación de token de sesión. | ✔ Activo |
-| `/documents/upload` | POST | Carga de archivos y validación de formato. | ✔ Activo |
-| `/notifications/list` | GET | Obtiene las notificaciones y alertas activas del usuario. | ✔ Activo |
-| `/payments/top-up` | POST | Simula recargas de tarjetas y pagos de servicios. | ✔ Activo |
+| Endpoint | Método | Descripción | Módulo / Responsable | Estado |
+|----------|---------|-------------|-----------------------|--------|
+| `/auth/login` | POST | Autenticación de usuario, validación de credenciales y generación de token. | **Login – Fabrizio** | ✔ Activo |
+| `/auth/register` | POST | Registro de nuevos usuarios y validación de datos ingresados. | **Register – Fabrizio** | ✔ Activo |
+| `/documents/upload` | POST | Carga de documentos, validación de formato y almacenamiento temporal. | **Gestión de Documentos – Giussepe** | ✔ Activo |
+| `/documents/list` | GET | Obtiene los archivos almacenados del usuario. | **Gestión de Documentos – Giussepe** | ✔ Activo |
+| `/documents/delete/{id}` | DELETE | Elimina documentos seleccionados. | **Gestión de Documentos – Giussepe** | ✔ Activo |
+| `/notifications/list` | GET | Obtiene notificaciones activas (saldo bajo, vencimientos, alertas). | **Notificaciones – Giussepe** | ✔ Activo |
+| `/payments/top-up` | POST | Permite recargar tarjetas y simular pagos. | **Recargas y Pagos – Raúl** | ✔ Activo |
+| `/payments/history` | GET | Historial de recargas y pagos del usuario. | **Recargas y Pagos – Raúl** | ✔ Activo |
+| `/transport/movements` | GET | Obtiene movimientos asociados al módulo Transport (envíos/recepciones). | **Transport – Daniel** | ✔ Activo |
+| `/transport/details/{id}` | GET | Muestra detalle de un movimiento específico. | **Transport – Daniel** | ✔ Activo |
+| `/support/tickets` | POST | Envío de solicitudes al equipo de soporte técnico. | **Technical Support – Matías** | ✔ Activo |
+| `/support/tickets/list` | GET | Lista de tickets enviados por el usuario. | **Technical Support – Matías** | ✔ Activo |
+| `/history/user-activity` | GET | Registros de actividad: inicio de sesión, cambios de perfil, accesos. | **History – Daniel / Giussepe** | ✔ Activo |
+
 
 **Observación:** Todos los servicios se probaron con peticiones simuladas desde el frontend. La integración completa con el backend real está planificada para el Sprint 3.
 
@@ -2341,6 +2351,47 @@ La colaboración del equipo durante el **Sprint 2** se centró en el desarrollo 
 - El uso de GitHub Projects permitió gestionar tareas y seguimiento del progreso en tiempo real.  
 - La comunicación constante facilitó la resolución de conflictos y el refinamiento del diseño UI/UX.
 
+
+### 5.2.2.8. Team Collaboration Insights during Sprint
+
+La colaboración del equipo durante el **Sprint 2** se centró en la implementación modular del frontend, asignando responsabilidades de acuerdo con la especialidad técnica de cada integrante. Esto permitió avanzar en paralelo, garantizar consistencia en los componentes y asegurar una integración sin conflictos.
+
+| Integrante | Actividad Principal en el Sprint 2 |
+|-------------|-----------------------------------|
+| **Quiroz Zambrano, Fabrizio Javier** | Implementación del **módulo de Login**, validaciones de usuario, conexión con el servicio de autenticación y apoyo en el despliegue inicial. |
+| **Salcedo Champi, Matías Rodolfo** | Desarrollo del módulo de **Technical Support**, creación del flujo de tickets, diseño de interfaz y pruebas de usabilidad. |
+| **Tasayco Osorio, Raúl Hiroshi** | Construcción del **Dashboard principal**, desarrollo del **Módulo de Recargas y Pagos**, manejo de formularios dinámicos e integración con servicios simulados. |
+| **Taquiri Calderón, Jhunior Giussepe** | Implementación del módulo de **Gestión de Documentos** (carga, previsualización, eliminación), configuración de **notificaciones locales** y pruebas funcionales de navegación. |
+| **Ruiz Huisa, Daniel Elías** | Desarrollo del módulo de **Transport** (movimientos, filtros, detalles). Responsable del **despliegue en Netlify**, validación de accesibilidad, dependencias y estabilidad general. |
+
+---
+
+#### **Evidencia colaborativa**
+
+| Evidencia Colaborativa |
+|------------------------|
+| ![Captura colaboración Sprint 2](<resources/Cap-5/Frontend-SS/TeamCollaborationSprint2.png>) |
+
+---
+
+### **Observaciones del trabajo colaborativo**
+
+- Se utilizaron **ramas por módulo** (Login, Documents, Dashboard, Payments, Transport, Support), reduciendo conflictos durante el merge.  
+- Se implementó un flujo de trabajo basado en **Pull Requests**, garantizando revisiones por pares antes de integrar cambios en `main`.  
+- El tablero en GitHub Projects permitió **priorizar tareas, registrar avances y gestionar dependencias** entre componentes.  
+- La comunicación continua entre los miembros permitió detectar problemas técnicos de UI/UX de manera anticipada.  
+- Las responsabilidades fueron asignadas de acuerdo con la **especialidad técnica**, logrando eficiencia en desarrollo paralelo:  
+  - ✔ Formularios y autenticación  
+  - ✔ Gestión documental  
+  - ✔ Pagos y recargas  
+  - ✔ Movimientos del módulo Transport  
+  - ✔ Soporte técnico y tickets  
+- La coordinación en el despliegue final permitió validar la aplicación en un entorno de pruebas estable (Netlify).
+
+---
+
+
+
 #### 5.2.3.1. Sprint Planning 3
 
 
@@ -2355,7 +2406,7 @@ La colaboración del equipo durante el **Sprint 2** se centró en el desarrollo 
     </tr>
     <tr>
       <th>Date</th>
-      <td>29/05/2025</td>
+      <td>29/10/2025</td>
     </tr>
     <tr>
       <th>Time</th>
@@ -2400,12 +2451,14 @@ La colaboración del equipo durante el **Sprint 2** se centró en el desarrollo 
 </table>
 
 #### 5.2.3.2. Aspect Leaders and Collaborators.
+
 Para este Sprint se priorizan US del <strong>dominio KapakID</strong>: registro/renovación de documentos, notificaciones (vencimiento y trámite), acceso offline, pagos/recargas y endpoints del backend (Auth, Documentos, Notificaciones, Recargas).
 
 <table border="1" align="center">
 <tr>
   <th rowspan="2">User/Tech Story</th>
   <th colspan="5">Team Members</th>
+  <th rowspan="2">Evidencia</th>
 </tr>
 <tr>
   <th>J. G.<br/>Taquiri</th>
@@ -2414,39 +2467,76 @@ Para este Sprint se priorizan US del <strong>dominio KapakID</strong>: registro/
   <th>M. R.<br/>Salcedo</th>
   <th>F. J.<br/>Quiroz</th>
 </tr>
+
+<!-- DOCUMENTOS (E2) -->
 <tr>
-  <td>US3: Registro de documentos (E2)</td><td>L</td><td>C</td><td>C</td><td>C</td><td>C</td>
+  <td>US3: Registro de documentos (E2)</td>
+  <td><b>L</b></td><td>C</td><td>C</td><td>C</td><td>C</td>
+  <td rowspan="2">Colocar evidencia aquí</td>
 </tr>
 <tr>
-  <td>US4: Renovación de documentos (E2)</td><td>L</td><td>C</td><td>C</td><td>C</td><td>C</td>
+  <td>US4: Renovación de documentos (E2)</td>
+  <td><b>L</b></td><td>C</td><td>C</td><td>C</td><td>C</td>
+</tr>
+
+<!-- NOTIFICACIONES (E5) -->
+<tr>
+  <td>US9: Alerta de vencimiento (E5)</td>
+  <td>C</td><td><b>L</b></td><td>C</td><td>C</td><td>C</td>
+  <td rowspan="2">Captura del módulo de notificaciones</td>
 </tr>
 <tr>
-  <td>US9: Alerta de vencimiento (E5)</td><td>C</td><td>L</td><td>C</td><td>C</td><td>C</td>
+  <td>US10: Notificación de trámite (E5)</td>
+  <td>C</td><td><b>L</b></td><td>C</td><td>C</td><td>C</td>
+</tr>
+
+<!-- OFFLINE (E6) -->
+<tr>
+  <td>US11: Acceso a documentos offline (E6)</td>
+  <td>C</td><td>C</td><td><b>L</b></td><td>C</td><td>C</td>
+  <td>Evidencia del modo offline</td>
+</tr>
+
+<!-- FRONTEND UI -->
+<tr>
+  <td>US3/US4-UI: Flujo Frontend Documentos (E2)</td>
+  <td>C</td><td>C</td><td>C</td><td><b>L</b></td><td>C</td>
+  <td>Imagen del flujo UI</td>
 </tr>
 <tr>
-  <td>US10: Notificación de trámite (E5)</td><td>C</td><td>L</td><td>C</td><td>C</td><td>C</td>
+  <td>US9/US10-UI: Centro de Notificaciones (E5)</td>
+  <td>C</td><td>C</td><td>C</td><td><b>L</b></td><td>C</td>
+  <td>Mockup / UI del centro de notificaciones</td>
 </tr>
+
+<!-- BACKEND AUTH -->
 <tr>
-  <td>US11: Acceso a documentos offline (E6)</td><td>C</td><td>C</td><td>L</td><td>C</td><td>C</td>
+  <td>TS-AUTH: POST /auth/login, POST /auth/register (E8)</td>
+  <td>C</td><td>C</td><td>C</td><td>C</td><td><b>L</b></td>
+  <td>Captura Postman Auth</td>
 </tr>
+
+<!-- BACKEND DOCUMENTOS -->
 <tr>
-  <td>US3/US4-UI: Flujo Frontend Documentos (E2)</td><td>C</td><td>C</td><td>C</td><td>L</td><td>C</td>
+  <td>TS-DOCS: POST/GET /documents, PATCH /documents/:id (E8)</td>
+  <td><b>L</b></td><td>C</td><td>C</td><td>C</td><td>C</td>
+  <td>Postman / Documents API</td>
 </tr>
+
+<!-- BACKEND NOTIFICACIONES -->
 <tr>
-  <td>US9/US10-UI: Preferencias y Centro de notificaciones (E5)</td><td>C</td><td>C</td><td>C</td><td>L</td><td>C</td>
+  <td>TS-NOTIF: GET/POST /notifications (E8)</td>
+  <td>C</td><td><b>L</b></td><td>C</td><td>C</td><td>C</td>
+  <td>Postman / Notif API</td>
 </tr>
+
+<!-- BACKEND RECARGAS -->
 <tr>
-  <td>TS-AUTH: POST /auth/login, POST /auth/register (E8)</td><td>L</td><td>C</td><td>C</td><td>C</td><td>C</td>
+  <td>TS-RECHARGE: POST /recharges (E3/E8)</td>
+  <td>C</td><td><b>L</b></td><td>C</td><td>C</td><td>C</td>
+  <td>Evidencia POST /recharges</td>
 </tr>
-<tr>
-  <td>TS-DOCS: POST/GET /documents, PATCH /documents/:id (E8)</td><td>L</td><td>C</td><td>C</td><td>C</td><td>C</td>
-</tr>
-<tr>
-  <td>TS-NOTIF: GET/POST /notifications (E8)</td><td>C</td><td>L</td><td>C</td><td>C</td><td>C</td>
-</tr>
-<tr>
-  <td>TS-RECHARGE: POST /recharges (E3/E8)</td><td>C</td><td>C</td><td>L</td><td>C</td><td>C</td>
-</tr>
+
 </table>
 
 #### 5.2.3.3. Sprint Backlog 3.
@@ -2454,119 +2544,191 @@ Para este Sprint se priorizan US del <strong>dominio KapakID</strong>: registro/
 
 <table border="1">
 <tr>
-<th colspan="2">User/Technical Story</th>
-<th colspan="5">Work-Item/Task</th>
+  <th colspan="2">User/Technical Story</th>
+  <th colspan="6">Work-Items / Tasks</th>
 </tr>
 <tr>
-<th>Id</th>
-<th>Title</th>
-<th>Id</th>
-<th>Title</th>
-<th>Description</th>
-<th>Estimation (Hours)</th>
-<th>Assigned To</th>
-<th>Status (To-do / In Process / To Review / Done)</th>
+  <th>Id</th>
+  <th>Title</th>
+  <th>Id</th>
+  <th>Title</th>
+  <th>Description</th>
+  <th>Estimation<br/>(Hours)</th>
+  <th>Assigned To</th>
+  <th>Status</th>
 </tr>
 
-<!-- Documentos (E2) -->
+<!-- US3: REGISTRO DE DOCUMENTOS -->
 <tr>
-<td rowspan="3">US3</td>
-<td rowspan="3">Registro de documentos</td>
-<td>TK301</td><td>Formulario + validación</td><td>UI/UX para alta de DNI/pasaporte con validaciones</td><td>3</td><td>J. G. Taquiri</td><td>Done</td>
+  <td rowspan="3">US3</td>
+  <td rowspan="3">Registro de documentos</td>
+
+  <td>TK301</td>
+  <td>Formulario + validación</td>
+  <td>UI/UX para alta de DNI/pasaporte con validaciones</td>
+  <td>3</td><td>J. G. Taquiri</td><td>Done</td>
 </tr>
 <tr>
-<td>TK302</td><td>Integración API /documents</td><td>Conectar formulario con POST /documents (E8)</td><td>3</td><td>J. G. Taquiri</td><td>To Review</td>
+  <td>TK302</td>
+  <td>Integración API /documents</td>
+  <td>Conectar formulario con POST /documents (E8)</td>
+  <td>3</td><td>J. G. Taquiri</td><td>To Review</td>
 </tr>
 <tr>
-<td>TK303</td><td>Pruebas de aceptación</td><td>Escenarios Gherkin US3</td><td>2</td><td>M. R. Salcedo</td><td>In Process</td>
+  <td>TK303</td>
+  <td>Pruebas de aceptación</td>
+  <td>Escenarios Gherkin US3</td>
+  <td>2</td><td>M. R. Salcedo</td><td>In Process</td>
 </tr>
 
+<!-- US4: RENOVACIÓN DE DOCUMENTOS -->
 <tr>
-<td rowspan="2">US4</td>
-<td rowspan="2">Renovación de documentos</td>
-<td>TK304</td><td>Flujo de renovación</td><td>UI + estado de solicitud</td><td>3</td><td>J. G. Taquiri</td><td>Done</td>
+  <td rowspan="2">US4</td>
+  <td rowspan="2">Renovación de documentos</td>
+
+  <td>TK304</td>
+  <td>Flujo de renovación</td>
+  <td>UI + estado de solicitud</td>
+  <td>3</td><td>J. G. Taquiri</td><td>Done</td>
 </tr>
 <tr>
-<td>TK305</td><td>PATCH /documents/:id</td><td>Endpoint y conexión desde UI</td><td>3</td><td>D. E. Ruiz</td><td>To Review</td>
+  <td>TK305</td>
+  <td>PATCH /documents/:id</td>
+  <td>Endpoint y conexión desde UI</td>
+  <td>3</td><td>D. E. Ruiz</td><td>To Review</td>
 </tr>
 
-<!-- Notificaciones (E5) -->
+<!-- US9: ALERTA DE VENCIMIENTO -->
 <tr>
-<td rowspan="3">US9</td>
-<td rowspan="3">Alerta de vencimiento</td>
-<td>TK306</td><td>Job de verificación</td><td>Cron que detecta fechas próximas a vencimiento</td><td>3</td><td>R. H. Tasayco</td><td>Done</td>
+  <td rowspan="3">US9</td>
+  <td rowspan="3">Alerta de vencimiento</td>
+
+  <td>TK306</td>
+  <td>Job de verificación</td>
+  <td>Cron que detecta fechas próximas a vencimiento</td>
+  <td>3</td><td>R. H. Tasayco</td><td>Done</td>
 </tr>
 <tr>
-<td>TK307</td><td>GET/POST /notifications</td><td>API para registrar y consultar alertas</td><td>2</td><td>R. H. Tasayco</td><td>To Review</td>
+  <td>TK307</td>
+  <td>GET/POST /notifications</td>
+  <td>API para registrar y consultar alertas</td>
+  <td>2</td><td>R. H. Tasayco</td><td>To Review</td>
 </tr>
 <tr>
-<td>TK308</td><td>Centro de notificaciones</td><td>UI con filtros (tipo/estado)</td><td>2</td><td>M. R. Salcedo</td><td>Done</td>
+  <td>TK308</td>
+  <td>Centro de notificaciones</td>
+  <td>UI con filtros (tipo/estado)</td>
+  <td>2</td><td>M. R. Salcedo</td><td>Done</td>
 </tr>
 
+<!-- US10: NOTIFICACIÓN DE TRÁMITE -->
 <tr>
-<td rowspan="2">US10</td>
-<td rowspan="2">Notificación de trámite</td>
-<td>TK309</td><td>Webhook simulado</td><td>Simular evento “documento listo” → notificación</td><td>2</td><td>R. H. Tasayco</td><td>Done</td>
+  <td rowspan="2">US10</td>
+  <td rowspan="2">Notificación de trámite</td>
+
+  <td>TK309</td>
+  <td>Webhook simulado</td>
+  <td>Simular evento “documento listo” → notificación</td>
+  <td>2</td><td>R. H. Tasayco</td><td>Done</td>
 </tr>
 <tr>
-<td>TK310</td><td>Preferencias de usuario</td><td>Opt-in/Opt-out y canales</td><td>2</td><td>F. J. Quiroz</td><td>In Process</td>
+  <td>TK310</td>
+  <td>Preferencias de usuario</td>
+  <td>Opt-in/Opt-out y canales</td>
+  <td>2</td><td>F. J. Quiroz</td><td>In Process</td>
 </tr>
 
-<!-- Offline (E6) -->
+<!-- US11: ACCESO OFFLINE -->
 <tr>
-<td rowspan="2">US11</td>
-<td rowspan="2">Acceso offline</td>
-<td>TK311</td><td>Caché seguro</td><td>IndexedDB + cifrado básico para documentos verificados</td><td>3</td><td>D. E. Ruiz</td><td>To Review</td>
+  <td rowspan="2">US11</td>
+  <td rowspan="2">Acceso offline</td>
+
+  <td>TK311</td>
+  <td>Caché seguro</td>
+  <td>IndexedDB + cifrado básico para documentos verificados</td>
+  <td>3</td><td>D. E. Ruiz</td><td>To Review</td>
 </tr>
 <tr>
-<td>TK312</td><td>Guardias de ruta</td><td>Restringir acciones no disponibles sin conexión</td><td>2</td><td>F. J. Quiroz</td><td>Done</td>
+  <td>TK312</td>
+  <td>Guardias de ruta</td>
+  <td>Restringir acciones no disponibles sin conexión</td>
+  <td>2</td><td>F. J. Quiroz</td><td>Done</td>
 </tr>
 
-<!-- Recargas/Pagos (E3) -->
+<!-- TS-RECHARGE -->
 <tr>
-<td rowspan="2">TS-RECHARGE</td>
-<td rowspan="2">POST /recharges</td>
-<td>TK313</td><td>Endpoint de recargas</td><td>Registro de recargas (transporte/celular) y validaciones</td><td>3</td><td>D. E. Ruiz</td><td>Done</td>
+  <td rowspan="2">TS-RECHARGE</td>
+  <td rowspan="2">POST /recharges</td>
+
+  <td>TK313</td>
+  <td>Endpoint de recargas</td>
+  <td>Registro de recargas (transporte/celular) y validaciones</td>
+  <td>3</td><td>D. E. Ruiz</td><td>Done</td>
 </tr>
 <tr>
-<td>TK314</td><td>UI de recarga</td><td>Formulario con confirmación y recibo</td><td>2</td><td>M. R. Salcedo</td><td>Done</td>
+  <td>TK314</td>
+  <td>UI de recarga</td>
+  <td>Formulario con confirmación y recibo</td>
+  <td>2</td><td>M. R. Salcedo</td><td>Done</td>
 </tr>
 
-<!-- Auth & Docs (E8) -->
+<!-- TS-AUTH -->
 <tr>
-<td rowspan="3">TS-AUTH</td>
-<td rowspan="3">/auth</td>
-<td>TK315</td><td>POST /auth/register</td><td>Alta de usuario (hash + validación)</td><td>2</td><td>J. G. Taquiri</td><td>Done</td>
+  <td rowspan="3">TS-AUTH</td>
+  <td rowspan="3">/auth</td>
+
+  <td>TK315</td>
+  <td>POST /auth/register</td>
+  <td>Alta de usuario (hash + validación)</td>
+  <td>2</td><td>J. G. Taquiri</td><td>Done</td>
 </tr>
 <tr>
-<td>TK316</td><td>POST /auth/login</td><td>JWT, refresh-token y expiración</td><td>2</td><td>J. G. Taquiri</td><td>Done</td>
+  <td>TK316</td>
+  <td>POST /auth/login</td>
+  <td>JWT, refresh-token y expiración</td>
+  <td>2</td><td>J. G. Taquiri</td><td>Done</td>
 </tr>
 <tr>
-<td>TK317</td><td>Middleware de autorización</td><td>Protección de rutas /documents y /notifications</td><td>2</td><td>R. H. Tasayco</td><td>To Review</td>
+  <td>TK317</td>
+  <td>Middleware de autorización</td>
+  <td>Protección de rutas /documents y /notifications</td>
+  <td>2</td><td>R. H. Tasayco</td><td>To Review</td>
 </tr>
 
+<!-- TS-DOCS -->
 <tr>
-<td rowspan="2">TS-DOCS</td>
-<td rowspan="2">/documents</td>
-<td>TK318</td><td>POST /documents</td><td>Registro con validación de tipo y metadatos</td><td>3</td><td>J. G. Taquiri</td><td>To Review</td>
+  <td rowspan="2">TS-DOCS</td>
+  <td rowspan="2">/documents</td>
+
+  <td>TK318</td>
+  <td>POST /documents</td>
+  <td>Registro con validación de tipo y metadatos</td>
+  <td>3</td><td>J. G. Taquiri</td><td>To Review</td>
 </tr>
 <tr>
-<td>TK319</td><td>GET /documents</td><td>Listado paginado + búsqueda</td><td>2</td><td>F. J. Quiroz</td><td>Done</td>
+  <td>TK319</td>
+  <td>GET /documents</td>
+  <td>Listado paginado + búsqueda</td>
+  <td>2</td><td>F. J. Quiroz</td><td>Done</td>
 </tr>
+
 </table>
 
+
 #### 5.2.3.4. Development Evidence for Sprint Review.
-> Muestra de commits representativos (repos/ramas del equipo). Mantén el patrón: <strong>repo → branch → commit id → mensaje → autor/fecha</strong>.
+> Muestra de commits representativos del Sprint 3. Patrón: <strong>repo → branch → commit id → mensaje → autor/fecha</strong>.
 
 <table border="1">
 <tr>
-<th>Repository</th>
-<th>Branch</th>
-<th>Commit id</th>
-<th>Commit Message</th>
-<th>Commit Message Body</th>
-<th>Committer on (Date)</th>
+  <th>Repository</th>
+  <th>Branch</th>
+  <th>Commit id</th>
+  <th>Commit Message</th>
+  <th>Commit Message Body</th>
+  <th>Committer on (Date)</th>
 </tr>
+
+<!-- DOCUMENTOS - GIUSSEPE -->
 <tr>
   <td>F1nTrack/kapakid-webapp</td>
   <td>feature/docs-register</td>
@@ -2575,6 +2737,17 @@ Para este Sprint se priorizan US del <strong>dominio KapakID</strong>: registro/
   <td>UI de alta de documentos + validaciones de tipo y fecha</td>
   <td>May 30, 2025</td>
 </tr>
+
+<tr>
+  <td>F1nTrack/kapakid-webapp</td>
+  <td>feature/docs-renew</td>
+  <td>d92ff44</td>
+  <td>feat(documents): renew flow + PATCH connection</td>
+  <td>Implementación completa del flujo de renovación y conexión a PATCH /documents/:id</td>
+  <td>May 31, 2025</td>
+</tr>
+
+<!-- AUTH - FABRIZIO -->
 <tr>
   <td>F1nTrack/kapakid-api</td>
   <td>feature/auth</td>
@@ -2583,6 +2756,17 @@ Para este Sprint se priorizan US del <strong>dominio KapakID</strong>: registro/
   <td>Se agregan endpoints /auth/register y /auth/login con expiración y refresh-token</td>
   <td>May 31, 2025</td>
 </tr>
+
+<tr>
+  <td>F1nTrack/kapakid-webapp</td>
+  <td>feature/login-ui</td>
+  <td>bb7a4c9</td>
+  <td>feat(auth-ui): login form + API integration</td>
+  <td>Integración UI de login con POST /auth/login + manejo de errores</td>
+  <td>May 30, 2025</td>
+</tr>
+
+<!-- NOTIFICATIONS - RAUL -->
 <tr>
   <td>F1nTrack/kapakid-api</td>
   <td>feature/notifications</td>
@@ -2591,6 +2775,17 @@ Para este Sprint se priorizan US del <strong>dominio KapakID</strong>: registro/
   <td>Cron de vencimiento y webhook simulado para “trámite listo”</td>
   <td>Jun 1, 2025</td>
 </tr>
+
+<tr>
+  <td>F1nTrack/kapakid-webapp</td>
+  <td>feature/notifications-center</td>
+  <td>fe229bd</td>
+  <td>feat(notifications-ui): center + filters</td>
+  <td>Vista del Centro de Notificaciones + filtros por estado</td>
+  <td>Jun 1, 2025</td>
+</tr>
+
+<!-- OFFLINE MODE - DANIEL -->
 <tr>
   <td>F1nTrack/kapakid-webapp</td>
   <td>feature/offline-mode</td>
@@ -2599,6 +2794,28 @@ Para este Sprint se priorizan US del <strong>dominio KapakID</strong>: registro/
   <td>IndexedDB + cifrado básico para lectura offline</td>
   <td>Jun 1, 2025</td>
 </tr>
+
+<!-- TRANSPORT - DANIEL -->
+<tr>
+  <td>F1nTrack/kapakid-webapp</td>
+  <td>feature/transport</td>
+  <td>ed144bc</td>
+  <td>feat(transport): list & detail movement views</td>
+  <td>Movimientos, filtros, detalle por ID y conexión con API GET /transport/movements</td>
+  <td>Jun 2, 2025</td>
+</tr>
+
+<!-- SUPPORT - MATIAS -->
+<tr>
+  <td>F1nTrack/kapakid-webapp</td>
+  <td>feature/support</td>
+  <td>c41f9e3</td>
+  <td>feat(support): ticket creation + list view</td>
+  <td>UI completo del módulo de soporte: envío de tickets y visualización del historial</td>
+  <td>Jun 2, 2025</td>
+</tr>
+
+<!-- RECHARGES - RAUL & DANIEL -->
 <tr>
   <td>F1nTrack/kapakid-api</td>
   <td>feature/recharges</td>
@@ -2607,21 +2824,123 @@ Para este Sprint se priorizan US del <strong>dominio KapakID</strong>: registro/
   <td>Valida montos, medio de pago y emite comprobante</td>
   <td>Jun 1, 2025</td>
 </tr>
+
+<tr>
+  <td>F1nTrack/kapakid-webapp</td>
+  <td>feature/recharge-ui</td>
+  <td>a17d8cc</td>
+  <td>feat(recharge-ui): form + confirmation dialog</td>
+  <td>Formulario de recarga + modal de confirmación y recibo visual</td>
+  <td>Jun 2, 2025</td>
+</tr>
+
 </table>
 
+
 #### 5.2.3.5. Execution Evidence for Sprint Review.
-Se muestran evidencias de la implementación <strong>frontend</strong> y <strong>backend</strong> (user goals y correcciones del despliegue anterior):
+Se presentan las evidencias correspondientes al <strong>Sprint 3</strong> del proyecto KapakID, organizadas por módulo y responsable técnico.
 
-- Frontend  
-  `<img src="public/assets/images/Sprint3/docs-register.png" alt="Registro de Documentos">`  
-  `<img src="public/assets/images/Sprint3/notifications-center.png" alt="Centro de Notificaciones">`  
-  `<img src="public/assets/images/Sprint3/offline-mode.png" alt="Modo Offline">`
+---
 
-- Backend  
-  `<img src="public/assets/images/Sprint3/postman-auth.png" alt="Auth Endpoints">`  
-  `<img src="public/assets/images/Sprint3/postman-documents.png" alt="Documents Endpoints">`  
-  `<img src="public/assets/images/Sprint3/postman-recharges.png" alt="Recharges Endpoint">`
+### 🟦 Frontend – Evidencia por Módulo
 
+####  Login
+<strong>Responsable:</strong> F. J. Quiroz  
+<img src="resources\Cap-5\Frontend-SS\LoginKapaqID.png" alt="Login KapakID">
+
+---
+
+#### Register
+<strong>Responsable:</strong> F. J. Quiroz  
+<img src="Cap-5\Frontend-SS\RegisterKapaqID.png" alt="Register KapakID">
+
+---
+
+####  Gestión de Documentos
+<strong>Responsable:</strong> J. G. Taquiri  
+<img src="Cap-5\Frontend-SS\DocumentsKapakID.png" alt="Documents KapakID">
+
+---
+
+#### Dashboard Principal
+<strong>Responsable:</strong> M. R. Salcedo  
+<img src="resources\Cap-5\Frontend-SS\DashboardKapakID.png" alt="Dashboard KapakID">
+
+---
+
+####  Notificaciones
+<strong>Responsable:</strong> J. G. Taquiri  
+<img src="resources\Cap-5\Frontend-SS\NotificacionesKapakID.png" alt="Notificaciones KapakID">
+
+---
+
+####  Recargas y Pagos
+<strong>Responsable:</strong> R. H. Tasayco  
+<img src="resources\Cap-5\Frontend-SS\RecargasKapakID.png" alt="Recargas KapakID">
+
+---
+
+####  Transport
+<strong>Responsable:</strong> D. E. Ruiz  
+<img src="resources\Cap-5\Frontend-SS\TransportKapakID.png" alt="Transport KapakID">
+
+---
+
+#### History
+<strong>Responsable:</strong> D. E. Ruiz  
+<img src="resources\Cap-5\Frontend-SS\HistoryKapakID.png" alt="History KapakID">
+
+---
+
+####  Technical Support
+<strong>Responsable:</strong> M. R. Salcedo  
+<img src="resources\Cap-5\Frontend-SS\TechnicalSupportKapakID.png" alt="Technical Support KapakID">
+
+---
+
+### Backend – Evidencia de Servicios (KapakID API)
+
+####  Auth (Login / Register)  
+<strong>Responsable:</strong> F. J. Quiroz  
+<img src="resources\Cap-5\Backend-SS\postman-auth.png" alt="Auth Endpoints">
+
+---
+
+####  Documentos (POST / PATCH / GET)  
+<strong>Responsables:</strong> J. G. Taquiri & D. E. Ruiz  
+<img src="resources\Cap-5\Backend-SS\postman-documents.png" alt="Documents Endpoints">
+
+---
+
+####  Alertas y Notificaciones (GET / POST /alerts /notifications)  
+<strong>Responsable:</strong> R. H. Tasayco  
+<img src="\resources\Cap-5\Backend-SS\postman-notifications.png" alt="Notifications API">
+
+---
+
+####  Recargas (POST /recharges)  
+<strong>Responsables:</strong> R. H. Tasayco & D. E. Ruiz  
+<img src="resources\Cap-5\Backend-SS\postman-recharges.png" alt="Recharges Endpoint">
+
+---
+
+####  Soporte Técnico (POST /support, GET /support/tickets)  
+<strong>Responsable:</strong> M. R. Salcedo  
+<img src="\resources\Cap-5\Backend-SS\postman-support.png" alt="Support Tickets API">
+
+---
+
+####  Transport / Movimientos (GET /transport/movements)  
+<strong>Responsable:</strong> D. E. Ruiz  
+<img src="\resources\Cap-5\Backend-SS\postman-transport.png" alt="Transport Movements API">
+
+
+---
+
+### 🟩 Resumen del Sprint 3
+- Se completaron los módulos claves del dominio KapakID.  
+- Se integró correctamente el frontend con los servicios REST.  
+- El entorno de pruebas registra funcionamiento estable y validado.  
 
 
 # 5.3. Validation Interviews (KapakID)
