@@ -111,7 +111,54 @@ static string[] Integrantes() {
   </tbody>
 </table>
 
+
+
 <br>
+
+
+
+
+<table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; font-size: 14px;">
+  <thead>
+    <tr style="background:#f7f7f7;">
+      <td align="center" style="border: 1px solid #ddd; padding: 8px; width: 10%;">Versión</td>
+      <td align="center" style="border: 1px solid #ddd; padding: 8px; width: 12%;">Fecha</td>
+      <td align="center" style="border: 1px solid #ddd; padding: 8px; width: 33%;">Autores</td>
+      <td align="center" style="border: 1px solid #ddd; padding: 8px;">Descripción</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #ccbebeff; padding: 8px; font-weight: 600;">TB2</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">20/11/2025</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">
+        <ul style="margin:0 0 0 18px;">
+          <li>Jhunior Giussepe Taquiri Calderon – U20221C576</li>
+          <li>Raul Hiroshi Tasayco Osorio – U202319415</li>
+          <li>Daniel Elias Ruiz Huisa – U202210764</li>
+          <li>Matias Rodolfo Salcedo Champi – U202319698</li>
+          <li>Fabrizio Javier Quiroz Zambrano – U202213406</li>
+        </ul>
+      </td>
+      <td style="border: 1px solid #ddd; padding: 8px;">
+        <strong>Proyecto:</strong> F1nTrack – KapakID
+        <ul style="margin:6px 0 0 18px;">
+          <li>Capítulo V: Product Implementation, Validation & Deployment (implementación del <strong>Sprint 3</strong>).</li>
+          <li>FrontEnd Web: mejoras completas de módulos (Documentos, Recargas, Transporte, Perfil y Notificaciones) y navegación final.</li>
+          <li>Web Services: primera versión de endpoints REST (Autenticación, Usuarios, Documentos, Recargas y Notificaciones) con documentación en Swagger.</li>
+          <li>Despliegue de Landing Page, FrontEnd y Backend en entornos productivos.</li>
+          <li>Incorporación del “Video About-the-Product” y “Video About-the-Team”.</li>
+          <li>Sección 5.3 completada: diseño de entrevistas, registro de entrevistas y evaluación heurística.</li>
+          <li>Actualización de conclusiones, bibliografía y anexos según lineamientos del Final Project Statement.</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+<br>
+
 
 
 ## Contenido del Informe
@@ -286,12 +333,26 @@ static string[] Integrantes() {
 <div align='left'>
 <!-- student outcome -->
 
-## Student Outcome  ABET–EAC-Student Outcome 5 (F1nTrack – KapakID)
+# ## Student Outcome ABET–EAC – Student Outcome 5  
+### **F1nTrack – KapakID**
 
-| Criterio específico | Acciones realizadas (TB1) | Conclusiones (TB1) |
+---
+
+## 🧩 Evaluación del SO5 – Trabajo en Equipo, Liderazgo y Colaboración  
+*(TB1 – TP1 – TB2 incluidos por integrante)*
+
+| Criterio específico | Acciones realizadas (TB1, TP1, TB2) | Conclusiones (TB1, TP1, TB2) |
 |---|---|---|
-| **Trabaja en equipo para proporcionar liderazgo en forma conjunta** | **Giussepe Taquiri :** Aporté a la alineación entre investigación y diseño: consolidé el needfinding (personas, tareas y journeys) en criterios claros para el MVP y traduje esos hallazgos en lineamientos de producto (branding, paleta, tipografía, iconografía, jerarquía) y en una arquitectura de información coherente para web y móvil. <br> **Raul Tasayco :** Aporté en el liderazgo fragmentando los bloques a trabajar para la elección personal de cada uno, creé la organización de GitHub añadiendo a mis compañeros y configurando todos los repositorios, además de colocar fechas aproximadas de entregas. <br> **Daniel Ruiz :** Contribuí al liderazgo compartido mediante la gestión de configuraciones y control de versiones (**Software Development Configuration Management** y **Source Code Management**). Además, impulsé la estandarización con una **guía de estilo de código** y participé en la **configuración de despliegues**, lo que fortaleció la organización y confiabilidad del trabajo en equipo. <br> **Matías Salcedo :** Me encargué de la conceptualización inicial del proyecto KapakID, redactando el Perfil de la Startup (misión, visión y propuesta de valor). Mi trabajo fue crucial para que el equipo tuviera una visión unificada y supiera exactamente a dónde queríamos llegar. También redacté los perfiles de los integrantes, asegurando que nuestras fortalezas individuales se complementaran. <br> **Fabrizio Quiroz :** Participé activamente para fomentar el liderazgo en el equipo, ensenando a como podemos colaborar en equipo usando github, tambien demostre conocer trabajar en equipo | El equipo demostró **liderazgo distribuido por especialidad**, permitiendo decisiones más rápidas y alineadas con el dominio. La coordinación cruzada entre UX, arquitectura y especificación redujo reprocesos y generó un TB1 **coherente y consistente**. |
-| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | **Giussepe Taquiri :** Aporté a crear un entorno colaborativo e inclusivo, estableciendo metas claras, planificando tareas con prioridades y responsables, y haciendo seguimiento con revisiones y métricas para cumplir los objetivos del equipo. <br> **Raul Tasayco :** Fomenté la colaboración con la separación de tareas o metas a lograr por cada semana, elaboré el apartado de Lean UX Process y definí los segmentos objetivos del proyecto. También realicé el apartado de **Domain Driven Design** con el uso del **C4 Model** usando Structurizr, y finalmente estructuré la base de datos con su normalización respectiva. <br> **Daniel Ruiz :** Fomenté la colaboración definiendo un **ubiquitous language**, elaborando el **to-be-scenario mapping** y organizando las **User Stories en épicas**. Asimismo, realicé el **Impact Mapping**, el **Product Backlog** y el **diccionario de clases**, lo que permitió al equipo alinear objetivos y planificar tareas de forma clara. <br> **Matías Salcedo :** Participé en la etapa de definición de la problemática, aportando en la formulación de las 5Ws + 2H. Al desglosar el problema con esta metodología, logramos establecer metas claras y una hoja de ruta precisa para el equipo. Esta planificación inicial permitió que las siguientes fases del informe (como el Lean UX Canvas) fluyeran sin contratiempos. <br> **Fabrizio Quiroz :** Apoyé activamente en la planificacion con el grupo y en la coordinación entre apartados, revisando entregables intermedios y ajustando contenidos según retroalimentación del equipo y docente. | Se cumplieron los objetivos de **TB1** con entregables completos y trazables. La **planificación** y metas claras facilitaron el cumplimiento a tiempo; la **revisión por pares** elevó la calidad del informe. El entorno **colaborativo e inclusivo** favoreció la participación activa y el logro del **SO5**. |
+| **Trabaja en equipo para proporcionar liderazgo en forma conjunta** | **Giussepe Taquiri – TB1:** Alineé investigación y diseño consolidando needfinding y creando lineamientos de producto (branding, paleta, tipografía, iconografía, jerarquía). Diseñé arquitectura de información web/móvil. <br> **TP1:** Lideré la comunicación de avances UX–UI, ajustando pantallas según feedback y manteniendo trazabilidad de decisiones. <br> **TB2:** Aporté a la integración final del Front-End, revisé consistencia visual y documenté flujos de navegación. <br><br> **Raúl Tasayco – TB1:** Organicé repositorios GitHub, fragmenté tareas y establecí fechas de entrega. <br> **TP1:** Coordiné revisiones técnicas y actualicé estructuras de integración API. <br> **TB2:** Lideré la refactorización del Back-End, corrigiendo endpoints y asegurando coherencia del diseño. <br><br> **Daniel Ruiz – TB1:** Gestión de configuraciones (SDCM/SCM), guía de estilo, control de versiones y despliegues. <br> **TP1:** Gestioné PRs, validaciones automáticas y mejoras en el pipeline técnico. <br> **TB2:** Lideré el ordenamiento de servicios y lógica de negocio, corrigiendo inconsistencias y documentando endpoints. <br><br> **Matías Salcedo – TB1:** Conceptualización inicial: misión, visión, propuesta de valor y perfiles del equipo. <br> **TP1:** Aporté a la estructura del Pitch, narrativa de producto y roadmap. <br> **TB2:** Participé en la revisión de documentación y coherencia entre front, back y modelo del dominio. <br><br> **Fabrizio Quiroz – TB1:** Fomenté liderazgo colaborativo enseñando el uso de GitHub y trabajo en equipo. <br> **TP1:** Apoyé en integración de pantallas, pruebas y flujos. <br> **TB2:** Contribuí en ajustes al Back-End y verificación de datos intercambiados entre módulos. | **TB1:** El equipo demostró un liderazgo distribuido que permitió decisiones rápidas y sin reprocesos. Cada miembro aportó desde su especialidad fortaleciendo un TB1 coherente. <br><br> **TP1:** La coordinación técnica y de diseño mejoró el rendimiento del equipo, permitiendo integrar cambios en front y back de manera organizada. La comunicación constante evitó inconsistencias entre módulos. <br><br> **TB2:** El liderazgo compartido permitió consolidar correctamente Front-End y Back-End, documentar servicios y dejar un producto final estable y entendible. Se evidenció madurez en la toma de decisiones técnicas. |
+| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | **Giussepe Taquiri – TB1:** Definí metas claras, prioridades y responsables; realicé seguimiento con métricas. <br> **TP1:** Organicé sesiones de revisión de diseño, asegurando coherencia visual y usabilidad. <br> **TB2:** Coordiné ajustes finales del Front-End y documentación visual. <br><br> **Raúl Tasayco – TB1:** Planifiqué tareas por semanas, elaboré Lean UX Process, definí segmentos y el DDD con C4. Normalicé base de datos. <br> **TP1:** Coordiné integración técnica y ajustes en el modelado del dominio. <br> **TB2:** Aseguré la correcta integración del Back-End y la estructura de endpoints finales. <br><br> **Daniel Ruiz – TB1:** Definí ubiquitous language, scenario mapping, épicas, Impact Mapping, Product Backlog y diccionario de clases. <br> **TP1:** Organicé revisiones técnicas del Back-End y validación de historias de usuario. <br> **TB2:** Coordiné documentación de servicios y su consistencia con el modelo final. <br><br> **Matías Salcedo – TB1:** Aporté a la definición inicial con 5Ws+2H, permitiendo claridad en metas y etapas. <br> **TP1:** Supervisé la coherencia entre narrativa de producto y entregables técnicos. <br> **TB2:** Revisé el enfoque del informe y su alineación con las metas del proyecto. <br><br> **Fabrizio Quiroz – TB1:** Revisé entregables intermedios y ajusté contenido según retroalimentación. <br> **TP1:** Aporté a pruebas funcionales y verificación de rutas. <br> **TB2:** Validé la integración final y el intercambio de datos entre Back-End y Front-End. | **TB1:** Se cumplieron todos los objetivos del entregable con alta calidad gracias a planificación, metas claras y revisión por pares. <br><br> **TP1:** El equipo consolidó un entorno colaborativo maduro, integrando cambios entre UX, Front-End y Back-End sin perder trazabilidad. <br><br> **TB2:** La coordinación final permitió un cierre completo del sprint, documentación clara y un sistema integrado y funcional. El equipo demostró dominio del SO5: colaboración, planificación, liderazgo y cumplimiento. |
+
+---
+
+### ✔️ Resultado General del SO5  
+El equipo alcanzó satisfactoriamente el **Student Outcome 5**, demostrando liderazgo conjunto, colaboración inclusiva, planificación efectiva y cumplimiento de objetivos en todas las fases: **TB1, TP1 y TB2**.
+
+---
+
 
 
 
@@ -333,6 +394,11 @@ static string[] Integrantes() {
     de las personas y al avance hacia sociedades más digitales y organizadas.
   </p>
 </article>
+
+
+
+
+
 
 
 
@@ -2172,6 +2238,40 @@ Esta sección presenta la evidencia visual y funcional del **Frontend Web Implem
 | ![Notificaciones KapakID](<resources/Cap-5/Frontend-SS/NotificacionesKapakID.png>) |
 
 **Descripción:** Vista que muestra las alertas de vencimiento, saldo bajo y notificaciones push. Permite acceder al historial de alertas previas y configuraciones personalizadas.
+
+
+#### Transport
+
+| Evidencia |
+|-----------|
+| ![Transport KapakID](<resources/Cap-5/Frontend-SS/TransportKapakID.png>) |
+
+**Descripción:**  
+Vista que centraliza las **transacciones enviadas y recibidas**, permitiendo al usuario revisar movimientos recientes asociados a operaciones de transporte digital dentro del ecosistema KapakID.  
+Incluye filtros por tipo de operación, fecha y estado, además de mostrar detalles como ID de transacción, monto, entidad vinculada y confirmación de procesamiento.  
+Facilita la trazabilidad de envíos, recepciones y validaciones asociadas a la identidad digital del usuario.
+
+#### History
+
+| Evidencia |
+|-----------|
+| ![History KapakID](<resources/Cap-5/Frontend-SS/HistoryKapakID.png>) |
+
+**Descripción:**  
+Vista donde el usuario puede revisar el **historial completo de sus operaciones**, incluyendo registros de autenticación, cambios de perfil, accesos recientes, solicitudes realizadas y movimientos relevantes del sistema.  
+Permite aplicar filtros por fecha, tipo de evento y nivel de criticidad, asegurando trazabilidad y transparencia en el uso de KapakID.
+
+
+#### Technical Support
+
+| Evidencia |
+|-----------|
+| ![Support KapakID](<resources/Cap-5/Frontend-SS/TechnicalSupportKapakID.png>) |
+
+**Descripción:**  
+Interfaz dedicada al **soporte técnico y atención al usuario**.  
+Incluye opciones para enviar tickets, revisar el estado de solicitudes, acceder a preguntas frecuentes (FAQ), contactar al equipo vía correo o chat y visualizar guías rápidas de solución.  
+Facilita el acompañamiento al usuario ante incidencias o dudas sobre el funcionamiento del sistema.
 
 ---
 
