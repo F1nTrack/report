@@ -3010,40 +3010,6 @@ Configuración de preferencias (email/app). Recibe avisos de vencimiento y estad
   </tr>
 </table>
 
-### Entrevistas a padres/madres o tutores (S2)
-
-<table border="1">
-  <tr><th>Campo</th><th>Información</th></tr>
-  <tr><td>Entrevistado 3</td><td>B01 – Tutor</td></tr>
-  <tr>
-    <td><img src="public/assets/images/interview-validation/s2-b01.png" alt="B01 Tutor"></td>
-    <td>
-      Valora seguimiento de trámites y notificaciones. 4/5 en intuitividad; recomienda clarificar diferencia entre “editar” y “clonar” documento y mejorar contraste de iconos.
-    </td>
-  </tr>
-  <tr>
-    <td>Timing: 08:40–13:20</td>
-    <td><a href="#">Ver grabación</a></td>
-  </tr>
-</table>
-
-<table border="1">
-  <tr><th>Campo</th><th>Información</th></tr>
-  <tr><td>Entrevistado 4</td><td>B02 – Tutor</td></tr>
-  <tr>
-    <td><img src="public/assets/images/interview-validation/s2-b02.png" alt="B02 Tutor"></td>
-    <td>
-      Considera la app rápida para pagos y recargas; sugiere checklist de “requisitos” por tipo de documento. Califica optimización de procesos 9/10.
-    </td>
-  </tr>
-  <tr>
-    <td>Timing: 13:20–18:05</td>
-    <td><a href="#">Ver grabación</a></td>
-  </tr>
-</table>
-
-> **Nota:** Puedes añadir más casos por segmento repitiendo las tablas anteriores y ajustando imágenes y enlaces.
-
 ---
 
 ## 5.3.3. Evaluaciones según heurísticas
