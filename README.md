@@ -2918,21 +2918,9 @@ Se presentan las evidencias correspondientes al <strong>Sprint 3</strong> del pr
 
 ---
 
-####  Recargas (POST /recharges)  
-<strong>Responsables:</strong> R. H. Tasayco & D. E. Ruiz  
-<img src="resources\Cap-5\Backend-SS\postman-recharges.png" alt="Recharges Endpoint">
-
----
-
-####  Soporte Técnico (POST /support, GET /support/tickets)  
-<strong>Responsable:</strong> M. R. Salcedo  
-<img src="\resources\Cap-5\Backend-SS\postman-support.png" alt="Support Tickets API">
-
----
-
 ####  Transport / Movimientos (GET /transport/movements)  
 <strong>Responsable:</strong> D. E. Ruiz  
-<img src="\resources\Cap-5\Backend-SS\postman-transport.png" alt="Transport Movements API">
+<img src="resources/Cap-5/Backend-SS/backendRuiz.jpg" alt="Transport Movements API">
 
 
 ---
