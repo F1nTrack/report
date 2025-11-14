@@ -2996,14 +2996,14 @@ Configuración de preferencias (email/app). Recibe avisos de vencimiento y estad
   <tr><th>Campo</th><th>Información</th></tr>
   <tr><td>Entrevistado 1</td><td>A01 – Estudiante</td></tr>
   <tr>
-    <td><img src="public/assets/images/interview-validation/s1-a01.png" alt="A01 Estudiante"></td>
+    <td><img src="resources/Cap-1/SSInterview1.png" alt="A01 Estudiante"></td>
     <td>
       Percibe registro y login como claros; valora notificaciones de vencimiento. Califica la navegación con 4/5. Sugiere botón visible para “recuperar contraseña” en login y mayor detalle en planes.
     </td>
   </tr>
   <tr>
     <td>Timing: 00:05–04:10</td>
-    <td><a href="#">Ver grabación</a></td>
+    <td><a href="https://drive.google.com/file/d/1L56VeFgJNXZNlBG1SJi8R2q2ly_IwkGr/view?usp=sharing">Ver grabación</a></td>
   </tr>
 </table>
 
@@ -3011,14 +3011,14 @@ Configuración de preferencias (email/app). Recibe avisos de vencimiento y estad
   <tr><th>Campo</th><th>Información</th></tr>
   <tr><td>Entrevistado 2</td><td>A02 – Estudiante</td></tr>
   <tr>
-    <td><img src="public/assets/images/interview-validation/s1-a02.png" alt="A02 Estudiante"></td>
+    <td><img src="resources/Cap-1/SSSANTI.png" alt="A02 Estudiante"></td>
     <td>
       Encuentra útil la centralización de documentos; 5/5 en utilidad de alertas. Pide resaltar mejor “Agregar documento” y un flujo guiado para la primera recarga.
     </td>
   </tr>
   <tr>
     <td>Timing: 04:10–08:40</td>
-    <td><a href="#">Ver grabación</a></td>
+    <td><a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202319698_upc_edu_pe/Ea0to8pDhttOhst0CPbOsT4B6GESisWNpC92K_xX7bteNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=5T1kLL">Ver grabación</a></td>
   </tr>
 </table>
 
