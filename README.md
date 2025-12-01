@@ -36,128 +36,20 @@ static string[] Integrantes() {
 <h1 align="left">Registro de versiones del Informe</h1>
 <br>
 
-<table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; font-size: 14px;">
-  <thead>
-    <tr style="background:#f7f7f7;">
-      <td align="center" style="border: 1px solid #ddd; padding: 8px; width: 10%;">Versión</td>
-      <td align="center" style="border: 1px solid #ddd; padding: 8px; width: 12%;">Fecha</td>
-      <td align="center" style="border: 1px solid #ddd; padding: 8px; width: 33%;">Autores</td>
-      <td align="center" style="border: 1px solid #ddd; padding: 8px;">Descripción</td>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="border: 1px solid #ccbebeff; padding: 8px; font-weight: 600;">TB1</td>
-      <td style="border: 1px solid #ddd; padding: 8px;">19/09/2025</td>
-      <td style="border: 1px solid #ddd; padding: 8px;">
-        <ul style="margin:0 0 0 18px;">
-          <li>Jhunior Giussepe Taquiri Calderon – u20221C576</li>
-          <li>Raul Hiroshi Tasayco Osorio – U202319415</li>
-          <li>Daniel Elias Ruiz Huisa – U202210764</li>
-          <li>Matias Rodolfo Salcedo Champi – u202319698</li>
-          <li>Fabrizio Javier Quiroz Zambrano – U202213406</li>
-        </ul>
-      </td>
-      <td style="border: 1px solid #ddd; padding: 8px;">
-        <strong>Proyecto:</strong> F1nTrack – KapakID
-        <ul style="margin:6px 0 0 18px;">
-          <li>Capítulo I: Introducción</li>
-          <li>Capítulo II: Requirements Elicitation & Analysis</li>
-          <li>Capítulo III: Requirements Specification</li>
-          <li>Capítulo IV: Product Design</li>
-          <li>Capítulo V: Product Implementation, Validation & Deployment (hasta el primer sprint)</li>
-          <li>Avance de Conclusiones, Bibliografía y Anexos</li>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
-<br>
-
-<br>
-
-<table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; font-size: 14px;">
-  <thead>
-    <tr style="background:#f7f7f7;">
-      <td align="center" style="border: 1px solid #ddd; padding: 8px; width: 10%;">Versión</td>
-      <td align="center" style="border: 1px solid #ddd; padding: 8px; width: 12%;">Fecha</td>
-      <td align="center" style="border: 1px solid #ddd; padding: 8px; width: 33%;">Autores</td>
-      <td align="center" style="border: 1px solid #ddd; padding: 8px;">Descripción</td>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="border: 1px solid #ccbebeff; padding: 8px; font-weight: 600;">TP2</td>
-      <td style="border: 1px solid #ddd; padding: 8px;">10/10/2025</td>
-      <td style="border: 1px solid #ddd; padding: 8px;">
-        <ul style="margin:0 0 0 18px;">
-          <li>Jhunior Giussepe Taquiri Calderon – U20221C576</li>
-          <li>Raul Hiroshi Tasayco Osorio – U202319415</li>
-          <li>Daniel Elias Ruiz Huisa – U202210764</li>
-          <li>Matias Rodolfo Salcedo Champi – U202319698</li>
-          <li>Fabrizio Javier Quiroz Zambrano – U202213406</li>
-        </ul>
-      </td>
-      <td style="border: 1px solid #ddd; padding: 8px;">
-        <strong>Proyecto:</strong> F1nTrack – KapakID
-        <ul style="margin:6px 0 0 18px;">
-          <li>Capítulo V: Product Implementation, Validation & Deployment (implementación del <strong>Sprint 2</strong>).</li>
-          <li>FrontEnd Web: desarrollo completo de vistas principales (Login, Dashboard, Documentos, Recargas y Notificaciones) e integración con API simulada.</li>
-          <li>Despliegue del FrontEnd en entorno de pruebas (<em>Netlify</em>) y validación funcional.</li>
-          <li>Actualización de conclusiones, bibliografía y anexos.</li>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-
-
-<br>
+| Versión | Fecha | Autores | Descripción |
+|--------|--------|---------|-------------|
+| **TB1** | 19/09/2025 | - Jhunior Giussepe Taquiri Calderon – U20221C576<br>- Raul Hiroshi Tasayco Osorio – U202319415<br>- Daniel Elias Ruiz Huisa – U202210764<br>- Matias Rodolfo Salcedo Champi – U202319698<br>- Fabrizio Javier Quiroz Zambrano – U202213406 | **Proyecto:** F1nTrack – KapakID<br>• Capítulo I: Introducción<br>• Capítulo II: Requirements Elicitation & Analysis<br>• Capítulo III: Requirements Specification<br>• Capítulo IV: Product Design<br>• Capítulo V (Sprint 1)<br>• Avance de Conclusiones, Bibliografía y Anexos |
+| **TP2** | 10/10/2025 | - Jhunior Giussepe Taquiri Calderon – U20221C576<br>- Raul Hiroshi Tasayco Osorio – U202319415<br>- Daniel Elias Ruiz Huisa – U202210764<br>- Matias Rodolfo Salcedo Champi – U202319698<br>- Fabrizio Javier Quiroz Zambrano – U202213406 | **Proyecto:** F1nTrack – KapakID<br>• Capítulo V (Sprint 2)<br>• FrontEnd Web: Login, Dashboard, Documentos, Recargas, Notificaciones<br>• Integración con API simulada<br>• Despliegue en Netlify<br>• Actualización de conclusiones, bibliografía y anexos |
+| **TB2** | 20/11/2025 | - Jhunior Giussepe Taquiri Calderon – U20221C576<br>- Raul Hiroshi Tasayco Osorio – U202319415<br>- Daniel Elias Ruiz Huisa – U202210764<br>- Matias Rodolfo Salcedo Champi – U202319698<br>- Fabrizio Javier Quiroz Zambrano – U202213406 | **Proyecto:** F1nTrack – KapakID<br>• Capítulo V (Sprint 3)<br>• Mejoras en Documentos, Recargas, Transporte, Perfil y Notificaciones<br>• Endpoints REST (Auth, Usuarios, Documentos, Recargas, Notificaciones) con Swagger<br>• Despliegue completo (Landing Page + FrontEnd + Backend)<br>• Videos del proyecto y del equipo<br>• Sección 5.3 completada (entrevistas y heurísticas)<br>• Actualización de conclusiones, bibliografía y anexos |
+| **TF1** | 10/12/2025 | - Jhunior Giussepe Taquiri Calderon – U20221C576<br>- Raul Hiroshi Tasayco Osorio – U202319415<br>- Daniel Elias Ruiz Huisa – U202210764<br>- Matias Rodolfo Salcedo Champi – U202319698<br>- Fabrizio Javier Quiroz Zambrano – U202213406 | **Proyecto:** F1nTrack – KapakID<br>• Final Project Report completo (Capítulos I–V)<br>• Artefactos corregidos de TB1, TP2 y TB2<br>• Documentación del **Sprint 4**<br>• Integración y despliegue final de todo el ecosistema<br>• Student Outcomes y Collaboration Insights finales<br>• Conclusiones, Bibliografía y Anexos finales<br>• Video final del proyecto<br>• Informe de participación del Team Leader |
 
 
 
 
-<table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; font-size: 14px;">
-  <thead>
-    <tr style="background:#f7f7f7;">
-      <td align="center" style="border: 1px solid #ddd; padding: 8px; width: 10%;">Versión</td>
-      <td align="center" style="border: 1px solid #ddd; padding: 8px; width: 12%;">Fecha</td>
-      <td align="center" style="border: 1px solid #ddd; padding: 8px; width: 33%;">Autores</td>
-      <td align="center" style="border: 1px solid #ddd; padding: 8px;">Descripción</td>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="border: 1px solid #ccbebeff; padding: 8px; font-weight: 600;">TB2</td>
-      <td style="border: 1px solid #ddd; padding: 8px;">20/11/2025</td>
-      <td style="border: 1px solid #ddd; padding: 8px;">
-        <ul style="margin:0 0 0 18px;">
-          <li>Jhunior Giussepe Taquiri Calderon – U20221C576</li>
-          <li>Raul Hiroshi Tasayco Osorio – U202319415</li>
-          <li>Daniel Elias Ruiz Huisa – U202210764</li>
-          <li>Matias Rodolfo Salcedo Champi – U202319698</li>
-          <li>Fabrizio Javier Quiroz Zambrano – U202213406</li>
-        </ul>
-      </td>
-      <td style="border: 1px solid #ddd; padding: 8px;">
-        <strong>Proyecto:</strong> F1nTrack – KapakID
-        <ul style="margin:6px 0 0 18px;">
-          <li>Capítulo V: Product Implementation, Validation & Deployment (implementación del <strong>Sprint 3</strong>).</li>
-          <li>FrontEnd Web: mejoras completas de módulos (Documentos, Recargas, Transporte, Perfil y Notificaciones) y navegación final.</li>
-          <li>Web Services: primera versión de endpoints REST (Autenticación, Usuarios, Documentos, Recargas y Notificaciones) con documentación en Swagger.</li>
-          <li>Despliegue de Landing Page, FrontEnd y Backend en entornos productivos.</li>
-          <li>Incorporación del “Video About-the-Product” y “Video About-the-Team”.</li>
-          <li>Sección 5.3 completada: diseño de entrevistas, registro de entrevistas y evaluación heurística.</li>
-          <li>Actualización de conclusiones, bibliografía y anexos según lineamientos del Final Project Statement.</li>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
 
 
-<br>
+
+
 
 
 
@@ -333,26 +225,16 @@ static string[] Integrantes() {
 <div align='left'>
 <!-- student outcome -->
 
-# ## Student Outcome ABET–EAC – Student Outcome 5  
+# Student Outcome ABET–EAC – Student Outcome 5  
 ### **F1nTrack – KapakID**
 
----
 
-## 🧩 Evaluación del SO5 – Trabajo en Equipo, Liderazgo y Colaboración  
-*(TB1 – TP1 – TB2 incluidos por integrante)*
+*(TB1 – TP1 – TB2 – TF1 incluidos por integrante)*
 
-| Criterio específico | Acciones realizadas (TB1, TP1, TB2) | Conclusiones (TB1, TP1, TB2) |
+| Criterio específico | Acciones realizadas (TB1, TP1, TB2, TF1) | Conclusión |
 |---|---|---|
-| **Trabaja en equipo para proporcionar liderazgo en forma conjunta** | **Giussepe Taquiri – TB1:** Alineé investigación y diseño consolidando needfinding y creando lineamientos de producto (branding, paleta, tipografía, iconografía, jerarquía). Diseñé arquitectura de información web/móvil. <br> **TP1:** Lideré la comunicación de avances UX–UI, ajustando pantallas según feedback y manteniendo trazabilidad de decisiones. <br> **TB2:** Aporté a la integración final del Front-End, revisé consistencia visual y documenté flujos de navegación. <br><br> **Raúl Tasayco – TB1:** Organicé repositorios GitHub, fragmenté tareas y establecí fechas de entrega. <br> **TP1:** Coordiné revisiones técnicas y actualicé estructuras de integración API. <br> **TB2:** Lideré la refactorización del Back-End, corrigiendo endpoints y asegurando coherencia del diseño. <br><br> **Daniel Ruiz – TB1:** Gestión de configuraciones (SDCM/SCM), guía de estilo, control de versiones y despliegues. <br> **TP1:** Gestioné PRs, validaciones automáticas y mejoras en el pipeline técnico. <br> **TB2:** Lideré el ordenamiento de servicios y lógica de negocio, corrigiendo inconsistencias y documentando endpoints. <br><br> **Matías Salcedo – TB1:** Conceptualización inicial: misión, visión, propuesta de valor y perfiles del equipo. <br> **TP1:** Aporté a la estructura del Pitch, narrativa de producto y roadmap. <br> **TB2:** Participé en la revisión de documentación y coherencia entre front, back y modelo del dominio. <br><br> **Fabrizio Quiroz – TB1:** Fomenté liderazgo colaborativo enseñando el uso de GitHub y trabajo en equipo. <br> **TP1:** Apoyé en integración de pantallas, pruebas y flujos. <br> **TB2:** Contribuí en ajustes al Back-End y verificación de datos intercambiados entre módulos. | **TB1:** El equipo demostró un liderazgo distribuido que permitió decisiones rápidas y sin reprocesos. Cada miembro aportó desde su especialidad fortaleciendo un TB1 coherente. <br><br> **TP1:** La coordinación técnica y de diseño mejoró el rendimiento del equipo, permitiendo integrar cambios en front y back de manera organizada. La comunicación constante evitó inconsistencias entre módulos. <br><br> **TB2:** El liderazgo compartido permitió consolidar correctamente Front-End y Back-End, documentar servicios y dejar un producto final estable y entendible. Se evidenció madurez en la toma de decisiones técnicas. |
-| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | **Giussepe Taquiri – TB1:** Definí metas claras, prioridades y responsables; realicé seguimiento con métricas. <br> **TP1:** Organicé sesiones de revisión de diseño, asegurando coherencia visual y usabilidad. <br> **TB2:** Coordiné ajustes finales del Front-End y documentación visual. <br><br> **Raúl Tasayco – TB1:** Planifiqué tareas por semanas, elaboré Lean UX Process, definí segmentos y el DDD con C4. Normalicé base de datos. <br> **TP1:** Coordiné integración técnica y ajustes en el modelado del dominio. <br> **TB2:** Aseguré la correcta integración del Back-End y la estructura de endpoints finales. <br><br> **Daniel Ruiz – TB1:** Definí ubiquitous language, scenario mapping, épicas, Impact Mapping, Product Backlog y diccionario de clases. <br> **TP1:** Organicé revisiones técnicas del Back-End y validación de historias de usuario. <br> **TB2:** Coordiné documentación de servicios y su consistencia con el modelo final. <br><br> **Matías Salcedo – TB1:** Aporté a la definición inicial con 5Ws+2H, permitiendo claridad en metas y etapas. <br> **TP1:** Supervisé la coherencia entre narrativa de producto y entregables técnicos. <br> **TB2:** Revisé el enfoque del informe y su alineación con las metas del proyecto. <br><br> **Fabrizio Quiroz – TB1:** Revisé entregables intermedios y ajusté contenido según retroalimentación. <br> **TP1:** Aporté a pruebas funcionales y verificación de rutas. <br> **TB2:** Validé la integración final y el intercambio de datos entre Back-End y Front-End. | **TB1:** Se cumplieron todos los objetivos del entregable con alta calidad gracias a planificación, metas claras y revisión por pares. <br><br> **TP1:** El equipo consolidó un entorno colaborativo maduro, integrando cambios entre UX, Front-End y Back-End sin perder trazabilidad. <br><br> **TB2:** La coordinación final permitió un cierre completo del sprint, documentación clara y un sistema integrado y funcional. El equipo demostró dominio del SO5: colaboración, planificación, liderazgo y cumplimiento. |
-
----
-
-### ✔️ Resultado General del SO5  
-El equipo alcanzó satisfactoriamente el **Student Outcome 5**, demostrando liderazgo conjunto, colaboración inclusiva, planificación efectiva y cumplimiento de objetivos en todas las fases: **TB1, TP1 y TB2**.
-
----
-
+| **Trabaja en equipo para proporcionar liderazgo en forma conjunta** | **Giussepe Taquiri – TB1:** Alineó investigación, diseñó lineamientos visuales y arquitectura de información. <br> **TP1:** Lideró avances UX–UI y mantuvo coherencia visual. <br> **TB2:** Integró Front-End, revisó consistencia visual y documentó flujos. <br> **TF1:** Coordinó la documentación final, organizó secciones del Sprint 4 y consolidó artefactos. <br><br> **Raúl Tasayco – TB1:** Organizó repositorios, fechas y tareas. <br> **TP1:** Coordinó revisiones técnicas y ajustes API. <br> **TB2:** Refactorizó Back-End y endpoints. <br> **TF1:** Validó integración final del Back-End y endpoints definitivos. <br><br> **Daniel Ruiz – TB1:** Gestionó SDCM/SCM, control de versiones y despliegues. <br> **TP1:** Validó PRs y pipelines. <br> **TB2:** Ordenó servicios y documentó API. <br> **TF1:** Completó documentación técnica de Sprint 4 y endpoints finales. <br><br> **Matías Salcedo – TB1:** Desarrolló conceptualización inicial del producto. <br> **TP1:** Aportó al Pitch y roadmap. <br> **TB2:** Revisó alineación documental. <br> **TF1:** Revisó coherencia narrativa del informe completo. <br><br> **Fabrizio Quiroz – TB1:** Fortaleció el trabajo colaborativo. <br> **TP1:** Apoyó en la integración y pruebas. <br> **TB2:** Ajustó Back-End y datos intercambiados. <br> **TF1:** Realizó pruebas finales de integración y validación conjunta. | **El equipo mantuvo un liderazgo distribuido y coordinado durante todas las entregas. En TF1 se consolidó un liderazgo maduro, logrando integrar diseño, Front-End, Back-End y documentación en un producto final cohesionado.** |
+| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | **Giussepe – TB1:** Definió metas claras y prioridades. <br> **TP1:** Dirigió revisiones de diseño. <br> **TB2:** Coordinó ajustes Front-End. <br> **TF1:** Organizó la estructura final del informe y revisiones cruzadas. <br><br> **Raúl – TB1:** Planificó tareas por semanas y definió segmentos. <br> **TP1:** Coordinó integración técnica. <br> **TB2:** Aseguró coherencia del Back-End. <br> **TF1:** Validó estructura final del software desplegado. <br><br> **Daniel – TB1:** Definió epic stories, backlog y diccionario de clases. <br> **TP1:** Gestionó revisiones técnicas. <br> **TB2:** Documentó servicios. <br> **TF1:** Aseguró calidad técnica del producto final. <br><br> **Matías – TB1:** Participó en definición estratégica del producto. <br> **TP1:** Supervisó narrativa y Pitch. <br> **TB2:** Revisó alineación del informe. <br> **TF1:** Realizó revisión final de coherencia entre Capítulos I–V. <br><br> **Fabrizio – TB1:** Revisó entregables intermedios. <br> **TP1:** Apoyó en pruebas funcionales. <br> **TB2:** Validó intercambio Front–Back. <br> **TF1:** Probó la versión final integrada del proyecto. | **El equipo demostró una colaboración sólida y creciente, alcanzando un entorno altamente organizado. En TF1 lograron la planificación y ejecución completa del ciclo de vida, cumpliendo objetivos y dejando el producto integrado, documentado y listo para presentación final.** |
 
 
 
@@ -3206,13 +3088,13 @@ El curso contribuye al cumplimiento del Student Outcome ABET:
 
 En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo F1nTrack, que permiten sustentar el haber alcanzado el logro del ABET - EAC-Student Outcome 5.
 
-### 🧩 Evaluación del SO5 – Trabajo en Equipo, Liderazgo y Colaboración
-*(TB1 – TP1 – TB2 incluidos por integrante)*
+## Evaluación del SO5 – Trabajo en Equipo, Liderazgo y Colaboración  
+*(TB1 – TP1 – TB2 – TF1 )*
 
-| Criterio específico | Acciones realizadas (TB1, TP1, TB2) | Conclusiones (TB1, TP1, TB2) |
+| Criterio específico | Acciones realizadas (TB1, TP1, TB2, TF1) | Conclusión |
 |---|---|---|
-| **Trabaja en equipo para proporcionar liderazgo en forma conjunta** | **Giussepe Taquiri – TB1:** Alineé investigación y diseño consolidando needfinding y creando lineamientos de producto (branding, paleta, tipografía, iconografía, jerarquía). Diseñé arquitectura de información web/móvil. <br> **TP1:** Lideré la comunicación de avances UX–UI, ajustando pantallas según feedback y manteniendo trazabilidad de decisiones. <br> **TB2:** Aporté a la integración final del Front-End, revisé consistencia visual y documenté flujos de navegación. <br><br> **Raúl Tasayco – TB1:** Organicé repositorios GitHub, fragmenté tareas y establecí fechas de entrega. <br> **TP1:** Coordiné revisiones técnicas y actualicé estructuras de integración API. <br> **TB2:** Lideré la refactorización del Back-End, corrigiendo endpoints y asegurando coherencia del diseño. <br><br> **Daniel Ruiz – TB1:** Gestión de configuraciones (SDCM/SCM), guía de estilo, control de versiones y despliegues. <br> **TP1:** Gestioné PRs, validaciones automáticas y mejoras en el pipeline técnico. <br> **TB2:** Lideré el ordenamiento de servicios y lógica de negocio, corrigiendo inconsistencias y documentando endpoints. <br><br> **Matías Salcedo – TB1:** Conceptualización inicial: misión, visión, propuesta de valor y perfiles del equipo. <br> **TP1:** Aporté a la estructura del Pitch, narrativa de producto y roadmap. <br> **TB2:** Participé en la revisión de documentación y coherencia entre front, back y modelo del dominio. <br><br> **Fabrizio Quiroz – TB1:** Fomenté liderazgo colaborativo enseñando el uso de GitHub y trabajo en equipo. <br> **TP1:** Apoyé en integración de pantallas, pruebas y flujos. <br> **TB2:** Contribuí en ajustes al Back-End y verificación de datos intercambiados entre módulos. | **TB1:** El equipo demostró un liderazgo distribuido que permitió decisiones rápidas y sin reprocesos. Cada miembro aportó desde su especialidad fortaleciendo un TB1 coherente. <br><br> **TP1:** La coordinación técnica y de diseño mejoró el rendimiento del equipo, permitiendo integrar cambios en front y back de manera organizada. La comunicación constante evitó inconsistencias entre módulos. <br><br> **TB2:** El liderazgo compartido permitió consolidar correctamente Front-End y Back-End, documentar servicios y dejar un producto final estable y entendible. Se evidenció madurez en la toma de decisiones técnicas. |
-| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | **Giussepe Taquiri – TB1:** Definí metas claras, prioridades y responsables; realicé seguimiento con métricas. <br> **TP1:** Organicé sesiones de revisión de diseño, asegurando coherencia visual y usabilidad. <br> **TB2:** Coordiné ajustes finales del Front-End y documentación visual. <br><br> **Raúl Tasayco – TB1:** Planifiqué tareas por semanas, elaboré Lean UX Process, definí segmentos y el DDD con C4. Normalicé base de datos. <br> **TP1:** Coordiné integración técnica y ajustes en el modelado del dominio. <br> **TB2:** Aseguré la correcta integración del Back-End y la estructura de endpoints finales. <br><br> **Daniel Ruiz – TB1:** Definí ubiquitous language, scenario mapping, épicas, Impact Mapping, Product Backlog y diccionario de clases. <br> **TP1:** Organicé revisiones técnicas del Back-End y validación de historias de usuario. <br> **TB2:** Coordiné documentación de servicios y su consistencia con el modelo final. <br><br> **Matías Salcedo – TB1:** Aporté a la definición inicial con 5Ws+2H, permitiendo claridad en metas y etapas. <br> **TP1:** Supervisé la coherencia entre narrativa de producto y entregables técnicos. <br> **TB2:** Revisé el enfoque del informe y su alineación con las metas del proyecto. <br><br> **Fabrizio Quiroz – TB1:** Revisé entregables intermedios y ajusté contenido según retroalimentación. <br> **TP1:** Aporté a pruebas funcionales y verificación de rutas. <br> **TB2:** Validé la integración final y el intercambio de datos entre Back-End y Front-End. | **TB1:** Se cumplieron todos los objetivos del entregable con alta calidad gracias a planificación, metas claras y revisión por pares. <br><br> **TP1:** El equipo consolidó un entorno colaborativo maduro, integrando cambios entre UX, Front-End y Back-End sin perder trazabilidad. <br><br> **TB2:** La coordinación final permitió un cierre completo del sprint, documentación clara y un sistema integrado y funcional. El equipo demostró dominio del SO5: colaboración, planificación, liderazgo y cumplimiento. |
+| **Trabaja en equipo para proporcionar liderazgo en forma conjunta** | **Giussepe Taquiri – TB1:** Alineó investigación, diseñó lineamientos visuales y arquitectura de información. <br> **TP1:** Lideró avances UX–UI y mantuvo coherencia visual. <br> **TB2:** Integró Front-End, revisó consistencia visual y documentó flujos. <br> **TF1:** Coordinó la documentación final, organizó secciones del Sprint 4 y consolidó artefactos. <br><br> **Raúl Tasayco – TB1:** Organizó repositorios, fechas y tareas. <br> **TP1:** Coordinó revisiones técnicas y ajustes API. <br> **TB2:** Refactorizó Back-End y endpoints. <br> **TF1:** Validó integración final del Back-End y endpoints definitivos. <br><br> **Daniel Ruiz – TB1:** Gestionó SDCM/SCM, control de versiones y despliegues. <br> **TP1:** Validó PRs y pipelines. <br> **TB2:** Ordenó servicios y documentó API. <br> **TF1:** Completó documentación técnica de Sprint 4 y endpoints finales. <br><br> **Matías Salcedo – TB1:** Desarrolló conceptualización inicial del producto. <br> **TP1:** Aportó al Pitch y roadmap. <br> **TB2:** Revisó alineación documental. <br> **TF1:** Revisó coherencia narrativa del informe completo. <br><br> **Fabrizio Quiroz – TB1:** Fortaleció el trabajo colaborativo. <br> **TP1:** Apoyó en la integración y pruebas. <br> **TB2:** Ajustó Back-End y datos intercambiados. <br> **TF1:** Realizó pruebas finales de integración y validación conjunta. | **El equipo mantuvo un liderazgo distribuido y coordinado durante todas las entregas. En TF1 se consolidó un liderazgo maduro, logrando integrar diseño, Front-End, Back-End y documentación en un producto final cohesionado.** |
+| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | **Giussepe – TB1:** Definió metas claras y prioridades. <br> **TP1:** Dirigió revisiones de diseño. <br> **TB2:** Coordinó ajustes Front-End. <br> **TF1:** Organizó la estructura final del informe y revisiones cruzadas. <br><br> **Raúl – TB1:** Planificó tareas por semanas y definió segmentos. <br> **TP1:** Coordinó integración técnica. <br> **TB2:** Aseguró coherencia del Back-End. <br> **TF1:** Validó estructura final del software desplegado. <br><br> **Daniel – TB1:** Definió epic stories, backlog y diccionario de clases. <br> **TP1:** Gestionó revisiones técnicas. <br> **TB2:** Documentó servicios. <br> **TF1:** Aseguró calidad técnica del producto final. <br><br> **Matías – TB1:** Participó en definición estratégica del producto. <br> **TP1:** Supervisó narrativa y Pitch. <br> **TB2:** Revisó alineación del informe. <br> **TF1:** Realizó revisión final de coherencia entre Capítulos I–V. <br><br> **Fabrizio – TB1:** Revisó entregables intermedios. <br> **TP1:** Apoyó en pruebas funcionales. <br> **TB2:** Validó intercambio Front–Back. <br> **TF1:** Probó la versión final integrada del proyecto. | **El equipo demostró una colaboración sólida y creciente, alcanzando un entorno altamente organizado. En TF1 lograron la planificación y ejecución completa del ciclo de vida, cumpliendo objetivos y dejando el producto integrado, documentado y listo para presentación final.** |
 
 
 ---
