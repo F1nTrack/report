@@ -1802,7 +1802,7 @@ En esta sección se especifica la configuración necesaria para el despliegue de
 ---
 
 ### 1. Landing Page
-**Repositorio:** [REPO_LANDING](https://github.com/F1nTrack/landingPage.git)
+**Repositorio:** [REPO_LANDING](https://github.com/F1nTrack/landing-kapakid.git)
 
 **Configuración de despliegue:**
 1. Clonar el repositorio desde GitHub.
