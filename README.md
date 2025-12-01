@@ -2031,7 +2031,7 @@ Durante la **entrega del Sprint 1**, se realizó el despliegue inicial de la **L
 El despliegue corresponde a una versión **parcialmente completa**, donde se implementaron las secciones principales (Home, Beneficios, Casos de Éxito y Contacto), aunque se identificaron algunos errores menores y áreas de mejora que se abordarán en futuros sprints.
 
 **Enlace de acceso al despliegue:**  
-[Landing Page de KapakID](https://f1ntrack.github.io/landingPagePrueba/)
+[Landing Page de KapakID](https://f1ntrack.github.io/landing-kapakid/)
 
 | Aspecto evaluado      | Estado Sprint 1 | Observaciones |
 |------------------------|-----------------|---------------|
