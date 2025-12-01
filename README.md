@@ -1518,7 +1518,7 @@ En este proyecto se utilizará **GitHub** como plataforma y sistema de control d
 ####  Repositorios del proyecto  
 
 - **Documentación (Docs)** → [REPO_DOCS](https://github.com/F1nTrack/report.git)
-- **Landing Page** → [REPO_LANDING](https://github.com/F1nTrack/landingPage.git)
+- **Landing Page** → [REPO_LANDING](https://github.com/F1nTrack/landing-kapakid.git)
 - **Frontend Web Application** → [REPO_FRONTEND](https://github.com/F1nTrack/frontend-web-application.git) 
 - **Web Services (Backend + Tests)** → [REPO_BACKEND]  
 
@@ -1684,7 +1684,7 @@ En esta sección se especifica la configuración necesaria para el despliegue de
 ---
 
 ### 1. Landing Page
-**Repositorio:** [REPO_LANDING](https://github.com/F1nTrack/landingPage.git)
+**Repositorio:** [REPO_LANDING](https://github.com/F1nTrack/landing-kapakid.git)
 
 **Configuración de despliegue:**
 1. Clonar el repositorio desde GitHub.
@@ -1913,7 +1913,7 @@ Durante la **entrega del Sprint 1**, se realizó el despliegue inicial de la **L
 El despliegue corresponde a una versión **parcialmente completa**, donde se implementaron las secciones principales (Home, Beneficios, Casos de Éxito y Contacto), aunque se identificaron algunos errores menores y áreas de mejora que se abordarán en futuros sprints.
 
 **Enlace de acceso al despliegue:**  
-[Landing Page de KapakID](https://f1ntrack.github.io/landingPagePrueba/)
+[Landing Page de KapakID](https://f1ntrack.github.io/landing-kapakid/)
 
 | Aspecto evaluado      | Estado Sprint 1 | Observaciones |
 |------------------------|-----------------|---------------|
