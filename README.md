@@ -1636,7 +1636,7 @@ En este proyecto se utilizará **GitHub** como plataforma y sistema de control d
 ####  Repositorios del proyecto  
 
 - **Documentación (Docs)** → [REPO_DOCS](https://github.com/F1nTrack/report.git)
-- **Landing Page** → [REPO_LANDING](https://github.com/F1nTrack/landingPage.git)
+- **Landing Page** → [REPO_LANDING](https://github.com/F1nTrack/landing-kapakid.git)
 - **Frontend Web Application** → [REPO_FRONTEND](https://github.com/F1nTrack/frontend-web-application.git) 
 - **Web Services (Backend + Tests)** → [REPO_BACKEND]  
 
