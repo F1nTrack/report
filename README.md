@@ -2931,6 +2931,95 @@ Se presentan las evidencias correspondientes al <strong>Sprint 3</strong> del pr
 - El entorno de pruebas registra funcionamiento estable y validado.  
 
 
+
+# 5.2.4. Sprint 4 – Proyecto KapakID
+
+## 5.2.4.1. Planificación del Sprint 4
+
+| Campo | Detalle |
+|-------|---------|
+| **Sprint #** | 4 |
+| **Fecha** | 15/11/2025 |
+| **Hora** | 18:00 |
+| **Ubicación** | Reunión virtual vía Discord |
+| **Preparado por** | Jhunior Giussepe Taquiri |
+| **Asistentes** | Fabrizio Quiroz, Matías Salcedo, Raúl Tasayco, Daniel Ruiz, Jhunior Giussepe Taquiri |
+| **Objetivo del Sprint 4** | Completar la entrega final de KapakID asegurando:<br>• Despliegue de Landing Page, API y WebApp.<br>• Correcciones finales de UI/UX.<br>• Ajustes en servicios REST.<br>• Documentación final para TB2. |
+| **Sprint 4 Velocidad** | 40 |
+| **Total de Story Points** | 40 |
+
+
+---
+
+## 5.2.4.2. Líderes de Aspecto y Colaboradores
+
+| US/TS | Fabrizio | Matías | Raúl | Daniel | Giussepe |
+|-------|----------|--------|-------|--------|-----------|
+| US20 – Ajustes finales Login/Register | L | C | C | C | C |
+| US21 – Corrección UI/UX WebApp | C | L | C | C | C |
+| US22 – Integración final Back–Front | C | C | L | L | C |
+| US23 – Documentación de Servicios (Swagger/README) | C | C | C | L | L |
+| TS30 – Optimizar GET/POST documentos | C | C | C | L | C |
+| TS32 – Ajustar alertas/notificaciones | C | C | L | C | C |
+| TS34 – Corrección transporte/movements | C | C | C | L | C |
+| TS35 – Pruebas + despliegue Netlify | C | L | C | C | L |
+
+---
+
+## 5.2.4.3. Sprint Backlog 4 – Proyecto KapakID
+
+| US/TS | ID Tarea | Título | Descripción | Horas | Asignado a | Estado |
+|-------|----------|--------|-------------|--------|-------------|--------|
+| US20 | TK80 | Validación de login | Corregir validaciones y manejo de errores | 3h | Fabrizio | Done |
+| US20 | TK81 | Mejorar Register | Mostrar errores claros en registro | 2h | Giussepe | Done |
+| US21 | TK82 | UI Responsive | Ajustes de responsividad WebApp | 3h | Matías | Done |
+| US21 | TK83 | Corrección de íconos | Ajuste de navegación + íconos | 2h | Giussepe | Done |
+| US22 | TK84 | Integración API | Validar conexión Front–Back | 4h | Raúl | Done |
+| US22 | TK85 | Validación JSON | Revisión de headers, status codes | 2h | Daniel | Done |
+| US23 | TK86 | Swagger final | Documentar endpoints finalizados | 2h | Daniel | Done |
+| US23 | TK87 | README técnico | Actualizar documentación final | 2h | Giussepe | Done |
+| TS30 | TK88 | Optimización GET docs | Caching y query optimization | 2h | Daniel | Done |
+| TS32 | TK89 | Ajuste de alertas | Refinar envío de alertas | 2h | Raúl | Done |
+| TS34 | TK90 | Transport fixes | Corrección GET /transport/movements | 2h | Daniel | Done |
+| TS35 | TK91 | Deploy Netlify | Pruebas E2E y despliegue | 3h | Giussepe | Done |
+
+---
+
+## 5.2.4.4. Evidencia de Desarrollo
+
+| Repositorio | Rama | Commit ID | Mensaje | Autor | Fecha |
+|-------------|-------|-----------|---------|--------|--------|
+| kapakid-webapp | feature/ui-fixes | c41f9e3 | feat(support): ticket creation + list view | M. Salcedo | 02/06/2025 |
+| kapakid-webapp | feature/recharge-ui | a17d8cc | feat(recharge-ui): form + confirmation dialog | M. Salcedo | 02/06/2025 |
+| kapakid-api | feature/recharges | c8a2f55 | feat(recharges): POST /recharges | D. Ruiz | 01/06/2025 |
+| kapakid-api | feature/movements | e5ac914 | fix: GET /transport/movements | D. Ruiz | 02/06/2025 |
+| kapakid-api | feature/alerts | 2ad9c82 | feat(alerts): GET/POST alerts | R. Tasayco | 01/06/2025 |
+
+---
+
+## 5.2.4.5. Evidencia de Ejecución
+
+**Evidencia 1 – Login y Register**  
+Pantallas listas y funcionales en entorno de integración.
+
+**Evidencia 2 – Gestión de Documentos**  
+Operaciones POST / PATCH / GET funcionales y verificadas mediante pruebas.
+
+**Evidencia 3 – Notificaciones**  
+Alertas entregadas correctamente en WebApp y backend.
+
+**Evidencia 4 – Despliegue final**  
+- WebApp → Netlify  
+- API REST → Swagger + Hosting configurado  
+- Landing Page → Desplegada desde Sprint 1
+
+---
+
+
+
+
+
+
 # 5.3. Validation Interviews (KapakID)
 
 > Esta sección sigue la estructura definida en el informe (Cap. V – *Product Implementation, Validation & Deployment* → **5.3 Validation Interviews**), y se alinea con los dominios y módulos de KapakID (Identidad y Documentos, Transporte y Tarjetas, Pagos y Transacciones, Notificaciones y Alertas, Acceso y Perfiles).
@@ -3198,3 +3287,182 @@ Formato adaptado de la guía del curso y aplicado a la evaluación de KapakID (S
 * **Heurística violada:** Visibilidad del estado del sistema
 * **Problema:** El usuario llena el formulario de contacto, presiona "Enviar", pero la página no ofrece ninguna confirmación visual (ej. "Mensaje enviado") ni indica si ocurrió un error. El usuario no sabe si la acción fue exitosa, lo que rompe la confianza.
   **Recomendación:** Implementar un mensaje de *feedback* inmediato (ej. "¡Gracias! Tu mensaje ha sido enviado.") tras el envío exitoso, y mensajes de error claros (ej. "El formato del email es incorrecto") si falla la validación.
+
+
+
+# Anexo D. Formato para Evaluación de User Experience según Heurísticas  
+**UX Heuristics & Principles Evaluation**  
+Usability – Inclusive Design – Information Architecture  
+
+**CARRERA:** Ingeniería de Software  
+**CURSO:** Aplicaciones Web  
+**SECCIÓN:** [Código de la sección]  
+**PROFESORES:** Todos  
+**AUDITOR:** Equipo F1nTrack – KapakID  
+**CLIENTE(S):** Usuarios del segmento S1 y S2 (Estudiantes – Tutores)
+
+---
+
+## SITE o APP A EVALUAR:
+**KapakID – Plataforma Web de Gestión de Documentos, Pagos, Transporte y Notificaciones**
+
+---
+
+## TAREAS EVALUADAS
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas reales de KapakID:
+
+1. Registro de un usuario nuevo  
+2. Iniciar sesión  
+3. Registrar un documento (DNI, carné universitario, brevete)  
+4. Realizar una recarga de transporte  
+5. Consultar notificaciones de vencimiento  
+6. Visualizar movimientos de transporte  
+7. Crear un ticket de soporte  
+8. Subir un documento mediante PDF/JPG/PNG  
+
+### TAREAS NO INCLUIDAS EN ESTA VERSIÓN:
+1. Recuperación avanzada de documentos eliminados  
+2. Reportes gráficos de historial de pagos  
+3. Integración con billeteras externas  
+4. Configuración multicuenta y perfiles secundarios  
+
+---
+
+## ESCALA DE SEVERIDAD
+
+| Nivel | Descripción |
+|-------|-------------|
+| **1** | Problema superficial, de fácil superación. No urgente. |
+| **2** | Problema menor. Recomendable corregir en próxima release. |
+| **3** | Problema mayor. Ocurre frecuentemente o detiene el flujo natural. Prioridad alta. |
+| **4** | Problema muy grave. Impide continuar. Debe corregirse antes del lanzamiento. |
+
+---
+
+## TABLA RESUMEN DE PROBLEMAS DETECTADOS
+
+| # | Problema | Severidad | Heurística / Principio violado |
+|---|----------|-----------|-------------------------------|
+| 1 | No existe confirmación clara al subir un documento | 3 | Usability: Feedback inmediato |
+| 2 | El botón para volver al Dashboard no es visible en flujos profundos | 2 | Usability: Libertad y control del usuario |
+| 3 | Iconos sin texto alternativo accesible | 2 | Inclusive Design: Experiencias comparables |
+| 4 | Mensajes de error en recargas poco descriptivos | 3 | Usability: Prevención y recuperación de errores |
+| 5 | Información de transporte dispersa en dos pantallas | 2 | Information Architecture: Is it findable? |
+| 6 | Alertas no muestran fecha exacta de vencimiento | 1 | Usability: Visibilidad del estado del sistema |
+
+---
+
+# DESCRIPCIÓN DE PROBLEMAS (CON RECOMENDACIONES)
+
+---
+
+## **PROBLEMA #1 – No existe confirmación clara al subir un documento**
+**Severidad:** 3  
+**Heurística violada:** Usability – *Feedback inmediato*
+
+### **Problema**
+Al subir un documento (PDF, JPG), la plataforma solo muestra un cambio visual leve, sin un mensaje explícito de éxito.  
+Usuarios del segmento S1 (estudiantes) indicaron que no están seguros si el archivo se cargó correctamente.
+
+*(Aquí insertar captura de la vista de documentos con el problema.)*
+
+### **Recomendación**
+Incluir notificaciones claras como:  
+- “Documento subido correctamente”  
+- “Hubo un error al cargar el archivo”  
+
+Implementable con Toast o snackbar (PrimeVue).
+
+---
+
+## **PROBLEMA #2 – El botón para volver al Dashboard no es visible**
+**Severidad:** 2  
+**Heurística violada:** Usability – *Libertad y control del usuario*
+
+### **Problema**
+En vistas internas como "Historial de Transporte" o "Editar Documento", no hay un control evidente para regresar al Dashboard sin usar el botón del navegador.
+
+### **Recomendación**
+Agregar un botón persistente:  
+**← Volver al Dashboard**
+
+---
+
+## **PROBLEMA #3 – Iconos sin etiquetas accesibles**
+**Severidad:** 2  
+**Heurística violada:** Inclusive Design – *Proporciona experiencias comparables*
+
+### **Problema**
+Los iconos del menú lateral (documentos, notificaciones, transporte) no poseen atributos `aria-label`, lo que afecta lectores de pantalla.
+
+### **Recomendación**
+Agregar:
+```html
+<span aria-label="Documentos"></span>
+
+
+```
+
+## PROBLEMA #4 – Mensajes de error poco descriptivos en recargas
+
+**Severidad:** 3  
+**Heurística violada:** Usability – Prevención y recuperación de errores
+
+### Problema
+Si se ingresa un monto inválido en una recarga, el sistema muestra un mensaje genérico que no explica la causa del error.  
+Esto causa confusión al usuario, quien no entiende si el fallo es por el monto, el método de pago o un problema del sistema.
+
+### Recomendación
+Mostrar mensajes claros y específicos como:
+
+- “El monto debe ser mayor a S/ 1.00.”
+- “Ingresa un método de pago válido.”
+- “Verifica el saldo de tu tarjeta antes de continuar.”
+
+---
+
+## PROBLEMA #5 – Información de Transporte dispersa
+
+**Severidad:** 2  
+**Heurística violada:** Information Architecture – Findability
+
+### Problema
+La información relacionada al transporte (saldo, últimos movimientos y recargas) se encuentra distribuida en pantallas separadas.  
+Esto aumenta el tiempo que los usuarios requieren para encontrar datos clave y afecta la eficiencia del flujo.
+
+### Recomendación
+Crear una vista consolidada bajo un módulo unificado:
+
+👉 **Panel de Transporte**
+
+Este panel debería incluir:  
+- Saldo actual  
+- Historial de movimientos  
+- Estado de recargas  
+- Botón directo para “Recargar Transporte”  
+
+---
+
+## PROBLEMA #6 – Alertas sin fecha exacta
+
+**Severidad:** 1  
+**Heurística violada:** Usability – Visibilidad del estado del sistema
+
+### Problema
+Las alertas muestran mensajes como “Documento por vencer”, pero no indican la fecha exacta de expiración.  
+Esto obliga al usuario a buscar manualmente la información en otra pantalla.
+
+### Recomendación
+Incluir la fecha precisa dentro del mensaje, por ejemplo:
+
+- **“Tu DNI vence el 08/03/2026.”**
+- **“Tu carné universitario expirará el 15/02/2026.”**
+
+Esto reduce la ambigüedad y mejora la toma de decisiones del usuario.
+
+---
+
+
+
+
