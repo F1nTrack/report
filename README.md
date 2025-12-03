@@ -1907,6 +1907,25 @@ El propósito del sprint es validar la **propuesta de valor central**: facilitar
 
 ---
 
+
+### Technical Stories del Sprint 1 (Landing Page)
+
+| Technical Story | Work-Item / Task | Description | Estimation (Hours) | Assigned To | Status |
+|-----------------|------------------|-------------|---------------------|-------------|--------|
+| **TS-01 – Estructura base del Landing Page** | T19 | Configurar estructura inicial del proyecto (carpetas, assets, rutas internas). | 3h | Quiroz Zambrano, Fabrizio Javier | Done |
+| **TS-02 – Implementación técnica del Header** | T20 | Crear el componente Header con navegación responsive usando Tailwind/React. | 4h | Quiroz Zambrano, Fabrizio Javier | Done |
+| **TS-03 – Implementación técnica del Home** | T21 | Maquetar la sección Home con grid, textos, imágenes y diseño responsive. | 5h | Taquiri Calderón, Jhunior Giussepe | Done |
+| **TS-04 – Implementación técnica de Beneficios** | T22 | Crear la sección Benefits: tarjetas, iconografía, layout y estilos base. | 4h | Taquiri Calderón, Jhunior Giussepe | Done |
+| **TS-05 – Implementación técnica de Casos de Éxito** | T23 | Desarrollar el carrusel o grilla de casos de éxito con contenido estático. | 4h | Salcedo Champi, Matías Rodolfo | Done |
+| **TS-06 – Implementación técnica de Contacto** | T24 | Maquetar sección Contact: formulario, validaciones mínimas y estructura. | 4h | Ruiz Huisa, Daniel Elías | Done |
+| **TS-07 – Footer responsive y enlaces** | T25 | Crear el Footer con enlaces correctos y comportamiento responsivo. | 3h | Quiroz Zambrano, Fabrizio Javier | Done |
+| **TS-08 – Diseño responsive completo** | T26 | Ajustar puntos de quiebre (breakpoints) y corregir visuales para móviles/tablets. | 5h | Tasayco Osorio, Raúl Hiroshi | In-Process |
+| **TS-09 – Optimización técnica de imágenes** | T27 | Reducir peso de imágenes y asegurar carga eficiente en todas las secciones. | 2h | Taquiri Calderón, Jhunior Giussepe | To-do |
+| **TS-10 – Despliegue técnico en GitHub Pages** | T28 | Configurar build, rutas y deploy del Landing Page en GitHub Pages. | 2h | Tasayco Osorio, Raúl Hiroshi | Done |
+
+
+
+
 ### Resumen de Estimaciones
 - **US-01**: 18h  
 - **US-02**: 24h  
@@ -2119,6 +2138,28 @@ El objetivo fue **conectar la interfaz con el backend** para ofrecer una experie
 |  | T32 | Desplegar aplicación en entorno de prueba (Netlify / Vercel) | 3h | Daniel Ruiz | Done |
 
 ---
+### Technical Stories del Sprint 2 (Frontend Web)
+
+| Technical Story | Work-Item / Task | Description | Estimation (Hours) | Assigned To | Status |
+|-----------------|------------------|-------------|---------------------|-------------|--------|
+| **TS-01 – Configuración técnica del proyecto Frontend** | T33 | Configurar estructura del proyecto (Vite, TailwindCSS, PrimeVue, Router). | 3h | Fabrizio Quiroz | Done |
+| **TS-02 – Servicio técnico de Autenticación (AuthService)** | T34 | Crear servicio para manejar login, registro, almacenamiento de tokens y validación de sesión. | 4h | Raúl Tasayco | Done |
+| **TS-03 – Manejo técnico de rutas protegidas** | T35 | Configurar Vue Router con guards: rutas bloqueadas sin token. | 3h | Fabrizio Quiroz | Done |
+| **TS-04 – Arquitectura del Dashboard** | T36 | Implementar layout dinámico (navbar, sidebar, widgets, router-view). | 4h | Matías Salcedo | Done |
+| **TS-05 – Servicio técnico de Documentos (DocumentService)** | T37 | Crear servicio para subir, listar y eliminar documentos usando API (`/documents/*`). | 4h | Raúl Tasayco | In-Process |
+| **TS-06 – Validación técnica de archivos (frontend)** | T38 | Validar formato, tamaño y previsualización de PDFs/Imágenes antes del envío. | 3h | Giussepe Taquiri | Done |
+| **TS-07 – Servicio de pagos simulados (PaymentService)** | T39 | Crear servicio para manejar recargas y pagos simulados (`/payments/top-up`). | 4h | Raúl Tasayco | In-Process |
+| **TS-08 – Integración técnica de gráficos (PrimeVue Charts)** | T40 | Configurar gráficos del dashboard (línea, barras, donut) para transacciones. | 4h | Matías Salcedo | In-Process |
+| **TS-09 – Servicio técnico de notificaciones (NotificationService)** | T41 | Implementar sistema para obtener y mostrar notificaciones (`/notifications/*`). | 3h | Giussepe Taquiri | Done |
+| **TS-10 – Módulo técnico de Transport (TransportService)** | T42 | Implementar servicio para listar movimientos y detalles (`/transport/*`). | 4h | Daniel Ruiz | Done |
+| **TS-11 – Historial técnico de actividad** | T43 | Implementar vista y servicio para obtener historial de acciones (`/history/user-activity`). | 3h | Daniel Ruiz | Done |
+| **TS-12 – Módulo técnico de Soporte (SupportService)** | T44 | Implementar envío y consulta de tickets (`/support/tickets`). | 4h | Matías Salcedo | Done |
+| **TS-13 – Manejo global de errores (ErrorHandler)** | T45 | Crear interceptores para manejar errores 400/401/500 en peticiones. | 3h | Giussepe Taquiri | To-Review |
+| **TS-14 – Optimización técnica de UI y carga inicial** | T46 | Mejorar tiempos de carga, lazy-loading de rutas y optimización de assets. | 3h | Fabrizio Quiroz | In-Process |
+| **TS-15 – Despliegue técnico en Netlify/Vercel** | T47 | Configurar build final, variables de entorno y despliegue estable. | 3h | Daniel Ruiz | Done |
+
+
+
 
 ### Resumen de Estimaciones
 
@@ -2698,6 +2739,28 @@ Para este Sprint se priorizan US del <strong>dominio KapakID</strong>: registro/
 
 </table>
 
+###  Technical Stories – Sprint 3
+
+| **TS ID** | **Nombre de la Technical Story**                    | **Descripción Técnica**                                                             | **Horas** | **Responsable**            | **Estado**     |
+|-----------|------------------------------------------------------|--------------------------------------------------------------------------------------|-----------|-----------------------------|-----------------|
+| TS-01     | Registro técnico de Documentos (E2)                 | Conexión UI → POST /documents, validación de metadatos, manejo de estados           | 3h        | J. G. Taquiri              | To Review      |
+| TS-02     | Renovación técnica de Documentos (E2)               | Implementar PATCH /documents/:id y flujo de actualización                            | 3h        | D. E. Ruiz                 | To Review      |
+| TS-03     | Motor de alertas por vencimiento (E5)               | Cron-job que detecta documentos próximos a vencer                                    | 3h        | R. H. Tasayco              | Done           |
+| TS-04     | API de Notificaciones (E5)                          | GET/POST /notifications para registrar y consultar alertas                           | 2h        | R. H. Tasayco              | To Review      |
+| TS-05     | Centro de Notificaciones – UI técnica               | Implementación técnica de filtros, estados, listado                                  | 2h        | M. R. Salcedo              | Done           |
+| TS-06     | Webhook “documento listo”                           | Simulación de evento externo que genera una notificación automática                  | 2h        | R. H. Tasayco              | Done           |
+| TS-07     | Preferencias de notificaciones                      | Implementar opt-in/opt-out del usuario                                               | 2h        | F. J. Quiroz               | In Process     |
+| TS-08     | Modo Offline – Caché seguro                         | IndexedDB + cifrado básico para documentos disponibles sin conexión                  | 3h        | D. E. Ruiz                 | To Review      |
+| TS-09     | Guardias de ruta offline                            | Bloqueo de rutas que requieren conexión; soporte offline controlado                  | 2h        | F. J. Quiroz               | Done           |
+| TS-10     | Servicio técnico de Recargas (E3/E8)                | Implementar POST /recharges con validaciones y comprobante                           | 3h        | D. E. Ruiz                 | Done           |
+| TS-11     | UI técnica de Recargas                              | Implementación técnica del formulario + confirmación                                 | 2h        | M. R. Salcedo              | Done           |
+| TS-12     | Registro técnico (Auth)                             | POST /auth/register con hash y validación                                            | 2h        | J. G. Taquiri              | Done           |
+| TS-13     | Login técnico (Auth)                                | POST /auth/login con JWT + refresh token                                             | 2h        | J. G. Taquiri              | Done           |
+| TS-14     | Middleware de autorización                           | Protección de rutas críticas de API                                                  | 2h        | R. H. Tasayco              | To Review      |
+| TS-15     | Listado técnico de Documentos                       | GET /documents con paginación y búsqueda                                             | 2h        | F. J. Quiroz               | Done           |
+| TS-16     | Movimientos Transport                                | GET /transport/movements + detalle por ID                                            | 3h        | D. E. Ruiz                 | Done           |
+| TS-17     | Soporte técnico – Tickets                            | POST /support/tickets + listado                                                      | 3h        | M. R. Salcedo              | Done           |
+
 
 #### 5.2.3.4. Development Evidence for Sprint Review.
 > Muestra de commits representativos del Sprint 3. Patrón: <strong>repo → branch → commit id → mensaje → autor/fecha</strong>.
@@ -2969,6 +3032,24 @@ Se presentan las evidencias correspondientes al <strong>Sprint 3</strong> del pr
 
 ---
 
+###  Technical Stories – Sprint 4
+
+| **TS ID** | **Nombre de la Technical Story**                     | **Descripción Técnica**                                                                 | **Horas** | **Responsable**  | **Estado** |
+|-----------|-------------------------------------------------------|------------------------------------------------------------------------------------------|-----------|-------------------|------------|
+| TS-30     | Optimización técnica de GET/POST Documentos          | Mejora de consultas, caching básico, validación de metadatos y corrección de estados     | 2h        | Daniel Ruiz       | Done       |
+| TS-31     | Refinamiento de integración Front–Back               | Ajustes de headers, status codes, manejo de errores y validación de JSON                | 2h        | Raúl / Daniel     | Done       |
+| TS-32     | Ajuste técnico del módulo de Alertas y Notificaciones| Corrección lógica del envío de alertas, filtros y consistencia en UI/Backend             | 2h        | Raúl Tasayco      | Done       |
+| TS-33     | Corrección técnica de Transporte / Movements         | Fix de GET /transport/movements, estructura del response y validación de parámetros      | 2h        | Daniel Ruiz       | Done       |
+| TS-34     | Ajustes finales de Autenticación                     | Mejoras en validación de login, hashing, y manejo de tokens                              | 2h        | Fabrizio          | Done       |
+| TS-35     | Pruebas E2E + Deploy Netlify                         | Validación de endpoints, pruebas integradas Front–Back y despliegue final del backend    | 3h        | Giussepe          | Done       |
+| TS-36     | Documentación final de API (Swagger + README)        | Actualización de especificación técnica y endpoints finales del sistema                  | 2h        | Daniel / Giussepe | Done       |
+| TS-37     | Correcciones UI/UX técnicas                          | Ajuste de iconos, navegación, estados visuales y componentes reutilizables               | 2h        | Matías / Giussepe | Done       |
+| TS-38     | Validación técnica del módulo Documentos en Frontend | Revisión de flujo de creación, edición y consulta, más validaciones de formatos          | 2h        | Giussepe          | Done       |
+| TS-39     | Integración técnica del módulo Soporte, Pagos e Histórico | Validación de rutas, estados y conexiones finales entre módulos                           | 2h        | Daniel / Matías   | Done       |
+
+
+
+
 ## 5.2.4.4. Evidencia de Desarrollo
 
 | Repositorio | Rama | Commit ID | Mensaje | Autor | Fecha |
@@ -3091,7 +3172,7 @@ Las opciones visibles actualmente son:
 
 ---
 
-###  Evidencia  – Endpoints funcionando (GET / POST / PATCH)
+###  Evidencia  – Endpoints funcionando (GET / POST )
 **Descripción:** Ejecución correcta de las operaciones en la API REST vinculada a la WebApp.  
 **Captura:**  
 ![Endpoints funcionando](resources/Cap-5/sprint4/sprint4-endpoints.png)
