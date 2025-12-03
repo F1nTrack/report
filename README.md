@@ -2996,7 +2996,7 @@ Las opciones visibles actualmente son:
 
 ---
 
-###  Evidencia  – Endpoints funcionando (GET / POST / PATCH)
+###  Evidencia  – Endpoints funcionando (GET / POST )
 **Descripción:** Ejecución correcta de las operaciones en la API REST vinculada a la WebApp.  
 **Captura:**  
 ![Endpoints funcionando](resources/Cap-5/sprint4/sprint4-endpoints.png)
