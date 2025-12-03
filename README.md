@@ -202,8 +202,15 @@ static string[] Integrantes() {
       - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
       - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
       - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
-
-
+    - [5.2.4. Sprint 4](#524-sprint-4)
+      - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
+      - [5.2.4.2. Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
+      - [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-4)
+      - [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
+      - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
+      - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
+      - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
+      - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
 
 
 
@@ -2881,21 +2888,132 @@ Se presentan las evidencias correspondientes al <strong>Sprint 3</strong> del pr
 
 ## 5.2.4.5. Evidencia de Ejecución
 
-**Evidencia 1 – Login y Register**  
-Pantallas listas y funcionales en entorno de integración.
+A continuación, se presentan las evidencias de funcionamiento del sistema KapakID en ambiente de producción, iniciando con las correcciones del **Landing Page**, seguido de las evidencias del **Front-End (Vercel)** y del **Back-End (Netlify)**.
 
-**Evidencia 2 – Gestión de Documentos**  
-Operaciones POST / PATCH / GET funcionales y verificadas mediante pruebas.
+El menú principal del Landing Page fue corregido para asegurar consistencia, alineación, legibilidad y navegación fluida entre secciones clave.  
+Las opciones visibles actualmente son:
 
-**Evidencia 3 – Notificaciones**  
-Alertas entregadas correctamente en WebApp y backend.
+- **Home**  
+![Menú Landing Page](resources/Cap-5/sprint4/sprint4-landing-menu.png)
 
-**Evidencia 4 – Despliegue final**  
-- WebApp → Netlify  
-- API REST → Swagger + Hosting configurado  
-- Landing Page → Desplegada desde Sprint 1
+- **Benefits**  
+![Landing – Benefits](resources/Cap-5/sprint4/sprint4-landing-benefits.png)
+
+- **Success stories** 
+![Landing – Success stories](resources/Cap-5/sprint4/sprint4-landing-success-stories.png)
+
+- **Contact**
+![Landing – Contact](resources/Cap-5/sprint4/sprint4-landing-contact.png)
+
+
+
 
 ---
+##  Evidencias del Front-End (Vercel)
+
+###  Evidencia 1 – Login funcionando en producción
+**Descripción:** Login operativo, validaciones activas y navegación correcta hacia el Dashboard.  
+**Captura:**  
+![Login en producción](resources/Cap-5/sprint4/sprint4-login.png)
+
+---
+
+###  Evidencia 2 – Register funcionando en producción
+**Descripción:** El registro de nuevos usuarios funciona correctamente en Vercel.  
+**Captura:**  
+![Register en producción](resources/Cap-5/sprint4/sprint4-register.png)
+
+---
+
+###  Evidencia 3 – Dashboard Integrado
+**Descripción:** Vista general del Dashboard con acceso a Documentos, Recargas, Transporte y Notificaciones.  
+**Captura:**  
+![Dashboard en producción](resources/Cap-5/sprint4/sprint4-dashboard.png)
+
+---
+
+###  Evidencia 4 – Gestión de Documentos desde el Front-End
+**Descripción:** Subida, edición y consulta de documentos desde la WebApp desplegada.  
+**Captura:**  
+![Gestión de documentos](resources/Cap-5/sprint4/sprint4-documentos.png)
+
+---
+
+###  Evidencia 5 – Notificaciones en producción
+**Descripción:** Alertas y notificaciones conectadas correctamente al Back-End.  
+**Captura:**  
+![Notificaciones](resources/Cap-5/sprint4/sprint4-notificaciones.png)
+
+---
+
+
+
+###  Evidencia – Módulo Pagos en producción
+**Descripción:** Vista del módulo Pagos funcionando en el despliegue final del Front-End en Vercel.  
+**Captura:**  
+![Módulo Pagos](resources/Cap-5/sprint4/sprint4-modulo-pagos.png)
+
+---
+
+### Evidencia – Módulo Transporte en producción
+**Descripción:** Vista del módulo Transporte completamente operativa desde el despliegue en Vercel.  
+**Captura:**  
+![Módulo Transporte](resources/Cap-5/sprint4/sprint4-modulo-transporte.png)
+
+---
+
+###  Evidencia – Módulo Histórico en producción
+**Descripción:** Evidencia del módulo Histórico mostrando los movimientos y registros vinculados al usuario.  
+**Captura:**  
+![Módulo Histórico](resources/Cap-5/sprint4/sprint4-modulo-historico.png)
+
+---
+
+###  Evidencia – Módulo Soporte en producción
+**Descripción:** Módulo de Soporte funcionando correctamente, permitiendo el acceso a ayuda y recursos.  
+**Captura:**  
+![Módulo Soporte](resources/Cap-5/sprint4/sprint4-modulo-soporte.png)
+
+---
+
+
+
+---
+
+#  Evidencias del Back-End (Netlify)
+
+###  Evidencia  – API REST desplegada en Netlify
+**Descripción:** Despliegue exitoso del Back-End con funciones operativas.  
+**Captura:**  
+![Backend en Netlify](resources/Cap-5/sprint4/sprint4-backend-netlify.png)
+
+---
+
+###  Evidencia  – Swagger Documentation
+**Descripción:** Documentación de endpoints expuesta correctamente en producción.  
+**Captura:**  
+![Swagger en producción](resources/Cap-5/sprint4/sprint4-swagger.png)
+
+---
+
+###  Evidencia  – Endpoints funcionando (GET / POST / PATCH)
+**Descripción:** Ejecución correcta de las operaciones en la API REST vinculada a la WebApp.  
+**Captura:**  
+![Endpoints funcionando](resources/Cap-5/sprint4/sprint4-endpoints.png)
+
+---
+
+###  Evidencia  – Logs y disponibilidad del servicio
+**Descripción:** Confirmación de logs operativos y disponibilidad continua en el hosting de Netlify.  
+**Captura:**  
+![Logs Netlify](resources/Cap-5/sprint4/sprint4-logs.png)
+
+---
+
+###  Evidencia  – Integración Back-End con Front-End
+**Descripción:** Flujos completos entre API y WebApp funcionando sin errores.  
+**Captura:**  
+![Integración completa](resources/Cap-5/sprint4/sprint4-integracion.png)
 
 
 
@@ -2904,7 +3022,6 @@ Alertas entregadas correctamente en WebApp y backend.
 
 # 5.3. Validation Interviews (KapakID)
 
-> Esta sección sigue la estructura definida en el informe (Cap. V – *Product Implementation, Validation & Deployment* → **5.3 Validation Interviews**), y se alinea con los dominios y módulos de KapakID (Identidad y Documentos, Transporte y Tarjetas, Pagos y Transacciones, Notificaciones y Alertas, Acceso y Perfiles).
 
 ## 5.3.1. Diseño de entrevistas
 
@@ -2913,7 +3030,6 @@ Alertas entregadas correctamente en WebApp y backend.
 **Segmentos objetivo**
 - **S1 – Estudiantes universitarios** (16–25): uso frecuente de trámites/credenciales, movilidad y recargas.
 - **S2 – Padres/madres o tutores**: registro/seguimiento de dependientes, pagos y notificaciones.
-- **S3 – Operadores/atención (opcional)**: consultas rápidas, verificación de documentos y soporte.
 
 **Metodología**
 - Guion semiestructurado (10–15 min por participante).
@@ -2947,7 +3063,6 @@ Configuración de preferencias (email/app). Recibe avisos de vencimiento y estad
 
 ## 5.3.2. Registro de entrevistas
 
-> A continuación se documentan entrevistas por segmento. Incluye imagen (captura), *timing* en el video, y enlace a la grabación.
 
 ### Entrevistas a estudiantes universitarios (S1)
 
